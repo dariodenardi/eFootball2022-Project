@@ -1589,6 +1589,7 @@
             this.toolStripTextBox1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.toolStripTextBox1.Enabled = false;
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Margin = new System.Windows.Forms.Padding(2, 0, 15, 0);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.ReadOnly = true;
@@ -6208,6 +6209,8 @@
             this.gloveSearchTextBox.Size = new System.Drawing.Size(233, 20);
             this.gloveSearchTextBox.TabIndex = 135;
             this.gloveSearchTextBox.Text = "search glove...";
+            this.gloveSearchTextBox.Click += new System.EventHandler(this.gloveSearchTextBox_Click);
+            this.gloveSearchTextBox.TextChanged += new System.EventHandler(this.gloveSearchTextBox_TextChanged);
             // 
             // gloveApplyButton
             // 
@@ -6228,6 +6231,7 @@
             this.gloveApplyButton.TabIndex = 132;
             this.gloveApplyButton.Text = "Apply";
             this.gloveApplyButton.UseVisualStyleBackColor = false;
+            this.gloveApplyButton.Click += new System.EventHandler(this.gloveApplyButton_Click);
             // 
             // gloveGroupBox1
             // 
@@ -6341,6 +6345,7 @@
             this.gloveListBox.Name = "gloveListBox";
             this.gloveListBox.Size = new System.Drawing.Size(233, 589);
             this.gloveListBox.TabIndex = 130;
+            this.gloveListBox.SelectedIndexChanged += new System.EventHandler(this.gloveListBox_SelectedIndexChanged);
             // 
             // Global
             // 

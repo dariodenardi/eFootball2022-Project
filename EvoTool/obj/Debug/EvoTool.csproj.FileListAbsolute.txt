@@ -1,0 +1,13 @@
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\obj\Debug\EvoTool.csproj.AssemblyReference.cache
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\obj\Debug\EvoTool.Player.resources
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\obj\Debug\EvoTool.Home.resources
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\obj\Debug\EvoTool.Properties.Resources.resources
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\obj\Debug\EvoTool.Team.resources
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\obj\Debug\EvoTool.csproj.GenerateResource.cache
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\obj\Debug\EvoTool.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\bin\Debug\EvoTool.exe.config
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\bin\Debug\EvoTool.exe
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\bin\Debug\EvoTool.pdb
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\obj\Debug\EvoTool.csproj.CopyComplete
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\obj\Debug\EvoTool.exe
+C:\Users\Fatih\OneDrive\Documents\GitHub\eFootball2022Project\EvoTool\obj\Debug\EvoTool.pdb

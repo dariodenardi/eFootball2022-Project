@@ -22,10 +22,12 @@ namespace EvoTool
         private string path;
         private int bitRecognized = 0;
         private BallController ballController;
+        private GloveController gloveController;
 
         private void Home_Load(object sender, EventArgs e)
         {
             ballController = new BallController();
+            gloveController = new GloveController();
             FormBorderStyle = FormBorderStyle.FixedSingle;
 
             toolStripTextBox1.Text = "Welcome " + System.Environment.MachineName;
@@ -38,6 +40,7 @@ namespace EvoTool
             if (result == DialogResult.OK)
             {
                 ballController.CloseMemory();
+                gloveController.CloseMemory();
                 ResetField();
                 path = fbd.SelectedPath;
                 OpenDatabase(path);
@@ -178,6 +181,12 @@ namespace EvoTool
                 if (status != 0)
                     MessageBox.Show("Error saved Ball.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            if (gloveController.GloveTable.Rows.Count != 0)
+            {
+                int status = gloveController.Save(path, bitRecognized);
+                if (status != 0)
+                    MessageBox.Show("Error saved Glove.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         public void OpenDatabase(string folder)
@@ -207,9 +216,27 @@ namespace EvoTool
                 //exportBallToolStripMenuItem.Enabled = true;
                 //importBallToolStripMenuItem.Enabled = true;
             }
+            int glovestatus = gloveController.Load(folder, bitRecognized);
+            // if there are Glove.bin
+            if (glovestatus == 0)
+            {
+                gloveListBox.DataSource = gloveController.GloveTable;
+                gloveListBox.DisplayMember = "Name";
+                gloveListBox.ValueMember = "Index";
+
+                gloveGroupBox1.Enabled = true;
+                gloveListBox.Enabled = true;
+                gloveSearchTextBox.Enabled = true;
+                gloveApplyButton.Enabled = true;
+                glovePictureBox1.Enabled = true;
+
+                //addNewGloveStrip.Enabled = true;
+                //exportGloveToolStripMenuItem.Enabled = true;
+                //importGloveToolStripMenuItem.Enabled = true;
+            }
 
             toolStripTextBox1.Text = playersBox.Items.Count + " Players | " + 0 + " Teams | " + 0 + " Coaches | "
-                + 0 + " Stadiums | " + ballController.BallTable.Rows.Count + " Balls | " + 0 + " Boots | " + 0 + " Gloves";
+                + 0 + " Stadiums | " + ballController.BallTable.Rows.Count + " Balls | " + 0 + " Boots | " + gloveController.GloveTable.Rows.Count + " Gloves";
         }
 
         private void Close_Click(object sender, EventArgs e)
@@ -287,6 +314,77 @@ namespace EvoTool
         {
             BallSearchTextBox.SelectAll();
             BallSearchTextBox.Focus();
+        }
+
+        //glove
+        private void gloveListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // reset field
+            gloveName.Text = "";
+            gloveIdTextBox.Text = "";
+            gloveOrderTextBox.Text = "";
+            ballCondListBox.Items.Clear();
+            glovePictureBox1.Image = null;
+
+            if (gloveListBox.SelectedItem == null)
+                return;
+
+            int index = int.Parse(((DataRowView)gloveListBox.SelectedItem).Row[0].ToString());
+
+            Glove glove = gloveController.LoadGlove(index);
+            gloveIdTextBox.Text = glove.Id.ToString();
+            gloveName.Text = glove.Name;
+            gloveOrderTextBox.Text = glove.Order.ToString();
+        }
+
+        private void gloveApplyButton_Click(object sender, EventArgs e)
+        {
+            if (gloveListBox.SelectedItem == null)
+                return;
+
+            int index = int.Parse(((DataRowView)gloveListBox.SelectedItem).Row[0].ToString());
+
+            // check id
+            if (ushort.Parse(gloveIdTextBox.Text) > 65535)
+            {
+                MessageBox.Show("Number exceeds the allowed range!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            Glove temp = gloveController.LoadGlove(index);
+            if (ushort.Parse(gloveIdTextBox.Text) != temp.Id)
+            {
+                if (gloveController.LoadGloveById(ushort.Parse(gloveIdTextBox.Text)) != 0)
+                {
+                    MessageBox.Show("Glove's already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
+
+            temp.Id = ushort.Parse(gloveIdTextBox.Text);
+            temp.Name = gloveName.Text;
+            temp.Order = byte.Parse(gloveOrderTextBox.Text);
+            int status = gloveController.ApplyGlove(index, temp);
+            if (status != 0)
+                MessageBox.Show("Error apply " + temp.Name, Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            // update listbox
+            gloveController.GloveTable.Rows[index].SetField("Name", gloveName.Text);
+        }
+
+        private void gloveSearchTextBox_TextChanged(object sender, EventArgs e)
+        {
+            (gloveListBox.DataSource as DataTable).DefaultView.RowFilter = string.Format("Name LIKE '%{0}%'", gloveSearchTextBox.Text);
+
+            gloveListBox.ClearSelected();
+            if (gloveListBox.Items.Count > 0)
+                gloveListBox.SelectedIndex = 0;
+        }
+
+        private void gloveSearchTextBox_Click(object sender, EventArgs e)
+        {
+            gloveSearchTextBox.SelectAll();
+            gloveSearchTextBox.Focus();
         }
     }
 }
