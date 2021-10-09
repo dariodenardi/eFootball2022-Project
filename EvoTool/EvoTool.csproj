@@ -66,8 +66,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\BallController.cs" />
+    <Compile Include="Controllers\BootController.cs" />
     <Compile Include="Controllers\GloveController.cs" />
     <Compile Include="Models\Ball.cs" />
+    <Compile Include="Models\Boot.cs" />
     <Compile Include="Models\Glove.cs" />
     <Compile Include="Player.cs">
       <SubType>Form</SubType>

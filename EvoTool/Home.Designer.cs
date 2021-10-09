@@ -6024,6 +6024,8 @@
             this.bootSearchTextBox.Size = new System.Drawing.Size(233, 20);
             this.bootSearchTextBox.TabIndex = 133;
             this.bootSearchTextBox.Text = "search boot...";
+            this.bootSearchTextBox.Click += new System.EventHandler(this.bootSearchTextBox_Click);
+            this.bootSearchTextBox.TextChanged += new System.EventHandler(this.bootSearchTextBox_TextChanged);
             // 
             // bootApplyButton
             // 
@@ -6044,6 +6046,7 @@
             this.bootApplyButton.TabIndex = 132;
             this.bootApplyButton.Text = "Apply";
             this.bootApplyButton.UseVisualStyleBackColor = false;
+            this.bootApplyButton.Click += new System.EventHandler(this.bootApplyButton_Click);
             // 
             // bootGroupBox1
             // 
@@ -6176,6 +6179,7 @@
             this.bootListBox.Name = "bootListBox";
             this.bootListBox.Size = new System.Drawing.Size(233, 589);
             this.bootListBox.TabIndex = 130;
+            this.bootListBox.SelectedIndexChanged += new System.EventHandler(this.bootListBox_SelectedIndexChanged);
             // 
             // Gloves
             // 
