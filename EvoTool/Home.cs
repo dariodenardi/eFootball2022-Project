@@ -23,11 +23,13 @@ namespace EvoTool
         private int bitRecognized = 0;
         private BallController ballController;
         private GloveController gloveController;
+        private BootController bootController;
 
         private void Home_Load(object sender, EventArgs e)
         {
             ballController = new BallController();
             gloveController = new GloveController();
+            bootController = new BootController();
             FormBorderStyle = FormBorderStyle.FixedSingle;
 
             toolStripTextBox1.Text = "Welcome " + System.Environment.MachineName;
@@ -41,6 +43,7 @@ namespace EvoTool
             {
                 ballController.CloseMemory();
                 gloveController.CloseMemory();
+                bootController.CloseMemory();
                 ResetField();
                 path = fbd.SelectedPath;
                 OpenDatabase(path);
@@ -187,6 +190,12 @@ namespace EvoTool
                 if (status != 0)
                     MessageBox.Show("Error saved Glove.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            if (bootController.BootTable.Rows.Count != 0)
+            {
+                int status = bootController.Save(path, bitRecognized);
+                if (status != 0)
+                    MessageBox.Show("Error saved Boots.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         public void OpenDatabase(string folder)
@@ -234,9 +243,27 @@ namespace EvoTool
                 //exportGloveToolStripMenuItem.Enabled = true;
                 //importGloveToolStripMenuItem.Enabled = true;
             }
+            int bootstatus = bootController.Load(folder, bitRecognized);
+            // if there are Boots.bin
+            if (bootstatus == 0)
+            {
+                bootListBox.DataSource = bootController.BootTable;
+                bootListBox.DisplayMember = "Name";
+                bootListBox.ValueMember = "Index";
+
+                bootGroupBox1.Enabled = true;
+                bootListBox.Enabled = true;
+                bootSearchTextBox.Enabled = true;
+                bootApplyButton.Enabled = true;
+                bootPictureBox1.Enabled = true;
+
+                //addNewBootStrip.Enabled = true;
+                //exportBootToolStripMenuItem.Enabled = true;
+                //importBootToolStripMenuItem.Enabled = true;
+            }
 
             toolStripTextBox1.Text = playersBox.Items.Count + " Players | " + 0 + " Teams | " + 0 + " Coaches | "
-                + 0 + " Stadiums | " + ballController.BallTable.Rows.Count + " Balls | " + 0 + " Boots | " + gloveController.GloveTable.Rows.Count + " Gloves";
+                + 0 + " Stadiums | " + ballController.BallTable.Rows.Count + " Balls | " + bootController.BootTable.Rows.Count + " Boots | " + gloveController.GloveTable.Rows.Count + " Gloves";
         }
 
         private void Close_Click(object sender, EventArgs e)
@@ -323,7 +350,6 @@ namespace EvoTool
             gloveName.Text = "";
             gloveIdTextBox.Text = "";
             gloveOrderTextBox.Text = "";
-            ballCondListBox.Items.Clear();
             glovePictureBox1.Image = null;
 
             if (gloveListBox.SelectedItem == null)
@@ -385,6 +411,75 @@ namespace EvoTool
         {
             gloveSearchTextBox.SelectAll();
             gloveSearchTextBox.Focus();
+        }
+        //boot
+        private void bootListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // reset field
+            bootNameTextBox.Text = "";
+            bootIdTextBox.Text = "";
+            bootOrderTextBox.Text = "";
+            bootPictureBox1.Image = null;
+
+            if (bootListBox.SelectedItem == null)
+                return;
+
+            int index = int.Parse(((DataRowView)bootListBox.SelectedItem).Row[0].ToString());
+
+            Boot boot = bootController.LoadBoot(index);
+            bootIdTextBox.Text = boot.Id.ToString();
+            bootNameTextBox.Text = boot.Name;
+            bootOrderTextBox.Text = boot.Order.ToString();
+        }
+
+        private void bootApplyButton_Click(object sender, EventArgs e)
+        {
+            if (bootListBox.SelectedItem == null)
+                return;
+
+            int index = int.Parse(((DataRowView)bootListBox.SelectedItem).Row[0].ToString());
+
+            // check id
+            if (ushort.Parse(bootIdTextBox.Text) > 65535)
+            {
+                MessageBox.Show("Number exceeds the allowed range!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            Boot temp = bootController.LoadBoot(index);
+            if (ushort.Parse(bootIdTextBox.Text) != temp.Id)
+            {
+                if (bootController.LoadBootById(ushort.Parse(bootIdTextBox.Text)) != 0)
+                {
+                    MessageBox.Show("Boots already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
+
+            temp.Id = ushort.Parse(bootIdTextBox.Text);
+            temp.Name = bootNameTextBox.Text;
+            temp.Order = byte.Parse(bootOrderTextBox.Text);
+            int status = bootController.ApplyBoot(index, temp);
+            if (status != 0)
+                MessageBox.Show("Error apply " + temp.Name, Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            // update listbox
+            bootController.BootTable.Rows[index].SetField("Name", bootNameTextBox.Text);
+        }
+
+        private void bootSearchTextBox_TextChanged(object sender, EventArgs e)
+        {
+            (bootListBox.DataSource as DataTable).DefaultView.RowFilter = string.Format("Name LIKE '%{0}%'", bootSearchTextBox.Text);
+
+            bootListBox.ClearSelected();
+            if (bootListBox.Items.Count > 0)
+                bootListBox.SelectedIndex = 0;
+        }
+
+        private void bootSearchTextBox_Click(object sender, EventArgs e)
+        {
+            bootSearchTextBox.SelectAll();
+            bootSearchTextBox.Focus();
         }
     }
 }
