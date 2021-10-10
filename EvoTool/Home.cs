@@ -24,12 +24,14 @@ namespace EvoTool
         private BallController ballController;
         private GloveController gloveController;
         private BootController bootController;
+        private CoachController coachController;
 
         private void Home_Load(object sender, EventArgs e)
         {
             ballController = new BallController();
             gloveController = new GloveController();
             bootController = new BootController();
+            coachController = new CoachController();
             FormBorderStyle = FormBorderStyle.FixedSingle;
 
             toolStripTextBox1.Text = "Welcome " + System.Environment.MachineName;
@@ -44,6 +46,7 @@ namespace EvoTool
                 ballController.CloseMemory();
                 gloveController.CloseMemory();
                 bootController.CloseMemory();
+                coachController.CloseMemory();
                 ResetField();
                 path = fbd.SelectedPath;
                 OpenDatabase(path);
@@ -261,8 +264,19 @@ namespace EvoTool
                 //exportBootToolStripMenuItem.Enabled = true;
                 //importBootToolStripMenuItem.Enabled = true;
             }
+            int opencoach = coachController.Load(folder, bitRecognized);
+            if (opencoach == 0)
+            {
+                coachListBox.DataSource = coachController.CoachTable;
+                coachListBox.DisplayMember = "Name";
+                coachListBox.ValueMember = "Index";
 
-            toolStripTextBox1.Text = playersBox.Items.Count + " Players | " + 0 + " Teams | " + 0 + " Coaches | "
+                coachGroupBox1.Enabled = true;
+                coachListBox.Enabled = true;
+                coachSearchTextBox.Enabled = true;
+            }
+
+            toolStripTextBox1.Text = playersBox.Items.Count + " Players | " + 0 + " Teams | " + coachController.CoachTable.Rows.Count + " Coaches | "
                 + 0 + " Stadiums | " + ballController.BallTable.Rows.Count + " Balls | " + bootController.BootTable.Rows.Count + " Boots | " + gloveController.GloveTable.Rows.Count + " Gloves";
         }
 
@@ -481,5 +495,40 @@ namespace EvoTool
             bootSearchTextBox.SelectAll();
             bootSearchTextBox.Focus();
         }
+
+        // ------------------------------- COACHES ------------------------------- //
+        private void coachListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // reset field
+            coachNameTextBox.Text = "";
+            coachIdTextBox.Text = "";
+
+            if (coachListBox.SelectedItem == null)
+                return;
+
+            int index = int.Parse(((DataRowView)coachListBox.SelectedItem).Row[0].ToString());
+
+            Coach coach = coachController.LoadCoach(index);
+            coachIdTextBox.Text = coach.Id.ToString();
+            coachNameTextBox.Text = coach.Name;
+            coachJapTextBox.Text = coach.JapaneseName;
+        }
+
+        private void coachSearchTextBox_TextChanged(object sender, EventArgs e)
+        {
+            (coachListBox.DataSource as DataTable).DefaultView.RowFilter = string.Format("Name LIKE '%{0}%'", coachSearchTextBox.Text);
+
+            coachListBox.ClearSelected();
+            if (coachListBox.Items.Count > 0)
+                coachListBox.SelectedIndex = 0;
+        }
+
+        private void coachSearchTextBox_Click(object sender, EventArgs e)
+        {
+            coachSearchTextBox.SelectAll();
+            coachSearchTextBox.Focus();
+        }
+
+        // ----------------------------------------------------------------------- //
     }
 }
