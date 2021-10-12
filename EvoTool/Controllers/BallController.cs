@@ -27,27 +27,20 @@ namespace EvoTool.Controllers
         public BinaryWriter WriteBall { get; set; }
         public DataTable BallTable { get; set; }
 
-        private MemoryStream UnzlibFile(string patch, int bitRecognized)
+        private MemoryStream UnzlibFile(string patch)
         {
             MemoryStream memoryBall = null;
 
-            if (bitRecognized == 0)
-            {
-                byte[] file = File.ReadAllBytes(patch + FILE_NAME);
-                byte[] ss1 = Unzlib.UnZlibFilePC(file);
-                memoryBall = new MemoryStream(ss1);
-            }
-            else if (bitRecognized == 1 || bitRecognized == 2)
-            {
-                // console file
-            }
+            byte[] file = File.ReadAllBytes(patch + FILE_NAME);
+            byte[] ss1 = Unzlib.UnZlibFilePC(file);
+            memoryBall = new MemoryStream(ss1);
 
             return memoryBall;
         }
 
-        public int Load(string patch, int bitRecognized)
+        public int Load(string patch)
         {
-            MemoryBall = UnzlibFile(patch, bitRecognized);
+            MemoryBall = UnzlibFile(patch);
 
             int ballNumber = (int)MemoryBall.Length / BLOCK;
 
@@ -153,23 +146,12 @@ namespace EvoTool.Controllers
             return 0;
         }
 
-        public int Save(string patch, int bitRecognized)
+        public int Save(string patch)
         {
             try
             {
-                if (bitRecognized == 0)
-                {
-                    byte[] ss13 = Zlib.ZlibFilePC(MemoryBall.ToArray());
-                    File.WriteAllBytes(patch + FILE_NAME, ss13);
-                }
-                else if (bitRecognized == 1)
-                {
-                    // xbox?
-                }
-                else if (bitRecognized == 2)
-                {
-                    // ps3?
-                }
+                byte[] ss13 = Zlib.ZlibFilePC(MemoryBall.ToArray());
+                File.WriteAllBytes(patch + FILE_NAME, ss13);
             }
             catch (Exception)
             {

@@ -27,27 +27,20 @@ namespace EvoTool.Controllers
         public BinaryWriter WriteBoot { get; set; }
         public DataTable BootTable { get; set; }
 
-        private MemoryStream UnzlibFile(string patch, int bitRecognized)
+        private MemoryStream UnzlibFile(string patch)
         {
             MemoryStream memoryBoot = null;
 
-            if (bitRecognized == 0)
-            {
-                byte[] file = File.ReadAllBytes(patch + FILE_NAME);
-                byte[] ss1 = Unzlib.UnZlibFilePC(file);
-                memoryBoot = new MemoryStream(ss1);
-            }
-            //else if (bitRecognized == 1 || bitRecognized == 2)
-            //{
-            //    // console file
-            //}
+            byte[] file = File.ReadAllBytes(patch + FILE_NAME);
+            byte[] ss1 = Unzlib.UnZlibFilePC(file);
+            memoryBoot = new MemoryStream(ss1);
 
             return memoryBoot;
         }
 
-        public int Load(string patch, int bitRecognized)
+        public int Load(string patch)
         {
-            MemoryBoot = UnzlibFile(patch, bitRecognized);
+            MemoryBoot = UnzlibFile(patch);
 
             int bootNumber = (int)MemoryBoot.Length / BLOCK;
 
@@ -154,23 +147,12 @@ namespace EvoTool.Controllers
             return 0;
         }
 
-        public int Save(string patch, int bitRecognized)
+        public int Save(string patch)
         {
             try
             {
-                if (bitRecognized == 0)
-                {
-                    byte[] ss13 = Zlib.ZlibFilePC(MemoryBoot.ToArray());
-                    File.WriteAllBytes(patch + FILE_NAME, ss13);
-                }
-                //else if (bitRecognized == 1)
-                //{
-                //    // xbox?
-                //}
-                //else if (bitRecognized == 2)
-                //{
-                //    // ps3?
-                //}
+                byte[] ss13 = Zlib.ZlibFilePC(MemoryBoot.ToArray());
+                File.WriteAllBytes(patch + FILE_NAME, ss13);
             }
             catch (Exception)
             {
