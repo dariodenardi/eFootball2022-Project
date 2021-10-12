@@ -1,4 +1,4 @@
-using EvoTool.Controllers;
+﻿using EvoTool.Controllers;
 using EvoTool.Models;
 using System;
 using System.Collections.Generic;
@@ -42,10 +42,6 @@ namespace EvoTool
             DialogResult result = fbd.ShowDialog();
             if (result == DialogResult.OK)
             {
-                ballController.CloseMemory();
-                gloveController.CloseMemory();
-                bootController.CloseMemory();
-                coachController.CloseMemory();
                 CloseMemory();
                 ResetField();
                 path = fbd.SelectedPath;
@@ -60,13 +56,14 @@ namespace EvoTool
             ballController.CloseMemory();
             gloveController.CloseMemory();
             bootController.CloseMemory();
+            coachController.CloseMemory();
         }
 
         private void EnableStrip()
         {
             // enable buttons
             // if there are files found
-            if (ballController.BallTable.Rows.Count != 0)
+            if (ballController.BallTable.Rows.Count != 0 || gloveController.GloveTable.Rows.Count != 0 || bootController.BootTable.Rows.Count != 0 || coachController.CoachTable.Rows.Count != 0)
             {
                 tabControl1.Enabled = true;
                 Save.Enabled = true;
@@ -266,7 +263,7 @@ namespace EvoTool
                 //exportBootToolStripMenuItem.Enabled = true;
                 //importBootToolStripMenuItem.Enabled = true;
             }
-            int opencoach = coachController.Load(folder, bitRecognized);
+            int opencoach = coachController.Load(folder);
             if (opencoach == 0)
             {
                 coachListBox.DataSource = coachController.CoachTable;
@@ -510,7 +507,7 @@ namespace EvoTool
             BootSearchTextBox.Focus();
         }
 
-        // ------------------------------- COACHES ------------------------------- //
+        // coaches
         private void coachListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             // reset field
@@ -542,7 +539,5 @@ namespace EvoTool
             coachSearchTextBox.SelectAll();
             coachSearchTextBox.Focus();
         }
-
-        // ----------------------------------------------------------------------- //
     }
 }

@@ -27,27 +27,20 @@ namespace EvoTool.Controllers
         public BinaryWriter WriteCoach { get; set; }
         public DataTable CoachTable { get; set; }
 
-        private MemoryStream UnzlibFile(string patch, int bitRecognized)
+        private MemoryStream UnzlibFile(string patch)
         {
             MemoryStream memorycoach = null;
 
-            if (bitRecognized == 0)
-            {
-                byte[] file = File.ReadAllBytes(patch + FILE_NAME);
-                byte[] ss1 = Unzlib.UnZlibFilePC(file);
-                memorycoach = new MemoryStream(ss1);
-            }
-            else if (bitRecognized == 1 || bitRecognized == 2)
-            {
-                // console file
-            }
+            byte[] file = File.ReadAllBytes(patch + FILE_NAME);
+            byte[] ss1 = Unzlib.UnZlibFilePC(file);
+            memorycoach = new MemoryStream(ss1);
 
             return memorycoach;
         }
 
-        public int Load(string patch, int bitRecognized)
+        public int Load(string patch)
         {
-            MemoryCoach = UnzlibFile(patch, bitRecognized);
+            MemoryCoach = UnzlibFile(patch);
 
             int coachNumber = (int)MemoryCoach.Length / BLOCK;
 
