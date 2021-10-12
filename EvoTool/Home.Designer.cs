@@ -36,11 +36,7 @@
             this.reload = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.Save = new System.Windows.Forms.ToolStripMenuItem();
-            this.generateCpk = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.changeDLC = new System.Windows.Forms.ToolStripMenuItem();
-            this.changeEXE = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.Close = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.export = new System.Windows.Forms.ToolStripMenuItem();
@@ -102,12 +98,13 @@
             this.removeFakeShortTeam = new System.Windows.Forms.ToolStripMenuItem();
             this.removeFakeClassicPlayer = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.support = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tutorial = new System.Windows.Forms.ToolStripMenuItem();
             this.videoTutorial = new System.Windows.Forms.ToolStripMenuItem();
             this.howToUseFmStatsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.howToImportPSDStatsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.howToEditDatabaseAfterDLCAndImportIngameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.support = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.checkForUpdate = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
@@ -116,11 +113,9 @@
             this.Transfers = new System.Windows.Forms.TabPage();
             this.searchById = new System.Windows.Forms.CheckBox();
             this.playersBox = new System.Windows.Forms.ListBox();
-            this.searchT = new System.Windows.Forms.Button();
             this.searchTeamAB = new System.Windows.Forms.TextBox();
             this.teamBox2 = new System.Windows.Forms.ComboBox();
             this.teamBox1 = new System.Windows.Forms.ComboBox();
-            this.searchP = new System.Windows.Forms.Button();
             this.teamView2 = new System.Windows.Forms.ListView();
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -497,13 +492,13 @@
             this.BallApplyButton = new System.Windows.Forms.Button();
             this.BallListBox = new System.Windows.Forms.ListBox();
             this.BallSearchTextBox = new System.Windows.Forms.TextBox();
-            this.ballCondGroupBox1 = new System.Windows.Forms.GroupBox();
-            this.ballCondCompComboBox = new System.Windows.Forms.ComboBox();
+            this.BallCondGroupBox1 = new System.Windows.Forms.GroupBox();
+            this.BallCondCompComboBox = new System.Windows.Forms.ComboBox();
             this.label37 = new System.Windows.Forms.Label();
-            this.ballCondListBox = new System.Windows.Forms.ListBox();
-            this.ballPictureBox1 = new System.Windows.Forms.PictureBox();
-            this.ballGroupBox1 = new System.Windows.Forms.GroupBox();
-            this.ballCharButton = new System.Windows.Forms.Button();
+            this.BallCondListBox = new System.Windows.Forms.ListBox();
+            this.BallPictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BallGroupBox1 = new System.Windows.Forms.GroupBox();
+            this.BallCharButton = new System.Windows.Forms.Button();
             this.BallNameTextBox = new System.Windows.Forms.TextBox();
             this.label86 = new System.Windows.Forms.Label();
             this.BallOrderTextBox = new System.Windows.Forms.TextBox();
@@ -511,37 +506,31 @@
             this.BallIDTextBox = new System.Windows.Forms.TextBox();
             this.label88 = new System.Windows.Forms.Label();
             this.Boots = new System.Windows.Forms.TabPage();
-            this.bootPictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bootSearchTextBox = new System.Windows.Forms.TextBox();
-            this.bootApplyButton = new System.Windows.Forms.Button();
-            this.bootGroupBox1 = new System.Windows.Forms.GroupBox();
-            this.bootMaterialTextBox = new System.Windows.Forms.TextBox();
-            this.label112 = new System.Windows.Forms.Label();
-            this.bootColorTextBox = new System.Windows.Forms.TextBox();
-            this.label111 = new System.Windows.Forms.Label();
-            this.bootCharButton = new System.Windows.Forms.Button();
-            this.bootNameTextBox = new System.Windows.Forms.TextBox();
+            this.BootPictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BootSearchTextBox = new System.Windows.Forms.TextBox();
+            this.BootApplyButton = new System.Windows.Forms.Button();
+            this.BootGroupBox1 = new System.Windows.Forms.GroupBox();
+            this.BootCharButton = new System.Windows.Forms.Button();
+            this.BootNameTextBox = new System.Windows.Forms.TextBox();
             this.label100 = new System.Windows.Forms.Label();
-            this.bootOrderTextBox = new System.Windows.Forms.TextBox();
+            this.BootOrderTextBox = new System.Windows.Forms.TextBox();
             this.label105 = new System.Windows.Forms.Label();
-            this.bootIdTextBox = new System.Windows.Forms.TextBox();
+            this.BootIDTextBox = new System.Windows.Forms.TextBox();
             this.label110 = new System.Windows.Forms.Label();
-            this.bootListBox = new System.Windows.Forms.ListBox();
+            this.BootListBox = new System.Windows.Forms.ListBox();
             this.Gloves = new System.Windows.Forms.TabPage();
-            this.glovePictureBox1 = new System.Windows.Forms.PictureBox();
-            this.gloveSearchTextBox = new System.Windows.Forms.TextBox();
-            this.gloveApplyButton = new System.Windows.Forms.Button();
-            this.gloveGroupBox1 = new System.Windows.Forms.GroupBox();
-            this.gloveColorTextBox = new System.Windows.Forms.TextBox();
-            this.label99 = new System.Windows.Forms.Label();
-            this.gloveCharButton = new System.Windows.Forms.Button();
-            this.gloveName = new System.Windows.Forms.TextBox();
+            this.GlovePictureBox1 = new System.Windows.Forms.PictureBox();
+            this.GloveSearchTextBox = new System.Windows.Forms.TextBox();
+            this.GloveApplyButton = new System.Windows.Forms.Button();
+            this.GloveGroupBox1 = new System.Windows.Forms.GroupBox();
+            this.GloveCharButton = new System.Windows.Forms.Button();
+            this.GloveName = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
-            this.gloveOrderTextBox = new System.Windows.Forms.TextBox();
+            this.GloveOrderTextBox = new System.Windows.Forms.TextBox();
             this.label51 = new System.Windows.Forms.Label();
-            this.gloveIdTextBox = new System.Windows.Forms.TextBox();
+            this.GloveIdTextBox = new System.Windows.Forms.TextBox();
             this.label98 = new System.Windows.Forms.Label();
-            this.gloveListBox = new System.Windows.Forms.ListBox();
+            this.GloveListBox = new System.Windows.Forms.ListBox();
             this.Global = new System.Windows.Forms.TabPage();
             this.globGroupBox4 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -737,9 +726,7 @@
             this.label167 = new System.Windows.Forms.Label();
             this.label171 = new System.Windows.Forms.Label();
             this.label172 = new System.Windows.Forms.Label();
-            this.searchTeamFm = new System.Windows.Forms.Button();
             this.fmSearchTeam = new System.Windows.Forms.TextBox();
-            this.searchPlayerFm = new System.Windows.Forms.Button();
             this.fmSearchPlayer = new System.Windows.Forms.TextBox();
             this.count = new System.Windows.Forms.Label();
             this.label120 = new System.Windows.Forms.Label();
@@ -870,15 +857,15 @@
             this.stadiumOrderGroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.stadiumOrderDataGridView)).BeginInit();
             this.Balls.SuspendLayout();
-            this.ballCondGroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ballPictureBox1)).BeginInit();
-            this.ballGroupBox1.SuspendLayout();
+            this.BallCondGroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BallPictureBox1)).BeginInit();
+            this.BallGroupBox1.SuspendLayout();
             this.Boots.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bootPictureBox1)).BeginInit();
-            this.bootGroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BootPictureBox1)).BeginInit();
+            this.BootGroupBox1.SuspendLayout();
             this.Gloves.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.glovePictureBox1)).BeginInit();
-            this.gloveGroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GlovePictureBox1)).BeginInit();
+            this.GloveGroupBox1.SuspendLayout();
             this.Global.SuspendLayout();
             this.globGroupBox4.SuspendLayout();
             this.globGroupBox3.SuspendLayout();
@@ -920,11 +907,7 @@
             this.reload,
             this.toolStripSeparator8,
             this.Save,
-            this.generateCpk,
             this.toolStripSeparator10,
-            this.changeDLC,
-            this.changeEXE,
-            this.toolStripSeparator9,
             this.Close});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -936,7 +919,7 @@
             this.Open.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Open.Name = "Open";
             this.Open.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.Open.Size = new System.Drawing.Size(189, 30);
+            this.Open.Size = new System.Drawing.Size(167, 30);
             this.Open.Text = "Open";
             this.Open.Click += new System.EventHandler(this.Open_Click);
             // 
@@ -947,13 +930,13 @@
             this.reload.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.reload.Name = "reload";
             this.reload.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.reload.Size = new System.Drawing.Size(189, 30);
+            this.reload.Size = new System.Drawing.Size(167, 30);
             this.reload.Text = "Reload";
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(186, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(164, 6);
             // 
             // Save
             // 
@@ -962,44 +945,14 @@
             this.Save.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Save.Name = "Save";
             this.Save.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.Save.Size = new System.Drawing.Size(189, 30);
+            this.Save.Size = new System.Drawing.Size(167, 30);
             this.Save.Text = "Save";
             this.Save.Click += new System.EventHandler(this.Save_Click);
-            // 
-            // generateCpk
-            // 
-            this.generateCpk.Enabled = false;
-            this.generateCpk.Image = ((System.Drawing.Image)(resources.GetObject("generateCpk.Image")));
-            this.generateCpk.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.generateCpk.Name = "generateCpk";
-            this.generateCpk.Size = new System.Drawing.Size(189, 30);
-            this.generateCpk.Text = "Generate new CPK";
             // 
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(186, 6);
-            // 
-            // changeDLC
-            // 
-            this.changeDLC.Enabled = false;
-            this.changeDLC.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.changeDLC.Name = "changeDLC";
-            this.changeDLC.Size = new System.Drawing.Size(189, 30);
-            this.changeDLC.Text = "Change DLC version";
-            // 
-            // changeEXE
-            // 
-            this.changeEXE.Enabled = false;
-            this.changeEXE.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.changeEXE.Name = "changeEXE";
-            this.changeEXE.Size = new System.Drawing.Size(189, 30);
-            this.changeEXE.Text = "Change EXE version";
-            // 
-            // toolStripSeparator9
-            // 
-            this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(186, 6);
+            this.toolStripSeparator10.Size = new System.Drawing.Size(164, 6);
             // 
             // Close
             // 
@@ -1007,7 +960,7 @@
             this.Close.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Close.Name = "Close";
             this.Close.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.Close.Size = new System.Drawing.Size(189, 30);
+            this.Close.Size = new System.Drawing.Size(167, 30);
             this.Close.Text = "Close";
             this.Close.Click += new System.EventHandler(this.Close_Click);
             // 
@@ -1410,6 +1363,8 @@
             // addNewNationalStrip
             // 
             this.addNewNationalStrip.Enabled = false;
+            this.addNewNationalStrip.Image = ((System.Drawing.Image)(resources.GetObject("addNewNationalStrip.Image")));
+            this.addNewNationalStrip.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.addNewNationalStrip.Name = "addNewNationalStrip";
             this.addNewNationalStrip.Size = new System.Drawing.Size(312, 30);
             this.addNewNationalStrip.Text = "Add new national";
@@ -1512,14 +1467,29 @@
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.support,
+            this.toolStripSeparator1,
             this.tutorial,
             this.videoTutorial,
-            this.support,
             this.toolStripSeparator2,
             this.checkForUpdate});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // support
+            // 
+            this.support.Enabled = false;
+            this.support.Image = ((System.Drawing.Image)(resources.GetObject("support.Image")));
+            this.support.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.support.Name = "support";
+            this.support.Size = new System.Drawing.Size(173, 30);
+            this.support.Text = "Support Forum";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(170, 6);
             // 
             // tutorial
             // 
@@ -1561,15 +1531,6 @@
             this.howToEditDatabaseAfterDLCAndImportIngameToolStripMenuItem.Size = new System.Drawing.Size(350, 22);
             this.howToEditDatabaseAfterDLCAndImportIngameToolStripMenuItem.Text = "How to edit Database after DLC and import In-Game";
             // 
-            // support
-            // 
-            this.support.Enabled = false;
-            this.support.Image = ((System.Drawing.Image)(resources.GetObject("support.Image")));
-            this.support.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.support.Name = "support";
-            this.support.Size = new System.Drawing.Size(173, 30);
-            this.support.Text = "Support Forum";
-            // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
@@ -1589,7 +1550,6 @@
             this.toolStripTextBox1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.toolStripTextBox1.Enabled = false;
-            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Margin = new System.Windows.Forms.Padding(2, 0, 15, 0);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.ReadOnly = true;
@@ -1628,11 +1588,9 @@
             // 
             this.Transfers.Controls.Add(this.searchById);
             this.Transfers.Controls.Add(this.playersBox);
-            this.Transfers.Controls.Add(this.searchT);
             this.Transfers.Controls.Add(this.searchTeamAB);
             this.Transfers.Controls.Add(this.teamBox2);
             this.Transfers.Controls.Add(this.teamBox1);
-            this.Transfers.Controls.Add(this.searchP);
             this.Transfers.Controls.Add(this.teamView2);
             this.Transfers.Controls.Add(this.giocatorePanel2);
             this.Transfers.Controls.Add(this.giocatorePanel1);
@@ -1666,28 +1624,12 @@
             this.playersBox.Size = new System.Drawing.Size(193, 537);
             this.playersBox.TabIndex = 131;
             // 
-            // searchT
-            // 
-            this.searchT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.searchT.FlatAppearance.BorderSize = 0;
-            this.searchT.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.searchT.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.searchT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchT.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.searchT.Image = ((System.Drawing.Image)(resources.GetObject("searchT.Image")));
-            this.searchT.Location = new System.Drawing.Point(176, 583);
-            this.searchT.Margin = new System.Windows.Forms.Padding(0);
-            this.searchT.Name = "searchT";
-            this.searchT.Size = new System.Drawing.Size(20, 20);
-            this.searchT.TabIndex = 126;
-            this.searchT.UseVisualStyleBackColor = true;
-            // 
             // searchTeamAB
             // 
             this.searchTeamAB.Location = new System.Drawing.Point(3, 584);
             this.searchTeamAB.MaxLength = 20;
             this.searchTeamAB.Name = "searchTeamAB";
-            this.searchTeamAB.Size = new System.Drawing.Size(170, 20);
+            this.searchTeamAB.Size = new System.Drawing.Size(193, 20);
             this.searchTeamAB.TabIndex = 125;
             this.searchTeamAB.Text = "search team...A-TeamA/B-TeamB";
             // 
@@ -1710,22 +1652,6 @@
             this.teamBox1.Size = new System.Drawing.Size(201, 21);
             this.teamBox1.TabIndex = 122;
             this.teamBox1.TabStop = false;
-            // 
-            // searchP
-            // 
-            this.searchP.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.searchP.FlatAppearance.BorderSize = 0;
-            this.searchP.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.searchP.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.searchP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.searchP.Image = ((System.Drawing.Image)(resources.GetObject("searchP.Image")));
-            this.searchP.Location = new System.Drawing.Point(176, 607);
-            this.searchP.Margin = new System.Windows.Forms.Padding(0);
-            this.searchP.Name = "searchP";
-            this.searchP.Size = new System.Drawing.Size(20, 20);
-            this.searchP.TabIndex = 121;
-            this.searchP.UseVisualStyleBackColor = true;
             // 
             // teamView2
             // 
@@ -1773,7 +1699,7 @@
             // 
             // giocatorePanel2
             // 
-            this.giocatorePanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.giocatorePanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.giocatorePanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.giocatorePanel2.Controls.Add(this.aggression);
             this.giocatorePanel2.Controls.Add(this.label83);
@@ -2747,7 +2673,7 @@
             this.searchPlayer.Location = new System.Drawing.Point(3, 608);
             this.searchPlayer.MaxLength = 20;
             this.searchPlayer.Name = "searchPlayer";
-            this.searchPlayer.Size = new System.Drawing.Size(170, 20);
+            this.searchPlayer.Size = new System.Drawing.Size(193, 20);
             this.searchPlayer.TabIndex = 0;
             this.searchPlayer.Text = "search player...";
             // 
@@ -3088,7 +3014,7 @@
             // 
             // applyTeam
             // 
-            this.applyTeam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.applyTeam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.applyTeam.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyTeam.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyTeam.FlatAppearance.BorderSize = 0;
@@ -3699,7 +3625,7 @@
             // 
             // coachApplyButton
             // 
-            this.coachApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.coachApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.coachApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.coachApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.coachApplyButton.FlatAppearance.BorderSize = 0;
@@ -3945,7 +3871,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button2.FlatAppearance.BorderSize = 0;
@@ -3973,7 +3899,7 @@
             // 
             // deleteCompetitionEntry
             // 
-            this.deleteCompetitionEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.deleteCompetitionEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.deleteCompetitionEntry.Cursor = System.Windows.Forms.Cursors.Hand;
             this.deleteCompetitionEntry.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.deleteCompetitionEntry.FlatAppearance.BorderSize = 0;
@@ -4002,7 +3928,7 @@
             // 
             // applyCompEntry
             // 
-            this.applyCompEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.applyCompEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.applyCompEntry.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyCompEntry.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyCompEntry.FlatAppearance.BorderSize = 0;
@@ -4183,7 +4109,7 @@
             // 
             // applyCompetition
             // 
-            this.applyCompetition.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.applyCompetition.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.applyCompetition.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyCompetition.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyCompetition.FlatAppearance.BorderSize = 0;
@@ -4435,7 +4361,7 @@
             // 
             // applyCompetitionRegulation
             // 
-            this.applyCompetitionRegulation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.applyCompetitionRegulation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.applyCompetitionRegulation.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyCompetitionRegulation.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyCompetitionRegulation.FlatAppearance.BorderSize = 0;
@@ -5038,7 +4964,7 @@
             // 
             // applyCompetitionKind
             // 
-            this.applyCompetitionKind.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.applyCompetitionKind.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.applyCompetitionKind.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyCompetitionKind.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyCompetitionKind.FlatAppearance.BorderSize = 0;
@@ -5150,7 +5076,7 @@
             // 
             // derbyApplyButton
             // 
-            this.derbyApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.derbyApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.derbyApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.derbyApplyButton.Enabled = false;
             this.derbyApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
@@ -5397,7 +5323,7 @@
             // 
             // stadiumApplyButton
             // 
-            this.stadiumApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.stadiumApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.stadiumApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.stadiumApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.stadiumApplyButton.FlatAppearance.BorderSize = 0;
@@ -5802,9 +5728,9 @@
             this.Balls.Controls.Add(this.BallApplyButton);
             this.Balls.Controls.Add(this.BallListBox);
             this.Balls.Controls.Add(this.BallSearchTextBox);
-            this.Balls.Controls.Add(this.ballCondGroupBox1);
-            this.Balls.Controls.Add(this.ballPictureBox1);
-            this.Balls.Controls.Add(this.ballGroupBox1);
+            this.Balls.Controls.Add(this.BallCondGroupBox1);
+            this.Balls.Controls.Add(this.BallPictureBox1);
+            this.Balls.Controls.Add(this.BallGroupBox1);
             this.Balls.Location = new System.Drawing.Point(4, 22);
             this.Balls.Name = "Balls";
             this.Balls.Size = new System.Drawing.Size(907, 632);
@@ -5814,7 +5740,7 @@
             // 
             // BallApplyButton
             // 
-            this.BallApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.BallApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.BallApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BallApplyButton.Enabled = false;
             this.BallApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
@@ -5856,28 +5782,28 @@
             this.BallSearchTextBox.Click += new System.EventHandler(this.BallSearchTextBox_Click);
             this.BallSearchTextBox.TextChanged += new System.EventHandler(this.BallSearchTextBox_TextChanged);
             // 
-            // ballCondGroupBox1
+            // BallCondGroupBox1
             // 
-            this.ballCondGroupBox1.Controls.Add(this.ballCondCompComboBox);
-            this.ballCondGroupBox1.Controls.Add(this.label37);
-            this.ballCondGroupBox1.Controls.Add(this.ballCondListBox);
-            this.ballCondGroupBox1.Enabled = false;
-            this.ballCondGroupBox1.Location = new System.Drawing.Point(242, 145);
-            this.ballCondGroupBox1.Name = "ballCondGroupBox1";
-            this.ballCondGroupBox1.Size = new System.Drawing.Size(380, 450);
-            this.ballCondGroupBox1.TabIndex = 41;
-            this.ballCondGroupBox1.TabStop = false;
-            this.ballCondGroupBox1.Text = "BallCondition.bin";
+            this.BallCondGroupBox1.Controls.Add(this.BallCondCompComboBox);
+            this.BallCondGroupBox1.Controls.Add(this.label37);
+            this.BallCondGroupBox1.Controls.Add(this.BallCondListBox);
+            this.BallCondGroupBox1.Enabled = false;
+            this.BallCondGroupBox1.Location = new System.Drawing.Point(242, 145);
+            this.BallCondGroupBox1.Name = "BallCondGroupBox1";
+            this.BallCondGroupBox1.Size = new System.Drawing.Size(380, 450);
+            this.BallCondGroupBox1.TabIndex = 41;
+            this.BallCondGroupBox1.TabStop = false;
+            this.BallCondGroupBox1.Text = "BallCondition.bin";
             // 
-            // ballCondCompComboBox
+            // BallCondCompComboBox
             // 
-            this.ballCondCompComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ballCondCompComboBox.FormattingEnabled = true;
-            this.ballCondCompComboBox.Location = new System.Drawing.Point(105, 405);
-            this.ballCondCompComboBox.Name = "ballCondCompComboBox";
-            this.ballCondCompComboBox.Size = new System.Drawing.Size(262, 21);
-            this.ballCondCompComboBox.TabIndex = 139;
-            this.ballCondCompComboBox.TabStop = false;
+            this.BallCondCompComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.BallCondCompComboBox.FormattingEnabled = true;
+            this.BallCondCompComboBox.Location = new System.Drawing.Point(105, 405);
+            this.BallCondCompComboBox.Name = "BallCondCompComboBox";
+            this.BallCondCompComboBox.Size = new System.Drawing.Size(262, 21);
+            this.BallCondCompComboBox.TabIndex = 139;
+            this.BallCondCompComboBox.TabStop = false;
             // 
             // label37
             // 
@@ -5888,57 +5814,57 @@
             this.label37.TabIndex = 138;
             this.label37.Text = "Competitions List:";
             // 
-            // ballCondListBox
+            // BallCondListBox
             // 
-            this.ballCondListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
-            this.ballCondListBox.FormattingEnabled = true;
-            this.ballCondListBox.Location = new System.Drawing.Point(13, 19);
-            this.ballCondListBox.Name = "ballCondListBox";
-            this.ballCondListBox.Size = new System.Drawing.Size(354, 368);
-            this.ballCondListBox.TabIndex = 130;
+            this.BallCondListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
+            this.BallCondListBox.FormattingEnabled = true;
+            this.BallCondListBox.Location = new System.Drawing.Point(13, 19);
+            this.BallCondListBox.Name = "BallCondListBox";
+            this.BallCondListBox.Size = new System.Drawing.Size(354, 368);
+            this.BallCondListBox.TabIndex = 130;
             // 
-            // ballPictureBox1
+            // BallPictureBox1
             // 
-            this.ballPictureBox1.BackColor = System.Drawing.Color.LightGray;
-            this.ballPictureBox1.Enabled = false;
-            this.ballPictureBox1.Location = new System.Drawing.Point(636, 6);
-            this.ballPictureBox1.Name = "ballPictureBox1";
-            this.ballPictureBox1.Size = new System.Drawing.Size(256, 256);
-            this.ballPictureBox1.TabIndex = 40;
-            this.ballPictureBox1.TabStop = false;
+            this.BallPictureBox1.BackColor = System.Drawing.Color.LightGray;
+            this.BallPictureBox1.Enabled = false;
+            this.BallPictureBox1.Location = new System.Drawing.Point(636, 6);
+            this.BallPictureBox1.Name = "BallPictureBox1";
+            this.BallPictureBox1.Size = new System.Drawing.Size(256, 256);
+            this.BallPictureBox1.TabIndex = 40;
+            this.BallPictureBox1.TabStop = false;
             // 
-            // ballGroupBox1
+            // BallGroupBox1
             // 
-            this.ballGroupBox1.Controls.Add(this.ballCharButton);
-            this.ballGroupBox1.Controls.Add(this.BallNameTextBox);
-            this.ballGroupBox1.Controls.Add(this.label86);
-            this.ballGroupBox1.Controls.Add(this.BallOrderTextBox);
-            this.ballGroupBox1.Controls.Add(this.label87);
-            this.ballGroupBox1.Controls.Add(this.BallIDTextBox);
-            this.ballGroupBox1.Controls.Add(this.label88);
-            this.ballGroupBox1.Enabled = false;
-            this.ballGroupBox1.Location = new System.Drawing.Point(242, 6);
-            this.ballGroupBox1.Name = "ballGroupBox1";
-            this.ballGroupBox1.Size = new System.Drawing.Size(380, 133);
-            this.ballGroupBox1.TabIndex = 39;
-            this.ballGroupBox1.TabStop = false;
-            this.ballGroupBox1.Text = "Ball Info";
+            this.BallGroupBox1.Controls.Add(this.BallCharButton);
+            this.BallGroupBox1.Controls.Add(this.BallNameTextBox);
+            this.BallGroupBox1.Controls.Add(this.label86);
+            this.BallGroupBox1.Controls.Add(this.BallOrderTextBox);
+            this.BallGroupBox1.Controls.Add(this.label87);
+            this.BallGroupBox1.Controls.Add(this.BallIDTextBox);
+            this.BallGroupBox1.Controls.Add(this.label88);
+            this.BallGroupBox1.Enabled = false;
+            this.BallGroupBox1.Location = new System.Drawing.Point(242, 6);
+            this.BallGroupBox1.Name = "BallGroupBox1";
+            this.BallGroupBox1.Size = new System.Drawing.Size(380, 133);
+            this.BallGroupBox1.TabIndex = 39;
+            this.BallGroupBox1.TabStop = false;
+            this.BallGroupBox1.Text = "Ball Info";
             // 
-            // ballCharButton
+            // BallCharButton
             // 
-            this.ballCharButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ballCharButton.FlatAppearance.BorderSize = 0;
-            this.ballCharButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.ballCharButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.ballCharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ballCharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.ballCharButton.Image = ((System.Drawing.Image)(resources.GetObject("ballCharButton.Image")));
-            this.ballCharButton.Location = new System.Drawing.Point(329, 39);
-            this.ballCharButton.Margin = new System.Windows.Forms.Padding(0);
-            this.ballCharButton.Name = "ballCharButton";
-            this.ballCharButton.Size = new System.Drawing.Size(24, 24);
-            this.ballCharButton.TabIndex = 120;
-            this.ballCharButton.UseVisualStyleBackColor = true;
+            this.BallCharButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BallCharButton.FlatAppearance.BorderSize = 0;
+            this.BallCharButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.BallCharButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.BallCharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BallCharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.BallCharButton.Image = ((System.Drawing.Image)(resources.GetObject("BallCharButton.Image")));
+            this.BallCharButton.Location = new System.Drawing.Point(329, 39);
+            this.BallCharButton.Margin = new System.Windows.Forms.Padding(0);
+            this.BallCharButton.Name = "BallCharButton";
+            this.BallCharButton.Size = new System.Drawing.Size(24, 24);
+            this.BallCharButton.TabIndex = 120;
+            this.BallCharButton.UseVisualStyleBackColor = true;
             // 
             // BallNameTextBox
             // 
@@ -5993,11 +5919,11 @@
             // 
             // Boots
             // 
-            this.Boots.Controls.Add(this.bootPictureBox1);
-            this.Boots.Controls.Add(this.bootSearchTextBox);
-            this.Boots.Controls.Add(this.bootApplyButton);
-            this.Boots.Controls.Add(this.bootGroupBox1);
-            this.Boots.Controls.Add(this.bootListBox);
+            this.Boots.Controls.Add(this.BootPictureBox1);
+            this.Boots.Controls.Add(this.BootSearchTextBox);
+            this.Boots.Controls.Add(this.BootApplyButton);
+            this.Boots.Controls.Add(this.BootGroupBox1);
+            this.Boots.Controls.Add(this.BootListBox);
             this.Boots.Location = new System.Drawing.Point(4, 22);
             this.Boots.Name = "Boots";
             this.Boots.Size = new System.Drawing.Size(907, 632);
@@ -6005,127 +5931,89 @@
             this.Boots.Text = "Boots";
             this.Boots.UseVisualStyleBackColor = true;
             // 
-            // bootPictureBox1
+            // BootPictureBox1
             // 
-            this.bootPictureBox1.BackColor = System.Drawing.Color.LightGray;
-            this.bootPictureBox1.Enabled = false;
-            this.bootPictureBox1.Location = new System.Drawing.Point(636, 6);
-            this.bootPictureBox1.Name = "bootPictureBox1";
-            this.bootPictureBox1.Size = new System.Drawing.Size(256, 256);
-            this.bootPictureBox1.TabIndex = 134;
-            this.bootPictureBox1.TabStop = false;
+            this.BootPictureBox1.BackColor = System.Drawing.Color.LightGray;
+            this.BootPictureBox1.Enabled = false;
+            this.BootPictureBox1.Location = new System.Drawing.Point(636, 6);
+            this.BootPictureBox1.Name = "BootPictureBox1";
+            this.BootPictureBox1.Size = new System.Drawing.Size(256, 256);
+            this.BootPictureBox1.TabIndex = 134;
+            this.BootPictureBox1.TabStop = false;
             // 
-            // bootSearchTextBox
+            // BootSearchTextBox
             // 
-            this.bootSearchTextBox.Enabled = false;
-            this.bootSearchTextBox.Location = new System.Drawing.Point(3, 608);
-            this.bootSearchTextBox.MaxLength = 20;
-            this.bootSearchTextBox.Name = "bootSearchTextBox";
-            this.bootSearchTextBox.Size = new System.Drawing.Size(233, 20);
-            this.bootSearchTextBox.TabIndex = 133;
-            this.bootSearchTextBox.Text = "search boot...";
-            this.bootSearchTextBox.Click += new System.EventHandler(this.bootSearchTextBox_Click);
-            this.bootSearchTextBox.TextChanged += new System.EventHandler(this.bootSearchTextBox_TextChanged);
+            this.BootSearchTextBox.Enabled = false;
+            this.BootSearchTextBox.Location = new System.Drawing.Point(3, 608);
+            this.BootSearchTextBox.MaxLength = 20;
+            this.BootSearchTextBox.Name = "BootSearchTextBox";
+            this.BootSearchTextBox.Size = new System.Drawing.Size(233, 20);
+            this.BootSearchTextBox.TabIndex = 133;
+            this.BootSearchTextBox.Text = "search boot...";
+            this.BootSearchTextBox.Click += new System.EventHandler(this.BootSearchTextBox_Click);
+            this.BootSearchTextBox.TextChanged += new System.EventHandler(this.BootSearchTextBox_TextChanged);
             // 
-            // bootApplyButton
+            // BootApplyButton
             // 
-            this.bootApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.bootApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bootApplyButton.Enabled = false;
-            this.bootApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.bootApplyButton.FlatAppearance.BorderSize = 0;
-            this.bootApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.bootApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
-            this.bootApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bootApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.bootApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.bootApplyButton.Location = new System.Drawing.Point(809, 593);
-            this.bootApplyButton.Margin = new System.Windows.Forms.Padding(0);
-            this.bootApplyButton.Name = "bootApplyButton";
-            this.bootApplyButton.Size = new System.Drawing.Size(86, 29);
-            this.bootApplyButton.TabIndex = 132;
-            this.bootApplyButton.Text = "Apply";
-            this.bootApplyButton.UseVisualStyleBackColor = false;
-            this.bootApplyButton.Click += new System.EventHandler(this.bootApplyButton_Click);
+            this.BootApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.BootApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BootApplyButton.Enabled = false;
+            this.BootApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BootApplyButton.FlatAppearance.BorderSize = 0;
+            this.BootApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.BootApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.BootApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BootApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.BootApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BootApplyButton.Location = new System.Drawing.Point(809, 593);
+            this.BootApplyButton.Margin = new System.Windows.Forms.Padding(0);
+            this.BootApplyButton.Name = "BootApplyButton";
+            this.BootApplyButton.Size = new System.Drawing.Size(86, 29);
+            this.BootApplyButton.TabIndex = 132;
+            this.BootApplyButton.Text = "Apply";
+            this.BootApplyButton.UseVisualStyleBackColor = false;
+            this.BootApplyButton.Click += new System.EventHandler(this.BootApplyButton_Click);
             // 
-            // bootGroupBox1
+            // BootGroupBox1
             // 
-            this.bootGroupBox1.Controls.Add(this.bootMaterialTextBox);
-            this.bootGroupBox1.Controls.Add(this.label112);
-            this.bootGroupBox1.Controls.Add(this.bootColorTextBox);
-            this.bootGroupBox1.Controls.Add(this.label111);
-            this.bootGroupBox1.Controls.Add(this.bootCharButton);
-            this.bootGroupBox1.Controls.Add(this.bootNameTextBox);
-            this.bootGroupBox1.Controls.Add(this.label100);
-            this.bootGroupBox1.Controls.Add(this.bootOrderTextBox);
-            this.bootGroupBox1.Controls.Add(this.label105);
-            this.bootGroupBox1.Controls.Add(this.bootIdTextBox);
-            this.bootGroupBox1.Controls.Add(this.label110);
-            this.bootGroupBox1.Enabled = false;
-            this.bootGroupBox1.Location = new System.Drawing.Point(242, 6);
-            this.bootGroupBox1.Name = "bootGroupBox1";
-            this.bootGroupBox1.Size = new System.Drawing.Size(380, 191);
-            this.bootGroupBox1.TabIndex = 131;
-            this.bootGroupBox1.TabStop = false;
-            this.bootGroupBox1.Text = "Boot Info";
+            this.BootGroupBox1.Controls.Add(this.BootCharButton);
+            this.BootGroupBox1.Controls.Add(this.BootNameTextBox);
+            this.BootGroupBox1.Controls.Add(this.label100);
+            this.BootGroupBox1.Controls.Add(this.BootOrderTextBox);
+            this.BootGroupBox1.Controls.Add(this.label105);
+            this.BootGroupBox1.Controls.Add(this.BootIDTextBox);
+            this.BootGroupBox1.Controls.Add(this.label110);
+            this.BootGroupBox1.Enabled = false;
+            this.BootGroupBox1.Location = new System.Drawing.Point(242, 6);
+            this.BootGroupBox1.Name = "BootGroupBox1";
+            this.BootGroupBox1.Size = new System.Drawing.Size(380, 133);
+            this.BootGroupBox1.TabIndex = 131;
+            this.BootGroupBox1.TabStop = false;
+            this.BootGroupBox1.Text = "Boot Info";
             // 
-            // bootMaterialTextBox
+            // BootCharButton
             // 
-            this.bootMaterialTextBox.Location = new System.Drawing.Point(108, 137);
-            this.bootMaterialTextBox.MaxLength = 98;
-            this.bootMaterialTextBox.Name = "bootMaterialTextBox";
-            this.bootMaterialTextBox.Size = new System.Drawing.Size(215, 20);
-            this.bootMaterialTextBox.TabIndex = 124;
+            this.BootCharButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BootCharButton.FlatAppearance.BorderSize = 0;
+            this.BootCharButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.BootCharButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.BootCharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BootCharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.BootCharButton.Image = ((System.Drawing.Image)(resources.GetObject("BootCharButton.Image")));
+            this.BootCharButton.Location = new System.Drawing.Point(329, 39);
+            this.BootCharButton.Margin = new System.Windows.Forms.Padding(0);
+            this.BootCharButton.Name = "BootCharButton";
+            this.BootCharButton.Size = new System.Drawing.Size(24, 24);
+            this.BootCharButton.TabIndex = 120;
+            this.BootCharButton.UseVisualStyleBackColor = true;
             // 
-            // label112
+            // BootNameTextBox
             // 
-            this.label112.AutoSize = true;
-            this.label112.Location = new System.Drawing.Point(105, 117);
-            this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(72, 13);
-            this.label112.TabIndex = 123;
-            this.label112.Text = "Boot Material:";
-            // 
-            // bootColorTextBox
-            // 
-            this.bootColorTextBox.Location = new System.Drawing.Point(108, 90);
-            this.bootColorTextBox.MaxLength = 98;
-            this.bootColorTextBox.Name = "bootColorTextBox";
-            this.bootColorTextBox.Size = new System.Drawing.Size(215, 20);
-            this.bootColorTextBox.TabIndex = 122;
-            // 
-            // label111
-            // 
-            this.label111.AutoSize = true;
-            this.label111.Location = new System.Drawing.Point(105, 70);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(59, 13);
-            this.label111.TabIndex = 121;
-            this.label111.Text = "Boot Color:";
-            // 
-            // bootCharButton
-            // 
-            this.bootCharButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bootCharButton.FlatAppearance.BorderSize = 0;
-            this.bootCharButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.bootCharButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.bootCharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bootCharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.bootCharButton.Image = ((System.Drawing.Image)(resources.GetObject("bootCharButton.Image")));
-            this.bootCharButton.Location = new System.Drawing.Point(329, 39);
-            this.bootCharButton.Margin = new System.Windows.Forms.Padding(0);
-            this.bootCharButton.Name = "bootCharButton";
-            this.bootCharButton.Size = new System.Drawing.Size(24, 24);
-            this.bootCharButton.TabIndex = 120;
-            this.bootCharButton.UseVisualStyleBackColor = true;
-            // 
-            // bootNameTextBox
-            // 
-            this.bootNameTextBox.Location = new System.Drawing.Point(108, 43);
-            this.bootNameTextBox.MaxLength = 98;
-            this.bootNameTextBox.Name = "bootNameTextBox";
-            this.bootNameTextBox.Size = new System.Drawing.Size(215, 20);
-            this.bootNameTextBox.TabIndex = 14;
+            this.BootNameTextBox.Location = new System.Drawing.Point(108, 43);
+            this.BootNameTextBox.MaxLength = 98;
+            this.BootNameTextBox.Name = "BootNameTextBox";
+            this.BootNameTextBox.Size = new System.Drawing.Size(215, 20);
+            this.BootNameTextBox.TabIndex = 14;
             // 
             // label100
             // 
@@ -6136,13 +6024,13 @@
             this.label100.TabIndex = 12;
             this.label100.Text = "Boot Name:";
             // 
-            // bootOrderTextBox
+            // BootOrderTextBox
             // 
-            this.bootOrderTextBox.Location = new System.Drawing.Point(13, 90);
-            this.bootOrderTextBox.MaxLength = 3;
-            this.bootOrderTextBox.Name = "bootOrderTextBox";
-            this.bootOrderTextBox.Size = new System.Drawing.Size(63, 20);
-            this.bootOrderTextBox.TabIndex = 11;
+            this.BootOrderTextBox.Location = new System.Drawing.Point(13, 90);
+            this.BootOrderTextBox.MaxLength = 3;
+            this.BootOrderTextBox.Name = "BootOrderTextBox";
+            this.BootOrderTextBox.Size = new System.Drawing.Size(63, 20);
+            this.BootOrderTextBox.TabIndex = 11;
             // 
             // label105
             // 
@@ -6153,13 +6041,13 @@
             this.label105.TabIndex = 10;
             this.label105.Text = "Order:";
             // 
-            // bootIdTextBox
+            // BootIDTextBox
             // 
-            this.bootIdTextBox.Location = new System.Drawing.Point(13, 43);
-            this.bootIdTextBox.MaxLength = 5;
-            this.bootIdTextBox.Name = "bootIdTextBox";
-            this.bootIdTextBox.Size = new System.Drawing.Size(63, 20);
-            this.bootIdTextBox.TabIndex = 9;
+            this.BootIDTextBox.Location = new System.Drawing.Point(13, 43);
+            this.BootIDTextBox.MaxLength = 5;
+            this.BootIDTextBox.Name = "BootIDTextBox";
+            this.BootIDTextBox.Size = new System.Drawing.Size(63, 20);
+            this.BootIDTextBox.TabIndex = 9;
             // 
             // label110
             // 
@@ -6170,24 +6058,24 @@
             this.label110.TabIndex = 8;
             this.label110.Text = "Boot ID:";
             // 
-            // bootListBox
+            // BootListBox
             // 
-            this.bootListBox.Enabled = false;
-            this.bootListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
-            this.bootListBox.FormattingEnabled = true;
-            this.bootListBox.Location = new System.Drawing.Point(3, 6);
-            this.bootListBox.Name = "bootListBox";
-            this.bootListBox.Size = new System.Drawing.Size(233, 589);
-            this.bootListBox.TabIndex = 130;
-            this.bootListBox.SelectedIndexChanged += new System.EventHandler(this.bootListBox_SelectedIndexChanged);
+            this.BootListBox.Enabled = false;
+            this.BootListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
+            this.BootListBox.FormattingEnabled = true;
+            this.BootListBox.Location = new System.Drawing.Point(3, 6);
+            this.BootListBox.Name = "BootListBox";
+            this.BootListBox.Size = new System.Drawing.Size(233, 589);
+            this.BootListBox.TabIndex = 130;
+            this.BootListBox.SelectedIndexChanged += new System.EventHandler(this.BootListBox_SelectedIndexChanged);
             // 
             // Gloves
             // 
-            this.Gloves.Controls.Add(this.glovePictureBox1);
-            this.Gloves.Controls.Add(this.gloveSearchTextBox);
-            this.Gloves.Controls.Add(this.gloveApplyButton);
-            this.Gloves.Controls.Add(this.gloveGroupBox1);
-            this.Gloves.Controls.Add(this.gloveListBox);
+            this.Gloves.Controls.Add(this.GlovePictureBox1);
+            this.Gloves.Controls.Add(this.GloveSearchTextBox);
+            this.Gloves.Controls.Add(this.GloveApplyButton);
+            this.Gloves.Controls.Add(this.GloveGroupBox1);
+            this.Gloves.Controls.Add(this.GloveListBox);
             this.Gloves.Location = new System.Drawing.Point(4, 22);
             this.Gloves.Name = "Gloves";
             this.Gloves.Size = new System.Drawing.Size(907, 632);
@@ -6195,107 +6083,88 @@
             this.Gloves.Text = "Gloves";
             this.Gloves.UseVisualStyleBackColor = true;
             // 
-            // glovePictureBox1
+            // GlovePictureBox1
             // 
-            this.glovePictureBox1.BackColor = System.Drawing.Color.LightGray;
-            this.glovePictureBox1.Enabled = false;
-            this.glovePictureBox1.Location = new System.Drawing.Point(636, 6);
-            this.glovePictureBox1.Name = "glovePictureBox1";
-            this.glovePictureBox1.Size = new System.Drawing.Size(256, 256);
-            this.glovePictureBox1.TabIndex = 136;
-            this.glovePictureBox1.TabStop = false;
+            this.GlovePictureBox1.BackColor = System.Drawing.Color.LightGray;
+            this.GlovePictureBox1.Enabled = false;
+            this.GlovePictureBox1.Location = new System.Drawing.Point(636, 6);
+            this.GlovePictureBox1.Name = "GlovePictureBox1";
+            this.GlovePictureBox1.Size = new System.Drawing.Size(256, 256);
+            this.GlovePictureBox1.TabIndex = 136;
+            this.GlovePictureBox1.TabStop = false;
             // 
-            // gloveSearchTextBox
+            // GloveSearchTextBox
             // 
-            this.gloveSearchTextBox.Location = new System.Drawing.Point(3, 608);
-            this.gloveSearchTextBox.MaxLength = 20;
-            this.gloveSearchTextBox.Name = "gloveSearchTextBox";
-            this.gloveSearchTextBox.Size = new System.Drawing.Size(233, 20);
-            this.gloveSearchTextBox.TabIndex = 135;
-            this.gloveSearchTextBox.Text = "search glove...";
-            this.gloveSearchTextBox.Click += new System.EventHandler(this.gloveSearchTextBox_Click);
-            this.gloveSearchTextBox.TextChanged += new System.EventHandler(this.gloveSearchTextBox_TextChanged);
+            this.GloveSearchTextBox.Location = new System.Drawing.Point(3, 608);
+            this.GloveSearchTextBox.MaxLength = 20;
+            this.GloveSearchTextBox.Name = "GloveSearchTextBox";
+            this.GloveSearchTextBox.Size = new System.Drawing.Size(233, 20);
+            this.GloveSearchTextBox.TabIndex = 135;
+            this.GloveSearchTextBox.Text = "search glove...";
+            this.GloveSearchTextBox.Click += new System.EventHandler(this.GloveSearchTextBox_Click);
+            this.GloveSearchTextBox.TextChanged += new System.EventHandler(this.GloveSearchTextBox_TextChanged);
             // 
-            // gloveApplyButton
+            // GloveApplyButton
             // 
-            this.gloveApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.gloveApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.gloveApplyButton.Enabled = false;
-            this.gloveApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.gloveApplyButton.FlatAppearance.BorderSize = 0;
-            this.gloveApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.gloveApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
-            this.gloveApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.gloveApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.gloveApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.gloveApplyButton.Location = new System.Drawing.Point(809, 593);
-            this.gloveApplyButton.Margin = new System.Windows.Forms.Padding(0);
-            this.gloveApplyButton.Name = "gloveApplyButton";
-            this.gloveApplyButton.Size = new System.Drawing.Size(86, 29);
-            this.gloveApplyButton.TabIndex = 132;
-            this.gloveApplyButton.Text = "Apply";
-            this.gloveApplyButton.UseVisualStyleBackColor = false;
-            this.gloveApplyButton.Click += new System.EventHandler(this.gloveApplyButton_Click);
+            this.GloveApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.GloveApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GloveApplyButton.Enabled = false;
+            this.GloveApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.GloveApplyButton.FlatAppearance.BorderSize = 0;
+            this.GloveApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.GloveApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.GloveApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.GloveApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.GloveApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.GloveApplyButton.Location = new System.Drawing.Point(809, 593);
+            this.GloveApplyButton.Margin = new System.Windows.Forms.Padding(0);
+            this.GloveApplyButton.Name = "GloveApplyButton";
+            this.GloveApplyButton.Size = new System.Drawing.Size(86, 29);
+            this.GloveApplyButton.TabIndex = 132;
+            this.GloveApplyButton.Text = "Apply";
+            this.GloveApplyButton.UseVisualStyleBackColor = false;
+            this.GloveApplyButton.Click += new System.EventHandler(this.GloveApplyButton_Click);
             // 
-            // gloveGroupBox1
+            // GloveGroupBox1
             // 
-            this.gloveGroupBox1.Controls.Add(this.gloveColorTextBox);
-            this.gloveGroupBox1.Controls.Add(this.label99);
-            this.gloveGroupBox1.Controls.Add(this.gloveCharButton);
-            this.gloveGroupBox1.Controls.Add(this.gloveName);
-            this.gloveGroupBox1.Controls.Add(this.label43);
-            this.gloveGroupBox1.Controls.Add(this.gloveOrderTextBox);
-            this.gloveGroupBox1.Controls.Add(this.label51);
-            this.gloveGroupBox1.Controls.Add(this.gloveIdTextBox);
-            this.gloveGroupBox1.Controls.Add(this.label98);
-            this.gloveGroupBox1.Enabled = false;
-            this.gloveGroupBox1.Location = new System.Drawing.Point(242, 6);
-            this.gloveGroupBox1.Name = "gloveGroupBox1";
-            this.gloveGroupBox1.Size = new System.Drawing.Size(380, 133);
-            this.gloveGroupBox1.TabIndex = 131;
-            this.gloveGroupBox1.TabStop = false;
-            this.gloveGroupBox1.Text = "Glove Info";
+            this.GloveGroupBox1.Controls.Add(this.GloveCharButton);
+            this.GloveGroupBox1.Controls.Add(this.GloveName);
+            this.GloveGroupBox1.Controls.Add(this.label43);
+            this.GloveGroupBox1.Controls.Add(this.GloveOrderTextBox);
+            this.GloveGroupBox1.Controls.Add(this.label51);
+            this.GloveGroupBox1.Controls.Add(this.GloveIdTextBox);
+            this.GloveGroupBox1.Controls.Add(this.label98);
+            this.GloveGroupBox1.Enabled = false;
+            this.GloveGroupBox1.Location = new System.Drawing.Point(242, 6);
+            this.GloveGroupBox1.Name = "GloveGroupBox1";
+            this.GloveGroupBox1.Size = new System.Drawing.Size(380, 133);
+            this.GloveGroupBox1.TabIndex = 131;
+            this.GloveGroupBox1.TabStop = false;
+            this.GloveGroupBox1.Text = "Glove Info";
             // 
-            // gloveColorTextBox
+            // GloveCharButton
             // 
-            this.gloveColorTextBox.Location = new System.Drawing.Point(108, 90);
-            this.gloveColorTextBox.MaxLength = 98;
-            this.gloveColorTextBox.Name = "gloveColorTextBox";
-            this.gloveColorTextBox.Size = new System.Drawing.Size(215, 20);
-            this.gloveColorTextBox.TabIndex = 122;
+            this.GloveCharButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GloveCharButton.FlatAppearance.BorderSize = 0;
+            this.GloveCharButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.GloveCharButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.GloveCharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.GloveCharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.GloveCharButton.Image = ((System.Drawing.Image)(resources.GetObject("GloveCharButton.Image")));
+            this.GloveCharButton.Location = new System.Drawing.Point(329, 39);
+            this.GloveCharButton.Margin = new System.Windows.Forms.Padding(0);
+            this.GloveCharButton.Name = "GloveCharButton";
+            this.GloveCharButton.Size = new System.Drawing.Size(24, 24);
+            this.GloveCharButton.TabIndex = 120;
+            this.GloveCharButton.UseVisualStyleBackColor = true;
             // 
-            // label99
+            // GloveName
             // 
-            this.label99.AutoSize = true;
-            this.label99.Location = new System.Drawing.Point(105, 70);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(34, 13);
-            this.label99.TabIndex = 121;
-            this.label99.Text = "Color:";
-            // 
-            // gloveCharButton
-            // 
-            this.gloveCharButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.gloveCharButton.FlatAppearance.BorderSize = 0;
-            this.gloveCharButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.gloveCharButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.gloveCharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.gloveCharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.gloveCharButton.Image = ((System.Drawing.Image)(resources.GetObject("gloveCharButton.Image")));
-            this.gloveCharButton.Location = new System.Drawing.Point(329, 39);
-            this.gloveCharButton.Margin = new System.Windows.Forms.Padding(0);
-            this.gloveCharButton.Name = "gloveCharButton";
-            this.gloveCharButton.Size = new System.Drawing.Size(24, 24);
-            this.gloveCharButton.TabIndex = 120;
-            this.gloveCharButton.UseVisualStyleBackColor = true;
-            // 
-            // gloveName
-            // 
-            this.gloveName.Location = new System.Drawing.Point(108, 43);
-            this.gloveName.MaxLength = 98;
-            this.gloveName.Name = "gloveName";
-            this.gloveName.Size = new System.Drawing.Size(215, 20);
-            this.gloveName.TabIndex = 14;
+            this.GloveName.Location = new System.Drawing.Point(108, 43);
+            this.GloveName.MaxLength = 98;
+            this.GloveName.Name = "GloveName";
+            this.GloveName.Size = new System.Drawing.Size(215, 20);
+            this.GloveName.TabIndex = 14;
             // 
             // label43
             // 
@@ -6306,13 +6175,13 @@
             this.label43.TabIndex = 12;
             this.label43.Text = "Glove Name:";
             // 
-            // gloveOrderTextBox
+            // GloveOrderTextBox
             // 
-            this.gloveOrderTextBox.Location = new System.Drawing.Point(13, 90);
-            this.gloveOrderTextBox.MaxLength = 3;
-            this.gloveOrderTextBox.Name = "gloveOrderTextBox";
-            this.gloveOrderTextBox.Size = new System.Drawing.Size(63, 20);
-            this.gloveOrderTextBox.TabIndex = 11;
+            this.GloveOrderTextBox.Location = new System.Drawing.Point(13, 90);
+            this.GloveOrderTextBox.MaxLength = 3;
+            this.GloveOrderTextBox.Name = "GloveOrderTextBox";
+            this.GloveOrderTextBox.Size = new System.Drawing.Size(63, 20);
+            this.GloveOrderTextBox.TabIndex = 11;
             // 
             // label51
             // 
@@ -6323,13 +6192,13 @@
             this.label51.TabIndex = 10;
             this.label51.Text = "Order:";
             // 
-            // gloveIdTextBox
+            // GloveIdTextBox
             // 
-            this.gloveIdTextBox.Location = new System.Drawing.Point(13, 43);
-            this.gloveIdTextBox.MaxLength = 5;
-            this.gloveIdTextBox.Name = "gloveIdTextBox";
-            this.gloveIdTextBox.Size = new System.Drawing.Size(63, 20);
-            this.gloveIdTextBox.TabIndex = 9;
+            this.GloveIdTextBox.Location = new System.Drawing.Point(13, 43);
+            this.GloveIdTextBox.MaxLength = 5;
+            this.GloveIdTextBox.Name = "GloveIdTextBox";
+            this.GloveIdTextBox.Size = new System.Drawing.Size(63, 20);
+            this.GloveIdTextBox.TabIndex = 9;
             // 
             // label98
             // 
@@ -6340,16 +6209,16 @@
             this.label98.TabIndex = 8;
             this.label98.Text = "Glove ID:";
             // 
-            // gloveListBox
+            // GloveListBox
             // 
-            this.gloveListBox.Enabled = false;
-            this.gloveListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
-            this.gloveListBox.FormattingEnabled = true;
-            this.gloveListBox.Location = new System.Drawing.Point(3, 6);
-            this.gloveListBox.Name = "gloveListBox";
-            this.gloveListBox.Size = new System.Drawing.Size(233, 589);
-            this.gloveListBox.TabIndex = 130;
-            this.gloveListBox.SelectedIndexChanged += new System.EventHandler(this.gloveListBox_SelectedIndexChanged);
+            this.GloveListBox.Enabled = false;
+            this.GloveListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
+            this.GloveListBox.FormattingEnabled = true;
+            this.GloveListBox.Location = new System.Drawing.Point(3, 6);
+            this.GloveListBox.Name = "GloveListBox";
+            this.GloveListBox.Size = new System.Drawing.Size(233, 589);
+            this.GloveListBox.TabIndex = 130;
+            this.GloveListBox.SelectedIndexChanged += new System.EventHandler(this.GloveListBox_SelectedIndexChanged);
             // 
             // Global
             // 
@@ -6382,7 +6251,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
@@ -6641,7 +6510,7 @@
             // 
             // globFunctionPlayer
             // 
-            this.globFunctionPlayer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.globFunctionPlayer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.globFunctionPlayer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.globFunctionPlayer.FlatAppearance.BorderSize = 0;
             this.globFunctionPlayer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
@@ -6703,7 +6572,7 @@
             // 
             // globFunctionTeam
             // 
-            this.globFunctionTeam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.globFunctionTeam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.globFunctionTeam.Cursor = System.Windows.Forms.Cursors.Hand;
             this.globFunctionTeam.FlatAppearance.BorderSize = 0;
             this.globFunctionTeam.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
@@ -6729,9 +6598,7 @@
             this.FmStats.Controls.Add(this.groupBox7);
             this.FmStats.Controls.Add(this.technical);
             this.FmStats.Controls.Add(this.technicalGk);
-            this.FmStats.Controls.Add(this.searchTeamFm);
             this.FmStats.Controls.Add(this.fmSearchTeam);
-            this.FmStats.Controls.Add(this.searchPlayerFm);
             this.FmStats.Controls.Add(this.fmSearchPlayer);
             this.FmStats.Controls.Add(this.count);
             this.FmStats.Controls.Add(this.label120);
@@ -7040,7 +6907,7 @@
             // 
             // applyFm
             // 
-            this.applyFm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.applyFm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.applyFm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyFm.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyFm.FlatAppearance.BorderSize = 0;
@@ -8404,56 +8271,22 @@
             this.label172.TabIndex = 60;
             this.label172.Text = "Command of Area:";
             // 
-            // searchTeamFm
-            // 
-            this.searchTeamFm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.searchTeamFm.FlatAppearance.BorderSize = 0;
-            this.searchTeamFm.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.searchTeamFm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.searchTeamFm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchTeamFm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.searchTeamFm.Image = ((System.Drawing.Image)(resources.GetObject("searchTeamFm.Image")));
-            this.searchTeamFm.Location = new System.Drawing.Point(219, 561);
-            this.searchTeamFm.Margin = new System.Windows.Forms.Padding(0);
-            this.searchTeamFm.Name = "searchTeamFm";
-            this.searchTeamFm.Size = new System.Drawing.Size(20, 20);
-            this.searchTeamFm.TabIndex = 156;
-            this.searchTeamFm.UseVisualStyleBackColor = true;
-            this.searchTeamFm.Visible = false;
-            // 
             // fmSearchTeam
             // 
             this.fmSearchTeam.Location = new System.Drawing.Point(6, 561);
             this.fmSearchTeam.MaxLength = 46;
             this.fmSearchTeam.Name = "fmSearchTeam";
-            this.fmSearchTeam.Size = new System.Drawing.Size(210, 20);
+            this.fmSearchTeam.Size = new System.Drawing.Size(233, 20);
             this.fmSearchTeam.TabIndex = 155;
             this.fmSearchTeam.Text = "search team...";
             this.fmSearchTeam.Visible = false;
-            // 
-            // searchPlayerFm
-            // 
-            this.searchPlayerFm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.searchPlayerFm.FlatAppearance.BorderSize = 0;
-            this.searchPlayerFm.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.searchPlayerFm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.searchPlayerFm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchPlayerFm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.searchPlayerFm.Image = ((System.Drawing.Image)(resources.GetObject("searchPlayerFm.Image")));
-            this.searchPlayerFm.Location = new System.Drawing.Point(219, 587);
-            this.searchPlayerFm.Margin = new System.Windows.Forms.Padding(0);
-            this.searchPlayerFm.Name = "searchPlayerFm";
-            this.searchPlayerFm.Size = new System.Drawing.Size(20, 20);
-            this.searchPlayerFm.TabIndex = 154;
-            this.searchPlayerFm.UseVisualStyleBackColor = true;
-            this.searchPlayerFm.Visible = false;
             // 
             // fmSearchPlayer
             // 
             this.fmSearchPlayer.Location = new System.Drawing.Point(6, 588);
             this.fmSearchPlayer.MaxLength = 46;
             this.fmSearchPlayer.Name = "fmSearchPlayer";
-            this.fmSearchPlayer.Size = new System.Drawing.Size(210, 20);
+            this.fmSearchPlayer.Size = new System.Drawing.Size(233, 20);
             this.fmSearchPlayer.TabIndex = 153;
             this.fmSearchPlayer.Text = "search player...";
             this.fmSearchPlayer.Visible = false;
@@ -8937,6 +8770,7 @@
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EvoTool 2022";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Home_FormClosing);
             this.Load += new System.EventHandler(this.Home_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -9026,21 +8860,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.stadiumOrderDataGridView)).EndInit();
             this.Balls.ResumeLayout(false);
             this.Balls.PerformLayout();
-            this.ballCondGroupBox1.ResumeLayout(false);
-            this.ballCondGroupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ballPictureBox1)).EndInit();
-            this.ballGroupBox1.ResumeLayout(false);
-            this.ballGroupBox1.PerformLayout();
+            this.BallCondGroupBox1.ResumeLayout(false);
+            this.BallCondGroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BallPictureBox1)).EndInit();
+            this.BallGroupBox1.ResumeLayout(false);
+            this.BallGroupBox1.PerformLayout();
             this.Boots.ResumeLayout(false);
             this.Boots.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bootPictureBox1)).EndInit();
-            this.bootGroupBox1.ResumeLayout(false);
-            this.bootGroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BootPictureBox1)).EndInit();
+            this.BootGroupBox1.ResumeLayout(false);
+            this.BootGroupBox1.PerformLayout();
             this.Gloves.ResumeLayout(false);
             this.Gloves.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.glovePictureBox1)).EndInit();
-            this.gloveGroupBox1.ResumeLayout(false);
-            this.gloveGroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GlovePictureBox1)).EndInit();
+            this.GloveGroupBox1.ResumeLayout(false);
+            this.GloveGroupBox1.PerformLayout();
             this.Global.ResumeLayout(false);
             this.globGroupBox4.ResumeLayout(false);
             this.globGroupBox4.PerformLayout();
@@ -9085,9 +8919,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
         private System.Windows.Forms.ToolStripMenuItem Save;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
-        private System.Windows.Forms.ToolStripMenuItem changeDLC;
-        private System.Windows.Forms.ToolStripMenuItem changeEXE;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
         private System.Windows.Forms.ToolStripMenuItem Close;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem export;
@@ -9253,7 +9084,7 @@
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Button teamCharButton;
         private System.Windows.Forms.ComboBox teamFake;
-        private System.Windows.Forms.Button ballCharButton;
+        private System.Windows.Forms.Button BallCharButton;
         private System.Windows.Forms.TextBox BallNameTextBox;
         private System.Windows.Forms.Label label86;
         private System.Windows.Forms.TextBox BallIDTextBox;
@@ -9282,9 +9113,7 @@
         private System.Windows.Forms.TextBox stadiumJapTextBox;
         private System.Windows.Forms.Label label97;
         private System.Windows.Forms.TextBox stadiumNaTextBox;
-        private System.Windows.Forms.Button searchP;
         private System.Windows.Forms.ToolStripMenuItem loadFootballManager;
-        private System.Windows.Forms.Button searchT;
         private System.Windows.Forms.TextBox searchTeamAB;
         private System.Windows.Forms.CheckBox unknown;
         private System.Windows.Forms.TabPage FmStats;
@@ -9294,27 +9123,21 @@
         private System.Windows.Forms.Label label107;
         private System.Windows.Forms.Label label108;
         private System.Windows.Forms.Label label109;
-        private System.Windows.Forms.Button gloveCharButton;
-        private System.Windows.Forms.TextBox gloveName;
+        private System.Windows.Forms.Button GloveCharButton;
+        private System.Windows.Forms.TextBox GloveName;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.TextBox gloveOrderTextBox;
+        private System.Windows.Forms.TextBox GloveOrderTextBox;
         private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.TextBox gloveIdTextBox;
+        private System.Windows.Forms.TextBox GloveIdTextBox;
         private System.Windows.Forms.Label label98;
-        private System.Windows.Forms.TextBox gloveColorTextBox;
-        private System.Windows.Forms.Label label99;
         private System.Windows.Forms.TabPage Boots;
-        private System.Windows.Forms.Button bootCharButton;
-        private System.Windows.Forms.TextBox bootNameTextBox;
+        private System.Windows.Forms.Button BootCharButton;
+        private System.Windows.Forms.TextBox BootNameTextBox;
         private System.Windows.Forms.Label label100;
-        private System.Windows.Forms.TextBox bootOrderTextBox;
+        private System.Windows.Forms.TextBox BootOrderTextBox;
         private System.Windows.Forms.Label label105;
-        private System.Windows.Forms.TextBox bootIdTextBox;
+        private System.Windows.Forms.TextBox BootIDTextBox;
         private System.Windows.Forms.Label label110;
-        private System.Windows.Forms.TextBox bootMaterialTextBox;
-        private System.Windows.Forms.Label label112;
-        private System.Windows.Forms.TextBox bootColorTextBox;
-        private System.Windows.Forms.Label label111;
         private System.Windows.Forms.Label label113;
         private System.Windows.Forms.Button coachCharButton;
         private System.Windows.Forms.TextBox coachNameTextBox;
@@ -9379,9 +9202,7 @@
         private System.Windows.Forms.Button applyCompetitionRegulation;
         internal System.Windows.Forms.ListBox ListBox_comp_reg;
         private System.Windows.Forms.Label label119;
-        private System.Windows.Forms.Button searchTeamFm;
         private System.Windows.Forms.TextBox fmSearchTeam;
-        private System.Windows.Forms.Button searchPlayerFm;
         private System.Windows.Forms.TextBox fmSearchPlayer;
         private System.Windows.Forms.Label count;
         private System.Windows.Forms.Label label120;
@@ -9601,14 +9422,13 @@
         private System.Windows.Forms.RadioButton lmf;
         private System.Windows.Forms.RadioButton rb;
         private System.Windows.Forms.RadioButton gk;
-        private System.Windows.Forms.ToolStripMenuItem generateCpk;
         private System.Windows.Forms.ToolStripMenuItem removeFakeTeamShort;
         private System.Windows.Forms.ToolStripMenuItem removeFakeShortTeam;
         private System.Windows.Forms.TextBox playerRank;
         internal System.Windows.Forms.TabControl tabControl1;
         internal System.Windows.Forms.ListBox BallListBox;
-        internal System.Windows.Forms.ListBox gloveListBox;
-        internal System.Windows.Forms.ListBox bootListBox;
+        internal System.Windows.Forms.ListBox GloveListBox;
+        internal System.Windows.Forms.ListBox BootListBox;
         internal System.Windows.Forms.ListBox stadiumListBox;
         internal System.Windows.Forms.ComboBox stadiumCountryComboBox;
         internal System.Windows.Forms.DataGridView derbyDataGridView;
@@ -9696,9 +9516,9 @@
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label45;
         internal System.Windows.Forms.ToolStripMenuItem addNewGloveStrip;
-        internal System.Windows.Forms.GroupBox gloveGroupBox1;
-        internal System.Windows.Forms.Button gloveApplyButton;
-        internal System.Windows.Forms.TextBox gloveSearchTextBox;
+        internal System.Windows.Forms.GroupBox GloveGroupBox1;
+        internal System.Windows.Forms.Button GloveApplyButton;
+        internal System.Windows.Forms.TextBox GloveSearchTextBox;
         internal System.Windows.Forms.Label label38;
         internal System.Windows.Forms.Label loftedPass;
         internal System.Windows.Forms.Label lowPass;
@@ -9735,15 +9555,15 @@
         internal System.Windows.Forms.Label giocatoreForm;
         internal System.Windows.Forms.TextBox giocatoreName;
         internal System.Windows.Forms.TextBox giocatoreShirt;
-        internal System.Windows.Forms.GroupBox bootGroupBox1;
-        internal System.Windows.Forms.Button bootApplyButton;
-        internal System.Windows.Forms.TextBox bootSearchTextBox;
+        internal System.Windows.Forms.GroupBox BootGroupBox1;
+        internal System.Windows.Forms.Button BootApplyButton;
+        internal System.Windows.Forms.TextBox BootSearchTextBox;
         internal System.Windows.Forms.ToolStripMenuItem addNewBootStrip;
-        internal System.Windows.Forms.ComboBox ballCondCompComboBox;
+        internal System.Windows.Forms.ComboBox BallCondCompComboBox;
         private System.Windows.Forms.Label label37;
-        internal System.Windows.Forms.ListBox ballCondListBox;
-        internal System.Windows.Forms.GroupBox ballCondGroupBox1;
-        internal System.Windows.Forms.GroupBox ballGroupBox1;
+        internal System.Windows.Forms.ListBox BallCondListBox;
+        internal System.Windows.Forms.GroupBox BallCondGroupBox1;
+        internal System.Windows.Forms.GroupBox BallGroupBox1;
         internal System.Windows.Forms.TextBox BallSearchTextBox;
         internal System.Windows.Forms.Button BallApplyButton;
         internal System.Windows.Forms.ToolStripMenuItem addNewBallStrip;
@@ -9774,8 +9594,8 @@
         internal System.Windows.Forms.Button coachApplyButton;
         internal System.Windows.Forms.TextBox coachSearchTextBox;
         internal System.Windows.Forms.ToolStripMenuItem addNewCoachStrip;
-        internal System.Windows.Forms.PictureBox glovePictureBox1;
-        internal System.Windows.Forms.PictureBox bootPictureBox1;
+        internal System.Windows.Forms.PictureBox GlovePictureBox1;
+        internal System.Windows.Forms.PictureBox BootPictureBox1;
         private System.Windows.Forms.Label coachTeamLabel;
         private System.Windows.Forms.Label coachTeam;
         private System.Windows.Forms.Button button2;
@@ -9783,7 +9603,7 @@
         private System.Windows.Forms.CheckBox coachClubCheckBox;
         internal System.Windows.Forms.PictureBox coachPictureBox1;
         internal System.Windows.Forms.PictureBox stadiumPictureBox1;
-        internal System.Windows.Forms.PictureBox ballPictureBox1;
+        internal System.Windows.Forms.PictureBox BallPictureBox1;
         private System.Windows.Forms.CheckBox coachUnLicCheckBox;
         private System.Windows.Forms.CheckBox coachNationalCheckBox;
         private System.Windows.Forms.GroupBox groupBox4;
@@ -9855,6 +9675,7 @@
         private System.Windows.Forms.ToolStripMenuItem importPlayerAppearanceFromDino19ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem importPlayerAppearanceFromDino19ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem importPlayerAppearanceFromDino19ToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
     }
 }
 

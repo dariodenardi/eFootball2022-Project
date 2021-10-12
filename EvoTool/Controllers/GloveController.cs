@@ -27,27 +27,20 @@ namespace EvoTool.Controllers
         public BinaryWriter WriteGlove { get; set; }
         public DataTable GloveTable { get; set; }
 
-        private MemoryStream UnzlibFile(string patch, int bitRecognized)
+        private MemoryStream UnzlibFile(string patch)
         {
             MemoryStream memoryGlove = null;
 
-            if (bitRecognized == 0)
-            {
-                byte[] file = File.ReadAllBytes(patch + FILE_NAME);
-                byte[] ss1 = Unzlib.UnZlibFilePC(file);
-                memoryGlove = new MemoryStream(ss1);
-            }
-            //else if (bitRecognized == 1 || bitRecognized == 2)
-            //{
-            //    // console file
-            //}
+            byte[] file = File.ReadAllBytes(patch + FILE_NAME);
+            byte[] ss1 = Unzlib.UnZlibFilePC(file);
+            memoryGlove = new MemoryStream(ss1);
 
             return memoryGlove;
         }
 
-        public int Load(string patch, int bitRecognized)
+        public int Load(string patch)
         {
-            MemoryGlove = UnzlibFile(patch, bitRecognized);
+            MemoryGlove = UnzlibFile(patch);
 
             int gloveNumber = (int)MemoryGlove.Length / BLOCK;
 
@@ -154,23 +147,12 @@ namespace EvoTool.Controllers
             return 0;
         }
 
-        public int Save(string patch, int bitRecognized)
+        public int Save(string patch)
         {
             try
             {
-                if (bitRecognized == 0)
-                {
-                    byte[] ss13 = Zlib.ZlibFilePC(MemoryGlove.ToArray());
-                    File.WriteAllBytes(patch + FILE_NAME, ss13);
-                }
-                //else if (bitRecognized == 1)
-                //{
-                //    // xbox?
-                //}
-                //else if (bitRecognized == 2)
-                //{
-                //    // ps3?
-                //}
+                byte[] ss13 = Zlib.ZlibFilePC(MemoryGlove.ToArray());
+                File.WriteAllBytes(patch + FILE_NAME, ss13);
             }
             catch (Exception)
             {
