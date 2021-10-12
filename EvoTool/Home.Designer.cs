@@ -37,7 +37,7 @@
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.Save = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.Close = new System.Windows.Forms.ToolStripMenuItem();
+            this.Exit = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.export = new System.Windows.Forms.ToolStripMenuItem();
             this.playerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -304,8 +304,8 @@
             this.unknown = new System.Windows.Forms.CheckBox();
             this.Coach = new System.Windows.Forms.TabPage();
             this.coachPictureBox1 = new System.Windows.Forms.PictureBox();
-            this.coachSearchTextBox = new System.Windows.Forms.TextBox();
-            this.coachApplyButton = new System.Windows.Forms.Button();
+            this.CoachSearchTextBox = new System.Windows.Forms.TextBox();
+            this.CoachApplyButton = new System.Windows.Forms.Button();
             this.coachGroupBox1 = new System.Windows.Forms.GroupBox();
             this.coachNationalCheckBox = new System.Windows.Forms.CheckBox();
             this.coachUnLicCheckBox = new System.Windows.Forms.CheckBox();
@@ -314,16 +314,16 @@
             this.coachClubCheckBox = new System.Windows.Forms.CheckBox();
             this.coachTeam = new System.Windows.Forms.Label();
             this.coachLicCheckBox = new System.Windows.Forms.CheckBox();
-            this.coachJapTextBox = new System.Windows.Forms.TextBox();
+            this.CoachJapTextBox = new System.Windows.Forms.TextBox();
             this.label91 = new System.Windows.Forms.Label();
-            this.coachNationalityComboBox = new System.Windows.Forms.ComboBox();
+            this.CoachNationalityComboBox = new System.Windows.Forms.ComboBox();
             this.label113 = new System.Windows.Forms.Label();
             this.coachCharButton = new System.Windows.Forms.Button();
-            this.coachNameTextBox = new System.Windows.Forms.TextBox();
+            this.CoachNameTextBox = new System.Windows.Forms.TextBox();
             this.label114 = new System.Windows.Forms.Label();
-            this.coachIdTextBox = new System.Windows.Forms.TextBox();
+            this.CoachIdTextBox = new System.Windows.Forms.TextBox();
             this.label116 = new System.Windows.Forms.Label();
-            this.coachListBox = new System.Windows.Forms.ListBox();
+            this.CoachListBox = new System.Windows.Forms.ListBox();
             this.Competitions = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.competitionEntryBox = new System.Windows.Forms.ListBox();
@@ -908,7 +908,7 @@
             this.toolStripSeparator8,
             this.Save,
             this.toolStripSeparator10,
-            this.Close});
+            this.Exit});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
@@ -919,7 +919,7 @@
             this.Open.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Open.Name = "Open";
             this.Open.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.Open.Size = new System.Drawing.Size(167, 30);
+            this.Open.Size = new System.Drawing.Size(188, 30);
             this.Open.Text = "Open";
             this.Open.Click += new System.EventHandler(this.Open_Click);
             // 
@@ -930,13 +930,13 @@
             this.reload.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.reload.Name = "reload";
             this.reload.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.reload.Size = new System.Drawing.Size(167, 30);
+            this.reload.Size = new System.Drawing.Size(188, 30);
             this.reload.Text = "Reload";
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(164, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(185, 6);
             // 
             // Save
             // 
@@ -945,24 +945,24 @@
             this.Save.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Save.Name = "Save";
             this.Save.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.Save.Size = new System.Drawing.Size(167, 30);
+            this.Save.Size = new System.Drawing.Size(188, 30);
             this.Save.Text = "Save";
             this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(164, 6);
+            this.toolStripSeparator10.Size = new System.Drawing.Size(185, 6);
             // 
-            // Close
+            // Exit
             // 
-            this.Close.Image = ((System.Drawing.Image)(resources.GetObject("Close.Image")));
-            this.Close.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.Close.Name = "Close";
-            this.Close.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.Close.Size = new System.Drawing.Size(167, 30);
-            this.Close.Text = "Close";
-            this.Close.Click += new System.EventHandler(this.Close_Click);
+            this.Exit.Image = ((System.Drawing.Image)(resources.GetObject("Exit.Image")));
+            this.Exit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.Exit.Name = "Exit";
+            this.Exit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.Exit.Size = new System.Drawing.Size(188, 30);
+            this.Exit.Text = "Exit";
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // toolsToolStripMenuItem
             // 
@@ -3593,10 +3593,10 @@
             // Coach
             // 
             this.Coach.Controls.Add(this.coachPictureBox1);
-            this.Coach.Controls.Add(this.coachSearchTextBox);
-            this.Coach.Controls.Add(this.coachApplyButton);
+            this.Coach.Controls.Add(this.CoachSearchTextBox);
+            this.Coach.Controls.Add(this.CoachApplyButton);
             this.Coach.Controls.Add(this.coachGroupBox1);
-            this.Coach.Controls.Add(this.coachListBox);
+            this.Coach.Controls.Add(this.CoachListBox);
             this.Coach.Location = new System.Drawing.Point(4, 22);
             this.Coach.Name = "Coach";
             this.Coach.Size = new System.Drawing.Size(907, 632);
@@ -3614,35 +3614,35 @@
             this.coachPictureBox1.TabIndex = 135;
             this.coachPictureBox1.TabStop = false;
             // 
-            // coachSearchTextBox
+            // CoachSearchTextBox
             // 
-            this.coachSearchTextBox.Location = new System.Drawing.Point(3, 608);
-            this.coachSearchTextBox.MaxLength = 20;
-            this.coachSearchTextBox.Name = "coachSearchTextBox";
-            this.coachSearchTextBox.Size = new System.Drawing.Size(233, 20);
-            this.coachSearchTextBox.TabIndex = 134;
-            this.coachSearchTextBox.Text = "search coach...";
-            this.coachSearchTextBox.Click += new System.EventHandler(this.coachSearchTextBox_Click);
-            this.coachSearchTextBox.TextChanged += new System.EventHandler(this.coachSearchTextBox_TextChanged);
+            this.CoachSearchTextBox.Location = new System.Drawing.Point(3, 608);
+            this.CoachSearchTextBox.MaxLength = 20;
+            this.CoachSearchTextBox.Name = "CoachSearchTextBox";
+            this.CoachSearchTextBox.Size = new System.Drawing.Size(233, 20);
+            this.CoachSearchTextBox.TabIndex = 134;
+            this.CoachSearchTextBox.Text = "search coach...";
+            this.CoachSearchTextBox.Click += new System.EventHandler(this.CoachSearchTextBox_Click);
+            this.CoachSearchTextBox.TextChanged += new System.EventHandler(this.CoachSearchTextBox_TextChanged);
             // 
-            // coachApplyButton
+            // CoachApplyButton
             // 
-            this.coachApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
-            this.coachApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.coachApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.coachApplyButton.FlatAppearance.BorderSize = 0;
-            this.coachApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.coachApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
-            this.coachApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coachApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.coachApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.coachApplyButton.Location = new System.Drawing.Point(809, 593);
-            this.coachApplyButton.Margin = new System.Windows.Forms.Padding(0);
-            this.coachApplyButton.Name = "coachApplyButton";
-            this.coachApplyButton.Size = new System.Drawing.Size(86, 29);
-            this.coachApplyButton.TabIndex = 133;
-            this.coachApplyButton.Text = "Apply";
-            this.coachApplyButton.UseVisualStyleBackColor = false;
+            this.CoachApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.CoachApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CoachApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.CoachApplyButton.FlatAppearance.BorderSize = 0;
+            this.CoachApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.CoachApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.CoachApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CoachApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.CoachApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.CoachApplyButton.Location = new System.Drawing.Point(809, 593);
+            this.CoachApplyButton.Margin = new System.Windows.Forms.Padding(0);
+            this.CoachApplyButton.Name = "CoachApplyButton";
+            this.CoachApplyButton.Size = new System.Drawing.Size(86, 29);
+            this.CoachApplyButton.TabIndex = 133;
+            this.CoachApplyButton.Text = "Apply";
+            this.CoachApplyButton.UseVisualStyleBackColor = false;
             // 
             // coachGroupBox1
             // 
@@ -3653,14 +3653,14 @@
             this.coachGroupBox1.Controls.Add(this.coachClubCheckBox);
             this.coachGroupBox1.Controls.Add(this.coachTeam);
             this.coachGroupBox1.Controls.Add(this.coachLicCheckBox);
-            this.coachGroupBox1.Controls.Add(this.coachJapTextBox);
+            this.coachGroupBox1.Controls.Add(this.CoachJapTextBox);
             this.coachGroupBox1.Controls.Add(this.label91);
-            this.coachGroupBox1.Controls.Add(this.coachNationalityComboBox);
+            this.coachGroupBox1.Controls.Add(this.CoachNationalityComboBox);
             this.coachGroupBox1.Controls.Add(this.label113);
             this.coachGroupBox1.Controls.Add(this.coachCharButton);
-            this.coachGroupBox1.Controls.Add(this.coachNameTextBox);
+            this.coachGroupBox1.Controls.Add(this.CoachNameTextBox);
             this.coachGroupBox1.Controls.Add(this.label114);
-            this.coachGroupBox1.Controls.Add(this.coachIdTextBox);
+            this.coachGroupBox1.Controls.Add(this.CoachIdTextBox);
             this.coachGroupBox1.Controls.Add(this.label116);
             this.coachGroupBox1.Location = new System.Drawing.Point(242, 6);
             this.coachGroupBox1.Name = "coachGroupBox1";
@@ -3738,13 +3738,13 @@
             this.coachLicCheckBox.Text = "Licensed";
             this.coachLicCheckBox.UseVisualStyleBackColor = true;
             // 
-            // coachJapTextBox
+            // CoachJapTextBox
             // 
-            this.coachJapTextBox.Location = new System.Drawing.Point(108, 90);
-            this.coachJapTextBox.MaxLength = 40;
-            this.coachJapTextBox.Name = "coachJapTextBox";
-            this.coachJapTextBox.Size = new System.Drawing.Size(215, 20);
-            this.coachJapTextBox.TabIndex = 125;
+            this.CoachJapTextBox.Location = new System.Drawing.Point(108, 90);
+            this.CoachJapTextBox.MaxLength = 40;
+            this.CoachJapTextBox.Name = "CoachJapTextBox";
+            this.CoachJapTextBox.Size = new System.Drawing.Size(215, 20);
+            this.CoachJapTextBox.TabIndex = 125;
             // 
             // label91
             // 
@@ -3755,15 +3755,15 @@
             this.label91.TabIndex = 124;
             this.label91.Text = "Japanese Name:";
             // 
-            // coachNationalityComboBox
+            // CoachNationalityComboBox
             // 
-            this.coachNationalityComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.coachNationalityComboBox.FormattingEnabled = true;
-            this.coachNationalityComboBox.Location = new System.Drawing.Point(13, 139);
-            this.coachNationalityComboBox.Name = "coachNationalityComboBox";
-            this.coachNationalityComboBox.Size = new System.Drawing.Size(310, 21);
-            this.coachNationalityComboBox.TabIndex = 123;
-            this.coachNationalityComboBox.TabStop = false;
+            this.CoachNationalityComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CoachNationalityComboBox.FormattingEnabled = true;
+            this.CoachNationalityComboBox.Location = new System.Drawing.Point(13, 139);
+            this.CoachNationalityComboBox.Name = "CoachNationalityComboBox";
+            this.CoachNationalityComboBox.Size = new System.Drawing.Size(310, 21);
+            this.CoachNationalityComboBox.TabIndex = 123;
+            this.CoachNationalityComboBox.TabStop = false;
             // 
             // label113
             // 
@@ -3790,13 +3790,13 @@
             this.coachCharButton.TabIndex = 120;
             this.coachCharButton.UseVisualStyleBackColor = true;
             // 
-            // coachNameTextBox
+            // CoachNameTextBox
             // 
-            this.coachNameTextBox.Location = new System.Drawing.Point(108, 43);
-            this.coachNameTextBox.MaxLength = 40;
-            this.coachNameTextBox.Name = "coachNameTextBox";
-            this.coachNameTextBox.Size = new System.Drawing.Size(215, 20);
-            this.coachNameTextBox.TabIndex = 14;
+            this.CoachNameTextBox.Location = new System.Drawing.Point(108, 43);
+            this.CoachNameTextBox.MaxLength = 40;
+            this.CoachNameTextBox.Name = "CoachNameTextBox";
+            this.CoachNameTextBox.Size = new System.Drawing.Size(215, 20);
+            this.CoachNameTextBox.TabIndex = 14;
             // 
             // label114
             // 
@@ -3807,13 +3807,13 @@
             this.label114.TabIndex = 12;
             this.label114.Text = "Coach Name:";
             // 
-            // coachIdTextBox
+            // CoachIdTextBox
             // 
-            this.coachIdTextBox.Location = new System.Drawing.Point(13, 43);
-            this.coachIdTextBox.MaxLength = 6;
-            this.coachIdTextBox.Name = "coachIdTextBox";
-            this.coachIdTextBox.Size = new System.Drawing.Size(63, 20);
-            this.coachIdTextBox.TabIndex = 9;
+            this.CoachIdTextBox.Location = new System.Drawing.Point(13, 43);
+            this.CoachIdTextBox.MaxLength = 6;
+            this.CoachIdTextBox.Name = "CoachIdTextBox";
+            this.CoachIdTextBox.Size = new System.Drawing.Size(63, 20);
+            this.CoachIdTextBox.TabIndex = 9;
             // 
             // label116
             // 
@@ -3824,15 +3824,15 @@
             this.label116.TabIndex = 8;
             this.label116.Text = "Coach ID:";
             // 
-            // coachListBox
+            // CoachListBox
             // 
-            this.coachListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
-            this.coachListBox.FormattingEnabled = true;
-            this.coachListBox.Location = new System.Drawing.Point(3, 6);
-            this.coachListBox.Name = "coachListBox";
-            this.coachListBox.Size = new System.Drawing.Size(233, 589);
-            this.coachListBox.TabIndex = 131;
-            this.coachListBox.SelectedIndexChanged += new System.EventHandler(this.coachListBox_SelectedIndexChanged);
+            this.CoachListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
+            this.CoachListBox.FormattingEnabled = true;
+            this.CoachListBox.Location = new System.Drawing.Point(3, 6);
+            this.CoachListBox.Name = "CoachListBox";
+            this.CoachListBox.Size = new System.Drawing.Size(233, 589);
+            this.CoachListBox.TabIndex = 131;
+            this.CoachListBox.SelectedIndexChanged += new System.EventHandler(this.CoachListBox_SelectedIndexChanged);
             // 
             // Competitions
             // 
@@ -8922,7 +8922,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
         private System.Windows.Forms.ToolStripMenuItem Save;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
-        private System.Windows.Forms.ToolStripMenuItem Close;
+        private System.Windows.Forms.ToolStripMenuItem Exit;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem export;
         private System.Windows.Forms.ToolStripMenuItem import;
@@ -9143,11 +9143,11 @@
         private System.Windows.Forms.Label label110;
         private System.Windows.Forms.Label label113;
         private System.Windows.Forms.Button coachCharButton;
-        private System.Windows.Forms.TextBox coachNameTextBox;
+        private System.Windows.Forms.TextBox CoachNameTextBox;
         private System.Windows.Forms.Label label114;
-        private System.Windows.Forms.TextBox coachIdTextBox;
+        private System.Windows.Forms.TextBox CoachIdTextBox;
         private System.Windows.Forms.Label label116;
-        private System.Windows.Forms.TextBox coachJapTextBox;
+        private System.Windows.Forms.TextBox CoachJapTextBox;
         private System.Windows.Forms.Label label91;
         private System.Windows.Forms.Label stadiumKonamiTextBox;
         private System.Windows.Forms.Label label117;
@@ -9489,8 +9489,8 @@
         private System.Windows.Forms.Label Label143;
         internal System.Windows.Forms.DataGridView stadiumOrderConfDataGridView;
         internal System.Windows.Forms.DataGridView stadiumOrderDataGridView;
-        internal System.Windows.Forms.ListBox coachListBox;
-        internal System.Windows.Forms.ComboBox coachNationalityComboBox;
+        internal System.Windows.Forms.ListBox CoachListBox;
+        internal System.Windows.Forms.ComboBox CoachNationalityComboBox;
         internal System.Windows.Forms.ListBox playersBox;
         internal System.Windows.Forms.ComboBox giocatoreNationality;
         internal System.Windows.Forms.ListBox teamListBox;
@@ -9594,8 +9594,8 @@
         internal System.Windows.Forms.ToolStripMenuItem exportBootToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem importBootToolStripMenuItem;
         internal System.Windows.Forms.GroupBox coachGroupBox1;
-        internal System.Windows.Forms.Button coachApplyButton;
-        internal System.Windows.Forms.TextBox coachSearchTextBox;
+        internal System.Windows.Forms.Button CoachApplyButton;
+        internal System.Windows.Forms.TextBox CoachSearchTextBox;
         internal System.Windows.Forms.ToolStripMenuItem addNewCoachStrip;
         internal System.Windows.Forms.PictureBox GlovePictureBox1;
         internal System.Windows.Forms.PictureBox BootPictureBox1;

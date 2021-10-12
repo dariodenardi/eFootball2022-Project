@@ -110,12 +110,12 @@ namespace EvoTool.Controllers
             for (int i = 0; i < bootNumber; i++)
             {
                 if (bootId == ReadBoot.ReadUInt16())
-                    return 1;
+                    return i;
 
                 ReadBoot.BaseStream.Position += BLOCK - 2;
             }
 
-            return 0;
+            return -1;
         }
 
         public int ApplyBoot(int index, Boot boot)
@@ -169,6 +169,7 @@ namespace EvoTool.Controllers
                 MemoryBoot.Close();
                 ReadBoot.Close();
                 WriteBoot.Close();
+                BootTable.Rows.Clear();
             }
         }
     }

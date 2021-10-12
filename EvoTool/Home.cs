@@ -20,6 +20,7 @@ namespace EvoTool
         }
 
         private string path;
+        private CountryController countryController;
         private BallController ballController;
         private GloveController gloveController;
         private BootController bootController;
@@ -27,6 +28,7 @@ namespace EvoTool
 
         private void Home_Load(object sender, EventArgs e)
         {
+            countryController = new CountryController();
             ballController = new BallController();
             gloveController = new GloveController();
             bootController = new BootController();
@@ -53,6 +55,7 @@ namespace EvoTool
 
         private void CloseMemory()
         {
+            countryController.CloseMemory();
             ballController.CloseMemory();
             gloveController.CloseMemory();
             bootController.CloseMemory();
@@ -134,9 +137,9 @@ namespace EvoTool
             derbyGroupBox1.Enabled = false;
 
             coachGroupBox1.Enabled = false;
-            coachApplyButton.Enabled = false;
-            coachSearchTextBox.Enabled = false;
-            coachListBox.Enabled = false;
+            CoachApplyButton.Enabled = false;
+            CoachSearchTextBox.Enabled = false;
+            CoachListBox.Enabled = false;
             teamCoachComboBox.Enabled = false;
             coachPictureBox1.Enabled = false;
 
@@ -165,7 +168,8 @@ namespace EvoTool
             competitionsBox.Items.Clear();
             giocatoreNationality.Items.Clear();
             teamCountryComboBox.Items.Clear();
-            coachNationalityComboBox.Items.Clear();
+            CoachNationalityComboBox.DataSource = null;
+            CoachNationalityComboBox.Items.Clear();
             derbyDataGridView.Rows.Clear();
             derbyTeam1ComboBox.Items.Clear();
             derbyTeam2ComboBox.Items.Clear();
@@ -209,9 +213,11 @@ namespace EvoTool
         {
             this.Text = "EvoTool 2022 - Pc Mode";
 
-            int status = ballController.Load(folder);
+            int countrystatus = countryController.Load(folder);
+            // if there are Country.bin
+            int ballstatus = ballController.Load(folder);
             // if there are Ball.bin
-            if (status == 0)
+            if (ballstatus == 0)
             {
                 BallListBox.DataSource = ballController.BallTable;
                 BallListBox.DisplayMember = "Name";
@@ -264,22 +270,26 @@ namespace EvoTool
                 //importBootToolStripMenuItem.Enabled = true;
             }
             int opencoach = coachController.Load(folder);
-            if (opencoach == 0)
+            if (opencoach == 0 && countrystatus == 0)
             {
-                coachListBox.DataSource = coachController.CoachTable;
-                coachListBox.DisplayMember = "Name";
-                coachListBox.ValueMember = "Index";
+                CoachNationalityComboBox.DataSource = countryController.CountryTable;
+                CoachNationalityComboBox.DisplayMember = "Name";
+                CoachNationalityComboBox.ValueMember = "Index";
+
+                CoachListBox.DataSource = coachController.CoachTable;
+                CoachListBox.DisplayMember = "Name";
+                CoachListBox.ValueMember = "Index";
 
                 coachGroupBox1.Enabled = true;
-                coachListBox.Enabled = true;
-                coachSearchTextBox.Enabled = true;
+                CoachListBox.Enabled = true;
+                CoachSearchTextBox.Enabled = true;
             }
 
             toolStripTextBox1.Text = playersBox.Items.Count + " Players | " + 0 + " Teams | " + coachController.CoachTable.Rows.Count + " Coaches | "
                 + 0 + " Stadiums | " + ballController.BallTable.Rows.Count + " Balls | " + bootController.BootTable.Rows.Count + " Boots | " + gloveController.GloveTable.Rows.Count + " Gloves";
         }
 
-        private void Close_Click(object sender, EventArgs e)
+        private void Exit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -334,7 +344,7 @@ namespace EvoTool
             Ball temp = ballController.LoadBall(index);
             if (ushort.Parse(BallIDTextBox.Text) != temp.Id)
             {
-                if (ballController.LoadBallById(ushort.Parse(BallIDTextBox.Text)) != 0)
+                if (ballController.LoadBallById(ushort.Parse(BallIDTextBox.Text)) != -1)
                 {
                     MessageBox.Show("Ball's already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
@@ -405,7 +415,7 @@ namespace EvoTool
             Glove temp = gloveController.LoadGlove(index);
             if (ushort.Parse(GloveIdTextBox.Text) != temp.Id)
             {
-                if (gloveController.LoadGloveById(ushort.Parse(GloveIdTextBox.Text)) != 0)
+                if (gloveController.LoadGloveById(ushort.Parse(GloveIdTextBox.Text)) != -1)
                 {
                     MessageBox.Show("Glove's already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
@@ -508,36 +518,38 @@ namespace EvoTool
         }
 
         // coaches
-        private void coachListBox_SelectedIndexChanged(object sender, EventArgs e)
+        private void CoachListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             // reset field
-            coachNameTextBox.Text = "";
-            coachIdTextBox.Text = "";
+            CoachNameTextBox.Text = "";
+            CoachJapTextBox.Text = "";
+            CoachIdTextBox.Text = "";
 
-            if (coachListBox.SelectedItem == null)
+            if (CoachListBox.SelectedItem == null)
                 return;
 
-            int index = int.Parse(((DataRowView)coachListBox.SelectedItem).Row[0].ToString());
+            int index = int.Parse(((DataRowView)CoachListBox.SelectedItem).Row[0].ToString());
 
             Coach coach = coachController.LoadCoach(index);
-            coachIdTextBox.Text = coach.Id.ToString();
-            coachNameTextBox.Text = coach.Name;
-            coachJapTextBox.Text = coach.JapaneseName;
+            CoachIdTextBox.Text = coach.Id.ToString();
+            CoachNameTextBox.Text = coach.Name;
+            CoachJapTextBox.Text = coach.JapaneseName;
+            CoachNationalityComboBox.SelectedIndex = countryController.LoadCountryById(coach.Nationality);
         }
 
-        private void coachSearchTextBox_TextChanged(object sender, EventArgs e)
+        private void CoachSearchTextBox_TextChanged(object sender, EventArgs e)
         {
-            (coachListBox.DataSource as DataTable).DefaultView.RowFilter = string.Format("Name LIKE '%{0}%'", coachSearchTextBox.Text);
+            (CoachListBox.DataSource as DataTable).DefaultView.RowFilter = string.Format("Name LIKE '%{0}%'", CoachSearchTextBox.Text);
 
-            coachListBox.ClearSelected();
-            if (coachListBox.Items.Count > 0)
-                coachListBox.SelectedIndex = 0;
+            CoachListBox.ClearSelected();
+            if (CoachListBox.Items.Count > 0)
+                CoachListBox.SelectedIndex = 0;
         }
 
-        private void coachSearchTextBox_Click(object sender, EventArgs e)
+        private void CoachSearchTextBox_Click(object sender, EventArgs e)
         {
-            coachSearchTextBox.SelectAll();
-            coachSearchTextBox.Focus();
+            CoachSearchTextBox.SelectAll();
+            CoachSearchTextBox.Focus();
         }
     }
 }

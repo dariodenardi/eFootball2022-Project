@@ -68,10 +68,12 @@
     <Compile Include="Controllers\BallController.cs" />
     <Compile Include="Controllers\BootController.cs" />
     <Compile Include="Controllers\CoachController.cs" />
+    <Compile Include="Controllers\CountryController.cs" />
     <Compile Include="Controllers\GloveController.cs" />
     <Compile Include="Models\Ball.cs" />
     <Compile Include="Models\Boot.cs" />
     <Compile Include="Models\Coach.cs" />
+    <Compile Include="Models\Country.cs" />
     <Compile Include="Models\Glove.cs" />
     <Compile Include="Player.cs">
       <SubType>Form</SubType>
@@ -138,6 +140,8 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

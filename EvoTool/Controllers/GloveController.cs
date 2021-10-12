@@ -110,12 +110,12 @@ namespace EvoTool.Controllers
             for (int i = 0; i < gloveNumber; i++)
             {
                 if (gloveId == ReadGlove.ReadUInt16())
-                    return 1;
+                    return i;
 
                 ReadGlove.BaseStream.Position += BLOCK - 2;
             }
 
-            return 0;
+            return -1;
         }
 
         public int ApplyGlove(int index, Glove glove)
@@ -169,6 +169,7 @@ namespace EvoTool.Controllers
                 MemoryGlove.Close();
                 ReadGlove.Close();
                 WriteGlove.Close();
+                GloveTable.Rows.Clear();
             }
         }
 

@@ -80,14 +80,14 @@ namespace EvoTool.Controllers
             string ballName;
             try
             {
-                ReadBall.BaseStream.Position = index * BLOCK + 4;
-                ballName = Encoding.UTF8.GetString(ReadBall.ReadBytes(135)).TrimEnd('\0');
-
                 ReadBall.BaseStream.Position = index * BLOCK;
                 ballId = ReadBall.ReadUInt16();
 
                 ReadBall.BaseStream.Position = index * BLOCK + 2;
                 order = ReadBall.ReadByte();
+
+                ReadBall.BaseStream.Position = index * BLOCK + 4;
+                ballName = Encoding.UTF8.GetString(ReadBall.ReadBytes(135)).TrimEnd('\0');
 
                 ball = new Ball(ballId);
                 ball.Name = ballName;
@@ -109,12 +109,12 @@ namespace EvoTool.Controllers
             for (int i = 0; i < ballNumber; i++)
             {
                 if (ballId == ReadBall.ReadUInt16())
-                    return 1;
+                    return i;
 
                 ReadBall.BaseStream.Position += BLOCK - 2;
             }
 
-            return 0;
+            return -1;
         }
 
         public int ApplyBall(int index, Ball ball)
@@ -168,6 +168,7 @@ namespace EvoTool.Controllers
                 MemoryBall.Close();
                 ReadBall.Close();
                 WriteBall.Close();
+                BallTable.Rows.Clear();
             }
         }
 

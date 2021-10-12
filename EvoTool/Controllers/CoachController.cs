@@ -77,20 +77,27 @@ namespace EvoTool.Controllers
             UInt16 coachId;
             string coachName;
             string coachJapaneseName;
+            UInt16 countryId;
             try
             {
+                ReadCoach.BaseStream.Position = index * BLOCK;
+                coachId = ReadCoach.ReadUInt16();
+
+                ReadCoach.BaseStream.Position = index * BLOCK + 8;
+                UInt16 aux = ReadCoach.ReadUInt16();
+                countryId = (ushort)(aux << 8);
+                countryId = (ushort)(countryId >> 8);
+
                 ReadCoach.BaseStream.Position = index * BLOCK + 0x6c;
                 coachName = Encoding.UTF8.GetString(ReadCoach.ReadBytes(0x33)).TrimEnd('\0');
 
                 ReadCoach.BaseStream.Position = index * BLOCK + 0x3e;
                 coachJapaneseName = Encoding.UTF8.GetString(ReadCoach.ReadBytes(0x2d)).TrimEnd('\0');
 
-                ReadCoach.BaseStream.Position = index * BLOCK;
-                coachId = ReadCoach.ReadUInt16();
-
                 coach = new Coach(coachId);
                 coach.Name = coachName;
                 coach.JapaneseName = coachJapaneseName;
+                coach.Nationality = countryId;
             }
             catch (Exception)
             {
@@ -104,16 +111,19 @@ namespace EvoTool.Controllers
         {
             int coachNumber = (int)MemoryCoach.Length / BLOCK;
 
-            ReadCoach.BaseStream.Position = 0;
+            ReadCoach.BaseStream.Position = 8;
             for (int i = 0; i < coachNumber; i++)
             {
-                if (coachId == ReadCoach.ReadUInt16())
-                    return 1;
+                UInt16 aux = ReadCoach.ReadUInt16();
+                aux = (ushort)(aux << 8);
+                aux = (ushort)(aux >> 8);
+                if (coachId == aux)
+                    return i;
 
-                ReadCoach.BaseStream.Position += BLOCK - 2;
+                ReadCoach.BaseStream.Position += BLOCK - 4;
             }
 
-            return 0;
+            return -1;
         }
 
         public void CloseMemory()
@@ -123,6 +133,7 @@ namespace EvoTool.Controllers
                 MemoryCoach.Close();
                 ReadCoach.Close();
                 WriteCoach.Close();
+                CoachTable.Rows.Clear();
             }
         }
 
