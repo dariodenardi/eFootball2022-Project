@@ -3622,6 +3622,8 @@
             this.coachSearchTextBox.Size = new System.Drawing.Size(233, 20);
             this.coachSearchTextBox.TabIndex = 134;
             this.coachSearchTextBox.Text = "search coach...";
+            this.coachSearchTextBox.Click += new System.EventHandler(this.coachSearchTextBox_Click);
+            this.coachSearchTextBox.TextChanged += new System.EventHandler(this.coachSearchTextBox_TextChanged);
             // 
             // coachApplyButton
             // 
@@ -3830,6 +3832,7 @@
             this.coachListBox.Name = "coachListBox";
             this.coachListBox.Size = new System.Drawing.Size(233, 589);
             this.coachListBox.TabIndex = 131;
+            this.coachListBox.SelectedIndexChanged += new System.EventHandler(this.coachListBox_SelectedIndexChanged);
             // 
             // Competitions
             // 
