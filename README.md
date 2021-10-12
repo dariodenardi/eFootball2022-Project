@@ -22,6 +22,11 @@
 - Extract the content
 - Run .exe
 
+**How to edit database**
+- Click on File, Open and select a folder where you find Ball.bin, Glove.bin, Glove.bin ...
+
+**Tool changes the game database (no EDIT.bin)**
+
 <div align="center">
    
    ### This is an open-source project and must remain so, link and references only to this page
