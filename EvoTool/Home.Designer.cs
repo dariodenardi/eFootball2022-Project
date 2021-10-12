@@ -794,6 +794,8 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.CoachChineseTextBox = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.Transfers.SuspendLayout();
@@ -919,7 +921,7 @@
             this.Open.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Open.Name = "Open";
             this.Open.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.Open.Size = new System.Drawing.Size(188, 30);
+            this.Open.Size = new System.Drawing.Size(159, 30);
             this.Open.Text = "Open";
             this.Open.Click += new System.EventHandler(this.Open_Click);
             // 
@@ -930,13 +932,13 @@
             this.reload.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.reload.Name = "reload";
             this.reload.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.reload.Size = new System.Drawing.Size(188, 30);
+            this.reload.Size = new System.Drawing.Size(159, 30);
             this.reload.Text = "Reload";
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(185, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(156, 6);
             // 
             // Save
             // 
@@ -945,14 +947,14 @@
             this.Save.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Save.Name = "Save";
             this.Save.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.Save.Size = new System.Drawing.Size(188, 30);
+            this.Save.Size = new System.Drawing.Size(159, 30);
             this.Save.Text = "Save";
             this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(185, 6);
+            this.toolStripSeparator10.Size = new System.Drawing.Size(156, 6);
             // 
             // Exit
             // 
@@ -960,7 +962,7 @@
             this.Exit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Exit.Name = "Exit";
             this.Exit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.Exit.Size = new System.Drawing.Size(188, 30);
+            this.Exit.Size = new System.Drawing.Size(159, 30);
             this.Exit.Text = "Exit";
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
@@ -1550,6 +1552,7 @@
             this.toolStripTextBox1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.toolStripTextBox1.Enabled = false;
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Margin = new System.Windows.Forms.Padding(2, 0, 15, 0);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.ReadOnly = true;
@@ -3646,8 +3649,10 @@
             // 
             // coachGroupBox1
             // 
+            this.coachGroupBox1.Controls.Add(this.CoachChineseTextBox);
             this.coachGroupBox1.Controls.Add(this.coachNationalCheckBox);
             this.coachGroupBox1.Controls.Add(this.coachUnLicCheckBox);
+            this.coachGroupBox1.Controls.Add(this.label59);
             this.coachGroupBox1.Controls.Add(this.coachMyClubCheckBox);
             this.coachGroupBox1.Controls.Add(this.coachTeamLabel);
             this.coachGroupBox1.Controls.Add(this.coachClubCheckBox);
@@ -3664,7 +3669,7 @@
             this.coachGroupBox1.Controls.Add(this.label116);
             this.coachGroupBox1.Location = new System.Drawing.Point(242, 6);
             this.coachGroupBox1.Name = "coachGroupBox1";
-            this.coachGroupBox1.Size = new System.Drawing.Size(380, 256);
+            this.coachGroupBox1.Size = new System.Drawing.Size(380, 302);
             this.coachGroupBox1.TabIndex = 132;
             this.coachGroupBox1.TabStop = false;
             this.coachGroupBox1.Text = "Coach Info";
@@ -3672,7 +3677,7 @@
             // coachNationalCheckBox
             // 
             this.coachNationalCheckBox.AutoSize = true;
-            this.coachNationalCheckBox.Location = new System.Drawing.Point(145, 231);
+            this.coachNationalCheckBox.Location = new System.Drawing.Point(145, 273);
             this.coachNationalCheckBox.Name = "coachNationalCheckBox";
             this.coachNationalCheckBox.Size = new System.Drawing.Size(65, 17);
             this.coachNationalCheckBox.TabIndex = 135;
@@ -3682,7 +3687,7 @@
             // coachUnLicCheckBox
             // 
             this.coachUnLicCheckBox.AutoSize = true;
-            this.coachUnLicCheckBox.Location = new System.Drawing.Point(13, 231);
+            this.coachUnLicCheckBox.Location = new System.Drawing.Point(13, 273);
             this.coachUnLicCheckBox.Name = "coachUnLicCheckBox";
             this.coachUnLicCheckBox.Size = new System.Drawing.Size(79, 17);
             this.coachUnLicCheckBox.TabIndex = 134;
@@ -3693,7 +3698,7 @@
             // 
             this.coachMyClubCheckBox.AutoSize = true;
             this.coachMyClubCheckBox.Enabled = false;
-            this.coachMyClubCheckBox.Location = new System.Drawing.Point(262, 208);
+            this.coachMyClubCheckBox.Location = new System.Drawing.Point(262, 250);
             this.coachMyClubCheckBox.Name = "coachMyClubCheckBox";
             this.coachMyClubCheckBox.Size = new System.Drawing.Size(61, 17);
             this.coachMyClubCheckBox.TabIndex = 129;
@@ -3703,7 +3708,7 @@
             // coachTeamLabel
             // 
             this.coachTeamLabel.AutoSize = true;
-            this.coachTeamLabel.Location = new System.Drawing.Point(10, 186);
+            this.coachTeamLabel.Location = new System.Drawing.Point(10, 228);
             this.coachTeamLabel.Name = "coachTeamLabel";
             this.coachTeamLabel.Size = new System.Drawing.Size(10, 13);
             this.coachTeamLabel.TabIndex = 133;
@@ -3712,7 +3717,7 @@
             // coachClubCheckBox
             // 
             this.coachClubCheckBox.AutoSize = true;
-            this.coachClubCheckBox.Location = new System.Drawing.Point(145, 208);
+            this.coachClubCheckBox.Location = new System.Drawing.Point(145, 250);
             this.coachClubCheckBox.Name = "coachClubCheckBox";
             this.coachClubCheckBox.Size = new System.Drawing.Size(47, 17);
             this.coachClubCheckBox.TabIndex = 127;
@@ -3722,7 +3727,7 @@
             // coachTeam
             // 
             this.coachTeam.AutoSize = true;
-            this.coachTeam.Location = new System.Drawing.Point(10, 166);
+            this.coachTeam.Location = new System.Drawing.Point(10, 208);
             this.coachTeam.Name = "coachTeam";
             this.coachTeam.Size = new System.Drawing.Size(37, 13);
             this.coachTeam.TabIndex = 132;
@@ -3731,7 +3736,7 @@
             // coachLicCheckBox
             // 
             this.coachLicCheckBox.AutoSize = true;
-            this.coachLicCheckBox.Location = new System.Drawing.Point(13, 208);
+            this.coachLicCheckBox.Location = new System.Drawing.Point(13, 250);
             this.coachLicCheckBox.Name = "coachLicCheckBox";
             this.coachLicCheckBox.Size = new System.Drawing.Size(69, 17);
             this.coachLicCheckBox.TabIndex = 126;
@@ -3759,7 +3764,7 @@
             // 
             this.CoachNationalityComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CoachNationalityComboBox.FormattingEnabled = true;
-            this.CoachNationalityComboBox.Location = new System.Drawing.Point(13, 139);
+            this.CoachNationalityComboBox.Location = new System.Drawing.Point(13, 181);
             this.CoachNationalityComboBox.Name = "CoachNationalityComboBox";
             this.CoachNationalityComboBox.Size = new System.Drawing.Size(310, 21);
             this.CoachNationalityComboBox.TabIndex = 123;
@@ -3768,7 +3773,7 @@
             // label113
             // 
             this.label113.AutoSize = true;
-            this.label113.Location = new System.Drawing.Point(10, 119);
+            this.label113.Location = new System.Drawing.Point(10, 161);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(59, 13);
             this.label113.TabIndex = 121;
@@ -8761,6 +8766,23 @@
             this.toolTip1.ReshowDelay = 100;
             this.toolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             // 
+            // CoachChineseTextBox
+            // 
+            this.CoachChineseTextBox.Location = new System.Drawing.Point(108, 142);
+            this.CoachChineseTextBox.MaxLength = 40;
+            this.CoachChineseTextBox.Name = "CoachChineseTextBox";
+            this.CoachChineseTextBox.Size = new System.Drawing.Size(215, 20);
+            this.CoachChineseTextBox.TabIndex = 137;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(105, 122);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(79, 13);
+            this.label59.TabIndex = 136;
+            this.label59.Text = "Chinese Name:";
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -9679,6 +9701,8 @@
         private System.Windows.Forms.ToolStripMenuItem importPlayerAppearanceFromDino19ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem importPlayerAppearanceFromDino19ToolStripMenuItem2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.TextBox CoachChineseTextBox;
+        private System.Windows.Forms.Label label59;
     }
 }
 
