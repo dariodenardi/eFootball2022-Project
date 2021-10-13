@@ -3814,6 +3814,7 @@
             this.coachCharButton.Size = new System.Drawing.Size(24, 24);
             this.coachCharButton.TabIndex = 120;
             this.coachCharButton.UseVisualStyleBackColor = true;
+            this.coachCharButton.Click += new System.EventHandler(this.coachCharButton_Click);
             // 
             // CoachNameTextBox
             // 
@@ -5893,6 +5894,7 @@
             this.BallCharButton.Size = new System.Drawing.Size(24, 24);
             this.BallCharButton.TabIndex = 120;
             this.BallCharButton.UseVisualStyleBackColor = true;
+            this.BallCharButton.Click += new System.EventHandler(this.BallCharButton_Click);
             // 
             // BallNameTextBox
             // 
@@ -6034,6 +6036,7 @@
             this.BootCharButton.Size = new System.Drawing.Size(24, 24);
             this.BootCharButton.TabIndex = 120;
             this.BootCharButton.UseVisualStyleBackColor = true;
+            this.BootCharButton.Click += new System.EventHandler(this.BootCharButton_Click);
             // 
             // BootNameTextBox
             // 
@@ -6185,6 +6188,7 @@
             this.GloveCharButton.Size = new System.Drawing.Size(24, 24);
             this.GloveCharButton.TabIndex = 120;
             this.GloveCharButton.UseVisualStyleBackColor = true;
+            this.GloveCharButton.Click += new System.EventHandler(this.GloveCharButton_Click);
             // 
             // GloveName
             // 

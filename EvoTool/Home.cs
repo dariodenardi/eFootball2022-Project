@@ -4,8 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -378,6 +380,11 @@ namespace EvoTool
             BallSearchTextBox.Focus();
         }
 
+        private void BallCharButton_Click(object sender, EventArgs e)
+        {
+            Process.Start("charmap.exe");
+        }
+
         // glove
         private void GloveListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -447,7 +454,13 @@ namespace EvoTool
             GloveSearchTextBox.SelectAll();
             GloveSearchTextBox.Focus();
         }
-        //boot
+
+        private void GloveCharButton_Click(object sender, EventArgs e)
+        {
+            Process.Start("charmap.exe");
+        }
+
+        // boot
         private void BootListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             // reset field
@@ -517,6 +530,11 @@ namespace EvoTool
             BootSearchTextBox.Focus();
         }
 
+        private void BootCharButton_Click(object sender, EventArgs e)
+        {
+            Process.Start("charmap.exe");
+        }
+
         // coaches
         private void CoachListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -552,6 +570,11 @@ namespace EvoTool
         {
             CoachSearchTextBox.SelectAll();
             CoachSearchTextBox.Focus();
+        }
+
+        private void coachCharButton_Click(object sender, EventArgs e)
+        {
+            Process.Start("charmap.exe");
         }
     }
 }

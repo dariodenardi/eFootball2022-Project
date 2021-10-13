@@ -111,6 +111,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Team.resx">
       <DependentUpon>Team.cs</DependentUpon>
@@ -143,7 +144,6 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Resources\ball_randam.png" />
-    <Content Include="Resources\charmap.exe" />
     <Content Include="Resources\e_blank.png" />
     <Content Include="Resources\player_dummy.png" />
     <Content Include="Resources\st_random.png" />
