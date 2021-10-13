@@ -74,28 +74,33 @@ namespace EvoTool.Controllers
         {
             Coach coach;
 
-            UInt16 coachId;
+            UInt32 coachId;
             string coachName;
+            string coachChineseName;
             string coachJapaneseName;
             UInt16 countryId;
             try
             {
                 ReadCoach.BaseStream.Position = index * BLOCK;
-                coachId = ReadCoach.ReadUInt16();
+                coachId = ReadCoach.ReadUInt32();
 
                 ReadCoach.BaseStream.Position = index * BLOCK + 8;
                 UInt16 aux = ReadCoach.ReadUInt16();
-                countryId = (ushort)(aux << 8);
-                countryId = (ushort)(countryId >> 8);
+                countryId = (ushort)(aux << 7);
+                countryId = (ushort)(countryId >> 7);
 
                 ReadCoach.BaseStream.Position = index * BLOCK + 0x6c;
                 coachName = Encoding.UTF8.GetString(ReadCoach.ReadBytes(0x33)).TrimEnd('\0');
 
-                ReadCoach.BaseStream.Position = index * BLOCK + 0x3e;
+                ReadCoach.BaseStream.Position = index * BLOCK + 16;
                 coachJapaneseName = Encoding.UTF8.GetString(ReadCoach.ReadBytes(0x2d)).TrimEnd('\0');
+
+                ReadCoach.BaseStream.Position = index * BLOCK + 62;
+                coachChineseName = Encoding.UTF8.GetString(ReadCoach.ReadBytes(0x2d)).TrimEnd('\0');
 
                 coach = new Coach(coachId);
                 coach.Name = coachName;
+                coach.ChineseName = coachChineseName;
                 coach.JapaneseName = coachJapaneseName;
                 coach.Nationality = countryId;
             }
@@ -107,7 +112,7 @@ namespace EvoTool.Controllers
             return coach;
         }
 
-        public int LoadCoachById(UInt16 coachId)
+        public int LoadCoachById(UInt32 coachId)
         {
             int coachNumber = (int)MemoryCoach.Length / BLOCK;
 
@@ -115,8 +120,8 @@ namespace EvoTool.Controllers
             for (int i = 0; i < coachNumber; i++)
             {
                 UInt16 aux = ReadCoach.ReadUInt16();
-                aux = (ushort)(aux << 8);
-                aux = (ushort)(aux >> 8);
+                aux = (ushort)(aux << 7);
+                aux = (ushort)(aux >> 7);
                 if (coachId == aux)
                     return i;
 

@@ -522,6 +522,7 @@ namespace EvoTool
         {
             // reset field
             CoachNameTextBox.Text = "";
+            CoachChineseTextBox.Text = "";
             CoachJapTextBox.Text = "";
             CoachIdTextBox.Text = "";
 
@@ -533,6 +534,7 @@ namespace EvoTool
             Coach coach = coachController.LoadCoach(index);
             CoachIdTextBox.Text = coach.Id.ToString();
             CoachNameTextBox.Text = coach.Name;
+            CoachChineseTextBox.Text = coach.ChineseName;
             CoachJapTextBox.Text = coach.JapaneseName;
             CoachNationalityComboBox.SelectedIndex = countryController.LoadCountryById(coach.Nationality);
         }
