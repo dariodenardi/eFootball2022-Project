@@ -119,10 +119,7 @@ namespace EvoTool.Controllers
             ReadCoach.BaseStream.Position = 8;
             for (int i = 0; i < coachNumber; i++)
             {
-                UInt16 aux = ReadCoach.ReadUInt16();
-                aux = (ushort)(aux << 7);
-                aux = (ushort)(aux >> 7);
-                if (coachId == aux)
+                if (coachId == ReadCoach.ReadUInt32())
                     return i;
 
                 ReadCoach.BaseStream.Position += BLOCK - 4;

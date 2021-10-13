@@ -140,8 +140,13 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <Content Include="Resources\ball_randam.png" />
+    <Content Include="Resources\charmap.exe" />
+    <Content Include="Resources\e_blank.png" />
+    <Content Include="Resources\player_dummy.png" />
+    <Content Include="Resources\st_random.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
