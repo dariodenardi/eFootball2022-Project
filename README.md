@@ -16,6 +16,7 @@
 - Add Gloves Section
 - Add Boots Section
 - Add Balls Section
+- Add Coaches Section
 
 **Instructions**
 - Download the archive (click on **Releases**)
