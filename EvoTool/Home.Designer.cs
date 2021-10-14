@@ -303,7 +303,7 @@
             this.teamJapTextBox = new System.Windows.Forms.TextBox();
             this.unknown = new System.Windows.Forms.CheckBox();
             this.Coach = new System.Windows.Forms.TabPage();
-            this.coachPictureBox1 = new System.Windows.Forms.PictureBox();
+            this.CoachPictureBox1 = new System.Windows.Forms.PictureBox();
             this.CoachSearchTextBox = new System.Windows.Forms.TextBox();
             this.CoachApplyButton = new System.Windows.Forms.Button();
             this.coachGroupBox1 = new System.Windows.Forms.GroupBox();
@@ -320,7 +320,7 @@
             this.label91 = new System.Windows.Forms.Label();
             this.CoachNationalityComboBox = new System.Windows.Forms.ComboBox();
             this.label113 = new System.Windows.Forms.Label();
-            this.coachCharButton = new System.Windows.Forms.Button();
+            this.CoachCharButton = new System.Windows.Forms.Button();
             this.CoachNameTextBox = new System.Windows.Forms.TextBox();
             this.label114 = new System.Windows.Forms.Label();
             this.CoachIdTextBox = new System.Windows.Forms.TextBox();
@@ -813,7 +813,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.teamPictureBox1)).BeginInit();
             this.teamGroupBox1.SuspendLayout();
             this.Coach.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.coachPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoachPictureBox1)).BeginInit();
             this.coachGroupBox1.SuspendLayout();
             this.Competitions.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -3020,8 +3020,8 @@
             this.applyTeam.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyTeam.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyTeam.FlatAppearance.BorderSize = 0;
-            this.applyTeam.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.applyTeam.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.applyTeam.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.applyTeam.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.applyTeam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.applyTeam.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.applyTeam.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3594,7 +3594,7 @@
             // 
             // Coach
             // 
-            this.Coach.Controls.Add(this.coachPictureBox1);
+            this.Coach.Controls.Add(this.CoachPictureBox1);
             this.Coach.Controls.Add(this.CoachSearchTextBox);
             this.Coach.Controls.Add(this.CoachApplyButton);
             this.Coach.Controls.Add(this.coachGroupBox1);
@@ -3606,15 +3606,15 @@
             this.Coach.Text = "Coaches";
             this.Coach.UseVisualStyleBackColor = true;
             // 
-            // coachPictureBox1
+            // CoachPictureBox1
             // 
-            this.coachPictureBox1.BackColor = System.Drawing.Color.LightGray;
-            this.coachPictureBox1.Enabled = false;
-            this.coachPictureBox1.Location = new System.Drawing.Point(636, 6);
-            this.coachPictureBox1.Name = "coachPictureBox1";
-            this.coachPictureBox1.Size = new System.Drawing.Size(256, 256);
-            this.coachPictureBox1.TabIndex = 135;
-            this.coachPictureBox1.TabStop = false;
+            this.CoachPictureBox1.BackColor = System.Drawing.Color.LightGray;
+            this.CoachPictureBox1.Enabled = false;
+            this.CoachPictureBox1.Location = new System.Drawing.Point(636, 6);
+            this.CoachPictureBox1.Name = "CoachPictureBox1";
+            this.CoachPictureBox1.Size = new System.Drawing.Size(256, 256);
+            this.CoachPictureBox1.TabIndex = 135;
+            this.CoachPictureBox1.TabStop = false;
             // 
             // CoachSearchTextBox
             // 
@@ -3633,8 +3633,8 @@
             this.CoachApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CoachApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.CoachApplyButton.FlatAppearance.BorderSize = 0;
-            this.CoachApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.CoachApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.CoachApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.CoachApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.CoachApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CoachApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.CoachApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3645,6 +3645,7 @@
             this.CoachApplyButton.TabIndex = 133;
             this.CoachApplyButton.Text = "Apply";
             this.CoachApplyButton.UseVisualStyleBackColor = false;
+            this.CoachApplyButton.Click += new System.EventHandler(this.CoachApplyButton_Click);
             // 
             // coachGroupBox1
             // 
@@ -3661,7 +3662,7 @@
             this.coachGroupBox1.Controls.Add(this.label91);
             this.coachGroupBox1.Controls.Add(this.CoachNationalityComboBox);
             this.coachGroupBox1.Controls.Add(this.label113);
-            this.coachGroupBox1.Controls.Add(this.coachCharButton);
+            this.coachGroupBox1.Controls.Add(this.CoachCharButton);
             this.coachGroupBox1.Controls.Add(this.CoachNameTextBox);
             this.coachGroupBox1.Controls.Add(this.label114);
             this.coachGroupBox1.Controls.Add(this.CoachIdTextBox);
@@ -3799,22 +3800,22 @@
             this.label113.TabIndex = 121;
             this.label113.Text = "Nationality:";
             // 
-            // coachCharButton
+            // CoachCharButton
             // 
-            this.coachCharButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.coachCharButton.FlatAppearance.BorderSize = 0;
-            this.coachCharButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.coachCharButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.coachCharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.coachCharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.coachCharButton.Image = ((System.Drawing.Image)(resources.GetObject("coachCharButton.Image")));
-            this.coachCharButton.Location = new System.Drawing.Point(329, 39);
-            this.coachCharButton.Margin = new System.Windows.Forms.Padding(0);
-            this.coachCharButton.Name = "coachCharButton";
-            this.coachCharButton.Size = new System.Drawing.Size(24, 24);
-            this.coachCharButton.TabIndex = 120;
-            this.coachCharButton.UseVisualStyleBackColor = true;
-            this.coachCharButton.Click += new System.EventHandler(this.coachCharButton_Click);
+            this.CoachCharButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CoachCharButton.FlatAppearance.BorderSize = 0;
+            this.CoachCharButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.CoachCharButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.CoachCharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CoachCharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.CoachCharButton.Image = ((System.Drawing.Image)(resources.GetObject("CoachCharButton.Image")));
+            this.CoachCharButton.Location = new System.Drawing.Point(329, 39);
+            this.CoachCharButton.Margin = new System.Windows.Forms.Padding(0);
+            this.CoachCharButton.Name = "CoachCharButton";
+            this.CoachCharButton.Size = new System.Drawing.Size(24, 24);
+            this.CoachCharButton.TabIndex = 120;
+            this.CoachCharButton.UseVisualStyleBackColor = true;
+            this.CoachCharButton.Click += new System.EventHandler(this.CoachCharButton_Click);
             // 
             // CoachNameTextBox
             // 
@@ -3904,8 +3905,8 @@
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3932,8 +3933,8 @@
             this.deleteCompetitionEntry.Cursor = System.Windows.Forms.Cursors.Hand;
             this.deleteCompetitionEntry.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.deleteCompetitionEntry.FlatAppearance.BorderSize = 0;
-            this.deleteCompetitionEntry.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.deleteCompetitionEntry.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.deleteCompetitionEntry.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.deleteCompetitionEntry.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.deleteCompetitionEntry.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.deleteCompetitionEntry.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.deleteCompetitionEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3961,8 +3962,8 @@
             this.applyCompEntry.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyCompEntry.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyCompEntry.FlatAppearance.BorderSize = 0;
-            this.applyCompEntry.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.applyCompEntry.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.applyCompEntry.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.applyCompEntry.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.applyCompEntry.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.applyCompEntry.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.applyCompEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -4142,8 +4143,8 @@
             this.applyCompetition.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyCompetition.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyCompetition.FlatAppearance.BorderSize = 0;
-            this.applyCompetition.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.applyCompetition.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.applyCompetition.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.applyCompetition.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.applyCompetition.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.applyCompetition.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.applyCompetition.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -4394,8 +4395,8 @@
             this.applyCompetitionRegulation.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyCompetitionRegulation.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyCompetitionRegulation.FlatAppearance.BorderSize = 0;
-            this.applyCompetitionRegulation.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.applyCompetitionRegulation.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.applyCompetitionRegulation.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.applyCompetitionRegulation.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.applyCompetitionRegulation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.applyCompetitionRegulation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.applyCompetitionRegulation.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -4997,8 +4998,8 @@
             this.applyCompetitionKind.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyCompetitionKind.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyCompetitionKind.FlatAppearance.BorderSize = 0;
-            this.applyCompetitionKind.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.applyCompetitionKind.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.applyCompetitionKind.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.applyCompetitionKind.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.applyCompetitionKind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.applyCompetitionKind.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.applyCompetitionKind.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -5110,8 +5111,8 @@
             this.derbyApplyButton.Enabled = false;
             this.derbyApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.derbyApplyButton.FlatAppearance.BorderSize = 0;
-            this.derbyApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.derbyApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.derbyApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.derbyApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.derbyApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.derbyApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.derbyApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -5356,8 +5357,8 @@
             this.stadiumApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.stadiumApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.stadiumApplyButton.FlatAppearance.BorderSize = 0;
-            this.stadiumApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.stadiumApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.stadiumApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.stadiumApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.stadiumApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.stadiumApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.stadiumApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -5774,8 +5775,8 @@
             this.BallApplyButton.Enabled = false;
             this.BallApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BallApplyButton.FlatAppearance.BorderSize = 0;
-            this.BallApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.BallApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.BallApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.BallApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.BallApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BallApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.BallApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -5990,8 +5991,8 @@
             this.BootApplyButton.Enabled = false;
             this.BootApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BootApplyButton.FlatAppearance.BorderSize = 0;
-            this.BootApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.BootApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.BootApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.BootApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.BootApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BootApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.BootApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -6142,8 +6143,8 @@
             this.GloveApplyButton.Enabled = false;
             this.GloveApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.GloveApplyButton.FlatAppearance.BorderSize = 0;
-            this.GloveApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.GloveApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.GloveApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.GloveApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.GloveApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GloveApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.GloveApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -6286,8 +6287,8 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -6545,8 +6546,8 @@
             this.globFunctionPlayer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.globFunctionPlayer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.globFunctionPlayer.FlatAppearance.BorderSize = 0;
-            this.globFunctionPlayer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.globFunctionPlayer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.globFunctionPlayer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.globFunctionPlayer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.globFunctionPlayer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.globFunctionPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.globFunctionPlayer.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -6607,8 +6608,8 @@
             this.globFunctionTeam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.globFunctionTeam.Cursor = System.Windows.Forms.Cursors.Hand;
             this.globFunctionTeam.FlatAppearance.BorderSize = 0;
-            this.globFunctionTeam.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.globFunctionTeam.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.globFunctionTeam.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.globFunctionTeam.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.globFunctionTeam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.globFunctionTeam.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.globFunctionTeam.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -6943,8 +6944,8 @@
             this.applyFm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.applyFm.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.applyFm.FlatAppearance.BorderSize = 0;
-            this.applyFm.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.applyFm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.applyFm.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.applyFm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.applyFm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.applyFm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.applyFm.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -8836,7 +8837,7 @@
             this.teamGroupBox1.PerformLayout();
             this.Coach.ResumeLayout(false);
             this.Coach.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.coachPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoachPictureBox1)).EndInit();
             this.coachGroupBox1.ResumeLayout(false);
             this.coachGroupBox1.PerformLayout();
             this.Competitions.ResumeLayout(false);
@@ -9171,7 +9172,7 @@
         private System.Windows.Forms.TextBox BootIDTextBox;
         private System.Windows.Forms.Label label110;
         private System.Windows.Forms.Label label113;
-        private System.Windows.Forms.Button coachCharButton;
+        private System.Windows.Forms.Button CoachCharButton;
         private System.Windows.Forms.TextBox CoachNameTextBox;
         private System.Windows.Forms.Label label114;
         private System.Windows.Forms.TextBox CoachIdTextBox;
@@ -9633,7 +9634,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox coachMyClubCheckBox;
         private System.Windows.Forms.CheckBox coachClubCheckBox;
-        internal System.Windows.Forms.PictureBox coachPictureBox1;
+        internal System.Windows.Forms.PictureBox CoachPictureBox1;
         internal System.Windows.Forms.PictureBox stadiumPictureBox1;
         internal System.Windows.Forms.PictureBox BallPictureBox1;
         private System.Windows.Forms.CheckBox coachUnLicCheckBox;

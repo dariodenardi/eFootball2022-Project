@@ -128,6 +128,76 @@ namespace EvoTool.Controllers
             return -1;
         }
 
+        public int ApplyCoach(int index, Coach coach)
+        {
+            try
+            {
+                int offsetBase = BLOCK * index;
+                WriteCoach.BaseStream.Position = offsetBase;
+
+                byte zero = 0;
+                UInt32 id = coach.Id;
+                string coachName = coach.Name;
+                string coachChineseName = coach.ChineseName;
+                string coachJapaneseName = coach.JapaneseName;
+
+                WriteCoach.Write(id);
+
+                ReadCoach.BaseStream.Position = index * BLOCK + 8;
+                UInt16 aux = ReadCoach.ReadUInt16();
+                aux = (ushort)(aux >> 9);
+                aux = (ushort)(aux << 9);
+                aux = (ushort)(aux | coach.Nationality);
+                WriteCoach.BaseStream.Position = offsetBase + 8;
+                WriteCoach.Write(aux);
+
+                WriteCoach.BaseStream.Position = offsetBase + 0x6c;
+                for (int i = 0; i <= 33; i++)
+                {
+                    WriteCoach.Write(zero);
+                }
+                WriteCoach.BaseStream.Position = offsetBase + 0x6c;
+                WriteCoach.Write(coachName.ToCharArray());
+
+                WriteCoach.BaseStream.Position = offsetBase + 16;
+                for (int i = 0; i <= 45; i++)
+                {
+                    WriteCoach.Write(zero);
+                }
+                WriteCoach.BaseStream.Position = offsetBase + 16;
+                WriteCoach.Write(coachJapaneseName.ToCharArray());
+
+                WriteCoach.BaseStream.Position = offsetBase + 62;
+                for (int i = 0; i <= 45; i++)
+                {
+                    WriteCoach.Write(zero);
+                }
+                WriteCoach.BaseStream.Position = offsetBase + 62;
+                WriteCoach.Write(coachChineseName.ToCharArray());
+            }
+            catch (Exception)
+            {
+                return 1;
+            }
+
+            return 0;
+        }
+
+        public int Save(string patch)
+        {
+            try
+            {
+                byte[] ss13 = Zlib.ZlibFilePC(MemoryCoach.ToArray());
+                File.WriteAllBytes(patch + FILE_NAME, ss13);
+            }
+            catch (Exception)
+            {
+                return 1;
+            }
+
+            return 0;
+        }
+
         public void CloseMemory()
         {
             if (MemoryCoach != null)

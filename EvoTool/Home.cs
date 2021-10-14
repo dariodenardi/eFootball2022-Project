@@ -143,7 +143,7 @@ namespace EvoTool
             CoachSearchTextBox.Enabled = false;
             CoachListBox.Enabled = false;
             teamCoachComboBox.Enabled = false;
-            coachPictureBox1.Enabled = false;
+            CoachPictureBox1.Enabled = false;
 
             teamListBox.Enabled = false;
             teamSearchTextBox.Enabled = false;
@@ -285,6 +285,8 @@ namespace EvoTool
                 coachGroupBox1.Enabled = true;
                 CoachListBox.Enabled = true;
                 CoachSearchTextBox.Enabled = true;
+                CoachApplyButton.Enabled = true;
+                CoachPictureBox1.Enabled = true;
             }
 
             toolStripTextBox1.Text = playersBox.Items.Count + " Players | " + 0 + " Teams | " + coachController.CoachTable.Rows.Count + " Coaches | "
@@ -497,7 +499,7 @@ namespace EvoTool
             Boot temp = bootController.LoadBoot(index);
             if (ushort.Parse(BootIDTextBox.Text) != temp.Id)
             {
-                if (bootController.LoadBootById(ushort.Parse(BootIDTextBox.Text)) != 0)
+                if (bootController.LoadBootById(ushort.Parse(BootIDTextBox.Text)) != -1)
                 {
                     MessageBox.Show("Boots already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
@@ -557,6 +559,43 @@ namespace EvoTool
             CoachNationalityComboBox.SelectedIndex = countryController.LoadCountryById(coach.Nationality);
         }
 
+        private void CoachApplyButton_Click(object sender, EventArgs e)
+        {
+            if (CoachListBox.SelectedItem == null)
+                return;
+
+            int index = int.Parse((((DataRowView)CoachListBox.SelectedItem).Row[0]).ToString());
+
+            if (uint.Parse(CoachIdTextBox.Text) > 1048575)
+            {
+                MessageBox.Show("Number exceeds the allowed range!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // check id
+            Coach coach = coachController.LoadCoach(index);
+            if (uint.Parse(CoachIdTextBox.Text) != coach.Id)
+            {
+                if (coachController.LoadCoachById(uint.Parse(CoachIdTextBox.Text)) != -1)
+                {
+                    MessageBox.Show("Coach's already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                //controller.replaceTeamCoachPersister(coach.Id, uint.Parse(CoachIdTextBox.Text));
+            }
+
+            coach.Id = uint.Parse(CoachIdTextBox.Text);
+            coach.Name = CoachNameTextBox.Text;
+            coach.JapaneseName = CoachJapTextBox.Text;
+            coach.ChineseName = CoachChineseTextBox.Text;
+            coach.Nationality = countryController.LoadCountry(CoachNationalityComboBox.SelectedIndex).Id;
+            coachController.ApplyCoach(index, coach);
+
+            //Update listbox
+            coachController.CoachTable.Rows[index].SetField("Name", CoachNameTextBox.Text);
+            //teamCoachComboBox.Items[CoachListBox.SelectedIndex] = coachNameTextBox.Text;
+        }
+
         private void CoachSearchTextBox_TextChanged(object sender, EventArgs e)
         {
             (CoachListBox.DataSource as DataTable).DefaultView.RowFilter = string.Format("Name LIKE '%{0}%'", CoachSearchTextBox.Text);
@@ -572,7 +611,7 @@ namespace EvoTool
             CoachSearchTextBox.Focus();
         }
 
-        private void coachCharButton_Click(object sender, EventArgs e)
+        private void CoachCharButton_Click(object sender, EventArgs e)
         {
             Process.Start("charmap.exe");
         }
