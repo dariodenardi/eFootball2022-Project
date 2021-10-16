@@ -84,8 +84,8 @@ namespace EvoTool.Controllers
                 countryName = Encoding.UTF8.GetString(ReadCountry.ReadBytes(70)).TrimEnd('\0');
 
                 ReadCountry.BaseStream.Position = index * BLOCK;
-                UInt32 block1 = ReadCountry.ReadUInt32();
-                countryId = block1 << 13;
+                UInt32 aux1 = ReadCountry.ReadUInt32();
+                countryId = aux1 << 13;
                 countryId = countryId >> 23;
 
                 country = new Country((ushort)countryId);

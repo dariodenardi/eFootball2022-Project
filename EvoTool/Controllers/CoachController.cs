@@ -85,8 +85,8 @@ namespace EvoTool.Controllers
                 coachId = ReadCoach.ReadUInt32();
 
                 ReadCoach.BaseStream.Position = index * BLOCK + 8;
-                UInt16 aux = ReadCoach.ReadUInt16();
-                countryId = (ushort)(aux << 7);
+                UInt16 aux1 = ReadCoach.ReadUInt16();
+                countryId = (ushort)(aux1 << 7);
                 countryId = (ushort)(countryId >> 7);
 
                 ReadCoach.BaseStream.Position = index * BLOCK + 0x6c;

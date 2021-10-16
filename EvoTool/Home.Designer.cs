@@ -450,30 +450,28 @@
             this.Column27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Stadiums = new System.Windows.Forms.TabPage();
-            this.stadiumApplyButton = new System.Windows.Forms.Button();
-            this.stadiumListBox = new System.Windows.Forms.ListBox();
-            this.stadiumSearchTextBox = new System.Windows.Forms.TextBox();
-            this.stadiumPictureBox1 = new System.Windows.Forms.PictureBox();
+            this.StadiumApplyButton = new System.Windows.Forms.Button();
+            this.StadiumListBox = new System.Windows.Forms.ListBox();
+            this.StadiumSearchTextBox = new System.Windows.Forms.TextBox();
+            this.StadiumPictureBox1 = new System.Windows.Forms.PictureBox();
             this.stadiumGroupBox2 = new System.Windows.Forms.GroupBox();
             this.stadiumNaTextBox = new System.Windows.Forms.TextBox();
             this.label96 = new System.Windows.Forms.Label();
             this.stadiumLicComboBox = new System.Windows.Forms.ComboBox();
             this.label92 = new System.Windows.Forms.Label();
-            this.stadiumCapacityTextBox = new System.Windows.Forms.TextBox();
+            this.StadiumCapacityTextBox = new System.Windows.Forms.TextBox();
             this.label95 = new System.Windows.Forms.Label();
             this.stadiumZoneComboBox = new System.Windows.Forms.ComboBox();
             this.label93 = new System.Windows.Forms.Label();
-            this.stadiumGroupBox1 = new System.Windows.Forms.GroupBox();
-            this.stadiumKonamiTextBox = new System.Windows.Forms.Label();
-            this.label117 = new System.Windows.Forms.Label();
-            this.stadiumJapTextBox = new System.Windows.Forms.TextBox();
+            this.StadiumGroupBox1 = new System.Windows.Forms.GroupBox();
+            this.StadiumJapTextBox = new System.Windows.Forms.TextBox();
             this.label97 = new System.Windows.Forms.Label();
-            this.stadiumCountryComboBox = new System.Windows.Forms.ComboBox();
+            this.StadiumCountryComboBox = new System.Windows.Forms.ComboBox();
             this.label94 = new System.Windows.Forms.Label();
-            this.stadiumCharButton = new System.Windows.Forms.Button();
-            this.stadiumNameTextBox = new System.Windows.Forms.TextBox();
+            this.StadiumCharButton = new System.Windows.Forms.Button();
+            this.StadiumNameTextBox = new System.Windows.Forms.TextBox();
             this.label85 = new System.Windows.Forms.Label();
-            this.stadiumIdTextBox = new System.Windows.Forms.TextBox();
+            this.StadiumIdTextBox = new System.Windows.Forms.TextBox();
             this.label90 = new System.Windows.Forms.Label();
             this.stadiumsOrder = new System.Windows.Forms.TabPage();
             this.stadiumOrderConfGroupBox1 = new System.Windows.Forms.GroupBox();
@@ -850,9 +848,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.derbySlotNumeric)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.derbyDataGridView)).BeginInit();
             this.Stadiums.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.stadiumPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StadiumPictureBox1)).BeginInit();
             this.stadiumGroupBox2.SuspendLayout();
-            this.stadiumGroupBox1.SuspendLayout();
+            this.StadiumGroupBox1.SuspendLayout();
             this.stadiumsOrder.SuspendLayout();
             this.stadiumOrderConfGroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.stadiumOrderConfDataGridView)).BeginInit();
@@ -5338,12 +5336,12 @@
             // 
             // Stadiums
             // 
-            this.Stadiums.Controls.Add(this.stadiumApplyButton);
-            this.Stadiums.Controls.Add(this.stadiumListBox);
-            this.Stadiums.Controls.Add(this.stadiumSearchTextBox);
-            this.Stadiums.Controls.Add(this.stadiumPictureBox1);
+            this.Stadiums.Controls.Add(this.StadiumApplyButton);
+            this.Stadiums.Controls.Add(this.StadiumListBox);
+            this.Stadiums.Controls.Add(this.StadiumSearchTextBox);
+            this.Stadiums.Controls.Add(this.StadiumPictureBox1);
             this.Stadiums.Controls.Add(this.stadiumGroupBox2);
-            this.Stadiums.Controls.Add(this.stadiumGroupBox1);
+            this.Stadiums.Controls.Add(this.StadiumGroupBox1);
             this.Stadiums.Location = new System.Drawing.Point(4, 22);
             this.Stadiums.Name = "Stadiums";
             this.Stadiums.Size = new System.Drawing.Size(907, 632);
@@ -5351,52 +5349,56 @@
             this.Stadiums.Text = "Stadiums";
             this.Stadiums.UseVisualStyleBackColor = true;
             // 
-            // stadiumApplyButton
+            // StadiumApplyButton
             // 
-            this.stadiumApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
-            this.stadiumApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.stadiumApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.stadiumApplyButton.FlatAppearance.BorderSize = 0;
-            this.stadiumApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
-            this.stadiumApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.stadiumApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.stadiumApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.stadiumApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.stadiumApplyButton.Location = new System.Drawing.Point(809, 593);
-            this.stadiumApplyButton.Margin = new System.Windows.Forms.Padding(0);
-            this.stadiumApplyButton.Name = "stadiumApplyButton";
-            this.stadiumApplyButton.Size = new System.Drawing.Size(86, 29);
-            this.stadiumApplyButton.TabIndex = 132;
-            this.stadiumApplyButton.Text = "Apply";
-            this.stadiumApplyButton.UseVisualStyleBackColor = false;
+            this.StadiumApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.StadiumApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.StadiumApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.StadiumApplyButton.FlatAppearance.BorderSize = 0;
+            this.StadiumApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.StadiumApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.StadiumApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.StadiumApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.StadiumApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.StadiumApplyButton.Location = new System.Drawing.Point(809, 593);
+            this.StadiumApplyButton.Margin = new System.Windows.Forms.Padding(0);
+            this.StadiumApplyButton.Name = "StadiumApplyButton";
+            this.StadiumApplyButton.Size = new System.Drawing.Size(86, 29);
+            this.StadiumApplyButton.TabIndex = 132;
+            this.StadiumApplyButton.Text = "Apply";
+            this.StadiumApplyButton.UseVisualStyleBackColor = false;
+            this.StadiumApplyButton.Click += new System.EventHandler(this.StadiumApplyButton_Click);
             // 
-            // stadiumListBox
+            // StadiumListBox
             // 
-            this.stadiumListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
-            this.stadiumListBox.FormattingEnabled = true;
-            this.stadiumListBox.Location = new System.Drawing.Point(3, 6);
-            this.stadiumListBox.Name = "stadiumListBox";
-            this.stadiumListBox.Size = new System.Drawing.Size(233, 589);
-            this.stadiumListBox.TabIndex = 130;
+            this.StadiumListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
+            this.StadiumListBox.FormattingEnabled = true;
+            this.StadiumListBox.Location = new System.Drawing.Point(3, 6);
+            this.StadiumListBox.Name = "StadiumListBox";
+            this.StadiumListBox.Size = new System.Drawing.Size(233, 589);
+            this.StadiumListBox.TabIndex = 130;
+            this.StadiumListBox.SelectedIndexChanged += new System.EventHandler(this.StadiumListBox_SelectedIndexChanged);
             // 
-            // stadiumSearchTextBox
+            // StadiumSearchTextBox
             // 
-            this.stadiumSearchTextBox.Location = new System.Drawing.Point(3, 608);
-            this.stadiumSearchTextBox.MaxLength = 20;
-            this.stadiumSearchTextBox.Name = "stadiumSearchTextBox";
-            this.stadiumSearchTextBox.Size = new System.Drawing.Size(233, 20);
-            this.stadiumSearchTextBox.TabIndex = 125;
-            this.stadiumSearchTextBox.Text = "search stadium...";
+            this.StadiumSearchTextBox.Location = new System.Drawing.Point(3, 608);
+            this.StadiumSearchTextBox.MaxLength = 20;
+            this.StadiumSearchTextBox.Name = "StadiumSearchTextBox";
+            this.StadiumSearchTextBox.Size = new System.Drawing.Size(233, 20);
+            this.StadiumSearchTextBox.TabIndex = 125;
+            this.StadiumSearchTextBox.Text = "search stadium...";
+            this.StadiumSearchTextBox.Click += new System.EventHandler(this.StadiumSearchTextBox_Click);
+            this.StadiumSearchTextBox.TextChanged += new System.EventHandler(this.StadiumSearchTextBox_TextChanged);
             // 
-            // stadiumPictureBox1
+            // StadiumPictureBox1
             // 
-            this.stadiumPictureBox1.BackColor = System.Drawing.Color.LightGray;
-            this.stadiumPictureBox1.Location = new System.Drawing.Point(387, 136);
-            this.stadiumPictureBox1.Name = "stadiumPictureBox1";
-            this.stadiumPictureBox1.Size = new System.Drawing.Size(512, 256);
-            this.stadiumPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.stadiumPictureBox1.TabIndex = 42;
-            this.stadiumPictureBox1.TabStop = false;
+            this.StadiumPictureBox1.BackColor = System.Drawing.Color.LightGray;
+            this.StadiumPictureBox1.Location = new System.Drawing.Point(387, 136);
+            this.StadiumPictureBox1.Name = "StadiumPictureBox1";
+            this.StadiumPictureBox1.Size = new System.Drawing.Size(512, 256);
+            this.StadiumPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.StadiumPictureBox1.TabIndex = 42;
+            this.StadiumPictureBox1.TabStop = false;
             // 
             // stadiumGroupBox2
             // 
@@ -5404,7 +5406,7 @@
             this.stadiumGroupBox2.Controls.Add(this.label96);
             this.stadiumGroupBox2.Controls.Add(this.stadiumLicComboBox);
             this.stadiumGroupBox2.Controls.Add(this.label92);
-            this.stadiumGroupBox2.Controls.Add(this.stadiumCapacityTextBox);
+            this.stadiumGroupBox2.Controls.Add(this.StadiumCapacityTextBox);
             this.stadiumGroupBox2.Controls.Add(this.label95);
             this.stadiumGroupBox2.Controls.Add(this.stadiumZoneComboBox);
             this.stadiumGroupBox2.Controls.Add(this.label93);
@@ -5451,13 +5453,13 @@
             this.label92.TabIndex = 36;
             this.label92.Text = "License:";
             // 
-            // stadiumCapacityTextBox
+            // StadiumCapacityTextBox
             // 
-            this.stadiumCapacityTextBox.Location = new System.Drawing.Point(13, 43);
-            this.stadiumCapacityTextBox.MaxLength = 6;
-            this.stadiumCapacityTextBox.Name = "stadiumCapacityTextBox";
-            this.stadiumCapacityTextBox.Size = new System.Drawing.Size(110, 20);
-            this.stadiumCapacityTextBox.TabIndex = 126;
+            this.StadiumCapacityTextBox.Location = new System.Drawing.Point(13, 43);
+            this.StadiumCapacityTextBox.MaxLength = 6;
+            this.StadiumCapacityTextBox.Name = "StadiumCapacityTextBox";
+            this.StadiumCapacityTextBox.Size = new System.Drawing.Size(110, 20);
+            this.StadiumCapacityTextBox.TabIndex = 126;
             // 
             // label95
             // 
@@ -5488,51 +5490,31 @@
             this.label93.TabIndex = 34;
             this.label93.Text = "Zone:";
             // 
-            // stadiumGroupBox1
+            // StadiumGroupBox1
             // 
-            this.stadiumGroupBox1.Controls.Add(this.stadiumKonamiTextBox);
-            this.stadiumGroupBox1.Controls.Add(this.label117);
-            this.stadiumGroupBox1.Controls.Add(this.stadiumJapTextBox);
-            this.stadiumGroupBox1.Controls.Add(this.label97);
-            this.stadiumGroupBox1.Controls.Add(this.stadiumCountryComboBox);
-            this.stadiumGroupBox1.Controls.Add(this.label94);
-            this.stadiumGroupBox1.Controls.Add(this.stadiumCharButton);
-            this.stadiumGroupBox1.Controls.Add(this.stadiumNameTextBox);
-            this.stadiumGroupBox1.Controls.Add(this.label85);
-            this.stadiumGroupBox1.Controls.Add(this.stadiumIdTextBox);
-            this.stadiumGroupBox1.Controls.Add(this.label90);
-            this.stadiumGroupBox1.Location = new System.Drawing.Point(242, 6);
-            this.stadiumGroupBox1.Name = "stadiumGroupBox1";
-            this.stadiumGroupBox1.Size = new System.Drawing.Size(657, 124);
-            this.stadiumGroupBox1.TabIndex = 40;
-            this.stadiumGroupBox1.TabStop = false;
-            this.stadiumGroupBox1.Text = "Stadium Info";
+            this.StadiumGroupBox1.Controls.Add(this.StadiumJapTextBox);
+            this.StadiumGroupBox1.Controls.Add(this.label97);
+            this.StadiumGroupBox1.Controls.Add(this.StadiumCountryComboBox);
+            this.StadiumGroupBox1.Controls.Add(this.label94);
+            this.StadiumGroupBox1.Controls.Add(this.StadiumCharButton);
+            this.StadiumGroupBox1.Controls.Add(this.StadiumNameTextBox);
+            this.StadiumGroupBox1.Controls.Add(this.label85);
+            this.StadiumGroupBox1.Controls.Add(this.StadiumIdTextBox);
+            this.StadiumGroupBox1.Controls.Add(this.label90);
+            this.StadiumGroupBox1.Location = new System.Drawing.Point(242, 6);
+            this.StadiumGroupBox1.Name = "StadiumGroupBox1";
+            this.StadiumGroupBox1.Size = new System.Drawing.Size(657, 124);
+            this.StadiumGroupBox1.TabIndex = 40;
+            this.StadiumGroupBox1.TabStop = false;
+            this.StadiumGroupBox1.Text = "Stadium Info";
             // 
-            // stadiumKonamiTextBox
+            // StadiumJapTextBox
             // 
-            this.stadiumKonamiTextBox.AutoSize = true;
-            this.stadiumKonamiTextBox.Location = new System.Drawing.Point(366, 43);
-            this.stadiumKonamiTextBox.Name = "stadiumKonamiTextBox";
-            this.stadiumKonamiTextBox.Size = new System.Drawing.Size(10, 13);
-            this.stadiumKonamiTextBox.TabIndex = 131;
-            this.stadiumKonamiTextBox.Text = "-";
-            // 
-            // label117
-            // 
-            this.label117.AutoSize = true;
-            this.label117.Location = new System.Drawing.Point(366, 23);
-            this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(76, 13);
-            this.label117.TabIndex = 130;
-            this.label117.Text = "Konami Name:";
-            // 
-            // stadiumJapTextBox
-            // 
-            this.stadiumJapTextBox.Location = new System.Drawing.Point(108, 90);
-            this.stadiumJapTextBox.MaxLength = 110;
-            this.stadiumJapTextBox.Name = "stadiumJapTextBox";
-            this.stadiumJapTextBox.Size = new System.Drawing.Size(215, 20);
-            this.stadiumJapTextBox.TabIndex = 129;
+            this.StadiumJapTextBox.Location = new System.Drawing.Point(108, 90);
+            this.StadiumJapTextBox.MaxLength = 110;
+            this.StadiumJapTextBox.Name = "StadiumJapTextBox";
+            this.StadiumJapTextBox.Size = new System.Drawing.Size(215, 20);
+            this.StadiumJapTextBox.TabIndex = 129;
             // 
             // label97
             // 
@@ -5543,15 +5525,15 @@
             this.label97.TabIndex = 128;
             this.label97.Text = "Japanese Name:";
             // 
-            // stadiumCountryComboBox
+            // StadiumCountryComboBox
             // 
-            this.stadiumCountryComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.stadiumCountryComboBox.FormattingEnabled = true;
-            this.stadiumCountryComboBox.Location = new System.Drawing.Point(369, 89);
-            this.stadiumCountryComboBox.Name = "stadiumCountryComboBox";
-            this.stadiumCountryComboBox.Size = new System.Drawing.Size(188, 21);
-            this.stadiumCountryComboBox.TabIndex = 33;
-            this.stadiumCountryComboBox.TabStop = false;
+            this.StadiumCountryComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.StadiumCountryComboBox.FormattingEnabled = true;
+            this.StadiumCountryComboBox.Location = new System.Drawing.Point(369, 89);
+            this.StadiumCountryComboBox.Name = "StadiumCountryComboBox";
+            this.StadiumCountryComboBox.Size = new System.Drawing.Size(188, 21);
+            this.StadiumCountryComboBox.TabIndex = 33;
+            this.StadiumCountryComboBox.TabStop = false;
             // 
             // label94
             // 
@@ -5562,29 +5544,30 @@
             this.label94.TabIndex = 32;
             this.label94.Text = "Country:";
             // 
-            // stadiumCharButton
+            // StadiumCharButton
             // 
-            this.stadiumCharButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.stadiumCharButton.FlatAppearance.BorderSize = 0;
-            this.stadiumCharButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.stadiumCharButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.stadiumCharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.stadiumCharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.stadiumCharButton.Image = ((System.Drawing.Image)(resources.GetObject("stadiumCharButton.Image")));
-            this.stadiumCharButton.Location = new System.Drawing.Point(329, 39);
-            this.stadiumCharButton.Margin = new System.Windows.Forms.Padding(0);
-            this.stadiumCharButton.Name = "stadiumCharButton";
-            this.stadiumCharButton.Size = new System.Drawing.Size(24, 24);
-            this.stadiumCharButton.TabIndex = 120;
-            this.stadiumCharButton.UseVisualStyleBackColor = true;
+            this.StadiumCharButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.StadiumCharButton.FlatAppearance.BorderSize = 0;
+            this.StadiumCharButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.StadiumCharButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.StadiumCharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.StadiumCharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.StadiumCharButton.Image = ((System.Drawing.Image)(resources.GetObject("StadiumCharButton.Image")));
+            this.StadiumCharButton.Location = new System.Drawing.Point(329, 39);
+            this.StadiumCharButton.Margin = new System.Windows.Forms.Padding(0);
+            this.StadiumCharButton.Name = "StadiumCharButton";
+            this.StadiumCharButton.Size = new System.Drawing.Size(24, 24);
+            this.StadiumCharButton.TabIndex = 120;
+            this.StadiumCharButton.UseVisualStyleBackColor = true;
+            this.StadiumCharButton.Click += new System.EventHandler(this.StadiumCharButton_Click);
             // 
-            // stadiumNameTextBox
+            // StadiumNameTextBox
             // 
-            this.stadiumNameTextBox.Location = new System.Drawing.Point(108, 43);
-            this.stadiumNameTextBox.MaxLength = 110;
-            this.stadiumNameTextBox.Name = "stadiumNameTextBox";
-            this.stadiumNameTextBox.Size = new System.Drawing.Size(215, 20);
-            this.stadiumNameTextBox.TabIndex = 14;
+            this.StadiumNameTextBox.Location = new System.Drawing.Point(108, 43);
+            this.StadiumNameTextBox.MaxLength = 110;
+            this.StadiumNameTextBox.Name = "StadiumNameTextBox";
+            this.StadiumNameTextBox.Size = new System.Drawing.Size(215, 20);
+            this.StadiumNameTextBox.TabIndex = 14;
             // 
             // label85
             // 
@@ -5595,13 +5578,13 @@
             this.label85.TabIndex = 12;
             this.label85.Text = "Stadium Name:";
             // 
-            // stadiumIdTextBox
+            // StadiumIdTextBox
             // 
-            this.stadiumIdTextBox.Location = new System.Drawing.Point(13, 43);
-            this.stadiumIdTextBox.MaxLength = 4;
-            this.stadiumIdTextBox.Name = "stadiumIdTextBox";
-            this.stadiumIdTextBox.Size = new System.Drawing.Size(63, 20);
-            this.stadiumIdTextBox.TabIndex = 9;
+            this.StadiumIdTextBox.Location = new System.Drawing.Point(13, 43);
+            this.StadiumIdTextBox.MaxLength = 4;
+            this.StadiumIdTextBox.Name = "StadiumIdTextBox";
+            this.StadiumIdTextBox.Size = new System.Drawing.Size(63, 20);
+            this.StadiumIdTextBox.TabIndex = 9;
             // 
             // label90
             // 
@@ -8881,11 +8864,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.derbyDataGridView)).EndInit();
             this.Stadiums.ResumeLayout(false);
             this.Stadiums.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.stadiumPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StadiumPictureBox1)).EndInit();
             this.stadiumGroupBox2.ResumeLayout(false);
             this.stadiumGroupBox2.PerformLayout();
-            this.stadiumGroupBox1.ResumeLayout(false);
-            this.stadiumGroupBox1.PerformLayout();
+            this.StadiumGroupBox1.ResumeLayout(false);
+            this.StadiumGroupBox1.PerformLayout();
             this.stadiumsOrder.ResumeLayout(false);
             this.stadiumOrderConfGroupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.stadiumOrderConfDataGridView)).EndInit();
@@ -9124,17 +9107,17 @@
         private System.Windows.Forms.Label label88;
         private System.Windows.Forms.TextBox BallOrderTextBox;
         private System.Windows.Forms.Label label87;
-        private System.Windows.Forms.Button stadiumCharButton;
-        private System.Windows.Forms.TextBox stadiumNameTextBox;
+        private System.Windows.Forms.Button StadiumCharButton;
+        private System.Windows.Forms.TextBox StadiumNameTextBox;
         private System.Windows.Forms.Label label85;
-        private System.Windows.Forms.TextBox stadiumIdTextBox;
+        private System.Windows.Forms.TextBox StadiumIdTextBox;
         private System.Windows.Forms.Label label90;
         private System.Windows.Forms.ComboBox stadiumLicComboBox;
         private System.Windows.Forms.Label label92;
         private System.Windows.Forms.ComboBox stadiumZoneComboBox;
         private System.Windows.Forms.Label label93;
         private System.Windows.Forms.Label label94;
-        private System.Windows.Forms.TextBox stadiumCapacityTextBox;
+        private System.Windows.Forms.TextBox StadiumCapacityTextBox;
         private System.Windows.Forms.Label label95;
         private System.Windows.Forms.Label label96;
         private System.Windows.Forms.ToolStripMenuItem playerApparenceToolStripMenuItem;
@@ -9143,7 +9126,7 @@
         private System.Windows.Forms.ToolStripMenuItem playerAppareanceToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem csvToolStripMenuItem14;
         private System.Windows.Forms.ToolStripMenuItem csvToolStripMenuItem15;
-        private System.Windows.Forms.TextBox stadiumJapTextBox;
+        private System.Windows.Forms.TextBox StadiumJapTextBox;
         private System.Windows.Forms.Label label97;
         private System.Windows.Forms.TextBox stadiumNaTextBox;
         private System.Windows.Forms.ToolStripMenuItem loadFootballManager;
@@ -9179,8 +9162,6 @@
         private System.Windows.Forms.Label label116;
         private System.Windows.Forms.TextBox CoachJapTextBox;
         private System.Windows.Forms.Label label91;
-        private System.Windows.Forms.Label stadiumKonamiTextBox;
-        private System.Windows.Forms.Label label117;
         private System.Windows.Forms.CheckBox coachLicCheckBox;
         private System.Windows.Forms.ComboBox teamAnthem;
         private System.Windows.Forms.Label label101;
@@ -9462,8 +9443,8 @@
         internal System.Windows.Forms.ListBox BallListBox;
         internal System.Windows.Forms.ListBox GloveListBox;
         internal System.Windows.Forms.ListBox BootListBox;
-        internal System.Windows.Forms.ListBox stadiumListBox;
-        internal System.Windows.Forms.ComboBox stadiumCountryComboBox;
+        internal System.Windows.Forms.ListBox StadiumListBox;
+        internal System.Windows.Forms.ComboBox StadiumCountryComboBox;
         internal System.Windows.Forms.DataGridView derbyDataGridView;
         internal System.Windows.Forms.ComboBox derbyTeam1ComboBox;
         internal System.Windows.Forms.ComboBox derbyTeam2ComboBox;
@@ -9600,10 +9581,10 @@
         internal System.Windows.Forms.TextBox BallSearchTextBox;
         internal System.Windows.Forms.Button BallApplyButton;
         internal System.Windows.Forms.ToolStripMenuItem addNewBallStrip;
-        internal System.Windows.Forms.GroupBox stadiumGroupBox1;
+        internal System.Windows.Forms.GroupBox StadiumGroupBox1;
         internal System.Windows.Forms.GroupBox stadiumGroupBox2;
-        internal System.Windows.Forms.TextBox stadiumSearchTextBox;
-        internal System.Windows.Forms.Button stadiumApplyButton;
+        internal System.Windows.Forms.TextBox StadiumSearchTextBox;
+        internal System.Windows.Forms.Button StadiumApplyButton;
         internal System.Windows.Forms.ToolStripMenuItem addNewStadiumStrip;
         internal System.Windows.Forms.GroupBox stadiumOrderConfGroupBox1;
         internal System.Windows.Forms.GroupBox stadiumOrderGroupBox1;
@@ -9635,7 +9616,7 @@
         private System.Windows.Forms.CheckBox coachMyClubCheckBox;
         private System.Windows.Forms.CheckBox coachClubCheckBox;
         internal System.Windows.Forms.PictureBox CoachPictureBox1;
-        internal System.Windows.Forms.PictureBox stadiumPictureBox1;
+        internal System.Windows.Forms.PictureBox StadiumPictureBox1;
         internal System.Windows.Forms.PictureBox BallPictureBox1;
         private System.Windows.Forms.CheckBox coachUnLicCheckBox;
         private System.Windows.Forms.CheckBox coachNationalCheckBox;

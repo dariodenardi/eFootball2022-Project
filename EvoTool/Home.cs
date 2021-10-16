@@ -27,6 +27,7 @@ namespace EvoTool
         private GloveController gloveController;
         private BootController bootController;
         private CoachController coachController;
+        private StadiumController stadiumController;
 
         private void Home_Load(object sender, EventArgs e)
         {
@@ -35,6 +36,7 @@ namespace EvoTool
             gloveController = new GloveController();
             bootController = new BootController();
             coachController = new CoachController();
+            stadiumController = new StadiumController();
             FormBorderStyle = FormBorderStyle.FixedSingle;
 
             toolStripTextBox1.Text = "Welcome " + System.Environment.MachineName;
@@ -62,13 +64,14 @@ namespace EvoTool
             gloveController.CloseMemory();
             bootController.CloseMemory();
             coachController.CloseMemory();
+            stadiumController.CloseMemory();
         }
 
         private void EnableStrip()
         {
             // enable buttons
             // if there are files found
-            if (ballController.BallTable.Rows.Count != 0 || gloveController.GloveTable.Rows.Count != 0 || bootController.BootTable.Rows.Count != 0 || coachController.CoachTable.Rows.Count != 0)
+            if (ballController.BallTable.Rows.Count != 0 || gloveController.GloveTable.Rows.Count != 0 || bootController.BootTable.Rows.Count != 0 || coachController.CoachTable.Rows.Count != 0 || stadiumController.StadiumTable.Rows.Count != 0)
             {
                 tabControl1.Enabled = true;
                 Save.Enabled = true;
@@ -120,16 +123,16 @@ namespace EvoTool
             exportBallToolStripMenuItem.Enabled = false;
             importBallToolStripMenuItem.Enabled = false;
 
-            stadiumListBox.Enabled = false;
-            stadiumGroupBox1.Enabled = false;
+            StadiumListBox.Enabled = false;
+            StadiumGroupBox1.Enabled = false;
             stadiumGroupBox2.Enabled = false;
-            stadiumSearchTextBox.Enabled = false;
-            stadiumApplyButton.Enabled = false;
+            StadiumSearchTextBox.Enabled = false;
+            StadiumApplyButton.Enabled = false;
             teamStadiumComboBox.Enabled = false;
             addNewStadiumStrip.Enabled = false;
             importStadiumToolStripMenuItem.Enabled = false;
             exportStadiumToolStripMenuItem.Enabled = false;
-            stadiumPictureBox1.Enabled = false;
+            StadiumPictureBox1.Enabled = false;
 
             stadiumOrderConfGroupBox1.Enabled = false;
             stadiumOrderGroupBox1.Enabled = false;
@@ -163,7 +166,8 @@ namespace EvoTool
 
             BallCondListBox.Items.Clear();
             BallCondCompComboBox.Items.Clear();
-            stadiumCountryComboBox.Items.Clear();
+            StadiumCountryComboBox.DataSource = null;
+            StadiumCountryComboBox.Items.Clear();
             playersBox.Items.Clear();
             teamBox1.Items.Clear();
             teamBox2.Items.Clear();
@@ -208,6 +212,12 @@ namespace EvoTool
                 int status = bootController.Save(path);
                 if (status != 0)
                     MessageBox.Show("Error saved Boots.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            if (stadiumController.StadiumTable.Rows.Count != 0)
+            {
+                int status = stadiumController.Save(path);
+                if (status != 0)
+                    MessageBox.Show("Error saved Stadium.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -288,9 +298,26 @@ namespace EvoTool
                 CoachApplyButton.Enabled = true;
                 CoachPictureBox1.Enabled = true;
             }
+            int openstadium = stadiumController.Load(folder);
+            if (openstadium == 0 && countrystatus == 0)
+            {
+                StadiumCountryComboBox.DataSource = countryController.CountryTable;
+                StadiumCountryComboBox.DisplayMember = "Name";
+                StadiumCountryComboBox.ValueMember = "Index";
+
+                StadiumListBox.DataSource = stadiumController.StadiumTable;
+                StadiumListBox.DisplayMember = "Name";
+                StadiumListBox.ValueMember = "Index";
+
+                StadiumGroupBox1.Enabled = true;
+                StadiumListBox.Enabled = true;
+                StadiumSearchTextBox.Enabled = true;
+                StadiumApplyButton.Enabled = true;
+                StadiumPictureBox1.Enabled = true;
+            }
 
             toolStripTextBox1.Text = playersBox.Items.Count + " Players | " + 0 + " Teams | " + coachController.CoachTable.Rows.Count + " Coaches | "
-                + 0 + " Stadiums | " + ballController.BallTable.Rows.Count + " Balls | " + bootController.BootTable.Rows.Count + " Boots | " + gloveController.GloveTable.Rows.Count + " Gloves";
+                + stadiumController.StadiumTable.Rows.Count + " Stadiums | " + ballController.BallTable.Rows.Count + " Balls | " + bootController.BootTable.Rows.Count + " Boots | " + gloveController.GloveTable.Rows.Count + " Gloves";
         }
 
         private void Exit_Click(object sender, EventArgs e)
@@ -612,6 +639,52 @@ namespace EvoTool
         }
 
         private void CoachCharButton_Click(object sender, EventArgs e)
+        {
+            Process.Start("charmap.exe");
+        }
+
+        // stadium
+        private void StadiumListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // reset field
+            StadiumNameTextBox.Text = "";
+            StadiumIdTextBox.Text = "";
+            StadiumJapTextBox.Text = "";
+
+            if (StadiumListBox.SelectedItem == null)
+                return;
+
+            int index = int.Parse((((DataRowView)StadiumListBox.SelectedItem).Row[0]).ToString());
+
+            Stadium stadium = stadiumController.LoadStadium(index);
+            StadiumNameTextBox.Text = stadium.Name;
+            StadiumIdTextBox.Text = stadium.Id.ToString();
+            StadiumJapTextBox.Text = stadium.JapaneseName;
+            StadiumCapacityTextBox.Text = stadium.Capacity.ToString();
+            StadiumCountryComboBox.SelectedIndex = countryController.LoadCountryById(stadium.Country);
+        }
+
+        private void StadiumApplyButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StadiumSearchTextBox_TextChanged(object sender, EventArgs e)
+        {
+            (StadiumListBox.DataSource as DataTable).DefaultView.RowFilter = string.Format("Name LIKE '%{0}%'", StadiumSearchTextBox.Text);
+
+            StadiumListBox.ClearSelected();
+            if (StadiumListBox.Items.Count > 0)
+                StadiumListBox.SelectedIndex = 0;
+        }
+
+        private void StadiumSearchTextBox_Click(object sender, EventArgs e)
+        {
+            StadiumSearchTextBox.SelectAll();
+            StadiumSearchTextBox.Focus();
+        }
+
+        private void StadiumCharButton_Click(object sender, EventArgs e)
         {
             Process.Start("charmap.exe");
         }
