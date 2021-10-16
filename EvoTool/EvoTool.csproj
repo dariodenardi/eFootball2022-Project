@@ -65,6 +65,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\PlayerController.cs" />
     <Compile Include="Controllers\StadiumController.cs" />
     <Compile Include="Controllers\BallController.cs" />
     <Compile Include="Controllers\BootController.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Models\Boot.cs" />
     <Compile Include="Models\Coach.cs" />
     <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Stadium.cs" />
     <Compile Include="Models\Glove.cs" />
     <Compile Include="Player.cs">
@@ -148,7 +150,6 @@
     <Content Include="Resources\ball_randam.png" />
     <Content Include="Resources\e_blank.png" />
     <Content Include="Resources\player_dummy.png" />
-    <Content Include="Resources\st_random.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

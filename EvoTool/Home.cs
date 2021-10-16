@@ -23,20 +23,22 @@ namespace EvoTool
 
         private string path;
         private CountryController countryController;
-        private BallController ballController;
-        private GloveController gloveController;
-        private BootController bootController;
+        private PlayerController playerController;
         private CoachController coachController;
         private StadiumController stadiumController;
+        private BallController ballController;
+        private BootController bootController;
+        private GloveController gloveController;
 
         private void Home_Load(object sender, EventArgs e)
         {
             countryController = new CountryController();
-            ballController = new BallController();
-            gloveController = new GloveController();
-            bootController = new BootController();
+            playerController = new PlayerController();
             coachController = new CoachController();
             stadiumController = new StadiumController();
+            ballController = new BallController();
+            bootController = new BootController();
+            gloveController = new GloveController();
             FormBorderStyle = FormBorderStyle.FixedSingle;
 
             toolStripTextBox1.Text = "Welcome " + System.Environment.MachineName;
@@ -60,18 +62,19 @@ namespace EvoTool
         private void CloseMemory()
         {
             countryController.CloseMemory();
-            ballController.CloseMemory();
-            gloveController.CloseMemory();
-            bootController.CloseMemory();
+            playerController.CloseMemory();
             coachController.CloseMemory();
             stadiumController.CloseMemory();
+            ballController.CloseMemory();
+            bootController.CloseMemory();
+            gloveController.CloseMemory();
         }
 
         private void EnableStrip()
         {
             // enable buttons
             // if there are files found
-            if (ballController.BallTable.Rows.Count != 0 || gloveController.GloveTable.Rows.Count != 0 || bootController.BootTable.Rows.Count != 0 || coachController.CoachTable.Rows.Count != 0 || stadiumController.StadiumTable.Rows.Count != 0)
+            if (playerController.PlayerTable.Rows.Count != 0 || coachController.CoachTable.Rows.Count != 0 || stadiumController.StadiumTable.Rows.Count != 0 || ballController.BallTable.Rows.Count != 0 || bootController.BootTable.Rows.Count != 0 || gloveController.GloveTable.Rows.Count != 0)
             {
                 tabControl1.Enabled = true;
                 Save.Enabled = true;
@@ -168,11 +171,13 @@ namespace EvoTool
             BallCondCompComboBox.Items.Clear();
             StadiumCountryComboBox.DataSource = null;
             StadiumCountryComboBox.Items.Clear();
-            playersBox.Items.Clear();
+            PlayerListBox.DataSource = null;
+            PlayerListBox.Items.Clear();
             teamBox1.Items.Clear();
             teamBox2.Items.Clear();
             competitionsBox.Items.Clear();
-            giocatoreNationality.Items.Clear();
+            PlayerNationalityComboBox.DataSource = null;
+            PlayerNationalityComboBox.Items.Clear();
             teamCountryComboBox.Items.Clear();
             CoachNationalityComboBox.DataSource = null;
             CoachNationalityComboBox.Items.Clear();
@@ -195,17 +200,17 @@ namespace EvoTool
         private void Save_Click(object sender, EventArgs e)
         {
             // save file
+            if (stadiumController.StadiumTable.Rows.Count != 0)
+            {
+                int status = stadiumController.Save(path);
+                if (status != 0)
+                    MessageBox.Show("Error saved Stadium.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             if (ballController.BallTable.Rows.Count != 0)
             {
                 int status = ballController.Save(path);
                 if (status != 0)
                     MessageBox.Show("Error saved Ball.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            if (gloveController.GloveTable.Rows.Count != 0)
-            {
-                int status = gloveController.Save(path);
-                if (status != 0)
-                    MessageBox.Show("Error saved Glove.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             if (bootController.BootTable.Rows.Count != 0)
             {
@@ -213,11 +218,11 @@ namespace EvoTool
                 if (status != 0)
                     MessageBox.Show("Error saved Boots.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            if (stadiumController.StadiumTable.Rows.Count != 0)
+            if (gloveController.GloveTable.Rows.Count != 0)
             {
-                int status = stadiumController.Save(path);
+                int status = gloveController.Save(path);
                 if (status != 0)
-                    MessageBox.Show("Error saved Stadium.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Error saved Glove.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -225,12 +230,75 @@ namespace EvoTool
         {
             this.Text = "EvoTool 2022 - Pc Mode";
 
-            int countrystatus = countryController.Load(folder);
             // if there are Country.bin
-            int ballstatus = ballController.Load(folder);
+            int countrystatus = countryController.Load(folder);
+            // if there are Player.bin
+            int openplayer = playerController.Load(folder);
+            if (openplayer == 0 && countrystatus == 0)
+            {
+                PlayerNationalityComboBox.DataSource = countryController.CountryTable;
+                PlayerNationalityComboBox.DisplayMember = "Name";
+                PlayerNationalityComboBox.ValueMember = "Index";
+
+                PlayerListBox.SelectedValue = -1; // if I load database a second time, the first items isn't selected, so I must deselect and then select first item
+                PlayerListBox.DataSource = playerController.PlayerTable;
+                PlayerListBox.DisplayMember = "Name";
+                PlayerListBox.ValueMember = "Index";
+
+                PlayerListBox.Enabled = true;
+
+                PlayerListBox.SelectedValue = 0;
+            }
+            // if there are Coach.bin
+            int opencoach = coachController.Load(folder);
+            if (opencoach == 0 && countrystatus == 0)
+            {
+                CoachNationalityComboBox.BindingContext = new BindingContext();
+                CoachNationalityComboBox.DataSource = countryController.CountryTable;
+                CoachNationalityComboBox.DisplayMember = "Name";
+                CoachNationalityComboBox.ValueMember = "Index";
+
+                CoachListBox.SelectedValue = -1; // if I load database a second time, the first items isn't selected, so I must deselect and then select first item
+                CoachListBox.DataSource = coachController.CoachTable;
+                CoachListBox.DisplayMember = "Name";
+                CoachListBox.ValueMember = "Index";
+
+                coachGroupBox1.Enabled = true;
+                CoachListBox.Enabled = true;
+                CoachSearchTextBox.Enabled = true;
+                CoachApplyButton.Enabled = true;
+                CoachPictureBox1.Enabled = true;
+
+                CoachListBox.SelectedValue = 0;
+            }
+            // if there are Stadium.bin
+            int openstadium = stadiumController.Load(folder);
+            if (openstadium == 0 && countrystatus == 0)
+            {
+                StadiumCountryComboBox.SelectedValue = -1;
+                StadiumCountryComboBox.BindingContext = new BindingContext();
+                StadiumCountryComboBox.DataSource = countryController.CountryTable;
+                StadiumCountryComboBox.DisplayMember = "Name";
+                StadiumCountryComboBox.ValueMember = "Index";
+
+                StadiumListBox.SelectedValue = -1; // if I load database a second time, the first items isn't selected, so I must deselect and then select first item
+                StadiumListBox.DataSource = stadiumController.StadiumTable;
+                StadiumListBox.DisplayMember = "Name";
+                StadiumListBox.ValueMember = "Index";
+
+                StadiumGroupBox1.Enabled = true;
+                StadiumListBox.Enabled = true;
+                StadiumSearchTextBox.Enabled = true;
+                StadiumApplyButton.Enabled = true;
+                StadiumPictureBox1.Enabled = true;
+
+                StadiumListBox.SelectedValue = 0;
+            }
             // if there are Ball.bin
+            int ballstatus = ballController.Load(folder);
             if (ballstatus == 0)
             {
+                BallListBox.SelectedValue = -1; // if I load database a second time, the first items isn't selected, so I must deselect and then select first item
                 BallListBox.DataSource = ballController.BallTable;
                 BallListBox.DisplayMember = "Name";
                 BallListBox.ValueMember = "Index";
@@ -244,29 +312,14 @@ namespace EvoTool
                 //addNewBallStrip.Enabled = true;
                 //exportBallToolStripMenuItem.Enabled = true;
                 //importBallToolStripMenuItem.Enabled = true;
-            }
-            int glovestatus = gloveController.Load(folder);
-            // if there are Glove.bin
-            if (glovestatus == 0)
-            {
-                GloveListBox.DataSource = gloveController.GloveTable;
-                GloveListBox.DisplayMember = "Name";
-                GloveListBox.ValueMember = "Index";
 
-                GloveGroupBox1.Enabled = true;
-                GloveListBox.Enabled = true;
-                GloveSearchTextBox.Enabled = true;
-                GloveApplyButton.Enabled = true;
-                GlovePictureBox1.Enabled = true;
-
-                //addNewGloveStrip.Enabled = true;
-                //exportGloveToolStripMenuItem.Enabled = true;
-                //importGloveToolStripMenuItem.Enabled = true;
+                BallListBox.SelectedValue = 0;
             }
-            int bootstatus = bootController.Load(folder);
             // if there are Boots.bin
+            int bootstatus = bootController.Load(folder);
             if (bootstatus == 0)
             {
+                BootListBox.SelectedValue = -1; // if I load database a second time, the first items isn't selected, so I must deselect and then select first item
                 BootListBox.DataSource = bootController.BootTable;
                 BootListBox.DisplayMember = "Name";
                 BootListBox.ValueMember = "Index";
@@ -280,43 +333,32 @@ namespace EvoTool
                 //addNewBootStrip.Enabled = true;
                 //exportBootToolStripMenuItem.Enabled = true;
                 //importBootToolStripMenuItem.Enabled = true;
+
+                BootListBox.SelectedValue = 0;
             }
-            int opencoach = coachController.Load(folder);
-            if (opencoach == 0 && countrystatus == 0)
+            // if there are Glove.bin
+            int glovestatus = gloveController.Load(folder);
+            if (glovestatus == 0)
             {
-                CoachNationalityComboBox.DataSource = countryController.CountryTable;
-                CoachNationalityComboBox.DisplayMember = "Name";
-                CoachNationalityComboBox.ValueMember = "Index";
+                GloveListBox.SelectedValue = -1; // if I load database a second time, the first items isn't selected, so I must deselect and then select first item
+                GloveListBox.DataSource = gloveController.GloveTable;
+                GloveListBox.DisplayMember = "Name";
+                GloveListBox.ValueMember = "Index";
 
-                CoachListBox.DataSource = coachController.CoachTable;
-                CoachListBox.DisplayMember = "Name";
-                CoachListBox.ValueMember = "Index";
+                GloveGroupBox1.Enabled = true;
+                GloveListBox.Enabled = true;
+                GloveSearchTextBox.Enabled = true;
+                GloveApplyButton.Enabled = true;
+                GlovePictureBox1.Enabled = true;
 
-                coachGroupBox1.Enabled = true;
-                CoachListBox.Enabled = true;
-                CoachSearchTextBox.Enabled = true;
-                CoachApplyButton.Enabled = true;
-                CoachPictureBox1.Enabled = true;
-            }
-            int openstadium = stadiumController.Load(folder);
-            if (openstadium == 0 && countrystatus == 0)
-            {
-                StadiumCountryComboBox.DataSource = countryController.CountryTable;
-                StadiumCountryComboBox.DisplayMember = "Name";
-                StadiumCountryComboBox.ValueMember = "Index";
+                //addNewGloveStrip.Enabled = true;
+                //exportGloveToolStripMenuItem.Enabled = true;
+                //importGloveToolStripMenuItem.Enabled = true;
 
-                StadiumListBox.DataSource = stadiumController.StadiumTable;
-                StadiumListBox.DisplayMember = "Name";
-                StadiumListBox.ValueMember = "Index";
-
-                StadiumGroupBox1.Enabled = true;
-                StadiumListBox.Enabled = true;
-                StadiumSearchTextBox.Enabled = true;
-                StadiumApplyButton.Enabled = true;
-                StadiumPictureBox1.Enabled = true;
+                GloveListBox.SelectedValue = 0;
             }
 
-            toolStripTextBox1.Text = playersBox.Items.Count + " Players | " + 0 + " Teams | " + coachController.CoachTable.Rows.Count + " Coaches | "
+            toolStripTextBox1.Text = playerController.PlayerTable.Rows.Count + " Players | " + 0 + " Teams | " + coachController.CoachTable.Rows.Count + " Coaches | "
                 + stadiumController.StadiumTable.Rows.Count + " Stadiums | " + ballController.BallTable.Rows.Count + " Balls | " + bootController.BootTable.Rows.Count + " Boots | " + gloveController.GloveTable.Rows.Count + " Gloves";
         }
 
@@ -650,6 +692,7 @@ namespace EvoTool
             StadiumNameTextBox.Text = "";
             StadiumIdTextBox.Text = "";
             StadiumJapTextBox.Text = "";
+            StadiumPictureBox1.Image = null;
 
             if (StadiumListBox.SelectedItem == null)
                 return;

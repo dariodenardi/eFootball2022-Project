@@ -9,12 +9,12 @@ namespace EvoTool.Models
     public class Glove
     {
 
-        public Glove(UInt16 id)
+        public Glove(ushort id)
         {
             this.Id = id;
         }
 
-        public UInt16 Id { get; set; }
+        public ushort Id { get; set; }
         public byte Order { get; set; }
         public string Name { get; set; }
 

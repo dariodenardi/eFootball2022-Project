@@ -112,7 +112,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Transfers = new System.Windows.Forms.TabPage();
             this.searchById = new System.Windows.Forms.CheckBox();
-            this.playersBox = new System.Windows.Forms.ListBox();
+            this.PlayerListBox = new System.Windows.Forms.ListBox();
             this.searchTeamAB = new System.Windows.Forms.TextBox();
             this.teamBox2 = new System.Windows.Forms.ComboBox();
             this.teamBox1 = new System.Windows.Forms.ComboBox();
@@ -199,7 +199,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.giocatorePanel1 = new System.Windows.Forms.Panel();
-            this.giocatoreNationality = new System.Windows.Forms.ComboBox();
+            this.PlayerNationalityComboBox = new System.Windows.Forms.ComboBox();
             this.giocatoreSquadra = new System.Windows.Forms.TextBox();
             this.giocatoreNazionale = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -1587,7 +1587,7 @@
             // Transfers
             // 
             this.Transfers.Controls.Add(this.searchById);
-            this.Transfers.Controls.Add(this.playersBox);
+            this.Transfers.Controls.Add(this.PlayerListBox);
             this.Transfers.Controls.Add(this.searchTeamAB);
             this.Transfers.Controls.Add(this.teamBox2);
             this.Transfers.Controls.Add(this.teamBox1);
@@ -1607,6 +1607,7 @@
             // searchById
             // 
             this.searchById.AutoSize = true;
+            this.searchById.Enabled = false;
             this.searchById.Location = new System.Drawing.Point(5, 8);
             this.searchById.Name = "searchById";
             this.searchById.Size = new System.Drawing.Size(117, 17);
@@ -1614,18 +1615,20 @@
             this.searchById.Text = "Search player by Id";
             this.searchById.UseVisualStyleBackColor = true;
             // 
-            // playersBox
+            // PlayerListBox
             // 
-            this.playersBox.AllowDrop = true;
-            this.playersBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
-            this.playersBox.FormattingEnabled = true;
-            this.playersBox.Location = new System.Drawing.Point(3, 36);
-            this.playersBox.Name = "playersBox";
-            this.playersBox.Size = new System.Drawing.Size(193, 537);
-            this.playersBox.TabIndex = 131;
+            this.PlayerListBox.AllowDrop = true;
+            this.PlayerListBox.Enabled = false;
+            this.PlayerListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
+            this.PlayerListBox.FormattingEnabled = true;
+            this.PlayerListBox.Location = new System.Drawing.Point(3, 36);
+            this.PlayerListBox.Name = "PlayerListBox";
+            this.PlayerListBox.Size = new System.Drawing.Size(193, 537);
+            this.PlayerListBox.TabIndex = 131;
             // 
             // searchTeamAB
             // 
+            this.searchTeamAB.Enabled = false;
             this.searchTeamAB.Location = new System.Drawing.Point(3, 584);
             this.searchTeamAB.MaxLength = 20;
             this.searchTeamAB.Name = "searchTeamAB";
@@ -1636,6 +1639,7 @@
             // teamBox2
             // 
             this.teamBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.teamBox2.Enabled = false;
             this.teamBox2.FormattingEnabled = true;
             this.teamBox2.Location = new System.Drawing.Point(411, 4);
             this.teamBox2.Name = "teamBox2";
@@ -1646,6 +1650,7 @@
             // teamBox1
             // 
             this.teamBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.teamBox1.Enabled = false;
             this.teamBox1.FormattingEnabled = true;
             this.teamBox1.Location = new System.Drawing.Point(204, 4);
             this.teamBox1.Name = "teamBox1";
@@ -1663,6 +1668,7 @@
             this.columnHeader7,
             this.columnHeader28});
             this.teamView2.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.teamView2.Enabled = false;
             this.teamView2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F);
             this.teamView2.FullRowSelect = true;
             this.teamView2.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
@@ -1755,6 +1761,7 @@
             this.giocatorePanel2.Controls.Add(this.label10);
             this.giocatorePanel2.Controls.Add(this.label9);
             this.giocatorePanel2.Controls.Add(this.label8);
+            this.giocatorePanel2.Enabled = false;
             this.giocatorePanel2.Location = new System.Drawing.Point(618, 160);
             this.giocatorePanel2.Name = "giocatorePanel2";
             this.giocatorePanel2.Size = new System.Drawing.Size(278, 468);
@@ -2520,7 +2527,7 @@
             // giocatorePanel1
             // 
             this.giocatorePanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.giocatorePanel1.Controls.Add(this.giocatoreNationality);
+            this.giocatorePanel1.Controls.Add(this.PlayerNationalityComboBox);
             this.giocatorePanel1.Controls.Add(this.giocatoreSquadra);
             this.giocatorePanel1.Controls.Add(this.giocatoreNazionale);
             this.giocatorePanel1.Controls.Add(this.label7);
@@ -2539,15 +2546,16 @@
             this.giocatorePanel1.Size = new System.Drawing.Size(278, 153);
             this.giocatorePanel1.TabIndex = 31;
             // 
-            // giocatoreNationality
+            // PlayerNationalityComboBox
             // 
-            this.giocatoreNationality.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.giocatoreNationality.FormattingEnabled = true;
-            this.giocatoreNationality.Location = new System.Drawing.Point(71, 124);
-            this.giocatoreNationality.Name = "giocatoreNationality";
-            this.giocatoreNationality.Size = new System.Drawing.Size(199, 21);
-            this.giocatoreNationality.TabIndex = 132;
-            this.giocatoreNationality.TabStop = false;
+            this.PlayerNationalityComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.PlayerNationalityComboBox.Enabled = false;
+            this.PlayerNationalityComboBox.FormattingEnabled = true;
+            this.PlayerNationalityComboBox.Location = new System.Drawing.Point(71, 124);
+            this.PlayerNationalityComboBox.Name = "PlayerNationalityComboBox";
+            this.PlayerNationalityComboBox.Size = new System.Drawing.Size(199, 21);
+            this.PlayerNationalityComboBox.TabIndex = 132;
+            this.PlayerNationalityComboBox.TabStop = false;
             // 
             // giocatoreSquadra
             // 
@@ -2589,6 +2597,7 @@
             // 
             // giocatoreNumber
             // 
+            this.giocatoreNumber.Enabled = false;
             this.giocatoreNumber.Location = new System.Drawing.Point(235, 57);
             this.giocatoreNumber.MaxLength = 2;
             this.giocatoreNumber.Name = "giocatoreNumber";
@@ -2616,6 +2625,7 @@
             // 
             // giocatoreShirt
             // 
+            this.giocatoreShirt.Enabled = false;
             this.giocatoreShirt.Location = new System.Drawing.Point(71, 31);
             this.giocatoreShirt.MaxLength = 20;
             this.giocatoreShirt.Name = "giocatoreShirt";
@@ -2625,6 +2635,7 @@
             // 
             // giocatoreName
             // 
+            this.giocatoreName.Enabled = false;
             this.giocatoreName.Location = new System.Drawing.Point(71, 5);
             this.giocatoreName.MaxLength = 30;
             this.giocatoreName.Name = "giocatoreName";
@@ -2670,6 +2681,7 @@
             // 
             // searchPlayer
             // 
+            this.searchPlayer.Enabled = false;
             this.searchPlayer.Location = new System.Drawing.Point(3, 608);
             this.searchPlayer.MaxLength = 20;
             this.searchPlayer.Name = "searchPlayer";
@@ -2688,6 +2700,7 @@
             this.columnHeader13,
             this.columnHeader27});
             this.teamView1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.teamView1.Enabled = false;
             this.teamView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F);
             this.teamView1.FullRowSelect = true;
             this.teamView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
@@ -9502,8 +9515,8 @@
         internal System.Windows.Forms.DataGridView stadiumOrderDataGridView;
         internal System.Windows.Forms.ListBox CoachListBox;
         internal System.Windows.Forms.ComboBox CoachNationalityComboBox;
-        internal System.Windows.Forms.ListBox playersBox;
-        internal System.Windows.Forms.ComboBox giocatoreNationality;
+        internal System.Windows.Forms.ListBox PlayerListBox;
+        internal System.Windows.Forms.ComboBox PlayerNationalityComboBox;
         internal System.Windows.Forms.ListBox teamListBox;
         internal System.Windows.Forms.ComboBox teamStadiumComboBox;
         internal System.Windows.Forms.ComboBox teamCountryComboBox;

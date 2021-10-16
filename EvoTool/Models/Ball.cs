@@ -7,12 +7,12 @@ namespace EvoTool.Models
 {
     public class Ball
     {
-        public Ball(UInt16 id)
+        public Ball(ushort id)
         {
             this.Id = id;
         }
 
-        public UInt16 Id { get; set;  }
+        public ushort Id { get; set;  }
         public byte Order { get; set; }
         public string Name { get; set; }
 
