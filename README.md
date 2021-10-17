@@ -13,10 +13,11 @@
 </div>
 
 **Features**
-- Add Gloves Section
-- Add Boots Section
-- Add Balls Section
 - Add Coaches Section
+- Add Stadiums Section
+- Add Balls Section
+- Add Boots Section
+- Add Gloves Section
 
 **Instructions**
 - Download the archive (click on **Releases**)
@@ -24,7 +25,7 @@
 - Run .exe
 
 **How to edit database**
-- Click on File, Open and select a folder where you find Ball.bin, Glove.bin, Glove.bin ...
+- Click on File, Open and select a folder where you find Coach.bin, Stadium.bin, Ball.bin, Boot.bin, Glove.bin ...
 
 **Tool changes the game database (no EDIT.bin)**
 
