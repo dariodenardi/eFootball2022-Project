@@ -137,14 +137,21 @@ namespace EvoTool.Controllers
         {
             try
             {
-                int offsetBase = BLOCK * index + 4;
+                int offsetBase = BLOCK * index;
                 WriteStadium.BaseStream.Position = offsetBase;
                 byte zero = 0;
 
-                UInt16 id = stadium.Id;
-                string stadiumName = stadium.Name;
-                string stadiumJapName = stadium.JapaneseName;
-                WriteStadium.Write(id);
+                ReadStadium.BaseStream.Position = index * BLOCK;
+                UInt32 aux1 = ReadStadium.ReadUInt32();
+                aux1 = aux1 >> 28;
+                aux1 = aux1 << 28;
+                aux1 = aux1 | (uint) (stadium.Country << 20);
+                aux1 = aux1 | stadium.Capacity;
+                WriteStadium.BaseStream.Position = offsetBase;
+                WriteStadium.Write(aux1);
+
+                WriteStadium.BaseStream.Position = offsetBase + 4;
+                WriteStadium.Write(stadium.Id);
 
                 WriteStadium.BaseStream.Position = offsetBase + 189;
                 for (int i = 0; i <= 110; i++)
@@ -153,7 +160,7 @@ namespace EvoTool.Controllers
                 }
 
                 WriteStadium.BaseStream.Position = offsetBase + 189;
-                WriteStadium.Write(stadiumJapName.ToCharArray());
+                WriteStadium.Write(stadium.JapaneseName.ToCharArray());
 
                 WriteStadium.BaseStream.Position = offsetBase + 732;
                 for (int i = 0; i <= 110; i++)
@@ -162,7 +169,7 @@ namespace EvoTool.Controllers
                 }
 
                 WriteStadium.BaseStream.Position = offsetBase + 732;
-                WriteStadium.Write(stadiumName.ToCharArray());
+                WriteStadium.Write(stadium.Name.ToCharArray());
             }
             catch (Exception)
             {

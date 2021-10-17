@@ -709,7 +709,42 @@ namespace EvoTool
 
         private void StadiumApplyButton_Click(object sender, EventArgs e)
         {
+            if (StadiumListBox.SelectedItem == null)
+                return;
 
+            int index = int.Parse((((DataRowView)StadiumListBox.SelectedItem).Row[0]).ToString());
+
+            //nuovo id
+            if (ushort.Parse(StadiumIdTextBox.Text) > 65535)
+            {
+                MessageBox.Show("Number exceeds the allowed range!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            Stadium stadium = stadiumController.LoadStadium(index);
+            if (ushort.Parse(StadiumIdTextBox.Text) != stadium.Id)
+            {
+                if (stadiumController.LoadStadiumById(ushort.Parse(StadiumIdTextBox.Text)) != -1)
+                {
+                    MessageBox.Show("Stadium's already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                //controller.replaceTeamStadiumPersister(temp.getId(), ushort.Parse(stadiumIdTextBox.Text));
+                //controller.replaceStadiumOrderStadiumPersister(temp.getId(), ushort.Parse(stadiumIdTextBox.Text));
+                //controller.replaceStadiumOrderConfStadiumPersister(temp.getId(), ushort.Parse(stadiumIdTextBox.Text));
+            }
+
+            stadium.Id = ushort.Parse(StadiumIdTextBox.Text);
+            stadium.Capacity = ushort.Parse(StadiumCapacityTextBox.Text);
+            stadium.Country = countryController.LoadCountry(StadiumCountryComboBox.SelectedIndex).Id;
+            stadium.JapaneseName = StadiumJapTextBox.Text;
+            stadium.Name = StadiumNameTextBox.Text;
+            stadiumController.ApplyStadium(index, stadium);
+
+            //Update listbox
+            stadiumController.StadiumTable.Rows[index].SetField("Name", StadiumNameTextBox.Text);
+            //teamStadiumComboBox.Items[index] = stadiumNameTextBox.Text;
         }
 
         private void StadiumSearchTextBox_TextChanged(object sender, EventArgs e)

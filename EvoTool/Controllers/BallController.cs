@@ -125,18 +125,15 @@ namespace EvoTool.Controllers
                 WriteBall.BaseStream.Position = offsetBase;
                 byte zero = 0;
 
-                UInt16 id = ball.Id;
-                byte order = ball.Order;
-                string ballName = ball.Name;
-                WriteBall.Write(id);
-                WriteBall.Write(order);
+                WriteBall.Write(ball.Id);
+                WriteBall.Write(ball.Order);
                 for (int i = 0; i <= 135; i++)
                 {
                     WriteBall.Write(zero);
                 }
 
                 WriteBall.BaseStream.Position = offsetBase + 4;
-                WriteBall.Write(ballName.ToCharArray());
+                WriteBall.Write(ball.Name.ToCharArray());
             }
             catch (Exception)
             {

@@ -136,20 +136,16 @@ namespace EvoTool.Controllers
                 WriteCoach.BaseStream.Position = offsetBase;
 
                 byte zero = 0;
-                UInt32 id = coach.Id;
-                string coachName = coach.Name;
-                string coachChineseName = coach.ChineseName;
-                string coachJapaneseName = coach.JapaneseName;
 
-                WriteCoach.Write(id);
+                WriteCoach.Write(coach.Id);
 
                 ReadCoach.BaseStream.Position = index * BLOCK + 8;
-                UInt16 aux = ReadCoach.ReadUInt16();
-                aux = (ushort)(aux >> 9);
-                aux = (ushort)(aux << 9);
-                aux = (ushort)(aux | coach.Nationality);
+                UInt16 aux1 = ReadCoach.ReadUInt16();
+                aux1 = (ushort)(aux1 >> 9);
+                aux1 = (ushort)(aux1 << 9);
+                aux1 = (ushort)(aux1 | coach.Nationality);
                 WriteCoach.BaseStream.Position = offsetBase + 8;
-                WriteCoach.Write(aux);
+                WriteCoach.Write(aux1);
 
                 WriteCoach.BaseStream.Position = offsetBase + 0x6c;
                 for (int i = 0; i <= 33; i++)
@@ -157,7 +153,7 @@ namespace EvoTool.Controllers
                     WriteCoach.Write(zero);
                 }
                 WriteCoach.BaseStream.Position = offsetBase + 0x6c;
-                WriteCoach.Write(coachName.ToCharArray());
+                WriteCoach.Write(coach.Name.ToCharArray());
 
                 WriteCoach.BaseStream.Position = offsetBase + 16;
                 for (int i = 0; i <= 45; i++)
@@ -165,7 +161,7 @@ namespace EvoTool.Controllers
                     WriteCoach.Write(zero);
                 }
                 WriteCoach.BaseStream.Position = offsetBase + 16;
-                WriteCoach.Write(coachJapaneseName.ToCharArray());
+                WriteCoach.Write(coach.JapaneseName.ToCharArray());
 
                 WriteCoach.BaseStream.Position = offsetBase + 62;
                 for (int i = 0; i <= 45; i++)
@@ -173,7 +169,7 @@ namespace EvoTool.Controllers
                     WriteCoach.Write(zero);
                 }
                 WriteCoach.BaseStream.Position = offsetBase + 62;
-                WriteCoach.Write(coachChineseName.ToCharArray());
+                WriteCoach.Write(coach.ChineseName.ToCharArray());
             }
             catch (Exception)
             {

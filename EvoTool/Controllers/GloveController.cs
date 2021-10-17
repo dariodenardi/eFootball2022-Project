@@ -126,18 +126,15 @@ namespace EvoTool.Controllers
                 WriteGlove.BaseStream.Position = offsetBase;
                 byte zero = 0;
 
-                UInt16 id = glove.Id;
-                byte order = glove.Order;
-                string gloveName = glove.Name;
-                WriteGlove.Write(id);
-                WriteGlove.Write(order);
+                WriteGlove.Write(glove.Id);
+                WriteGlove.Write(glove.Order);
                 for (int i = 0; i <= 100; i++)
                 {
                     WriteGlove.Write(zero);
                 }
 
                 WriteGlove.BaseStream.Position = offsetBase + 104;
-                WriteGlove.Write(gloveName.ToCharArray());
+                WriteGlove.Write(glove.Name.ToCharArray());
             }
             catch (Exception)
             {

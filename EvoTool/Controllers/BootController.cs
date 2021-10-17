@@ -126,18 +126,15 @@ namespace EvoTool.Controllers
                 WriteBoot.BaseStream.Position = offsetBase;
                 byte zero = 0;
 
-                UInt16 id = boot.Id;
-                byte order = boot.Order;
-                string bootName = boot.Name;
-                WriteBoot.Write(id);
-                WriteBoot.Write(order);
+                WriteBoot.Write(boot.Id);
+                WriteBoot.Write(boot.Order);
                 for (int i = 0; i <= 100; i++)
                 {
                     WriteBoot.Write(zero);
                 }
 
                 WriteBoot.BaseStream.Position = offsetBase + 204;
-                WriteBoot.Write(bootName.ToCharArray());
+                WriteBoot.Write(boot.Name.ToCharArray());
             }
             catch (Exception)
             {
