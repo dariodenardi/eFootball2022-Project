@@ -1,10 +1,10 @@
 <div align="center">
-   
-   # EvoTool Project
+
+# EvoTool Project
 </div>
 
 <div align="center">
-    
+
 [![Open in Visual Studio](https://img.shields.io/badge/Open%20in-Visual%20Studio-1f425f.svg)](https://visualstudio.microsoft.com/it/downloads/)
 [![made with C#](https://img.shields.io/badge/Made%20with-C%23-1f425f.svg)](https://visualstudio.microsoft.com/it/downloads/)
 [![Windows](https://img.shields.io/badge/os-windows-green.svg)](https://www.microsoft.com/it-it/windows)
@@ -13,6 +13,7 @@
 </div>
 
 **Features**
+
 - Add Coaches Section
 - Add Stadiums Section
 - Add Balls Section
@@ -29,7 +30,9 @@
 
 **Tool changes the game database (no EDIT.bin)**
 
+
+
 <div align="center">
-   
-   ### This is an open-source project and must remain so, link and references only to this page
+
+### This is an open-source project and must remain so, link and references only to this page
 </div>
