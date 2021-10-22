@@ -22,9 +22,9 @@ namespace EvoTool.Controllers
             CoachTable.Columns.Add("Name", typeof(string));
         }
 
-        public MemoryStream MemoryCoach { get; set; }
-        public BinaryReader ReadCoach { get; set; }
-        public BinaryWriter WriteCoach { get; set; }
+        private MemoryStream MemoryCoach { get; set; }
+        private BinaryReader ReadCoach { get; set; }
+        private BinaryWriter WriteCoach { get; set; }
         public DataTable CoachTable { get; set; }
 
         private MemoryStream UnzlibFile(string patch)

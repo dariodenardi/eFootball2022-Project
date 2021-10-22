@@ -22,9 +22,9 @@ namespace EvoTool.Controllers
             CountryTable.Columns.Add("Name", typeof(string));
         }
 
-        public MemoryStream MemoryCountry { get; set; }
-        public BinaryReader ReadCountry { get; set; }
-        public BinaryWriter WriteCountry { get; set; }
+        private MemoryStream MemoryCountry { get; set; }
+        private BinaryReader ReadCountry { get; set; }
+        private BinaryWriter WriteCountry { get; set; }
         public DataTable CountryTable { get; set; }
 
         private MemoryStream UnzlibFile(string patch)

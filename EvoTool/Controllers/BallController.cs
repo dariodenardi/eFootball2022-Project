@@ -22,9 +22,9 @@ namespace EvoTool.Controllers
             BallTable.Columns.Add("Name", typeof(string));
         }
 
-        public MemoryStream MemoryBall { get; set; }
-        public BinaryReader ReadBall { get; set; }
-        public BinaryWriter WriteBall { get; set; }
+        private MemoryStream MemoryBall { get; set; }
+        private BinaryReader ReadBall { get; set; }
+        private BinaryWriter WriteBall { get; set; }
         public DataTable BallTable { get; set; }
 
         private MemoryStream UnzlibFile(string patch)

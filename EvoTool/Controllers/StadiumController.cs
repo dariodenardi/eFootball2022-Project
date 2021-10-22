@@ -22,9 +22,9 @@ namespace EvoTool.Controllers
             StadiumTable.Columns.Add("Name", typeof(string));
         }
 
-        public MemoryStream MemoryStadium { get; set; }
-        public BinaryReader ReadStadium { get; set; }
-        public BinaryWriter WriteStadium { get; set; }
+        private MemoryStream MemoryStadium { get; set; }
+        private BinaryReader ReadStadium { get; set; }
+        private BinaryWriter WriteStadium { get; set; }
         public DataTable StadiumTable { get; set; }
 
         private MemoryStream UnzlibFile(string patch)

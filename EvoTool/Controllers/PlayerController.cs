@@ -22,9 +22,9 @@ namespace EvoTool.Controllers
             PlayerTable.Columns.Add("Name", typeof(string));
         }
 
-        public MemoryStream MemoryPlayer { get; set; }
-        public BinaryReader ReadPlayer { get; set; }
-        public BinaryWriter WritePlayer { get; set; }
+        private MemoryStream MemoryPlayer { get; set; }
+        private BinaryReader ReadPlayer { get; set; }
+        private BinaryWriter WritePlayer { get; set; }
         public DataTable PlayerTable { get; set; }
 
         private MemoryStream UnzlibFile(string patch)
@@ -71,7 +71,7 @@ namespace EvoTool.Controllers
             return 0;
         }
 
-        public Player LoadBall(int index)
+        public Player LoadPlayer(int index)
         {
             Player player;
 
@@ -212,6 +212,7 @@ namespace EvoTool.Controllers
             string japaneseName;
             string shirtName;
             string chineseName;
+            string clubShirtName;
             string name;
             uint unknownBits7;
             try
@@ -232,30 +233,30 @@ namespace EvoTool.Controllers
                 loanContractExpiryDate = aux2 << 5 >> 5;
 
                 uint aux3 = ReadPlayer.ReadUInt32();
-                nationalTeamCaps = ((aux3 << 0) >> 24); ;
+                nationalTeamCaps = ((aux3 << 0) >> 24);
                 marketValue = ((aux3 << 8) >> 8);
 
                 uint aux4 = ReadPlayer.ReadUInt32();
-                height = ((aux4 << 0) >> 24);
+                height = ((aux4 << 0) >> 24) + 100;
                 unknownBits1 = ((aux4 << 8) >> 8);
 
                 uint aux5 = ReadPlayer.ReadUInt32();
-                setPieceTaking = ((aux5 << 0) >> 26);
+                setPieceTaking = ((aux5 << 0) >> 26) + 40;
                 goalCelebration = aux5 << 6 >> 24;
                 nationalId1 = aux5 << 14 >> 23;
                 nationalId2 = aux5 << 23 >> 23;
 
                 uint aux6 = ReadPlayer.ReadUInt32();
                 cornerKick = ((aux6 << 0) >> 28) + 1;
-                weight = aux6 << 4 >> 25;
+                weight = (aux6 << 4 >> 25) + 30;
                 unknownBits2 = aux6 << 11 >> 25;
                 unknownBits3 = aux6 << 18 >> 25;
                 unknownBits4 = aux6 << 25 >> 25;
 
                 uint aux7 = ReadPlayer.ReadUInt32();
-                defensiveAwareness = aux7 << 0 >> 26;
-                kickingPower = aux7 << 6 >> 26;
-                lowPass = aux7 << 12 >> 26;
+                defensiveAwareness = (aux7 << 0 >> 26) + 40;
+                kickingPower = (aux7 << 6 >> 26) + 40;
+                lowPass = (aux7 << 12 >> 26) + 40;
                 unknownBit1 = aux7 << 18 >> 31 == 1 ? true : false;
                 unknownBit2 = aux7 << 19 >> 31 == 1 ? true : false;
                 unknownBits5 = aux7 << 20 >> 26;
@@ -263,45 +264,45 @@ namespace EvoTool.Controllers
 
                 uint aux8 = ReadPlayer.ReadUInt32();
                 playableLB = ((aux8 << 0) >> 30);
-                speed = ((aux8 << 2) >> 26);
-                gkCatching = ((aux8 << 8) >> 26);
-                jump = ((aux8 << 14) >> 26);
-                heading = ((aux8 << 20) >> 26);
-                ballControl = ((aux8 << 26) >> 26);
+                speed = ((aux8 << 2) >> 26) + 40;
+                gkCatching = ((aux8 << 8) >> 26) + 40;
+                jump = ((aux8 << 14) >> 26) + 40;
+                heading = ((aux8 << 20) >> 26) + 40;
+                ballControl = ((aux8 << 26) >> 26) + 40;
 
                 uint aux9 = ReadPlayer.ReadUInt32();
                 playableLMF = ((aux9 << 0) >> 30);
-                gkAwareness = ((aux9 << 2) >> 26);
-                gkParrying = ((aux9 << 8) >> 26);
-                gkReflexes = ((aux9 << 14) >> 26);
-                tackling = ((aux9 << 20) >> 26);
-                gkReach = ((aux9 << 26) >> 26);
+                gkAwareness = ((aux9 << 2) >> 26) + 40;
+                gkParrying = ((aux9 << 8) >> 26) + 40;
+                gkReflexes = ((aux9 << 14) >> 26) + 40;
+                tackling = ((aux9 << 20) >> 26) + 40;
+                gkReach = ((aux9 << 26) >> 26) + 40;
 
                 uint aux10 = ReadPlayer.ReadUInt32();
                 playableGK = ((aux10 << 0) >> 30);
-                offensiveAwareness = ((aux10 << 2) >> 26);
-                dribbling = ((aux10 << 8) >> 26);
-                acceleration = ((aux10 << 14) >> 26);
-                stamina = ((aux10 << 20) >> 26);
-                curl = ((aux10 << 26) >> 26);
+                offensiveAwareness = ((aux10 << 2) >> 26) + 40;
+                dribbling = ((aux10 << 8) >> 26) + 40;
+                acceleration = ((aux10 << 14) >> 26) + 40;
+                stamina = ((aux10 << 20) >> 26) + 40;
+                curl = ((aux10 << 26) >> 26) + 40;
 
                 uint aux11 = ReadPlayer.ReadUInt32();
                 unknownBit3 = aux11 << 0 >> 31 == 1 ? true : false;
                 unknownBit4 = aux11 << 1 >> 31 == 1 ? true : false;
-                loftedPass = ((aux11 << 2) >> 26);
-                finishing = ((aux11 << 8) >> 26);
-                physicalContact = ((aux11 << 14) >> 26);
-                aggression = ((aux11 << 20) >> 26);
-                balance = ((aux11 << 26) >> 26);
+                loftedPass = ((aux11 << 2) >> 26) + 40;
+                finishing = ((aux11 << 8) >> 26) + 40;
+                physicalContact = ((aux11 << 14) >> 26) + 40;
+                aggression = ((aux11 << 20) >> 26) + 40;
+                balance = ((aux11 << 26) >> 26) + 40;
 
                 uint aux12 = ReadPlayer.ReadUInt32();
                 weakFootUsage = ((aux12 << 0) >> 30);
                 registeredPosition = ((aux12 << 2) >> 28);
                 runningArmMovement = ((aux12 << 6) >> 28) + 1;
                 dribblingArmMovement = ((aux12 << 10) >> 28) + 1;
-                tightPossession = ((aux12 << 14) >> 26);
-                defensiveEngangement = ((aux12 << 20) >> 26);
-                age = ((aux12 << 26) >> 26);
+                tightPossession = ((aux12 << 14) >> 26) + 40;
+                defensiveEngangement = ((aux12 << 20) >> 26) + 40;
+                age = ((aux12 << 26) >> 26) + 15;
 
                 uint aux13 = ReadPlayer.ReadUInt32();
                 playableRB = ((aux13 << 0) >> 30);
@@ -389,12 +390,13 @@ namespace EvoTool.Controllers
 
                 chineseName = Encoding.UTF8.GetString(ReadPlayer.ReadBytes(61)).TrimEnd('\0');
 
+                clubShirtName = Encoding.UTF8.GetString(ReadPlayer.ReadBytes(61)).TrimEnd('\0');
+
                 name = Encoding.UTF8.GetString(ReadPlayer.ReadBytes(61)).TrimEnd('\0');
 
                 player = new Player(playerId);
                 player.YouthPlayerId = youthPlayerId;
                 player.OwnerClub = ownerClub;
-                player.Id = playerId;
                 player.Padding = padding;
                 player.ClubId = clubId;
                 player.FreeKickMotion = freeKickMotion;
@@ -530,6 +532,7 @@ namespace EvoTool.Controllers
                 player.JapaneseName = japaneseName;
                 player.ShirtName = shirtName;
                 player.ChineseName = chineseName;
+                player.ClubShirtName = clubShirtName;
                 player.Name = name;
             }
             catch (Exception)

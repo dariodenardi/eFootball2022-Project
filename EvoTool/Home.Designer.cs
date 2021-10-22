@@ -121,58 +121,62 @@
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader28 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.giocatorePanel2 = new System.Windows.Forms.Panel();
-            this.aggression = new System.Windows.Forms.Label();
+            this.PlayerPanel2 = new System.Windows.Forms.Panel();
+            this.GKReachLabel = new System.Windows.Forms.Label();
+            this.label84 = new System.Windows.Forms.Label();
+            this.KickingPowerLabel = new System.Windows.Forms.Label();
             this.label83 = new System.Windows.Forms.Label();
-            this.tightPossession = new System.Windows.Forms.Label();
+            this.TightPossessionLabel = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
-            this.playerRank = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.giocatoreInjury = new System.Windows.Forms.Label();
-            this.giocatoreUse = new System.Windows.Forms.Label();
-            this.giocatoreAcc = new System.Windows.Forms.Label();
-            this.giocatoreForm = new System.Windows.Forms.Label();
+            this.PlayerRank = new System.Windows.Forms.TextBox();
+            this.PlayerPanel5 = new System.Windows.Forms.Panel();
+            this.PlayerInjuryLabel = new System.Windows.Forms.Label();
+            this.PlayerUseLabel = new System.Windows.Forms.Label();
+            this.PlayerAccLabel = new System.Windows.Forms.Label();
+            this.PlayerFormLabel = new System.Windows.Forms.Label();
             this.label106 = new System.Windows.Forms.Label();
             this.label107 = new System.Windows.Forms.Label();
             this.label108 = new System.Windows.Forms.Label();
             this.label109 = new System.Windows.Forms.Label();
-            this.coverage = new System.Windows.Forms.Label();
-            this.reflexes = new System.Windows.Forms.Label();
-            this.clearing = new System.Windows.Forms.Label();
-            this.cathing = new System.Windows.Forms.Label();
-            this.goalkeeping = new System.Windows.Forms.Label();
-            this.stamina = new System.Windows.Forms.Label();
-            this.jump = new System.Windows.Forms.Label();
-            this.physical = new System.Windows.Forms.Label();
-            this.bodyControll = new System.Windows.Forms.Label();
-            this.acceleration = new System.Windows.Forms.Label();
-            this.speed = new System.Windows.Forms.Label();
-            this.kickingPower = new System.Windows.Forms.Label();
-            this.ballWinning = new System.Windows.Forms.Label();
-            this.defense = new System.Windows.Forms.Label();
-            this.header = new System.Windows.Forms.Label();
-            this.curl = new System.Windows.Forms.Label();
-            this.placeKick = new System.Windows.Forms.Label();
-            this.finishing = new System.Windows.Forms.Label();
-            this.loftedPass = new System.Windows.Forms.Label();
-            this.lowPass = new System.Windows.Forms.Label();
-            this.dribbling = new System.Windows.Forms.Label();
-            this.ballControll = new System.Windows.Forms.Label();
-            this.attack = new System.Windows.Forms.Label();
+            this.GKReflexesLabel = new System.Windows.Forms.Label();
+            this.GKParryingLabel = new System.Windows.Forms.Label();
+            this.GKCatchingLabel = new System.Windows.Forms.Label();
+            this.GKAwarenessLabel = new System.Windows.Forms.Label();
+            this.AggressionLabel = new System.Windows.Forms.Label();
+            this.DefensiveEngangementLabel = new System.Windows.Forms.Label();
+            this.TacklingLabel = new System.Windows.Forms.Label();
+            this.DefensiveAwarenessLabel = new System.Windows.Forms.Label();
+            this.StaminaLabel = new System.Windows.Forms.Label();
+            this.BalanceLabel = new System.Windows.Forms.Label();
+            this.PhysicalContactLabel = new System.Windows.Forms.Label();
+            this.JumpLabel = new System.Windows.Forms.Label();
+            this.AccelerationLabel = new System.Windows.Forms.Label();
+            this.SpeedLabel = new System.Windows.Forms.Label();
+            this.CurlLabel = new System.Windows.Forms.Label();
+            this.SetPieceTakingLabel = new System.Windows.Forms.Label();
+            this.HeadingLabel = new System.Windows.Forms.Label();
+            this.FinishingLabel = new System.Windows.Forms.Label();
+            this.LoftedPassLabel = new System.Windows.Forms.Label();
+            this.LowPassLabel = new System.Windows.Forms.Label();
+            this.DribblingLabel = new System.Windows.Forms.Label();
+            this.BallControlLabel = new System.Windows.Forms.Label();
+            this.OffensiveProwessLabel = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
-            this.giocatorePanel4 = new System.Windows.Forms.Panel();
-            this.giocatoreFoot = new System.Windows.Forms.Label();
-            this.giocatoreHeight = new System.Windows.Forms.Label();
-            this.giocatoreWeight = new System.Windows.Forms.Label();
-            this.giocatoreAge = new System.Windows.Forms.Label();
+            this.PlayerPanel4 = new System.Windows.Forms.Panel();
+            this.PlayerHandLabel = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.PlayerFootLabel = new System.Windows.Forms.Label();
+            this.PlayerHeightLabel = new System.Windows.Forms.Label();
+            this.PlayerWeightLabel = new System.Windows.Forms.Label();
+            this.PlayerAgeLabel = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
-            this.giocatorePanel3 = new System.Windows.Forms.Panel();
-            this.giocatoreType = new System.Windows.Forms.Label();
+            this.PlayerPanel3 = new System.Windows.Forms.Panel();
+            this.PlayerTypeLabel = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.giocatoreID = new System.Windows.Forms.Label();
+            this.PlayerIDLabel = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
@@ -198,17 +202,17 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.giocatorePanel1 = new System.Windows.Forms.Panel();
+            this.PlayerPanel1 = new System.Windows.Forms.Panel();
             this.PlayerNationalityComboBox = new System.Windows.Forms.ComboBox();
-            this.giocatoreSquadra = new System.Windows.Forms.TextBox();
-            this.giocatoreNazionale = new System.Windows.Forms.TextBox();
+            this.PlayerClubTextBox = new System.Windows.Forms.TextBox();
+            this.PlayerNationalTextBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.giocatoreNumber = new System.Windows.Forms.TextBox();
+            this.PlayerNumberTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.giocatoreShirt = new System.Windows.Forms.TextBox();
-            this.giocatoreName = new System.Windows.Forms.TextBox();
+            this.PlayerShirtTextBox = new System.Windows.Forms.TextBox();
+            this.PlayerNameTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -612,7 +616,7 @@
             this.pace = new System.Windows.Forms.TextBox();
             this.naturalFitness = new System.Windows.Forms.TextBox();
             this.jumpingReach = new System.Windows.Forms.TextBox();
-            this.balance = new System.Windows.Forms.TextBox();
+            this.balance2 = new System.Windows.Forms.TextBox();
             this.agility = new System.Windows.Forms.TextBox();
             this.accelerationFm = new System.Windows.Forms.TextBox();
             this.label188 = new System.Windows.Forms.Label();
@@ -680,8 +684,8 @@
             this.driblingFm = new System.Windows.Forms.TextBox();
             this.crossing = new System.Windows.Forms.TextBox();
             this.firstTouch = new System.Windows.Forms.TextBox();
-            this.tackling = new System.Windows.Forms.TextBox();
-            this.heading = new System.Windows.Forms.TextBox();
+            this.tackling2 = new System.Windows.Forms.TextBox();
+            this.heading2 = new System.Windows.Forms.TextBox();
             this.freeKickTaking = new System.Windows.Forms.TextBox();
             this.corners = new System.Windows.Forms.TextBox();
             this.label124 = new System.Windows.Forms.Label();
@@ -797,11 +801,11 @@
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.Transfers.SuspendLayout();
-            this.giocatorePanel2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.giocatorePanel4.SuspendLayout();
-            this.giocatorePanel3.SuspendLayout();
-            this.giocatorePanel1.SuspendLayout();
+            this.PlayerPanel2.SuspendLayout();
+            this.PlayerPanel5.SuspendLayout();
+            this.PlayerPanel4.SuspendLayout();
+            this.PlayerPanel3.SuspendLayout();
+            this.PlayerPanel1.SuspendLayout();
             this.Teams.SuspendLayout();
             this.teamGroupBox5.SuspendLayout();
             this.teamGroupBox4.SuspendLayout();
@@ -1581,7 +1585,7 @@
             this.tabControl1.Location = new System.Drawing.Point(2, 23);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(915, 658);
+            this.tabControl1.Size = new System.Drawing.Size(915, 668);
             this.tabControl1.TabIndex = 34;
             // 
             // Transfers
@@ -1592,14 +1596,14 @@
             this.Transfers.Controls.Add(this.teamBox2);
             this.Transfers.Controls.Add(this.teamBox1);
             this.Transfers.Controls.Add(this.teamView2);
-            this.Transfers.Controls.Add(this.giocatorePanel2);
-            this.Transfers.Controls.Add(this.giocatorePanel1);
+            this.Transfers.Controls.Add(this.PlayerPanel2);
+            this.Transfers.Controls.Add(this.PlayerPanel1);
             this.Transfers.Controls.Add(this.searchPlayer);
             this.Transfers.Controls.Add(this.teamView1);
             this.Transfers.Location = new System.Drawing.Point(4, 22);
             this.Transfers.Name = "Transfers";
             this.Transfers.Padding = new System.Windows.Forms.Padding(3);
-            this.Transfers.Size = new System.Drawing.Size(907, 632);
+            this.Transfers.Size = new System.Drawing.Size(907, 642);
             this.Transfers.TabIndex = 0;
             this.Transfers.Text = "Players & Transfers";
             this.Transfers.UseVisualStyleBackColor = true;
@@ -1623,13 +1627,14 @@
             this.PlayerListBox.FormattingEnabled = true;
             this.PlayerListBox.Location = new System.Drawing.Point(3, 36);
             this.PlayerListBox.Name = "PlayerListBox";
-            this.PlayerListBox.Size = new System.Drawing.Size(193, 537);
+            this.PlayerListBox.Size = new System.Drawing.Size(195, 550);
             this.PlayerListBox.TabIndex = 131;
+            this.PlayerListBox.SelectedIndexChanged += new System.EventHandler(this.PlayerListBox_SelectedIndexChanged);
             // 
             // searchTeamAB
             // 
             this.searchTeamAB.Enabled = false;
-            this.searchTeamAB.Location = new System.Drawing.Point(3, 584);
+            this.searchTeamAB.Location = new System.Drawing.Point(5, 591);
             this.searchTeamAB.MaxLength = 20;
             this.searchTeamAB.Name = "searchTeamAB";
             this.searchTeamAB.Size = new System.Drawing.Size(193, 20);
@@ -1677,7 +1682,7 @@
             this.teamView2.Location = new System.Drawing.Point(411, 36);
             this.teamView2.MultiSelect = false;
             this.teamView2.Name = "teamView2";
-            this.teamView2.Size = new System.Drawing.Size(201, 592);
+            this.teamView2.Size = new System.Drawing.Size(201, 600);
             this.teamView2.TabIndex = 0;
             this.teamView2.TabStop = false;
             this.teamView2.UseCompatibleStateImageBehavior = false;
@@ -1703,100 +1708,122 @@
             this.columnHeader28.Text = "Nr";
             this.columnHeader28.Width = 25;
             // 
-            // giocatorePanel2
+            // PlayerPanel2
             // 
-            this.giocatorePanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
-            this.giocatorePanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.giocatorePanel2.Controls.Add(this.aggression);
-            this.giocatorePanel2.Controls.Add(this.label83);
-            this.giocatorePanel2.Controls.Add(this.tightPossession);
-            this.giocatorePanel2.Controls.Add(this.label61);
-            this.giocatorePanel2.Controls.Add(this.playerRank);
-            this.giocatorePanel2.Controls.Add(this.panel1);
-            this.giocatorePanel2.Controls.Add(this.coverage);
-            this.giocatorePanel2.Controls.Add(this.reflexes);
-            this.giocatorePanel2.Controls.Add(this.clearing);
-            this.giocatorePanel2.Controls.Add(this.cathing);
-            this.giocatorePanel2.Controls.Add(this.goalkeeping);
-            this.giocatorePanel2.Controls.Add(this.stamina);
-            this.giocatorePanel2.Controls.Add(this.jump);
-            this.giocatorePanel2.Controls.Add(this.physical);
-            this.giocatorePanel2.Controls.Add(this.bodyControll);
-            this.giocatorePanel2.Controls.Add(this.acceleration);
-            this.giocatorePanel2.Controls.Add(this.speed);
-            this.giocatorePanel2.Controls.Add(this.kickingPower);
-            this.giocatorePanel2.Controls.Add(this.ballWinning);
-            this.giocatorePanel2.Controls.Add(this.defense);
-            this.giocatorePanel2.Controls.Add(this.header);
-            this.giocatorePanel2.Controls.Add(this.curl);
-            this.giocatorePanel2.Controls.Add(this.placeKick);
-            this.giocatorePanel2.Controls.Add(this.finishing);
-            this.giocatorePanel2.Controls.Add(this.loftedPass);
-            this.giocatorePanel2.Controls.Add(this.lowPass);
-            this.giocatorePanel2.Controls.Add(this.dribbling);
-            this.giocatorePanel2.Controls.Add(this.ballControll);
-            this.giocatorePanel2.Controls.Add(this.attack);
-            this.giocatorePanel2.Controls.Add(this.label44);
-            this.giocatorePanel2.Controls.Add(this.giocatorePanel4);
-            this.giocatorePanel2.Controls.Add(this.giocatorePanel3);
-            this.giocatorePanel2.Controls.Add(this.label29);
-            this.giocatorePanel2.Controls.Add(this.label28);
-            this.giocatorePanel2.Controls.Add(this.label27);
-            this.giocatorePanel2.Controls.Add(this.label26);
-            this.giocatorePanel2.Controls.Add(this.label25);
-            this.giocatorePanel2.Controls.Add(this.label24);
-            this.giocatorePanel2.Controls.Add(this.label23);
-            this.giocatorePanel2.Controls.Add(this.label22);
-            this.giocatorePanel2.Controls.Add(this.label21);
-            this.giocatorePanel2.Controls.Add(this.label20);
-            this.giocatorePanel2.Controls.Add(this.label19);
-            this.giocatorePanel2.Controls.Add(this.label18);
-            this.giocatorePanel2.Controls.Add(this.label17);
-            this.giocatorePanel2.Controls.Add(this.label16);
-            this.giocatorePanel2.Controls.Add(this.label15);
-            this.giocatorePanel2.Controls.Add(this.label14);
-            this.giocatorePanel2.Controls.Add(this.label13);
-            this.giocatorePanel2.Controls.Add(this.label12);
-            this.giocatorePanel2.Controls.Add(this.label11);
-            this.giocatorePanel2.Controls.Add(this.label10);
-            this.giocatorePanel2.Controls.Add(this.label9);
-            this.giocatorePanel2.Controls.Add(this.label8);
-            this.giocatorePanel2.Enabled = false;
-            this.giocatorePanel2.Location = new System.Drawing.Point(618, 160);
-            this.giocatorePanel2.Name = "giocatorePanel2";
-            this.giocatorePanel2.Size = new System.Drawing.Size(278, 468);
-            this.giocatorePanel2.TabIndex = 32;
+            this.PlayerPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.PlayerPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PlayerPanel2.Controls.Add(this.GKReachLabel);
+            this.PlayerPanel2.Controls.Add(this.label84);
+            this.PlayerPanel2.Controls.Add(this.KickingPowerLabel);
+            this.PlayerPanel2.Controls.Add(this.label83);
+            this.PlayerPanel2.Controls.Add(this.TightPossessionLabel);
+            this.PlayerPanel2.Controls.Add(this.label61);
+            this.PlayerPanel2.Controls.Add(this.PlayerRank);
+            this.PlayerPanel2.Controls.Add(this.PlayerPanel5);
+            this.PlayerPanel2.Controls.Add(this.GKReflexesLabel);
+            this.PlayerPanel2.Controls.Add(this.GKParryingLabel);
+            this.PlayerPanel2.Controls.Add(this.GKCatchingLabel);
+            this.PlayerPanel2.Controls.Add(this.GKAwarenessLabel);
+            this.PlayerPanel2.Controls.Add(this.AggressionLabel);
+            this.PlayerPanel2.Controls.Add(this.DefensiveEngangementLabel);
+            this.PlayerPanel2.Controls.Add(this.TacklingLabel);
+            this.PlayerPanel2.Controls.Add(this.DefensiveAwarenessLabel);
+            this.PlayerPanel2.Controls.Add(this.StaminaLabel);
+            this.PlayerPanel2.Controls.Add(this.BalanceLabel);
+            this.PlayerPanel2.Controls.Add(this.PhysicalContactLabel);
+            this.PlayerPanel2.Controls.Add(this.JumpLabel);
+            this.PlayerPanel2.Controls.Add(this.AccelerationLabel);
+            this.PlayerPanel2.Controls.Add(this.SpeedLabel);
+            this.PlayerPanel2.Controls.Add(this.CurlLabel);
+            this.PlayerPanel2.Controls.Add(this.SetPieceTakingLabel);
+            this.PlayerPanel2.Controls.Add(this.HeadingLabel);
+            this.PlayerPanel2.Controls.Add(this.FinishingLabel);
+            this.PlayerPanel2.Controls.Add(this.LoftedPassLabel);
+            this.PlayerPanel2.Controls.Add(this.LowPassLabel);
+            this.PlayerPanel2.Controls.Add(this.DribblingLabel);
+            this.PlayerPanel2.Controls.Add(this.BallControlLabel);
+            this.PlayerPanel2.Controls.Add(this.OffensiveProwessLabel);
+            this.PlayerPanel2.Controls.Add(this.label44);
+            this.PlayerPanel2.Controls.Add(this.PlayerPanel4);
+            this.PlayerPanel2.Controls.Add(this.PlayerPanel3);
+            this.PlayerPanel2.Controls.Add(this.label29);
+            this.PlayerPanel2.Controls.Add(this.label28);
+            this.PlayerPanel2.Controls.Add(this.label27);
+            this.PlayerPanel2.Controls.Add(this.label26);
+            this.PlayerPanel2.Controls.Add(this.label25);
+            this.PlayerPanel2.Controls.Add(this.label24);
+            this.PlayerPanel2.Controls.Add(this.label23);
+            this.PlayerPanel2.Controls.Add(this.label22);
+            this.PlayerPanel2.Controls.Add(this.label21);
+            this.PlayerPanel2.Controls.Add(this.label20);
+            this.PlayerPanel2.Controls.Add(this.label19);
+            this.PlayerPanel2.Controls.Add(this.label18);
+            this.PlayerPanel2.Controls.Add(this.label17);
+            this.PlayerPanel2.Controls.Add(this.label16);
+            this.PlayerPanel2.Controls.Add(this.label15);
+            this.PlayerPanel2.Controls.Add(this.label14);
+            this.PlayerPanel2.Controls.Add(this.label13);
+            this.PlayerPanel2.Controls.Add(this.label12);
+            this.PlayerPanel2.Controls.Add(this.label11);
+            this.PlayerPanel2.Controls.Add(this.label10);
+            this.PlayerPanel2.Controls.Add(this.label9);
+            this.PlayerPanel2.Controls.Add(this.label8);
+            this.PlayerPanel2.Enabled = false;
+            this.PlayerPanel2.Location = new System.Drawing.Point(618, 160);
+            this.PlayerPanel2.Name = "PlayerPanel2";
+            this.PlayerPanel2.Size = new System.Drawing.Size(278, 476);
+            this.PlayerPanel2.TabIndex = 32;
             // 
-            // aggression
+            // GKReachLabel
             // 
-            this.aggression.AutoSize = true;
-            this.aggression.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.aggression.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.aggression.Location = new System.Drawing.Point(120, 221);
-            this.aggression.Name = "aggression";
-            this.aggression.Size = new System.Drawing.Size(21, 13);
-            this.aggression.TabIndex = 89;
-            this.aggression.Text = "40";
+            this.GKReachLabel.AutoSize = true;
+            this.GKReachLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKReachLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.GKReachLabel.Location = new System.Drawing.Point(134, 455);
+            this.GKReachLabel.Name = "GKReachLabel";
+            this.GKReachLabel.Size = new System.Drawing.Size(21, 13);
+            this.GKReachLabel.TabIndex = 91;
+            this.GKReachLabel.Text = "40";
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Location = new System.Drawing.Point(7, 455);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(60, 13);
+            this.label84.TabIndex = 90;
+            this.label84.Text = "GK Reach:";
+            // 
+            // KickingPowerLabel
+            // 
+            this.KickingPowerLabel.AutoSize = true;
+            this.KickingPowerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KickingPowerLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.KickingPowerLabel.Location = new System.Drawing.Point(134, 221);
+            this.KickingPowerLabel.Name = "KickingPowerLabel";
+            this.KickingPowerLabel.Size = new System.Drawing.Size(21, 13);
+            this.KickingPowerLabel.TabIndex = 89;
+            this.KickingPowerLabel.Text = "40";
             // 
             // label83
             // 
             this.label83.AutoSize = true;
             this.label83.Location = new System.Drawing.Point(4, 221);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(62, 13);
+            this.label83.Size = new System.Drawing.Size(78, 13);
             this.label83.TabIndex = 88;
-            this.label83.Text = "Aggression:";
+            this.label83.Text = "Kicking Power:";
             // 
-            // tightPossession
+            // TightPossessionLabel
             // 
-            this.tightPossession.AutoSize = true;
-            this.tightPossession.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tightPossession.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tightPossession.Location = new System.Drawing.Point(120, 59);
-            this.tightPossession.Name = "tightPossession";
-            this.tightPossession.Size = new System.Drawing.Size(21, 13);
-            this.tightPossession.TabIndex = 87;
-            this.tightPossession.Text = "40";
+            this.TightPossessionLabel.AutoSize = true;
+            this.TightPossessionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TightPossessionLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.TightPossessionLabel.Location = new System.Drawing.Point(134, 59);
+            this.TightPossessionLabel.Name = "TightPossessionLabel";
+            this.TightPossessionLabel.Size = new System.Drawing.Size(21, 13);
+            this.TightPossessionLabel.TabIndex = 87;
+            this.TightPossessionLabel.Text = "40";
             // 
             // label61
             // 
@@ -1807,68 +1834,69 @@
             this.label61.TabIndex = 86;
             this.label61.Text = "Tight Possession:";
             // 
-            // playerRank
+            // PlayerRank
             // 
-            this.playerRank.Location = new System.Drawing.Point(169, 246);
-            this.playerRank.MaxLength = 2;
-            this.playerRank.Multiline = true;
-            this.playerRank.Name = "playerRank";
-            this.playerRank.ReadOnly = true;
-            this.playerRank.Size = new System.Drawing.Size(101, 40);
-            this.playerRank.TabIndex = 85;
+            this.PlayerRank.Enabled = false;
+            this.PlayerRank.Location = new System.Drawing.Point(169, 246);
+            this.PlayerRank.MaxLength = 2;
+            this.PlayerRank.Multiline = true;
+            this.PlayerRank.Name = "PlayerRank";
+            this.PlayerRank.ReadOnly = true;
+            this.PlayerRank.Size = new System.Drawing.Size(101, 40);
+            this.PlayerRank.TabIndex = 85;
             // 
-            // panel1
+            // PlayerPanel5
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.Window;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.giocatoreInjury);
-            this.panel1.Controls.Add(this.giocatoreUse);
-            this.panel1.Controls.Add(this.giocatoreAcc);
-            this.panel1.Controls.Add(this.giocatoreForm);
-            this.panel1.Controls.Add(this.label106);
-            this.panel1.Controls.Add(this.label107);
-            this.panel1.Controls.Add(this.label108);
-            this.panel1.Controls.Add(this.label109);
-            this.panel1.Location = new System.Drawing.Point(169, 141);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(101, 80);
-            this.panel1.TabIndex = 83;
+            this.PlayerPanel5.BackColor = System.Drawing.SystemColors.Window;
+            this.PlayerPanel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PlayerPanel5.Controls.Add(this.PlayerInjuryLabel);
+            this.PlayerPanel5.Controls.Add(this.PlayerUseLabel);
+            this.PlayerPanel5.Controls.Add(this.PlayerAccLabel);
+            this.PlayerPanel5.Controls.Add(this.PlayerFormLabel);
+            this.PlayerPanel5.Controls.Add(this.label106);
+            this.PlayerPanel5.Controls.Add(this.label107);
+            this.PlayerPanel5.Controls.Add(this.label108);
+            this.PlayerPanel5.Controls.Add(this.label109);
+            this.PlayerPanel5.Location = new System.Drawing.Point(169, 155);
+            this.PlayerPanel5.Name = "PlayerPanel5";
+            this.PlayerPanel5.Size = new System.Drawing.Size(101, 80);
+            this.PlayerPanel5.TabIndex = 83;
             // 
-            // giocatoreInjury
+            // PlayerInjuryLabel
             // 
-            this.giocatoreInjury.AutoSize = true;
-            this.giocatoreInjury.Location = new System.Drawing.Point(49, 59);
-            this.giocatoreInjury.Name = "giocatoreInjury";
-            this.giocatoreInjury.Size = new System.Drawing.Size(10, 13);
-            this.giocatoreInjury.TabIndex = 67;
-            this.giocatoreInjury.Text = "-";
+            this.PlayerInjuryLabel.AutoSize = true;
+            this.PlayerInjuryLabel.Location = new System.Drawing.Point(51, 59);
+            this.PlayerInjuryLabel.Name = "PlayerInjuryLabel";
+            this.PlayerInjuryLabel.Size = new System.Drawing.Size(10, 13);
+            this.PlayerInjuryLabel.TabIndex = 67;
+            this.PlayerInjuryLabel.Text = "-";
             // 
-            // giocatoreUse
+            // PlayerUseLabel
             // 
-            this.giocatoreUse.AutoSize = true;
-            this.giocatoreUse.Location = new System.Drawing.Point(49, 40);
-            this.giocatoreUse.Name = "giocatoreUse";
-            this.giocatoreUse.Size = new System.Drawing.Size(10, 13);
-            this.giocatoreUse.TabIndex = 66;
-            this.giocatoreUse.Text = "-";
+            this.PlayerUseLabel.AutoSize = true;
+            this.PlayerUseLabel.Location = new System.Drawing.Point(51, 40);
+            this.PlayerUseLabel.Name = "PlayerUseLabel";
+            this.PlayerUseLabel.Size = new System.Drawing.Size(10, 13);
+            this.PlayerUseLabel.TabIndex = 66;
+            this.PlayerUseLabel.Text = "-";
             // 
-            // giocatoreAcc
+            // PlayerAccLabel
             // 
-            this.giocatoreAcc.AutoSize = true;
-            this.giocatoreAcc.Location = new System.Drawing.Point(49, 21);
-            this.giocatoreAcc.Name = "giocatoreAcc";
-            this.giocatoreAcc.Size = new System.Drawing.Size(10, 13);
-            this.giocatoreAcc.TabIndex = 65;
-            this.giocatoreAcc.Text = "-";
+            this.PlayerAccLabel.AutoSize = true;
+            this.PlayerAccLabel.Location = new System.Drawing.Point(51, 22);
+            this.PlayerAccLabel.Name = "PlayerAccLabel";
+            this.PlayerAccLabel.Size = new System.Drawing.Size(10, 13);
+            this.PlayerAccLabel.TabIndex = 65;
+            this.PlayerAccLabel.Text = "-";
             // 
-            // giocatoreForm
+            // PlayerFormLabel
             // 
-            this.giocatoreForm.AutoSize = true;
-            this.giocatoreForm.Location = new System.Drawing.Point(49, 5);
-            this.giocatoreForm.Name = "giocatoreForm";
-            this.giocatoreForm.Size = new System.Drawing.Size(10, 13);
-            this.giocatoreForm.TabIndex = 64;
-            this.giocatoreForm.Text = "-";
+            this.PlayerFormLabel.AutoSize = true;
+            this.PlayerFormLabel.Location = new System.Drawing.Point(51, 5);
+            this.PlayerFormLabel.Name = "PlayerFormLabel";
+            this.PlayerFormLabel.Size = new System.Drawing.Size(10, 13);
+            this.PlayerFormLabel.TabIndex = 64;
+            this.PlayerFormLabel.Text = "-";
             // 
             // label106
             // 
@@ -1884,9 +1912,9 @@
             this.label107.AutoSize = true;
             this.label107.Location = new System.Drawing.Point(3, 40);
             this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(46, 13);
+            this.label107.Size = new System.Drawing.Size(49, 13);
             this.label107.TabIndex = 62;
-            this.label107.Text = "We Use";
+            this.label107.Text = "We Use:";
             // 
             // label108
             // 
@@ -1906,320 +1934,340 @@
             this.label109.TabIndex = 60;
             this.label109.Text = "Form:";
             // 
-            // coverage
+            // GKReflexesLabel
             // 
-            this.coverage.AutoSize = true;
-            this.coverage.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coverage.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.coverage.Location = new System.Drawing.Point(120, 437);
-            this.coverage.Name = "coverage";
-            this.coverage.Size = new System.Drawing.Size(21, 13);
-            this.coverage.TabIndex = 82;
-            this.coverage.Text = "40";
+            this.GKReflexesLabel.AutoSize = true;
+            this.GKReflexesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKReflexesLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.GKReflexesLabel.Location = new System.Drawing.Point(134, 437);
+            this.GKReflexesLabel.Name = "GKReflexesLabel";
+            this.GKReflexesLabel.Size = new System.Drawing.Size(21, 13);
+            this.GKReflexesLabel.TabIndex = 82;
+            this.GKReflexesLabel.Text = "40";
             // 
-            // reflexes
+            // GKParryingLabel
             // 
-            this.reflexes.AutoSize = true;
-            this.reflexes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reflexes.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.reflexes.Location = new System.Drawing.Point(120, 419);
-            this.reflexes.Name = "reflexes";
-            this.reflexes.Size = new System.Drawing.Size(21, 13);
-            this.reflexes.TabIndex = 81;
-            this.reflexes.Text = "40";
+            this.GKParryingLabel.AutoSize = true;
+            this.GKParryingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKParryingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.GKParryingLabel.Location = new System.Drawing.Point(134, 419);
+            this.GKParryingLabel.Name = "GKParryingLabel";
+            this.GKParryingLabel.Size = new System.Drawing.Size(21, 13);
+            this.GKParryingLabel.TabIndex = 81;
+            this.GKParryingLabel.Text = "40";
             // 
-            // clearing
+            // GKCatchingLabel
             // 
-            this.clearing.AutoSize = true;
-            this.clearing.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearing.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.clearing.Location = new System.Drawing.Point(120, 401);
-            this.clearing.Name = "clearing";
-            this.clearing.Size = new System.Drawing.Size(21, 13);
-            this.clearing.TabIndex = 80;
-            this.clearing.Text = "40";
+            this.GKCatchingLabel.AutoSize = true;
+            this.GKCatchingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKCatchingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.GKCatchingLabel.Location = new System.Drawing.Point(134, 401);
+            this.GKCatchingLabel.Name = "GKCatchingLabel";
+            this.GKCatchingLabel.Size = new System.Drawing.Size(21, 13);
+            this.GKCatchingLabel.TabIndex = 80;
+            this.GKCatchingLabel.Text = "40";
             // 
-            // cathing
+            // GKAwarenessLabel
             // 
-            this.cathing.AutoSize = true;
-            this.cathing.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cathing.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.cathing.Location = new System.Drawing.Point(120, 383);
-            this.cathing.Name = "cathing";
-            this.cathing.Size = new System.Drawing.Size(21, 13);
-            this.cathing.TabIndex = 79;
-            this.cathing.Text = "40";
+            this.GKAwarenessLabel.AutoSize = true;
+            this.GKAwarenessLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKAwarenessLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.GKAwarenessLabel.Location = new System.Drawing.Point(134, 383);
+            this.GKAwarenessLabel.Name = "GKAwarenessLabel";
+            this.GKAwarenessLabel.Size = new System.Drawing.Size(21, 13);
+            this.GKAwarenessLabel.TabIndex = 79;
+            this.GKAwarenessLabel.Text = "40";
             // 
-            // goalkeeping
+            // AggressionLabel
             // 
-            this.goalkeeping.AutoSize = true;
-            this.goalkeeping.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goalkeeping.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.goalkeeping.Location = new System.Drawing.Point(120, 365);
-            this.goalkeeping.Name = "goalkeeping";
-            this.goalkeeping.Size = new System.Drawing.Size(21, 13);
-            this.goalkeeping.TabIndex = 78;
-            this.goalkeeping.Text = "40";
+            this.AggressionLabel.AutoSize = true;
+            this.AggressionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AggressionLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.AggressionLabel.Location = new System.Drawing.Point(134, 365);
+            this.AggressionLabel.Name = "AggressionLabel";
+            this.AggressionLabel.Size = new System.Drawing.Size(21, 13);
+            this.AggressionLabel.TabIndex = 78;
+            this.AggressionLabel.Text = "40";
             // 
-            // stamina
+            // DefensiveEngangementLabel
             // 
-            this.stamina.AutoSize = true;
-            this.stamina.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stamina.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.stamina.Location = new System.Drawing.Point(120, 347);
-            this.stamina.Name = "stamina";
-            this.stamina.Size = new System.Drawing.Size(21, 13);
-            this.stamina.TabIndex = 77;
-            this.stamina.Text = "40";
+            this.DefensiveEngangementLabel.AutoSize = true;
+            this.DefensiveEngangementLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DefensiveEngangementLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.DefensiveEngangementLabel.Location = new System.Drawing.Point(134, 347);
+            this.DefensiveEngangementLabel.Name = "DefensiveEngangementLabel";
+            this.DefensiveEngangementLabel.Size = new System.Drawing.Size(21, 13);
+            this.DefensiveEngangementLabel.TabIndex = 77;
+            this.DefensiveEngangementLabel.Text = "40";
             // 
-            // jump
+            // TacklingLabel
             // 
-            this.jump.AutoSize = true;
-            this.jump.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.jump.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.jump.Location = new System.Drawing.Point(120, 329);
-            this.jump.Name = "jump";
-            this.jump.Size = new System.Drawing.Size(21, 13);
-            this.jump.TabIndex = 76;
-            this.jump.Text = "40";
+            this.TacklingLabel.AutoSize = true;
+            this.TacklingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TacklingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.TacklingLabel.Location = new System.Drawing.Point(134, 329);
+            this.TacklingLabel.Name = "TacklingLabel";
+            this.TacklingLabel.Size = new System.Drawing.Size(21, 13);
+            this.TacklingLabel.TabIndex = 76;
+            this.TacklingLabel.Text = "40";
             // 
-            // physical
+            // DefensiveAwarenessLabel
             // 
-            this.physical.AutoSize = true;
-            this.physical.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.physical.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.physical.Location = new System.Drawing.Point(120, 311);
-            this.physical.Name = "physical";
-            this.physical.Size = new System.Drawing.Size(21, 13);
-            this.physical.TabIndex = 75;
-            this.physical.Text = "40";
+            this.DefensiveAwarenessLabel.AutoSize = true;
+            this.DefensiveAwarenessLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DefensiveAwarenessLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.DefensiveAwarenessLabel.Location = new System.Drawing.Point(134, 311);
+            this.DefensiveAwarenessLabel.Name = "DefensiveAwarenessLabel";
+            this.DefensiveAwarenessLabel.Size = new System.Drawing.Size(21, 13);
+            this.DefensiveAwarenessLabel.TabIndex = 75;
+            this.DefensiveAwarenessLabel.Text = "40";
             // 
-            // bodyControll
+            // StaminaLabel
             // 
-            this.bodyControll.AutoSize = true;
-            this.bodyControll.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bodyControll.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.bodyControll.Location = new System.Drawing.Point(120, 293);
-            this.bodyControll.Name = "bodyControll";
-            this.bodyControll.Size = new System.Drawing.Size(21, 13);
-            this.bodyControll.TabIndex = 74;
-            this.bodyControll.Text = "40";
+            this.StaminaLabel.AutoSize = true;
+            this.StaminaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StaminaLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.StaminaLabel.Location = new System.Drawing.Point(134, 293);
+            this.StaminaLabel.Name = "StaminaLabel";
+            this.StaminaLabel.Size = new System.Drawing.Size(21, 13);
+            this.StaminaLabel.TabIndex = 74;
+            this.StaminaLabel.Text = "40";
             // 
-            // acceleration
+            // BalanceLabel
             // 
-            this.acceleration.AutoSize = true;
-            this.acceleration.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.acceleration.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.acceleration.Location = new System.Drawing.Point(120, 275);
-            this.acceleration.Name = "acceleration";
-            this.acceleration.Size = new System.Drawing.Size(21, 13);
-            this.acceleration.TabIndex = 73;
-            this.acceleration.Text = "40";
+            this.BalanceLabel.AutoSize = true;
+            this.BalanceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BalanceLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.BalanceLabel.Location = new System.Drawing.Point(134, 275);
+            this.BalanceLabel.Name = "BalanceLabel";
+            this.BalanceLabel.Size = new System.Drawing.Size(21, 13);
+            this.BalanceLabel.TabIndex = 73;
+            this.BalanceLabel.Text = "40";
             // 
-            // speed
+            // PhysicalContactLabel
             // 
-            this.speed.AutoSize = true;
-            this.speed.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.speed.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.speed.Location = new System.Drawing.Point(120, 257);
-            this.speed.Name = "speed";
-            this.speed.Size = new System.Drawing.Size(21, 13);
-            this.speed.TabIndex = 72;
-            this.speed.Text = "40";
+            this.PhysicalContactLabel.AutoSize = true;
+            this.PhysicalContactLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PhysicalContactLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.PhysicalContactLabel.Location = new System.Drawing.Point(134, 257);
+            this.PhysicalContactLabel.Name = "PhysicalContactLabel";
+            this.PhysicalContactLabel.Size = new System.Drawing.Size(21, 13);
+            this.PhysicalContactLabel.TabIndex = 72;
+            this.PhysicalContactLabel.Text = "40";
             // 
-            // kickingPower
+            // JumpLabel
             // 
-            this.kickingPower.AutoSize = true;
-            this.kickingPower.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kickingPower.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.kickingPower.Location = new System.Drawing.Point(120, 239);
-            this.kickingPower.Name = "kickingPower";
-            this.kickingPower.Size = new System.Drawing.Size(21, 13);
-            this.kickingPower.TabIndex = 71;
-            this.kickingPower.Text = "40";
+            this.JumpLabel.AutoSize = true;
+            this.JumpLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JumpLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.JumpLabel.Location = new System.Drawing.Point(134, 239);
+            this.JumpLabel.Name = "JumpLabel";
+            this.JumpLabel.Size = new System.Drawing.Size(21, 13);
+            this.JumpLabel.TabIndex = 71;
+            this.JumpLabel.Text = "40";
             // 
-            // ballWinning
+            // AccelerationLabel
             // 
-            this.ballWinning.AutoSize = true;
-            this.ballWinning.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ballWinning.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ballWinning.Location = new System.Drawing.Point(120, 203);
-            this.ballWinning.Name = "ballWinning";
-            this.ballWinning.Size = new System.Drawing.Size(21, 13);
-            this.ballWinning.TabIndex = 70;
-            this.ballWinning.Text = "40";
+            this.AccelerationLabel.AutoSize = true;
+            this.AccelerationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccelerationLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.AccelerationLabel.Location = new System.Drawing.Point(134, 203);
+            this.AccelerationLabel.Name = "AccelerationLabel";
+            this.AccelerationLabel.Size = new System.Drawing.Size(21, 13);
+            this.AccelerationLabel.TabIndex = 70;
+            this.AccelerationLabel.Text = "40";
             // 
-            // defense
+            // SpeedLabel
             // 
-            this.defense.AutoSize = true;
-            this.defense.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.defense.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.defense.Location = new System.Drawing.Point(120, 185);
-            this.defense.Name = "defense";
-            this.defense.Size = new System.Drawing.Size(21, 13);
-            this.defense.TabIndex = 69;
-            this.defense.Text = "40";
+            this.SpeedLabel.AutoSize = true;
+            this.SpeedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpeedLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.SpeedLabel.Location = new System.Drawing.Point(134, 185);
+            this.SpeedLabel.Name = "SpeedLabel";
+            this.SpeedLabel.Size = new System.Drawing.Size(21, 13);
+            this.SpeedLabel.TabIndex = 69;
+            this.SpeedLabel.Text = "40";
             // 
-            // header
+            // CurlLabel
             // 
-            this.header.AutoSize = true;
-            this.header.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.header.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.header.Location = new System.Drawing.Point(120, 167);
-            this.header.Name = "header";
-            this.header.Size = new System.Drawing.Size(21, 13);
-            this.header.TabIndex = 68;
-            this.header.Text = "40";
+            this.CurlLabel.AutoSize = true;
+            this.CurlLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CurlLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.CurlLabel.Location = new System.Drawing.Point(134, 167);
+            this.CurlLabel.Name = "CurlLabel";
+            this.CurlLabel.Size = new System.Drawing.Size(21, 13);
+            this.CurlLabel.TabIndex = 68;
+            this.CurlLabel.Text = "40";
             // 
-            // curl
+            // SetPieceTakingLabel
             // 
-            this.curl.AutoSize = true;
-            this.curl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.curl.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.curl.Location = new System.Drawing.Point(120, 149);
-            this.curl.Name = "curl";
-            this.curl.Size = new System.Drawing.Size(21, 13);
-            this.curl.TabIndex = 67;
-            this.curl.Text = "40";
+            this.SetPieceTakingLabel.AutoSize = true;
+            this.SetPieceTakingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SetPieceTakingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.SetPieceTakingLabel.Location = new System.Drawing.Point(134, 149);
+            this.SetPieceTakingLabel.Name = "SetPieceTakingLabel";
+            this.SetPieceTakingLabel.Size = new System.Drawing.Size(21, 13);
+            this.SetPieceTakingLabel.TabIndex = 67;
+            this.SetPieceTakingLabel.Text = "40";
             // 
-            // placeKick
+            // HeadingLabel
             // 
-            this.placeKick.AutoSize = true;
-            this.placeKick.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.placeKick.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.placeKick.Location = new System.Drawing.Point(120, 131);
-            this.placeKick.Name = "placeKick";
-            this.placeKick.Size = new System.Drawing.Size(21, 13);
-            this.placeKick.TabIndex = 66;
-            this.placeKick.Text = "40";
+            this.HeadingLabel.AutoSize = true;
+            this.HeadingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HeadingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.HeadingLabel.Location = new System.Drawing.Point(134, 131);
+            this.HeadingLabel.Name = "HeadingLabel";
+            this.HeadingLabel.Size = new System.Drawing.Size(21, 13);
+            this.HeadingLabel.TabIndex = 66;
+            this.HeadingLabel.Text = "40";
             // 
-            // finishing
+            // FinishingLabel
             // 
-            this.finishing.AutoSize = true;
-            this.finishing.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.finishing.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.finishing.Location = new System.Drawing.Point(120, 113);
-            this.finishing.Name = "finishing";
-            this.finishing.Size = new System.Drawing.Size(21, 13);
-            this.finishing.TabIndex = 65;
-            this.finishing.Text = "40";
+            this.FinishingLabel.AutoSize = true;
+            this.FinishingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FinishingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FinishingLabel.Location = new System.Drawing.Point(134, 113);
+            this.FinishingLabel.Name = "FinishingLabel";
+            this.FinishingLabel.Size = new System.Drawing.Size(21, 13);
+            this.FinishingLabel.TabIndex = 65;
+            this.FinishingLabel.Text = "40";
             // 
-            // loftedPass
+            // LoftedPassLabel
             // 
-            this.loftedPass.AutoSize = true;
-            this.loftedPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loftedPass.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.loftedPass.Location = new System.Drawing.Point(120, 95);
-            this.loftedPass.Name = "loftedPass";
-            this.loftedPass.Size = new System.Drawing.Size(21, 13);
-            this.loftedPass.TabIndex = 64;
-            this.loftedPass.Text = "40";
+            this.LoftedPassLabel.AutoSize = true;
+            this.LoftedPassLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoftedPassLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.LoftedPassLabel.Location = new System.Drawing.Point(134, 95);
+            this.LoftedPassLabel.Name = "LoftedPassLabel";
+            this.LoftedPassLabel.Size = new System.Drawing.Size(21, 13);
+            this.LoftedPassLabel.TabIndex = 64;
+            this.LoftedPassLabel.Text = "40";
             // 
-            // lowPass
+            // LowPassLabel
             // 
-            this.lowPass.AutoSize = true;
-            this.lowPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lowPass.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lowPass.Location = new System.Drawing.Point(120, 77);
-            this.lowPass.Name = "lowPass";
-            this.lowPass.Size = new System.Drawing.Size(21, 13);
-            this.lowPass.TabIndex = 63;
-            this.lowPass.Text = "40";
+            this.LowPassLabel.AutoSize = true;
+            this.LowPassLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LowPassLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.LowPassLabel.Location = new System.Drawing.Point(134, 77);
+            this.LowPassLabel.Name = "LowPassLabel";
+            this.LowPassLabel.Size = new System.Drawing.Size(21, 13);
+            this.LowPassLabel.TabIndex = 63;
+            this.LowPassLabel.Text = "40";
             // 
-            // dribbling
+            // DribblingLabel
             // 
-            this.dribbling.AutoSize = true;
-            this.dribbling.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dribbling.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dribbling.Location = new System.Drawing.Point(120, 41);
-            this.dribbling.Name = "dribbling";
-            this.dribbling.Size = new System.Drawing.Size(21, 13);
-            this.dribbling.TabIndex = 62;
-            this.dribbling.Text = "40";
+            this.DribblingLabel.AutoSize = true;
+            this.DribblingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DribblingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.DribblingLabel.Location = new System.Drawing.Point(134, 41);
+            this.DribblingLabel.Name = "DribblingLabel";
+            this.DribblingLabel.Size = new System.Drawing.Size(21, 13);
+            this.DribblingLabel.TabIndex = 62;
+            this.DribblingLabel.Text = "40";
             // 
-            // ballControll
+            // BallControlLabel
             // 
-            this.ballControll.AutoSize = true;
-            this.ballControll.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ballControll.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ballControll.Location = new System.Drawing.Point(120, 23);
-            this.ballControll.Name = "ballControll";
-            this.ballControll.Size = new System.Drawing.Size(21, 13);
-            this.ballControll.TabIndex = 61;
-            this.ballControll.Text = "40";
+            this.BallControlLabel.AutoSize = true;
+            this.BallControlLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BallControlLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.BallControlLabel.Location = new System.Drawing.Point(134, 23);
+            this.BallControlLabel.Name = "BallControlLabel";
+            this.BallControlLabel.Size = new System.Drawing.Size(21, 13);
+            this.BallControlLabel.TabIndex = 61;
+            this.BallControlLabel.Text = "40";
             // 
-            // attack
+            // OffensiveProwessLabel
             // 
-            this.attack.AutoSize = true;
-            this.attack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.attack.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.attack.Location = new System.Drawing.Point(120, 5);
-            this.attack.Name = "attack";
-            this.attack.Size = new System.Drawing.Size(21, 13);
-            this.attack.TabIndex = 60;
-            this.attack.Text = "40";
+            this.OffensiveProwessLabel.AutoSize = true;
+            this.OffensiveProwessLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OffensiveProwessLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.OffensiveProwessLabel.Location = new System.Drawing.Point(134, 5);
+            this.OffensiveProwessLabel.Name = "OffensiveProwessLabel";
+            this.OffensiveProwessLabel.Size = new System.Drawing.Size(21, 13);
+            this.OffensiveProwessLabel.TabIndex = 60;
+            this.OffensiveProwessLabel.Text = "40";
             // 
             // label44
             // 
             this.label44.AutoSize = true;
             this.label44.Location = new System.Drawing.Point(5, 311);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(89, 13);
+            this.label44.Size = new System.Drawing.Size(113, 13);
             this.label44.TabIndex = 58;
-            this.label44.Text = "Physical Contact:";
+            this.label44.Text = "Defensive Awareness:";
             // 
-            // giocatorePanel4
+            // PlayerPanel4
             // 
-            this.giocatorePanel4.BackColor = System.Drawing.SystemColors.Window;
-            this.giocatorePanel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.giocatorePanel4.Controls.Add(this.giocatoreFoot);
-            this.giocatorePanel4.Controls.Add(this.giocatoreHeight);
-            this.giocatorePanel4.Controls.Add(this.giocatoreWeight);
-            this.giocatorePanel4.Controls.Add(this.giocatoreAge);
-            this.giocatorePanel4.Controls.Add(this.label36);
-            this.giocatorePanel4.Controls.Add(this.label33);
-            this.giocatorePanel4.Controls.Add(this.label34);
-            this.giocatorePanel4.Controls.Add(this.label35);
-            this.giocatorePanel4.Location = new System.Drawing.Point(169, 62);
-            this.giocatorePanel4.Name = "giocatorePanel4";
-            this.giocatorePanel4.Size = new System.Drawing.Size(101, 80);
-            this.giocatorePanel4.TabIndex = 56;
+            this.PlayerPanel4.BackColor = System.Drawing.SystemColors.Window;
+            this.PlayerPanel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PlayerPanel4.Controls.Add(this.PlayerHandLabel);
+            this.PlayerPanel4.Controls.Add(this.label89);
+            this.PlayerPanel4.Controls.Add(this.PlayerFootLabel);
+            this.PlayerPanel4.Controls.Add(this.PlayerHeightLabel);
+            this.PlayerPanel4.Controls.Add(this.PlayerWeightLabel);
+            this.PlayerPanel4.Controls.Add(this.PlayerAgeLabel);
+            this.PlayerPanel4.Controls.Add(this.label36);
+            this.PlayerPanel4.Controls.Add(this.label33);
+            this.PlayerPanel4.Controls.Add(this.label34);
+            this.PlayerPanel4.Controls.Add(this.label35);
+            this.PlayerPanel4.Location = new System.Drawing.Point(169, 62);
+            this.PlayerPanel4.Name = "PlayerPanel4";
+            this.PlayerPanel4.Size = new System.Drawing.Size(101, 94);
+            this.PlayerPanel4.TabIndex = 56;
             // 
-            // giocatoreFoot
+            // PlayerHandLabel
             // 
-            this.giocatoreFoot.AutoSize = true;
-            this.giocatoreFoot.Location = new System.Drawing.Point(49, 59);
-            this.giocatoreFoot.Name = "giocatoreFoot";
-            this.giocatoreFoot.Size = new System.Drawing.Size(10, 13);
-            this.giocatoreFoot.TabIndex = 67;
-            this.giocatoreFoot.Text = "-";
+            this.PlayerHandLabel.AutoSize = true;
+            this.PlayerHandLabel.Location = new System.Drawing.Point(51, 76);
+            this.PlayerHandLabel.Name = "PlayerHandLabel";
+            this.PlayerHandLabel.Size = new System.Drawing.Size(10, 13);
+            this.PlayerHandLabel.TabIndex = 69;
+            this.PlayerHandLabel.Text = "-";
             // 
-            // giocatoreHeight
+            // label89
             // 
-            this.giocatoreHeight.AutoSize = true;
-            this.giocatoreHeight.Location = new System.Drawing.Point(49, 40);
-            this.giocatoreHeight.Name = "giocatoreHeight";
-            this.giocatoreHeight.Size = new System.Drawing.Size(10, 13);
-            this.giocatoreHeight.TabIndex = 66;
-            this.giocatoreHeight.Text = "-";
+            this.label89.AutoSize = true;
+            this.label89.Location = new System.Drawing.Point(3, 76);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(36, 13);
+            this.label89.TabIndex = 68;
+            this.label89.Text = "Hand:";
             // 
-            // giocatoreWeight
+            // PlayerFootLabel
             // 
-            this.giocatoreWeight.AutoSize = true;
-            this.giocatoreWeight.Location = new System.Drawing.Point(49, 21);
-            this.giocatoreWeight.Name = "giocatoreWeight";
-            this.giocatoreWeight.Size = new System.Drawing.Size(10, 13);
-            this.giocatoreWeight.TabIndex = 65;
-            this.giocatoreWeight.Text = "-";
+            this.PlayerFootLabel.AutoSize = true;
+            this.PlayerFootLabel.Location = new System.Drawing.Point(51, 59);
+            this.PlayerFootLabel.Name = "PlayerFootLabel";
+            this.PlayerFootLabel.Size = new System.Drawing.Size(10, 13);
+            this.PlayerFootLabel.TabIndex = 67;
+            this.PlayerFootLabel.Text = "-";
             // 
-            // giocatoreAge
+            // PlayerHeightLabel
             // 
-            this.giocatoreAge.AutoSize = true;
-            this.giocatoreAge.Location = new System.Drawing.Point(49, 5);
-            this.giocatoreAge.Name = "giocatoreAge";
-            this.giocatoreAge.Size = new System.Drawing.Size(10, 13);
-            this.giocatoreAge.TabIndex = 64;
-            this.giocatoreAge.Text = "-";
+            this.PlayerHeightLabel.AutoSize = true;
+            this.PlayerHeightLabel.Location = new System.Drawing.Point(51, 40);
+            this.PlayerHeightLabel.Name = "PlayerHeightLabel";
+            this.PlayerHeightLabel.Size = new System.Drawing.Size(10, 13);
+            this.PlayerHeightLabel.TabIndex = 66;
+            this.PlayerHeightLabel.Text = "-";
+            // 
+            // PlayerWeightLabel
+            // 
+            this.PlayerWeightLabel.AutoSize = true;
+            this.PlayerWeightLabel.Location = new System.Drawing.Point(51, 22);
+            this.PlayerWeightLabel.Name = "PlayerWeightLabel";
+            this.PlayerWeightLabel.Size = new System.Drawing.Size(10, 13);
+            this.PlayerWeightLabel.TabIndex = 65;
+            this.PlayerWeightLabel.Text = "-";
+            // 
+            // PlayerAgeLabel
+            // 
+            this.PlayerAgeLabel.AutoSize = true;
+            this.PlayerAgeLabel.Location = new System.Drawing.Point(51, 5);
+            this.PlayerAgeLabel.Name = "PlayerAgeLabel";
+            this.PlayerAgeLabel.Size = new System.Drawing.Size(10, 13);
+            this.PlayerAgeLabel.TabIndex = 64;
+            this.PlayerAgeLabel.Text = "-";
             // 
             // label36
             // 
@@ -2257,47 +2305,47 @@
             this.label35.TabIndex = 60;
             this.label35.Text = "Age:";
             // 
-            // giocatorePanel3
+            // PlayerPanel3
             // 
-            this.giocatorePanel3.BackColor = System.Drawing.SystemColors.Window;
-            this.giocatorePanel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.giocatorePanel3.Controls.Add(this.giocatoreType);
-            this.giocatorePanel3.Controls.Add(this.label38);
-            this.giocatorePanel3.Controls.Add(this.giocatoreID);
-            this.giocatorePanel3.Controls.Add(this.label32);
-            this.giocatorePanel3.Controls.Add(this.label31);
-            this.giocatorePanel3.Controls.Add(this.label30);
-            this.giocatorePanel3.Location = new System.Drawing.Point(169, 3);
-            this.giocatorePanel3.Name = "giocatorePanel3";
-            this.giocatorePanel3.Size = new System.Drawing.Size(101, 60);
-            this.giocatorePanel3.TabIndex = 55;
+            this.PlayerPanel3.BackColor = System.Drawing.SystemColors.Window;
+            this.PlayerPanel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PlayerPanel3.Controls.Add(this.PlayerTypeLabel);
+            this.PlayerPanel3.Controls.Add(this.label38);
+            this.PlayerPanel3.Controls.Add(this.PlayerIDLabel);
+            this.PlayerPanel3.Controls.Add(this.label32);
+            this.PlayerPanel3.Controls.Add(this.label31);
+            this.PlayerPanel3.Controls.Add(this.label30);
+            this.PlayerPanel3.Location = new System.Drawing.Point(169, 3);
+            this.PlayerPanel3.Name = "PlayerPanel3";
+            this.PlayerPanel3.Size = new System.Drawing.Size(101, 60);
+            this.PlayerPanel3.TabIndex = 55;
             // 
-            // giocatoreType
+            // PlayerTypeLabel
             // 
-            this.giocatoreType.AutoSize = true;
-            this.giocatoreType.Location = new System.Drawing.Point(49, 41);
-            this.giocatoreType.Name = "giocatoreType";
-            this.giocatoreType.Size = new System.Drawing.Size(10, 13);
-            this.giocatoreType.TabIndex = 62;
-            this.giocatoreType.Text = "-";
+            this.PlayerTypeLabel.AutoSize = true;
+            this.PlayerTypeLabel.Location = new System.Drawing.Point(51, 41);
+            this.PlayerTypeLabel.Name = "PlayerTypeLabel";
+            this.PlayerTypeLabel.Size = new System.Drawing.Size(10, 13);
+            this.PlayerTypeLabel.TabIndex = 62;
+            this.PlayerTypeLabel.Text = "-";
             // 
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(49, 22);
+            this.label38.Location = new System.Drawing.Point(51, 23);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(10, 13);
             this.label38.TabIndex = 61;
             this.label38.Text = "-";
             // 
-            // giocatoreID
+            // PlayerIDLabel
             // 
-            this.giocatoreID.AutoSize = true;
-            this.giocatoreID.Location = new System.Drawing.Point(49, 6);
-            this.giocatoreID.Name = "giocatoreID";
-            this.giocatoreID.Size = new System.Drawing.Size(10, 13);
-            this.giocatoreID.TabIndex = 60;
-            this.giocatoreID.Text = "-";
+            this.PlayerIDLabel.AutoSize = true;
+            this.PlayerIDLabel.Location = new System.Drawing.Point(51, 6);
+            this.PlayerIDLabel.Name = "PlayerIDLabel";
+            this.PlayerIDLabel.Size = new System.Drawing.Size(10, 13);
+            this.PlayerIDLabel.TabIndex = 60;
+            this.PlayerIDLabel.Text = "-";
             // 
             // label32
             // 
@@ -2331,99 +2379,99 @@
             this.label29.AutoSize = true;
             this.label29.Location = new System.Drawing.Point(7, 437);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(56, 13);
+            this.label29.Size = new System.Drawing.Size(69, 13);
             this.label29.TabIndex = 54;
-            this.label29.Text = "Coverage:";
+            this.label29.Text = "GK Reflexes:";
             // 
             // label28
             // 
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(7, 419);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(51, 13);
+            this.label28.Size = new System.Drawing.Size(66, 13);
             this.label28.TabIndex = 53;
-            this.label28.Text = "Reflexes:";
+            this.label28.Text = "GK Parrying:";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(7, 401);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(48, 13);
+            this.label27.Size = new System.Drawing.Size(70, 13);
             this.label27.TabIndex = 52;
-            this.label27.Text = "Clearing:";
+            this.label27.Text = "GK Catching:";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(7, 383);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(52, 13);
+            this.label26.Size = new System.Drawing.Size(80, 13);
             this.label26.TabIndex = 47;
-            this.label26.Text = "Catching:";
+            this.label26.Text = "GK Awareness:";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(6, 365);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(70, 13);
+            this.label25.Size = new System.Drawing.Size(62, 13);
             this.label25.TabIndex = 18;
-            this.label25.Text = "Goalkeeping:";
+            this.label25.Text = "Aggression:";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(5, 347);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(48, 13);
+            this.label24.Size = new System.Drawing.Size(127, 13);
             this.label24.TabIndex = 17;
-            this.label24.Text = "Stamina:";
+            this.label24.Text = "Defensive Engangement:";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(5, 329);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(35, 13);
+            this.label23.Size = new System.Drawing.Size(51, 13);
             this.label23.TabIndex = 16;
-            this.label23.Text = "Jump:";
+            this.label23.Text = "Tackling:";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(5, 293);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(109, 13);
+            this.label22.Size = new System.Drawing.Size(48, 13);
             this.label22.TabIndex = 15;
-            this.label22.Text = "Unwavering Balance:";
+            this.label22.Text = "Stamina:";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(6, 275);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(69, 13);
+            this.label21.Size = new System.Drawing.Size(49, 13);
             this.label21.TabIndex = 14;
-            this.label21.Text = "Acceleration:";
+            this.label21.Text = "Balance:";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(6, 257);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(41, 13);
+            this.label20.Size = new System.Drawing.Size(89, 13);
             this.label20.TabIndex = 13;
-            this.label20.Text = "Speed:";
+            this.label20.Text = "Physical Contact:";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(5, 239);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(78, 13);
+            this.label19.Size = new System.Drawing.Size(35, 13);
             this.label19.TabIndex = 12;
-            this.label19.Text = "Kicking Power:";
+            this.label19.Text = "Jump:";
             // 
             // label18
             // 
@@ -2432,43 +2480,43 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(69, 13);
             this.label18.TabIndex = 11;
-            this.label18.Text = "Ball Winning:";
+            this.label18.Text = "Acceleration:";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(5, 185);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(101, 13);
+            this.label17.Size = new System.Drawing.Size(41, 13);
             this.label17.TabIndex = 10;
-            this.label17.Text = "Defensive Prowess:";
+            this.label17.Text = "Speed:";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(5, 167);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(45, 13);
+            this.label16.Size = new System.Drawing.Size(28, 13);
             this.label16.TabIndex = 9;
-            this.label16.Text = "Header:";
+            this.label16.Text = "Curl:";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(5, 149);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(28, 13);
+            this.label15.Size = new System.Drawing.Size(92, 13);
             this.label15.TabIndex = 8;
-            this.label15.Text = "Curl:";
+            this.label15.Text = "Set Piece Taking:";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(4, 131);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(75, 13);
+            this.label14.Size = new System.Drawing.Size(50, 13);
             this.label14.TabIndex = 7;
-            this.label14.Text = "Place Kicking:";
+            this.label14.Text = "Heading:";
             // 
             // label13
             // 
@@ -2522,34 +2570,34 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(98, 13);
             this.label8.TabIndex = 1;
-            this.label8.Text = "Attacking Prowess:";
+            this.label8.Text = "Offensive Prowess:";
             // 
-            // giocatorePanel1
+            // PlayerPanel1
             // 
-            this.giocatorePanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.giocatorePanel1.Controls.Add(this.PlayerNationalityComboBox);
-            this.giocatorePanel1.Controls.Add(this.giocatoreSquadra);
-            this.giocatorePanel1.Controls.Add(this.giocatoreNazionale);
-            this.giocatorePanel1.Controls.Add(this.label7);
-            this.giocatorePanel1.Controls.Add(this.label6);
-            this.giocatorePanel1.Controls.Add(this.giocatoreNumber);
-            this.giocatorePanel1.Controls.Add(this.label5);
-            this.giocatorePanel1.Controls.Add(this.comboBox3);
-            this.giocatorePanel1.Controls.Add(this.giocatoreShirt);
-            this.giocatorePanel1.Controls.Add(this.giocatoreName);
-            this.giocatorePanel1.Controls.Add(this.label4);
-            this.giocatorePanel1.Controls.Add(this.label3);
-            this.giocatorePanel1.Controls.Add(this.label2);
-            this.giocatorePanel1.Controls.Add(this.label1);
-            this.giocatorePanel1.Location = new System.Drawing.Point(618, 4);
-            this.giocatorePanel1.Name = "giocatorePanel1";
-            this.giocatorePanel1.Size = new System.Drawing.Size(278, 153);
-            this.giocatorePanel1.TabIndex = 31;
+            this.PlayerPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PlayerPanel1.Controls.Add(this.PlayerNationalityComboBox);
+            this.PlayerPanel1.Controls.Add(this.PlayerClubTextBox);
+            this.PlayerPanel1.Controls.Add(this.PlayerNationalTextBox);
+            this.PlayerPanel1.Controls.Add(this.label7);
+            this.PlayerPanel1.Controls.Add(this.label6);
+            this.PlayerPanel1.Controls.Add(this.PlayerNumberTextBox);
+            this.PlayerPanel1.Controls.Add(this.label5);
+            this.PlayerPanel1.Controls.Add(this.comboBox3);
+            this.PlayerPanel1.Controls.Add(this.PlayerShirtTextBox);
+            this.PlayerPanel1.Controls.Add(this.PlayerNameTextBox);
+            this.PlayerPanel1.Controls.Add(this.label4);
+            this.PlayerPanel1.Controls.Add(this.label3);
+            this.PlayerPanel1.Controls.Add(this.label2);
+            this.PlayerPanel1.Controls.Add(this.label1);
+            this.PlayerPanel1.Enabled = false;
+            this.PlayerPanel1.Location = new System.Drawing.Point(618, 4);
+            this.PlayerPanel1.Name = "PlayerPanel1";
+            this.PlayerPanel1.Size = new System.Drawing.Size(278, 153);
+            this.PlayerPanel1.TabIndex = 31;
             // 
             // PlayerNationalityComboBox
             // 
             this.PlayerNationalityComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.PlayerNationalityComboBox.Enabled = false;
             this.PlayerNationalityComboBox.FormattingEnabled = true;
             this.PlayerNationalityComboBox.Location = new System.Drawing.Point(71, 124);
             this.PlayerNationalityComboBox.Name = "PlayerNationalityComboBox";
@@ -2557,25 +2605,25 @@
             this.PlayerNationalityComboBox.TabIndex = 132;
             this.PlayerNationalityComboBox.TabStop = false;
             // 
-            // giocatoreSquadra
+            // PlayerClubTextBox
             // 
-            this.giocatoreSquadra.Enabled = false;
-            this.giocatoreSquadra.Location = new System.Drawing.Point(71, 84);
-            this.giocatoreSquadra.MaxLength = 46;
-            this.giocatoreSquadra.Name = "giocatoreSquadra";
-            this.giocatoreSquadra.Size = new System.Drawing.Size(199, 20);
-            this.giocatoreSquadra.TabIndex = 33;
-            this.giocatoreSquadra.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PlayerClubTextBox.Enabled = false;
+            this.PlayerClubTextBox.Location = new System.Drawing.Point(71, 84);
+            this.PlayerClubTextBox.MaxLength = 46;
+            this.PlayerClubTextBox.Name = "PlayerClubTextBox";
+            this.PlayerClubTextBox.Size = new System.Drawing.Size(199, 20);
+            this.PlayerClubTextBox.TabIndex = 33;
+            this.PlayerClubTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // giocatoreNazionale
+            // PlayerNationalTextBox
             // 
-            this.giocatoreNazionale.Enabled = false;
-            this.giocatoreNazionale.Location = new System.Drawing.Point(71, 104);
-            this.giocatoreNazionale.MaxLength = 46;
-            this.giocatoreNazionale.Name = "giocatoreNazionale";
-            this.giocatoreNazionale.Size = new System.Drawing.Size(199, 20);
-            this.giocatoreNazionale.TabIndex = 32;
-            this.giocatoreNazionale.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PlayerNationalTextBox.Enabled = false;
+            this.PlayerNationalTextBox.Location = new System.Drawing.Point(71, 104);
+            this.PlayerNationalTextBox.MaxLength = 46;
+            this.PlayerNationalTextBox.Name = "PlayerNationalTextBox";
+            this.PlayerNationalTextBox.Size = new System.Drawing.Size(199, 20);
+            this.PlayerNationalTextBox.TabIndex = 32;
+            this.PlayerNationalTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label7
             // 
@@ -2591,18 +2639,18 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(8, 107);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(37, 13);
+            this.label6.Size = new System.Drawing.Size(49, 13);
             this.label6.TabIndex = 29;
-            this.label6.Text = "Team:";
+            this.label6.Text = "National:";
             // 
-            // giocatoreNumber
+            // PlayerNumberTextBox
             // 
-            this.giocatoreNumber.Enabled = false;
-            this.giocatoreNumber.Location = new System.Drawing.Point(235, 57);
-            this.giocatoreNumber.MaxLength = 2;
-            this.giocatoreNumber.Name = "giocatoreNumber";
-            this.giocatoreNumber.Size = new System.Drawing.Size(35, 20);
-            this.giocatoreNumber.TabIndex = 28;
+            this.PlayerNumberTextBox.Enabled = false;
+            this.PlayerNumberTextBox.Location = new System.Drawing.Point(235, 57);
+            this.PlayerNumberTextBox.MaxLength = 2;
+            this.PlayerNumberTextBox.Name = "PlayerNumberTextBox";
+            this.PlayerNumberTextBox.Size = new System.Drawing.Size(35, 20);
+            this.PlayerNumberTextBox.TabIndex = 28;
             // 
             // label5
             // 
@@ -2623,25 +2671,23 @@
             this.comboBox3.Size = new System.Drawing.Size(131, 21);
             this.comboBox3.TabIndex = 26;
             // 
-            // giocatoreShirt
+            // PlayerShirtTextBox
             // 
-            this.giocatoreShirt.Enabled = false;
-            this.giocatoreShirt.Location = new System.Drawing.Point(71, 31);
-            this.giocatoreShirt.MaxLength = 20;
-            this.giocatoreShirt.Name = "giocatoreShirt";
-            this.giocatoreShirt.Size = new System.Drawing.Size(199, 20);
-            this.giocatoreShirt.TabIndex = 6;
-            this.giocatoreShirt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PlayerShirtTextBox.Location = new System.Drawing.Point(71, 31);
+            this.PlayerShirtTextBox.MaxLength = 20;
+            this.PlayerShirtTextBox.Name = "PlayerShirtTextBox";
+            this.PlayerShirtTextBox.Size = new System.Drawing.Size(199, 20);
+            this.PlayerShirtTextBox.TabIndex = 6;
+            this.PlayerShirtTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // giocatoreName
+            // PlayerNameTextBox
             // 
-            this.giocatoreName.Enabled = false;
-            this.giocatoreName.Location = new System.Drawing.Point(71, 5);
-            this.giocatoreName.MaxLength = 30;
-            this.giocatoreName.Name = "giocatoreName";
-            this.giocatoreName.Size = new System.Drawing.Size(199, 20);
-            this.giocatoreName.TabIndex = 5;
-            this.giocatoreName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PlayerNameTextBox.Location = new System.Drawing.Point(71, 5);
+            this.PlayerNameTextBox.MaxLength = 30;
+            this.PlayerNameTextBox.Name = "PlayerNameTextBox";
+            this.PlayerNameTextBox.Size = new System.Drawing.Size(199, 20);
+            this.PlayerNameTextBox.TabIndex = 5;
+            this.PlayerNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label4
             // 
@@ -2682,7 +2728,7 @@
             // searchPlayer
             // 
             this.searchPlayer.Enabled = false;
-            this.searchPlayer.Location = new System.Drawing.Point(3, 608);
+            this.searchPlayer.Location = new System.Drawing.Point(5, 616);
             this.searchPlayer.MaxLength = 20;
             this.searchPlayer.Name = "searchPlayer";
             this.searchPlayer.Size = new System.Drawing.Size(193, 20);
@@ -2709,7 +2755,7 @@
             this.teamView1.Location = new System.Drawing.Point(204, 36);
             this.teamView1.MultiSelect = false;
             this.teamView1.Name = "teamView1";
-            this.teamView1.Size = new System.Drawing.Size(201, 592);
+            this.teamView1.Size = new System.Drawing.Size(201, 600);
             this.teamView1.TabIndex = 0;
             this.teamView1.TabStop = false;
             this.teamView1.UseCompatibleStateImageBehavior = false;
@@ -2749,7 +2795,7 @@
             this.Teams.Location = new System.Drawing.Point(4, 22);
             this.Teams.Name = "Teams";
             this.Teams.Padding = new System.Windows.Forms.Padding(3);
-            this.Teams.Size = new System.Drawing.Size(907, 632);
+            this.Teams.Size = new System.Drawing.Size(907, 642);
             this.Teams.TabIndex = 1;
             this.Teams.Text = "Teams";
             this.Teams.UseVisualStyleBackColor = true;
@@ -3612,7 +3658,7 @@
             this.Coach.Controls.Add(this.CoachListBox);
             this.Coach.Location = new System.Drawing.Point(4, 22);
             this.Coach.Name = "Coach";
-            this.Coach.Size = new System.Drawing.Size(907, 632);
+            this.Coach.Size = new System.Drawing.Size(907, 642);
             this.Coach.TabIndex = 10;
             this.Coach.Text = "Coaches";
             this.Coach.UseVisualStyleBackColor = true;
@@ -3629,7 +3675,7 @@
             // 
             // CoachSearchTextBox
             // 
-            this.CoachSearchTextBox.Location = new System.Drawing.Point(3, 608);
+            this.CoachSearchTextBox.Location = new System.Drawing.Point(3, 619);
             this.CoachSearchTextBox.MaxLength = 20;
             this.CoachSearchTextBox.Name = "CoachSearchTextBox";
             this.CoachSearchTextBox.Size = new System.Drawing.Size(233, 20);
@@ -3649,7 +3695,7 @@
             this.CoachApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CoachApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.CoachApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.CoachApplyButton.Location = new System.Drawing.Point(809, 593);
+            this.CoachApplyButton.Location = new System.Drawing.Point(806, 610);
             this.CoachApplyButton.Margin = new System.Windows.Forms.Padding(0);
             this.CoachApplyButton.Name = "CoachApplyButton";
             this.CoachApplyButton.Size = new System.Drawing.Size(86, 29);
@@ -3868,7 +3914,7 @@
             this.CoachListBox.FormattingEnabled = true;
             this.CoachListBox.Location = new System.Drawing.Point(3, 6);
             this.CoachListBox.Name = "CoachListBox";
-            this.CoachListBox.Size = new System.Drawing.Size(233, 589);
+            this.CoachListBox.Size = new System.Drawing.Size(233, 602);
             this.CoachListBox.TabIndex = 131;
             this.CoachListBox.SelectedIndexChanged += new System.EventHandler(this.CoachListBox_SelectedIndexChanged);
             // 
@@ -3878,7 +3924,7 @@
             this.Competitions.Controls.Add(this.groupBox5);
             this.Competitions.Location = new System.Drawing.Point(4, 22);
             this.Competitions.Name = "Competitions";
-            this.Competitions.Size = new System.Drawing.Size(907, 632);
+            this.Competitions.Size = new System.Drawing.Size(907, 642);
             this.Competitions.TabIndex = 2;
             this.Competitions.Text = "Competitions";
             this.Competitions.UseVisualStyleBackColor = true;
@@ -4332,7 +4378,7 @@
             this.competitionStudy.Controls.Add(this.GroupBox10);
             this.competitionStudy.Location = new System.Drawing.Point(4, 22);
             this.competitionStudy.Name = "competitionStudy";
-            this.competitionStudy.Size = new System.Drawing.Size(907, 632);
+            this.competitionStudy.Size = new System.Drawing.Size(907, 642);
             this.competitionStudy.TabIndex = 14;
             this.competitionStudy.Text = "Competition Study";
             this.competitionStudy.UseVisualStyleBackColor = true;
@@ -5110,7 +5156,7 @@
             this.Derby.Controls.Add(this.derbyDataGridView);
             this.Derby.Location = new System.Drawing.Point(4, 22);
             this.Derby.Name = "Derby";
-            this.Derby.Size = new System.Drawing.Size(907, 632);
+            this.Derby.Size = new System.Drawing.Size(907, 642);
             this.Derby.TabIndex = 12;
             this.Derby.Text = "Derby";
             this.Derby.UseVisualStyleBackColor = true;
@@ -5127,7 +5173,7 @@
             this.derbyApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.derbyApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.derbyApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.derbyApplyButton.Location = new System.Drawing.Point(809, 593);
+            this.derbyApplyButton.Location = new System.Drawing.Point(806, 610);
             this.derbyApplyButton.Margin = new System.Windows.Forms.Padding(0);
             this.derbyApplyButton.Name = "derbyApplyButton";
             this.derbyApplyButton.Size = new System.Drawing.Size(86, 29);
@@ -5357,7 +5403,7 @@
             this.Stadiums.Controls.Add(this.StadiumGroupBox1);
             this.Stadiums.Location = new System.Drawing.Point(4, 22);
             this.Stadiums.Name = "Stadiums";
-            this.Stadiums.Size = new System.Drawing.Size(907, 632);
+            this.Stadiums.Size = new System.Drawing.Size(907, 642);
             this.Stadiums.TabIndex = 3;
             this.Stadiums.Text = "Stadiums";
             this.Stadiums.UseVisualStyleBackColor = true;
@@ -5373,7 +5419,7 @@
             this.StadiumApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.StadiumApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.StadiumApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.StadiumApplyButton.Location = new System.Drawing.Point(809, 593);
+            this.StadiumApplyButton.Location = new System.Drawing.Point(809, 610);
             this.StadiumApplyButton.Margin = new System.Windows.Forms.Padding(0);
             this.StadiumApplyButton.Name = "StadiumApplyButton";
             this.StadiumApplyButton.Size = new System.Drawing.Size(86, 29);
@@ -5388,13 +5434,13 @@
             this.StadiumListBox.FormattingEnabled = true;
             this.StadiumListBox.Location = new System.Drawing.Point(3, 6);
             this.StadiumListBox.Name = "StadiumListBox";
-            this.StadiumListBox.Size = new System.Drawing.Size(233, 589);
+            this.StadiumListBox.Size = new System.Drawing.Size(233, 602);
             this.StadiumListBox.TabIndex = 130;
             this.StadiumListBox.SelectedIndexChanged += new System.EventHandler(this.StadiumListBox_SelectedIndexChanged);
             // 
             // StadiumSearchTextBox
             // 
-            this.StadiumSearchTextBox.Location = new System.Drawing.Point(3, 608);
+            this.StadiumSearchTextBox.Location = new System.Drawing.Point(3, 619);
             this.StadiumSearchTextBox.MaxLength = 20;
             this.StadiumSearchTextBox.Name = "StadiumSearchTextBox";
             this.StadiumSearchTextBox.Size = new System.Drawing.Size(233, 20);
@@ -5614,7 +5660,7 @@
             this.stadiumsOrder.Controls.Add(this.stadiumOrderGroupBox1);
             this.stadiumsOrder.Location = new System.Drawing.Point(4, 22);
             this.stadiumsOrder.Name = "stadiumsOrder";
-            this.stadiumsOrder.Size = new System.Drawing.Size(907, 632);
+            this.stadiumsOrder.Size = new System.Drawing.Size(907, 642);
             this.stadiumsOrder.TabIndex = 13;
             this.stadiumsOrder.Text = "Stadiums Order";
             this.stadiumsOrder.UseVisualStyleBackColor = true;
@@ -5759,7 +5805,7 @@
             this.Balls.Controls.Add(this.BallGroupBox1);
             this.Balls.Location = new System.Drawing.Point(4, 22);
             this.Balls.Name = "Balls";
-            this.Balls.Size = new System.Drawing.Size(907, 632);
+            this.Balls.Size = new System.Drawing.Size(907, 642);
             this.Balls.TabIndex = 4;
             this.Balls.Text = "Balls";
             this.Balls.UseVisualStyleBackColor = true;
@@ -5776,7 +5822,7 @@
             this.BallApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BallApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.BallApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BallApplyButton.Location = new System.Drawing.Point(809, 593);
+            this.BallApplyButton.Location = new System.Drawing.Point(809, 610);
             this.BallApplyButton.Margin = new System.Windows.Forms.Padding(0);
             this.BallApplyButton.Name = "BallApplyButton";
             this.BallApplyButton.Size = new System.Drawing.Size(86, 29);
@@ -5792,14 +5838,14 @@
             this.BallListBox.FormattingEnabled = true;
             this.BallListBox.Location = new System.Drawing.Point(3, 6);
             this.BallListBox.Name = "BallListBox";
-            this.BallListBox.Size = new System.Drawing.Size(233, 589);
+            this.BallListBox.Size = new System.Drawing.Size(233, 602);
             this.BallListBox.TabIndex = 129;
             this.BallListBox.SelectedIndexChanged += new System.EventHandler(this.BallListBox_SelectedIndexChanged);
             // 
             // BallSearchTextBox
             // 
             this.BallSearchTextBox.Enabled = false;
-            this.BallSearchTextBox.Location = new System.Drawing.Point(3, 608);
+            this.BallSearchTextBox.Location = new System.Drawing.Point(3, 619);
             this.BallSearchTextBox.MaxLength = 20;
             this.BallSearchTextBox.Name = "BallSearchTextBox";
             this.BallSearchTextBox.Size = new System.Drawing.Size(233, 20);
@@ -5953,7 +5999,7 @@
             this.Boots.Controls.Add(this.BootListBox);
             this.Boots.Location = new System.Drawing.Point(4, 22);
             this.Boots.Name = "Boots";
-            this.Boots.Size = new System.Drawing.Size(907, 632);
+            this.Boots.Size = new System.Drawing.Size(907, 642);
             this.Boots.TabIndex = 11;
             this.Boots.Text = "Boots";
             this.Boots.UseVisualStyleBackColor = true;
@@ -5971,7 +6017,7 @@
             // BootSearchTextBox
             // 
             this.BootSearchTextBox.Enabled = false;
-            this.BootSearchTextBox.Location = new System.Drawing.Point(3, 608);
+            this.BootSearchTextBox.Location = new System.Drawing.Point(3, 619);
             this.BootSearchTextBox.MaxLength = 20;
             this.BootSearchTextBox.Name = "BootSearchTextBox";
             this.BootSearchTextBox.Size = new System.Drawing.Size(233, 20);
@@ -5992,7 +6038,7 @@
             this.BootApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BootApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.BootApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BootApplyButton.Location = new System.Drawing.Point(809, 593);
+            this.BootApplyButton.Location = new System.Drawing.Point(809, 610);
             this.BootApplyButton.Margin = new System.Windows.Forms.Padding(0);
             this.BootApplyButton.Name = "BootApplyButton";
             this.BootApplyButton.Size = new System.Drawing.Size(86, 29);
@@ -6093,7 +6139,7 @@
             this.BootListBox.FormattingEnabled = true;
             this.BootListBox.Location = new System.Drawing.Point(3, 6);
             this.BootListBox.Name = "BootListBox";
-            this.BootListBox.Size = new System.Drawing.Size(233, 589);
+            this.BootListBox.Size = new System.Drawing.Size(233, 602);
             this.BootListBox.TabIndex = 130;
             this.BootListBox.SelectedIndexChanged += new System.EventHandler(this.BootListBox_SelectedIndexChanged);
             // 
@@ -6106,7 +6152,7 @@
             this.Gloves.Controls.Add(this.GloveListBox);
             this.Gloves.Location = new System.Drawing.Point(4, 22);
             this.Gloves.Name = "Gloves";
-            this.Gloves.Size = new System.Drawing.Size(907, 632);
+            this.Gloves.Size = new System.Drawing.Size(907, 642);
             this.Gloves.TabIndex = 5;
             this.Gloves.Text = "Gloves";
             this.Gloves.UseVisualStyleBackColor = true;
@@ -6123,7 +6169,7 @@
             // 
             // GloveSearchTextBox
             // 
-            this.GloveSearchTextBox.Location = new System.Drawing.Point(3, 608);
+            this.GloveSearchTextBox.Location = new System.Drawing.Point(3, 619);
             this.GloveSearchTextBox.MaxLength = 20;
             this.GloveSearchTextBox.Name = "GloveSearchTextBox";
             this.GloveSearchTextBox.Size = new System.Drawing.Size(233, 20);
@@ -6144,7 +6190,7 @@
             this.GloveApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GloveApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.GloveApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.GloveApplyButton.Location = new System.Drawing.Point(809, 593);
+            this.GloveApplyButton.Location = new System.Drawing.Point(809, 610);
             this.GloveApplyButton.Margin = new System.Windows.Forms.Padding(0);
             this.GloveApplyButton.Name = "GloveApplyButton";
             this.GloveApplyButton.Size = new System.Drawing.Size(86, 29);
@@ -6245,7 +6291,7 @@
             this.GloveListBox.FormattingEnabled = true;
             this.GloveListBox.Location = new System.Drawing.Point(3, 6);
             this.GloveListBox.Name = "GloveListBox";
-            this.GloveListBox.Size = new System.Drawing.Size(233, 589);
+            this.GloveListBox.Size = new System.Drawing.Size(233, 602);
             this.GloveListBox.TabIndex = 130;
             this.GloveListBox.SelectedIndexChanged += new System.EventHandler(this.GloveListBox_SelectedIndexChanged);
             // 
@@ -6257,7 +6303,7 @@
             this.Global.Controls.Add(this.globGroupBox1);
             this.Global.Location = new System.Drawing.Point(4, 22);
             this.Global.Name = "Global";
-            this.Global.Size = new System.Drawing.Size(907, 632);
+            this.Global.Size = new System.Drawing.Size(907, 642);
             this.Global.TabIndex = 6;
             this.Global.Text = "Global Functions";
             this.Global.UseVisualStyleBackColor = true;
@@ -6639,7 +6685,7 @@
             this.FmStats.Controls.Add(this.label119);
             this.FmStats.Location = new System.Drawing.Point(4, 22);
             this.FmStats.Name = "FmStats";
-            this.FmStats.Size = new System.Drawing.Size(907, 632);
+            this.FmStats.Size = new System.Drawing.Size(907, 642);
             this.FmStats.TabIndex = 9;
             this.FmStats.Text = "FmStats";
             this.FmStats.UseVisualStyleBackColor = true;
@@ -7081,7 +7127,7 @@
             this.groupBox17.Controls.Add(this.pace);
             this.groupBox17.Controls.Add(this.naturalFitness);
             this.groupBox17.Controls.Add(this.jumpingReach);
-            this.groupBox17.Controls.Add(this.balance);
+            this.groupBox17.Controls.Add(this.balance2);
             this.groupBox17.Controls.Add(this.agility);
             this.groupBox17.Controls.Add(this.accelerationFm);
             this.groupBox17.Controls.Add(this.label188);
@@ -7145,14 +7191,14 @@
             this.jumpingReach.Size = new System.Drawing.Size(35, 20);
             this.jumpingReach.TabIndex = 81;
             // 
-            // balance
+            // balance2
             // 
-            this.balance.Location = new System.Drawing.Point(119, 63);
-            this.balance.MaxLength = 2;
-            this.balance.Name = "balance";
-            this.balance.ReadOnly = true;
-            this.balance.Size = new System.Drawing.Size(35, 20);
-            this.balance.TabIndex = 80;
+            this.balance2.Location = new System.Drawing.Point(119, 63);
+            this.balance2.MaxLength = 2;
+            this.balance2.Name = "balance2";
+            this.balance2.ReadOnly = true;
+            this.balance2.Size = new System.Drawing.Size(35, 20);
+            this.balance2.TabIndex = 80;
             // 
             // agility
             // 
@@ -7733,8 +7779,8 @@
             this.technical.Controls.Add(this.driblingFm);
             this.technical.Controls.Add(this.crossing);
             this.technical.Controls.Add(this.firstTouch);
-            this.technical.Controls.Add(this.tackling);
-            this.technical.Controls.Add(this.heading);
+            this.technical.Controls.Add(this.tackling2);
+            this.technical.Controls.Add(this.heading2);
             this.technical.Controls.Add(this.freeKickTaking);
             this.technical.Controls.Add(this.corners);
             this.technical.Controls.Add(this.label124);
@@ -7857,23 +7903,23 @@
             this.firstTouch.Size = new System.Drawing.Size(35, 20);
             this.firstTouch.TabIndex = 82;
             // 
-            // tackling
+            // tackling2
             // 
-            this.tackling.Location = new System.Drawing.Point(158, 84);
-            this.tackling.MaxLength = 2;
-            this.tackling.Name = "tackling";
-            this.tackling.ReadOnly = true;
-            this.tackling.Size = new System.Drawing.Size(35, 20);
-            this.tackling.TabIndex = 81;
+            this.tackling2.Location = new System.Drawing.Point(158, 84);
+            this.tackling2.MaxLength = 2;
+            this.tackling2.Name = "tackling2";
+            this.tackling2.ReadOnly = true;
+            this.tackling2.Size = new System.Drawing.Size(35, 20);
+            this.tackling2.TabIndex = 81;
             // 
-            // heading
+            // heading2
             // 
-            this.heading.Location = new System.Drawing.Point(158, 61);
-            this.heading.MaxLength = 2;
-            this.heading.Name = "heading";
-            this.heading.ReadOnly = true;
-            this.heading.Size = new System.Drawing.Size(35, 20);
-            this.heading.TabIndex = 80;
+            this.heading2.Location = new System.Drawing.Point(158, 61);
+            this.heading2.MaxLength = 2;
+            this.heading2.Name = "heading2";
+            this.heading2.ReadOnly = true;
+            this.heading2.Size = new System.Drawing.Size(35, 20);
+            this.heading2.TabIndex = 80;
             // 
             // freeKickTaking
             // 
@@ -8791,7 +8837,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(917, 682);
+            this.ClientSize = new System.Drawing.Size(917, 688);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -8806,16 +8852,16 @@
             this.tabControl1.ResumeLayout(false);
             this.Transfers.ResumeLayout(false);
             this.Transfers.PerformLayout();
-            this.giocatorePanel2.ResumeLayout(false);
-            this.giocatorePanel2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.giocatorePanel4.ResumeLayout(false);
-            this.giocatorePanel4.PerformLayout();
-            this.giocatorePanel3.ResumeLayout(false);
-            this.giocatorePanel3.PerformLayout();
-            this.giocatorePanel1.ResumeLayout(false);
-            this.giocatorePanel1.PerformLayout();
+            this.PlayerPanel2.ResumeLayout(false);
+            this.PlayerPanel2.PerformLayout();
+            this.PlayerPanel5.ResumeLayout(false);
+            this.PlayerPanel5.PerformLayout();
+            this.PlayerPanel4.ResumeLayout(false);
+            this.PlayerPanel4.PerformLayout();
+            this.PlayerPanel3.ResumeLayout(false);
+            this.PlayerPanel3.PerformLayout();
+            this.PlayerPanel1.ResumeLayout(false);
+            this.PlayerPanel1.PerformLayout();
             this.Teams.ResumeLayout(false);
             this.Teams.PerformLayout();
             this.teamGroupBox5.ResumeLayout(false);
@@ -8966,13 +9012,13 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem checkForUpdate;
         private System.Windows.Forms.TabPage Transfers;
-        private System.Windows.Forms.Panel giocatorePanel2;
-        private System.Windows.Forms.Panel giocatorePanel4;
+        private System.Windows.Forms.Panel PlayerPanel2;
+        private System.Windows.Forms.Panel PlayerPanel4;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Panel giocatorePanel3;
+        private System.Windows.Forms.Panel PlayerPanel3;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label30;
@@ -8998,10 +9044,10 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel giocatorePanel1;
+        private System.Windows.Forms.Panel PlayerPanel1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox giocatoreNumber;
+        private System.Windows.Forms.TextBox PlayerNumberTextBox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label4;
@@ -9147,7 +9193,7 @@
         private System.Windows.Forms.CheckBox unknown;
         private System.Windows.Forms.TabPage FmStats;
         private System.Windows.Forms.TabPage Coach;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel PlayerPanel5;
         private System.Windows.Forms.Label label106;
         private System.Windows.Forms.Label label107;
         private System.Windows.Forms.Label label108;
@@ -9252,7 +9298,7 @@
         private System.Windows.Forms.TextBox pace;
         private System.Windows.Forms.TextBox naturalFitness;
         private System.Windows.Forms.TextBox jumpingReach;
-        private System.Windows.Forms.TextBox balance;
+        private System.Windows.Forms.TextBox balance2;
         private System.Windows.Forms.TextBox agility;
         private System.Windows.Forms.TextBox accelerationFm;
         private System.Windows.Forms.Label label188;
@@ -9307,8 +9353,8 @@
         private System.Windows.Forms.TextBox driblingFm;
         private System.Windows.Forms.TextBox crossing;
         private System.Windows.Forms.TextBox firstTouch;
-        private System.Windows.Forms.TextBox tackling;
-        private System.Windows.Forms.TextBox heading;
+        private System.Windows.Forms.TextBox tackling2;
+        private System.Windows.Forms.TextBox heading2;
         private System.Windows.Forms.TextBox freeKickTaking;
         private System.Windows.Forms.TextBox corners;
         private System.Windows.Forms.Label label124;
@@ -9451,7 +9497,7 @@
         private System.Windows.Forms.RadioButton gk;
         private System.Windows.Forms.ToolStripMenuItem removeFakeTeamShort;
         private System.Windows.Forms.ToolStripMenuItem removeFakeShortTeam;
-        private System.Windows.Forms.TextBox playerRank;
+        private System.Windows.Forms.TextBox PlayerRank;
         internal System.Windows.Forms.TabControl tabControl1;
         internal System.Windows.Forms.ListBox BallListBox;
         internal System.Windows.Forms.ListBox GloveListBox;
@@ -9547,41 +9593,41 @@
         internal System.Windows.Forms.Button GloveApplyButton;
         internal System.Windows.Forms.TextBox GloveSearchTextBox;
         internal System.Windows.Forms.Label label38;
-        internal System.Windows.Forms.Label loftedPass;
-        internal System.Windows.Forms.Label lowPass;
-        internal System.Windows.Forms.Label dribbling;
-        internal System.Windows.Forms.Label ballControll;
-        internal System.Windows.Forms.Label attack;
-        internal System.Windows.Forms.Label coverage;
-        internal System.Windows.Forms.Label reflexes;
-        internal System.Windows.Forms.Label clearing;
-        internal System.Windows.Forms.Label cathing;
-        internal System.Windows.Forms.Label goalkeeping;
-        internal System.Windows.Forms.Label stamina;
-        internal System.Windows.Forms.Label jump;
-        internal System.Windows.Forms.Label physical;
-        internal System.Windows.Forms.Label bodyControll;
-        internal System.Windows.Forms.Label acceleration;
-        internal System.Windows.Forms.Label speed;
-        internal System.Windows.Forms.Label kickingPower;
-        internal System.Windows.Forms.Label ballWinning;
-        internal System.Windows.Forms.Label defense;
-        internal System.Windows.Forms.Label header;
-        internal System.Windows.Forms.Label curl;
-        internal System.Windows.Forms.Label placeKick;
-        internal System.Windows.Forms.Label finishing;
-        internal System.Windows.Forms.Label giocatoreAge;
-        internal System.Windows.Forms.Label giocatoreHeight;
-        internal System.Windows.Forms.Label giocatoreWeight;
-        internal System.Windows.Forms.Label giocatoreFoot;
-        internal System.Windows.Forms.Label giocatoreType;
-        internal System.Windows.Forms.Label giocatoreID;
-        internal System.Windows.Forms.Label giocatoreInjury;
-        internal System.Windows.Forms.Label giocatoreUse;
-        internal System.Windows.Forms.Label giocatoreAcc;
-        internal System.Windows.Forms.Label giocatoreForm;
-        internal System.Windows.Forms.TextBox giocatoreName;
-        internal System.Windows.Forms.TextBox giocatoreShirt;
+        internal System.Windows.Forms.Label LoftedPassLabel;
+        internal System.Windows.Forms.Label LowPassLabel;
+        internal System.Windows.Forms.Label DribblingLabel;
+        internal System.Windows.Forms.Label BallControlLabel;
+        internal System.Windows.Forms.Label OffensiveProwessLabel;
+        internal System.Windows.Forms.Label GKReflexesLabel;
+        internal System.Windows.Forms.Label GKParryingLabel;
+        internal System.Windows.Forms.Label GKCatchingLabel;
+        internal System.Windows.Forms.Label GKAwarenessLabel;
+        internal System.Windows.Forms.Label AggressionLabel;
+        internal System.Windows.Forms.Label DefensiveEngangementLabel;
+        internal System.Windows.Forms.Label TacklingLabel;
+        internal System.Windows.Forms.Label DefensiveAwarenessLabel;
+        internal System.Windows.Forms.Label StaminaLabel;
+        internal System.Windows.Forms.Label BalanceLabel;
+        internal System.Windows.Forms.Label PhysicalContactLabel;
+        internal System.Windows.Forms.Label JumpLabel;
+        internal System.Windows.Forms.Label AccelerationLabel;
+        internal System.Windows.Forms.Label SpeedLabel;
+        internal System.Windows.Forms.Label CurlLabel;
+        internal System.Windows.Forms.Label SetPieceTakingLabel;
+        internal System.Windows.Forms.Label HeadingLabel;
+        internal System.Windows.Forms.Label FinishingLabel;
+        internal System.Windows.Forms.Label PlayerAgeLabel;
+        internal System.Windows.Forms.Label PlayerHeightLabel;
+        internal System.Windows.Forms.Label PlayerWeightLabel;
+        internal System.Windows.Forms.Label PlayerFootLabel;
+        internal System.Windows.Forms.Label PlayerTypeLabel;
+        internal System.Windows.Forms.Label PlayerIDLabel;
+        internal System.Windows.Forms.Label PlayerInjuryLabel;
+        internal System.Windows.Forms.Label PlayerUseLabel;
+        internal System.Windows.Forms.Label PlayerAccLabel;
+        internal System.Windows.Forms.Label PlayerFormLabel;
+        internal System.Windows.Forms.TextBox PlayerNameTextBox;
+        internal System.Windows.Forms.TextBox PlayerShirtTextBox;
         internal System.Windows.Forms.GroupBox BootGroupBox1;
         internal System.Windows.Forms.Button BootApplyButton;
         internal System.Windows.Forms.TextBox BootSearchTextBox;
@@ -9601,8 +9647,8 @@
         internal System.Windows.Forms.ToolStripMenuItem addNewStadiumStrip;
         internal System.Windows.Forms.GroupBox stadiumOrderConfGroupBox1;
         internal System.Windows.Forms.GroupBox stadiumOrderGroupBox1;
-        internal System.Windows.Forms.TextBox giocatoreSquadra;
-        internal System.Windows.Forms.TextBox giocatoreNazionale;
+        internal System.Windows.Forms.TextBox PlayerClubTextBox;
+        internal System.Windows.Forms.TextBox PlayerNationalTextBox;
         internal System.Windows.Forms.ComboBox nationalityBox;
         internal System.Windows.Forms.Button derbyApplyButton;
         internal System.Windows.Forms.GroupBox derbyGroupBox1;
@@ -9695,9 +9741,9 @@
         private System.Windows.Forms.ToolStripMenuItem copyPlayerToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem pastePlayerToolStripMenuItem1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
-        internal System.Windows.Forms.Label tightPossession;
+        internal System.Windows.Forms.Label TightPossessionLabel;
         private System.Windows.Forms.Label label61;
-        internal System.Windows.Forms.Label aggression;
+        internal System.Windows.Forms.Label KickingPowerLabel;
         private System.Windows.Forms.Label label83;
         private System.Windows.Forms.ToolStripMenuItem importPlayerAppearanceFromDino19ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem importPlayerAppearanceFromDino19ToolStripMenuItem1;
@@ -9705,6 +9751,10 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.TextBox CoachChineseTextBox;
         private System.Windows.Forms.Label label59;
+        internal System.Windows.Forms.Label GKReachLabel;
+        private System.Windows.Forms.Label label84;
+        internal System.Windows.Forms.Label PlayerHandLabel;
+        private System.Windows.Forms.Label label89;
     }
 }
 

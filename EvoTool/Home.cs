@@ -245,6 +245,8 @@ namespace EvoTool
                 PlayerListBox.DisplayMember = "Name";
                 PlayerListBox.ValueMember = "Index";
 
+                PlayerPanel1.Enabled = true;
+                PlayerPanel2.Enabled = true;
                 PlayerListBox.Enabled = true;
 
                 PlayerListBox.SelectedValue = 0;
@@ -765,6 +767,74 @@ namespace EvoTool
         private void StadiumCharButton_Click(object sender, EventArgs e)
         {
             Process.Start("charmap.exe");
+        }
+
+        // player
+        private void ReadPlayer(Player player)
+        {
+            PlayerNameTextBox.Text = player.Name;
+            PlayerShirtTextBox.Text = player.ShirtName;
+            PlayerIDLabel.Text = player.Id.ToString();
+            //PlayerTypeLabel.Text = player.getStringFake();
+            PlayerAgeLabel.Text = player.Age.ToString();
+            PlayerWeightLabel.Text = player.Weight.ToString();
+            PlayerHeightLabel.Text = player.Height.ToString();
+            PlayerFormLabel.Text = player.Form.ToString();
+            PlayerAccLabel.Text = player.WeakFootAccuracy.ToString();
+            PlayerUseLabel.Text = player.WeakFootUsage.ToString();
+            PlayerInjuryLabel.Text = player.InjuryResistance.ToString();
+
+            OffensiveProwessLabel.Text = player.OffensiveAwareness.ToString();
+            BallControlLabel.Text = player.BallControl.ToString();
+            DribblingLabel.Text = player.Dribbling.ToString();
+            TightPossessionLabel.Text = player.TightPossession.ToString();
+            LowPassLabel.Text = player.LowPass.ToString();
+            LoftedPassLabel.Text = player.LoftedPass.ToString();
+            FinishingLabel.Text = player.Finishing.ToString();
+            HeadingLabel.Text = player.Heading.ToString();
+            SetPieceTakingLabel.Text = player.SetPieceTaking.ToString();
+            CurlLabel.Text = player.Curl.ToString();
+            SpeedLabel.Text = player.Speed.ToString();
+            AccelerationLabel.Text = player.Acceleration.ToString();
+            KickingPowerLabel.Text = player.KickingPower.ToString();
+            JumpLabel.Text = player.Jump.ToString();
+            PhysicalContactLabel.Text = player.PhysicalContact.ToString();
+            BalanceLabel.Text = player.Balance.ToString();
+            StaminaLabel.Text = player.Stamina.ToString();
+            DefensiveAwarenessLabel.Text = player.DefensiveAwareness.ToString();
+            TacklingLabel.Text = player.Tackling.ToString();
+            DefensiveEngangementLabel.Text = player.DefensiveEngangement.ToString();
+            AggressionLabel.Text = player.Aggression.ToString();
+            GKAwarenessLabel.Text = player.GKAwareness.ToString();
+            GKCatchingLabel.Text = player.GKCatching.ToString();
+            GKParryingLabel.Text = player.GKParrying.ToString();
+            GKReflexesLabel.Text = player.GKReflexes.ToString();
+            if (player.StroongerFoot == false)
+                PlayerFootLabel.Text = "Right";
+            else
+                PlayerFootLabel.Text = "Left";
+            if (player.StrongerHand == false)
+                PlayerHandLabel.Text = "Right";
+            else
+                PlayerHandLabel.Text = "Left";
+            //giocatoreSquadra.Text = controller.getStringClubTeamOfPlayer(player.getId(), 0);
+            //giocatoreNazionale.Text = controller.getStringClubTeamOfPlayer(player.getId(), 1);
+            //giocatoreNationality.SelectedIndex = controller.findCountry(player.getNational());
+
+            //controllerFm
+            //controllerFm.setPlayer(temp);
+        }
+
+        private void PlayerListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            PlayerNationalTextBox.Text = "";
+            PlayerClubTextBox.Text = "";
+            PlayerNumberTextBox.Text = "";
+
+            if (PlayerListBox.SelectedItem == null)
+                return;
+
+            ReadPlayer(playerController.LoadPlayer(PlayerListBox.SelectedIndex));
         }
     }
 }

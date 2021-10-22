@@ -22,9 +22,9 @@ namespace EvoTool.Controllers
             BootTable.Columns.Add("Name", typeof(string));
         }
 
-        public MemoryStream MemoryBoot { get; set; }
-        public BinaryReader ReadBoot { get; set; }
-        public BinaryWriter WriteBoot { get; set; }
+        private MemoryStream MemoryBoot { get; set; }
+        private BinaryReader ReadBoot { get; set; }
+        private BinaryWriter WriteBoot { get; set; }
         public DataTable BootTable { get; set; }
 
         private MemoryStream UnzlibFile(string patch)

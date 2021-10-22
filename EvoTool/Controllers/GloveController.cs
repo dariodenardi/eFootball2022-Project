@@ -22,9 +22,9 @@ namespace EvoTool.Controllers
             GloveTable.Columns.Add("Name", typeof(string));
         }
 
-        public MemoryStream MemoryGlove { get; set; }
-        public BinaryReader ReadGlove { get; set; }
-        public BinaryWriter WriteGlove { get; set; }
+        private MemoryStream MemoryGlove { get; set; }
+        private BinaryReader ReadGlove { get; set; }
+        private BinaryWriter WriteGlove { get; set; }
         public DataTable GloveTable { get; set; }
 
         private MemoryStream UnzlibFile(string patch)
