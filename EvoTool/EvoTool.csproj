@@ -79,11 +79,11 @@
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Stadium.cs" />
     <Compile Include="Models\Glove.cs" />
-    <Compile Include="Player.cs">
+    <Compile Include="Stats.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Player.Designer.cs">
-      <DependentUpon>Player.cs</DependentUpon>
+    <Compile Include="Stats.Designer.cs">
+      <DependentUpon>Stats.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -93,16 +93,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Team.cs">
+    <Compile Include="Formation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Team.Designer.cs">
-      <DependentUpon>Team.cs</DependentUpon>
+    <Compile Include="Formation.Designer.cs">
+      <DependentUpon>Formation.cs</DependentUpon>
     </Compile>
     <Compile Include="ZlibUnzlib\Unzlib.cs" />
     <Compile Include="ZlibUnzlib\Zlib.cs" />
-    <EmbeddedResource Include="Player.resx">
-      <DependentUpon>Player.cs</DependentUpon>
+    <EmbeddedResource Include="Stats.resx">
+      <DependentUpon>Stats.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -117,8 +117,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Team.resx">
-      <DependentUpon>Team.cs</DependentUpon>
+    <EmbeddedResource Include="Formation.resx">
+      <DependentUpon>Formation.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

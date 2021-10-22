@@ -8,12 +8,22 @@ namespace EvoTool.Models
 {
     class Player
     {
-        public bool FirstTimeShot { get; set; }
-        public uint UnknownPadding { get; set; }
+        public Player(uint id)
+        {
+            this.Id = id;
+        }
 
+        public string Name { get; set; }
+        public string JapaneseName { get; set; }
+        public string ChineseName { get; set; }
+        public string ShirtName { get; set; }
+        public string ClubShirtName { get; set; }
+        public bool FirstTimeShot { get; set; }
         public uint YouthPlayerId { get; set; }
         public uint OwnerClub { get; set; }
-        public uint PlayerId { get; set; }
+        public uint ClubId { get; set; }
+        public uint Id { get; set; }
+        public uint Padding { get; set; }
         public uint ContractDate { get; set; }
         public uint PlayingStyle { get; set; }
         public uint LoanContractExpiryDate { get; set; }
@@ -23,14 +33,11 @@ namespace EvoTool.Models
         public uint NationalId1 { get; set; }
         public uint NationalId2 { get; set; }
 
-        public uint FreekickMotion { get; set; }
-        public uint ContractExpıryDate { get; set; }
+        public uint FreeKickMotion { get; set; }
         public uint LoanExpiryDate { get; set; }
-
 
         public uint Height { get; set; }
         public uint Weight { get; set; }
-
 
         public uint SetPieceTaking { get; set; }
         public uint BallControl { get; set; }
@@ -48,7 +55,7 @@ namespace EvoTool.Models
         public uint GKReflexes { get; set; }
         public uint GKAwareness { get; set; }
         public uint Curl { get; set; }
-        public uint Stamına { get; set; }
+        public uint Stamina { get; set; }
         public uint Acceleration { get; set; }
         public uint PlayableGK { get; set; }
         public uint Dribbling { get; set; }
@@ -56,7 +63,6 @@ namespace EvoTool.Models
         public uint GKCatching { get; set; }
         public uint OffensiveAwareness { get; set; }
         public uint Balance { get; set; }
-        public uint PlayingAttitude { get; set; }
 
         public uint Aggression { get; set; }
         public uint PhysicalContact { get; set; }
@@ -71,11 +77,10 @@ namespace EvoTool.Models
         public uint RunningArmMovement { get; set; }
         public uint RegisteredPosition { get; set; }
         public uint Form { get; set; }
-        public uint DribblingHunchıng { get; set; }
+        public uint DribblingHunching { get; set; }
         public uint PenaltyKickMotion { get; set; }
         public bool EarlyCross { get; set; }
         public uint RunningHunching { get; set; }
-        public uint StarPlayer { get; set; }
         public uint WeakFootUsage { get; set; }
         public uint PlayableCMF { get; set; }
         public uint InjuryResistance { get; set; }
@@ -102,13 +107,10 @@ namespace EvoTool.Models
         public bool GkLowPunt { get; set; }
         public bool Blocker { get; set; }
         public bool Gamasmanship { get; set; }
-        public bool Captanıncy { get; set; }
+        public bool Captanincy { get; set; }
         public bool SlidingTackle { get; set; }
         public bool AerialSuperiority { get; set; }
-        public bool EditedPlayer { get; set; }
-        public bool Unknown { get; set; }
-        public bool CrossOverTurn { get; set; }
-        public bool LongRangeCurle { get; set; }
+        public bool LongRangeCurler { get; set; }
         public bool OutsideCurler { get; set; }
         public bool DippingShot { get; set; }
         public bool HeadingSkills { get; set; }
@@ -124,7 +126,6 @@ namespace EvoTool.Models
         public bool HellTrick { get; set; }
         public bool ChipShotControl { get; set; }
         public bool OneTouchPass { get; set; }
-        public bool HiddenPlayer { get; set; }
         public bool StrongerHand { get; set; }
         public bool IncisiveRun { get; set; }
         public bool SoleControl { get; set; }
@@ -146,32 +147,29 @@ namespace EvoTool.Models
         public bool ScotchMove { get; set; }
         public bool SpeedingBullet { get; set; }
 
-        public bool CutBehindTurn { get; set; }
         public bool LongBallExpert { get; set; }
         public bool AcrobaticClear { get; set; }
         public bool MazingRun { get; set; }
 
-        public uint UnknownBits_1 { get; set; }
-        public uint UnknownBits_2 { get; set; }
-        public uint UnknownBits_3 { get; set; }
-        public uint UnknownBits_4 { get; set; }
-        public uint UnknownBits_5 { get; set; }
-        public uint UnknownBits_6 { get; set; }
-        public uint UnknownBits_7 { get; set; }
-        public uint UnknownBits_8 { get; set; }
-        public uint UnknownBits_9 { get; set; }
-        public uint UnknownBits_10 { get; set; }
-        public uint UnknownBits_11 { get; set; }
-        public uint UnknownBits_12 { get; set; }
+        public uint UnknownBits1 { get; set; }
+        public uint UnknownBits2 { get; set; }
+        public uint UnknownBits3 { get; set; }
+        public uint UnknownBits4 { get; set; }
+        public uint UnknownBits5 { get; set; }
+        public uint UnknownBits6 { get; set; }
+        public uint UnknownBits7 { get; set; }
 
-        public bool UnknownBit_1 { get; set; }
-        public bool UnknownBit_2 { get; set; }
-        public bool UnknownBit_3 { get; set; }
-        public bool UnknownBit_4 { get; set; }
-        public bool UnknownBit_5 { get; set; }
-        public bool UnknownBit_6 { get; set; }
-        public bool UnknownBit_7 { get; set; }
-        public bool UnknownBit_8 { get; set; }
-        public bool UnknownBit_9 { get; set; }
+        public bool UnknownBit1 { get; set; }
+        public bool UnknownBit2 { get; set; }
+        public bool UnknownBit3 { get; set; }
+        public bool UnknownBit4 { get; set; }
+        public bool UnknownBit5 { get; set; }
+        public bool UnknownBit6 { get; set; }
+        public bool UnknownBit7 { get; set; }
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

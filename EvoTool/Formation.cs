@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace EvoTool
 {
-    public partial class Player : Form
+    public partial class Formation : Form
     {
-        public Player()
+        public Formation()
         {
             InitializeComponent();
         }
 
-        private void Giocatore_Load(object sender, EventArgs e)
+        private void Team_Load(object sender, EventArgs e)
         {
 
         }

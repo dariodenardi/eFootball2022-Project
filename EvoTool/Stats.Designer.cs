@@ -1,6 +1,6 @@
 ﻿namespace EvoTool
 {
-    partial class Player
+    partial class Stats
     {
         /// <summary>
         /// Variabile di progettazione necessaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Player));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Stats));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.popularityComboBox = new System.Windows.Forms.ComboBox();
             this.shirtNameClubTextBox = new System.Windows.Forms.TextBox();
