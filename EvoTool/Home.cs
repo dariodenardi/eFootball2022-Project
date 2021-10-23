@@ -819,7 +819,7 @@ namespace EvoTool
                 PlayerHandLabel.Text = "Left";
             //giocatoreSquadra.Text = controller.getStringClubTeamOfPlayer(player.getId(), 0);
             //giocatoreNazionale.Text = controller.getStringClubTeamOfPlayer(player.getId(), 1);
-            //giocatoreNationality.SelectedIndex = controller.findCountry(player.getNational());
+            PlayerNationalityComboBox.SelectedIndex = countryController.LoadCountryById(player.NationalId1);
 
             //controllerFm
             //controllerFm.setPlayer(temp);

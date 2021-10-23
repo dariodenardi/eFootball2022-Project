@@ -90,8 +90,8 @@ namespace EvoTool.Controllers
             uint unknownBits1;
             uint setPieceTaking;
             uint goalCelebration;
-            uint nationalId1;
-            uint nationalId2;
+            ushort nationalId1;
+            ushort nationalId2;
             uint cornerKick;
             uint weight;
             uint unknownBits2;
@@ -243,8 +243,8 @@ namespace EvoTool.Controllers
                 uint aux5 = ReadPlayer.ReadUInt32();
                 setPieceTaking = ((aux5 << 0) >> 26) + 40;
                 goalCelebration = aux5 << 6 >> 24;
-                nationalId1 = aux5 << 14 >> 23;
-                nationalId2 = aux5 << 23 >> 23;
+                nationalId1 = (ushort) (aux5 << 14 >> 23);
+                nationalId2 = (ushort) (aux5 << 23 >> 23);
 
                 uint aux6 = ReadPlayer.ReadUInt32();
                 cornerKick = ((aux6 << 0) >> 28) + 1;
