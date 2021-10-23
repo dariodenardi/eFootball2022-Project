@@ -1,0 +1,9 @@
+
+EvoTool/obj
+
+.vs
+
+EvoTool/bin/Debug/*
+
+!EvoTool/bin/Debug/ICSharpCode.SharpZipLib.dll
+
