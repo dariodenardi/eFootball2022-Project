@@ -75,15 +75,15 @@ namespace EvoTool.Controllers
         {
             Stadium stadium;
 
-            UInt16 stadiumId;
+            ushort stadiumId;
             string stadiumName;
             string stadiumJapName;
-            UInt32 country;
-            UInt32 capacity;
+            uint country;
+            uint capacity;
             try
             {
                 ReadStadium.BaseStream.Position = index * BLOCK;
-                UInt32 aux1 = ReadStadium.ReadUInt32();
+                uint aux1 = ReadStadium.ReadUInt32();
                 //na = valore32 >> 30;
                 //licensed = aux1 << 2;
                 //licensed = licensed >> 31;
@@ -117,7 +117,7 @@ namespace EvoTool.Controllers
             return stadium;
         }
 
-        public int LoadStadiumById(UInt16 stadiumId)
+        public int LoadStadiumById(ushort stadiumId)
         {
             int ballNumber = (int)MemoryStadium.Length / BLOCK;
 
@@ -142,7 +142,7 @@ namespace EvoTool.Controllers
                 byte zero = 0;
 
                 ReadStadium.BaseStream.Position = index * BLOCK;
-                UInt32 aux1 = ReadStadium.ReadUInt32();
+                uint aux1 = ReadStadium.ReadUInt32();
                 aux1 = aux1 >> 28;
                 aux1 = aux1 << 28;
                 aux1 = aux1 | (uint) (stadium.Country << 20);

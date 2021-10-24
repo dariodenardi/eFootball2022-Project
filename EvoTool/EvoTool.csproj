@@ -99,6 +99,8 @@
     <Compile Include="Formation.Designer.cs">
       <DependentUpon>Formation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Utils\CalculateOverall.cs" />
+    <Compile Include="Utils\UtilGUI.cs" />
     <Compile Include="ZlibUnzlib\Unzlib.cs" />
     <Compile Include="ZlibUnzlib\Zlib.cs" />
     <EmbeddedResource Include="Stats.resx">

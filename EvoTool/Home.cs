@@ -1,5 +1,6 @@
 ﻿using EvoTool.Controllers;
 using EvoTool.Models;
+using EvoTool.Utils;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -809,6 +810,7 @@ namespace EvoTool
             GKCatchingLabel.Text = player.GKCatching.ToString();
             GKParryingLabel.Text = player.GKParrying.ToString();
             GKReflexesLabel.Text = player.GKReflexes.ToString();
+            GKReachLabel.Text = player.GKReach.ToString();
             if (player.StroongerFoot == false)
                 PlayerFootLabel.Text = "Right";
             else
@@ -820,6 +822,8 @@ namespace EvoTool
             //giocatoreSquadra.Text = controller.getStringClubTeamOfPlayer(player.getId(), 0);
             //giocatoreNazionale.Text = controller.getStringClubTeamOfPlayer(player.getId(), 1);
             PlayerNationalityComboBox.SelectedIndex = countryController.LoadCountryById(player.NationalId1);
+            PlayerRankLabel.Text = CalculateOverall.Overall(player.RegisteredPosition, player.GKReach, player.GKCatching, player.GKAwareness, player.Balance, player.Jump, player.Heading, player.DefensiveAwareness, player.Tackling, player.Speed, player.Stamina, player.OffensiveAwareness, player.BallControl, player.Dribbling, player.LoftedPass, player.LowPass, player.Aggression, player.SetPieceTaking, player.Finishing, player.KickingPower).ToString();
+            UtilGUI.ChangeBackColorLabel(PlayerRankLabel);
 
             //controllerFm
             //controllerFm.setPlayer(temp);
@@ -835,6 +839,137 @@ namespace EvoTool
                 return;
 
             ReadPlayer(playerController.LoadPlayer(PlayerListBox.SelectedIndex));
+        }
+
+        // Change color Label
+        private void OffensiveProwessLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(OffensiveProwessLabel);
+        }
+
+        private void BallControlLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(BallControlLabel);
+        }
+
+        private void DribblingLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(DribblingLabel);
+        }
+
+        private void TightPossessionLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(TightPossessionLabel);
+        }
+
+        private void LowPassLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(LowPassLabel);
+        }
+
+        private void LoftedPassLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(LoftedPassLabel);
+        }
+
+        private void FinishingLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(FinishingLabel);
+        }
+
+        private void HeadingLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(HeadingLabel);
+        }
+
+        private void SetPieceTakingLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(SetPieceTakingLabel);
+        }
+
+        private void CurlLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(CurlLabel);
+        }
+
+        private void SpeedLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(SpeedLabel);
+        }
+
+        private void AccelerationLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(AccelerationLabel);
+        }
+
+        private void KickingPowerLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(KickingPowerLabel);
+        }
+
+        private void JumpLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(JumpLabel);
+        }
+
+        private void PhysicalContactLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(PhysicalContactLabel);
+        }
+
+        private void BalanceLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(BalanceLabel);
+        }
+
+        private void StaminaLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(StaminaLabel);
+        }
+
+        private void DefensiveAwarenessLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(DefensiveAwarenessLabel);
+        }
+
+        private void TacklingLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(TacklingLabel);
+        }
+
+        private void DefensiveEngangementLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(DefensiveEngangementLabel);
+        }
+
+        private void AggressionLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(AggressionLabel);
+        }
+
+        private void GKAwarenessLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(GKAwarenessLabel);
+        }
+
+        private void GKCatchingLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(GKCatchingLabel);
+        }
+
+        private void GKParryingLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(GKParryingLabel);
+        }
+
+        private void GKReflexesLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(GKReflexesLabel);
+        }
+
+        private void GKReachLabel_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeColorLabel(GKReachLabel);
         }
     }
 }

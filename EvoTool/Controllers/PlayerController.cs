@@ -76,7 +76,7 @@ namespace EvoTool.Controllers
             Player player;
 
             uint youthPlayerId;
-            uint ownerClub;
+            uint ownerClubId;
             uint playerId;
             uint padding;
             uint clubId;
@@ -219,7 +219,7 @@ namespace EvoTool.Controllers
             {
                 ReadPlayer.BaseStream.Position = index * BLOCK;
                 youthPlayerId = ReadPlayer.ReadUInt32();
-                ownerClub = ReadPlayer.ReadUInt32();
+                ownerClubId = ReadPlayer.ReadUInt32();
                 playerId = ReadPlayer.ReadUInt32();
                 padding = ReadPlayer.ReadUInt32();
                 clubId = ReadPlayer.ReadUInt32();
@@ -396,7 +396,7 @@ namespace EvoTool.Controllers
 
                 player = new Player(playerId);
                 player.YouthPlayerId = youthPlayerId;
-                player.OwnerClub = ownerClub;
+                player.OwnerClubId = ownerClubId;
                 player.Padding = padding;
                 player.ClubId = clubId;
                 player.FreeKickMotion = freeKickMotion;
@@ -542,6 +542,24 @@ namespace EvoTool.Controllers
 
             return player;
         }
+
+        public int LoadPlayerById(uint playerId)
+        {
+            int playerNumber = (int)MemoryPlayer.Length / BLOCK;
+
+            ReadPlayer.BaseStream.Position = 8;
+            for (int i = 0; i < playerNumber; i++)
+            {
+                if (playerId == ReadPlayer.ReadUInt32())
+                    return i;
+
+                ReadPlayer.BaseStream.Position += BLOCK - 4;
+            }
+
+            return -1;
+        }
+
+
 
         public void CloseMemory()
         {

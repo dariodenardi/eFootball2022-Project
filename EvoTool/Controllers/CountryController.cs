@@ -76,7 +76,7 @@ namespace EvoTool.Controllers
         {
             Country country;
 
-            UInt32 countryId;
+            uint countryId;
             string countryName;
             try
             {
@@ -84,7 +84,7 @@ namespace EvoTool.Controllers
                 countryName = Encoding.UTF8.GetString(ReadCountry.ReadBytes(70)).TrimEnd('\0');
 
                 ReadCountry.BaseStream.Position = index * BLOCK;
-                UInt32 aux1 = ReadCountry.ReadUInt32();
+                uint aux1 = ReadCountry.ReadUInt32();
                 countryId = aux1 << 13;
                 countryId = countryId >> 23;
 
@@ -99,14 +99,14 @@ namespace EvoTool.Controllers
             return country;
         }
 
-        public int LoadCountryById(UInt16 countryId)
+        public int LoadCountryById(ushort countryId)
         {
             int countryNumber = (int)MemoryCountry.Length / BLOCK;
 
             ReadCountry.BaseStream.Position = 0;
             for (int i = 0; i < countryNumber; i++)
             {
-                UInt32 block1 = ReadCountry.ReadUInt32();
+                uint block1 = ReadCountry.ReadUInt32();
                 block1 = block1 << 13;
                 block1 = block1 >> 23;
                 if (countryId == (ushort)block1)

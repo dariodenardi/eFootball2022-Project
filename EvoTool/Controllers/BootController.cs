@@ -76,7 +76,7 @@ namespace EvoTool.Controllers
         {
             Boot boot;
 
-            UInt16 bootId;
+            ushort bootId;
             byte order;
             string bootName;
             try
@@ -102,7 +102,7 @@ namespace EvoTool.Controllers
             return boot;
         }
 
-        public int LoadBootById(UInt16 bootId)
+        public int LoadBootById(ushort bootId)
         {
             int bootNumber = (int)MemoryBoot.Length / BLOCK;
 

@@ -14,7 +14,7 @@ namespace EvoTool.Models
         }
 
         public uint YouthPlayerId { get; set; }
-        public uint OwnerClub { get; set; }
+        public uint OwnerClubId { get; set; }
         public uint Id { get; set; }
         public uint Padding { get; set; }
         public uint ClubId { get; set; }

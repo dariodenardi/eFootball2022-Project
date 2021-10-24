@@ -74,18 +74,18 @@ namespace EvoTool.Controllers
         {
             Coach coach;
 
-            UInt32 coachId;
+            uint coachId;
             string coachName;
             string coachChineseName;
             string coachJapaneseName;
-            UInt16 countryId;
+            ushort countryId;
             try
             {
                 ReadCoach.BaseStream.Position = index * BLOCK;
                 coachId = ReadCoach.ReadUInt32();
 
                 ReadCoach.BaseStream.Position = index * BLOCK + 8;
-                UInt16 aux1 = ReadCoach.ReadUInt16();
+                ushort aux1 = ReadCoach.ReadUInt16();
                 countryId = (ushort)(aux1 << 7);
                 countryId = (ushort)(countryId >> 7);
 
@@ -112,7 +112,7 @@ namespace EvoTool.Controllers
             return coach;
         }
 
-        public int LoadCoachById(UInt32 coachId)
+        public int LoadCoachById(uint coachId)
         {
             int coachNumber = (int)MemoryCoach.Length / BLOCK;
 
@@ -140,7 +140,7 @@ namespace EvoTool.Controllers
                 WriteCoach.Write(coach.Id);
 
                 ReadCoach.BaseStream.Position = index * BLOCK + 8;
-                UInt16 aux1 = ReadCoach.ReadUInt16();
+                ushort aux1 = ReadCoach.ReadUInt16();
                 aux1 = (ushort)(aux1 >> 9);
                 aux1 = (ushort)(aux1 << 9);
                 aux1 = (ushort)(aux1 | coach.Nationality);

@@ -76,7 +76,7 @@ namespace EvoTool.Controllers
         {
             Glove glove;
 
-            UInt16 gloveId;
+            ushort gloveId;
             byte order;
             string gloveName;
             try
@@ -102,7 +102,7 @@ namespace EvoTool.Controllers
             return glove;
         }
 
-        public int LoadGloveById(UInt16 gloveId)
+        public int LoadGloveById(ushort gloveId)
         {
             int gloveNumber = (int)MemoryGlove.Length / BLOCK;
 

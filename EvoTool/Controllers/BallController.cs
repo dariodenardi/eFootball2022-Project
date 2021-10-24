@@ -75,7 +75,7 @@ namespace EvoTool.Controllers
         {
             Ball ball;
 
-            UInt16 ballId;
+            ushort ballId;
             byte order;
             string ballName;
             try
@@ -101,7 +101,7 @@ namespace EvoTool.Controllers
             return ball;
         }
 
-        public int LoadBallById(UInt16 ballId)
+        public int LoadBallById(ushort ballId)
         {
             int ballNumber = (int)MemoryBall.Length / BLOCK;
 
