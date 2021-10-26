@@ -923,7 +923,7 @@
             this.Open.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Open.Name = "Open";
             this.Open.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.Open.Size = new System.Drawing.Size(167, 30);
+            this.Open.Size = new System.Drawing.Size(188, 30);
             this.Open.Text = "Open";
             this.Open.Click += new System.EventHandler(this.Open_Click);
             // 
@@ -934,13 +934,13 @@
             this.reload.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.reload.Name = "reload";
             this.reload.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.reload.Size = new System.Drawing.Size(167, 30);
+            this.reload.Size = new System.Drawing.Size(188, 30);
             this.reload.Text = "Reload";
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(164, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(185, 6);
             // 
             // Save
             // 
@@ -949,14 +949,14 @@
             this.Save.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Save.Name = "Save";
             this.Save.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.Save.Size = new System.Drawing.Size(167, 30);
+            this.Save.Size = new System.Drawing.Size(188, 30);
             this.Save.Text = "Save";
             this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(164, 6);
+            this.toolStripSeparator10.Size = new System.Drawing.Size(185, 6);
             // 
             // Exit
             // 
@@ -964,7 +964,7 @@
             this.Exit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.Exit.Name = "Exit";
             this.Exit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.Exit.Size = new System.Drawing.Size(167, 30);
+            this.Exit.Size = new System.Drawing.Size(188, 30);
             this.Exit.Text = "Exit";
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
@@ -1487,13 +1487,13 @@
             this.support.Image = ((System.Drawing.Image)(resources.GetObject("support.Image")));
             this.support.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.support.Name = "support";
-            this.support.Size = new System.Drawing.Size(173, 30);
+            this.support.Size = new System.Drawing.Size(188, 30);
             this.support.Text = "Support Forum";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(170, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(185, 6);
             // 
             // tutorial
             // 
@@ -1501,7 +1501,7 @@
             this.tutorial.Image = ((System.Drawing.Image)(resources.GetObject("tutorial.Image")));
             this.tutorial.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tutorial.Name = "tutorial";
-            this.tutorial.Size = new System.Drawing.Size(173, 30);
+            this.tutorial.Size = new System.Drawing.Size(188, 30);
             this.tutorial.Text = "Tutorial";
             // 
             // videoTutorial
@@ -1514,7 +1514,7 @@
             this.videoTutorial.Image = ((System.Drawing.Image)(resources.GetObject("videoTutorial.Image")));
             this.videoTutorial.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.videoTutorial.Name = "videoTutorial";
-            this.videoTutorial.Size = new System.Drawing.Size(173, 30);
+            this.videoTutorial.Size = new System.Drawing.Size(188, 30);
             this.videoTutorial.Text = "VideoTutorial";
             // 
             // howToUseFmStatsToolStripMenuItem
@@ -1538,7 +1538,7 @@
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(170, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(185, 6);
             // 
             // checkForUpdate
             // 
@@ -1546,7 +1546,7 @@
             this.checkForUpdate.Image = ((System.Drawing.Image)(resources.GetObject("checkForUpdate.Image")));
             this.checkForUpdate.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.checkForUpdate.Name = "checkForUpdate";
-            this.checkForUpdate.Size = new System.Drawing.Size(173, 30);
+            this.checkForUpdate.Size = new System.Drawing.Size(188, 30);
             this.checkForUpdate.Text = "Check for update";
             // 
             // toolStripTextBox1
@@ -2708,6 +2708,7 @@
             this.PlayerShirtTextBox.Size = new System.Drawing.Size(199, 20);
             this.PlayerShirtTextBox.TabIndex = 6;
             this.PlayerShirtTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PlayerShirtTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PlayerShirtTextBox_KeyDown);
             // 
             // PlayerNameTextBox
             // 
@@ -2717,6 +2718,7 @@
             this.PlayerNameTextBox.Size = new System.Drawing.Size(199, 20);
             this.PlayerNameTextBox.TabIndex = 5;
             this.PlayerNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PlayerNameTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PlayerNameTextBox_KeyDown);
             // 
             // label4
             // 

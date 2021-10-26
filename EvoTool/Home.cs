@@ -398,7 +398,7 @@ namespace EvoTool
             int index = int.Parse(((DataRowView)BallListBox.SelectedItem).Row[0].ToString());
 
             Ball ball = ballController.LoadBall(index);
-            BallIDTextBox.Text = ball.Id.ToString();
+            BallIDTextBox.Text = ball.ID.ToString();
             BallNameTextBox.Text = ball.Name;
             BallOrderTextBox.Text = ball.Order.ToString();
         }
@@ -418,16 +418,16 @@ namespace EvoTool
             }
 
             Ball temp = ballController.LoadBall(index);
-            if (ushort.Parse(BallIDTextBox.Text) != temp.Id)
+            if (ushort.Parse(BallIDTextBox.Text) != temp.ID)
             {
-                if (ballController.LoadBallById(ushort.Parse(BallIDTextBox.Text)) != -1)
+                if (ballController.LoadBallByID(ushort.Parse(BallIDTextBox.Text)) != -1)
                 {
                     MessageBox.Show("Ball's already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
             }
 
-            temp.Id = ushort.Parse(BallIDTextBox.Text);
+            temp.ID = ushort.Parse(BallIDTextBox.Text);
             temp.Name = BallNameTextBox.Text;
             temp.Order = byte.Parse(BallOrderTextBox.Text);
             int status = ballController.ApplyBall(index, temp);
@@ -474,7 +474,7 @@ namespace EvoTool
             int index = int.Parse(((DataRowView)GloveListBox.SelectedItem).Row[0].ToString());
 
             Glove glove = gloveController.LoadGlove(index);
-            GloveIdTextBox.Text = glove.Id.ToString();
+            GloveIdTextBox.Text = glove.ID.ToString();
             GloveName.Text = glove.Name;
             GloveOrderTextBox.Text = glove.Order.ToString();
         }
@@ -494,16 +494,16 @@ namespace EvoTool
             }
 
             Glove temp = gloveController.LoadGlove(index);
-            if (ushort.Parse(GloveIdTextBox.Text) != temp.Id)
+            if (ushort.Parse(GloveIdTextBox.Text) != temp.ID)
             {
-                if (gloveController.LoadGloveById(ushort.Parse(GloveIdTextBox.Text)) != -1)
+                if (gloveController.LoadGloveByID(ushort.Parse(GloveIdTextBox.Text)) != -1)
                 {
                     MessageBox.Show("Glove's already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
             }
 
-            temp.Id = ushort.Parse(GloveIdTextBox.Text);
+            temp.ID = ushort.Parse(GloveIdTextBox.Text);
             temp.Name = GloveName.Text;
             temp.Order = byte.Parse(GloveOrderTextBox.Text);
             int status = gloveController.ApplyGlove(index, temp);
@@ -549,7 +549,7 @@ namespace EvoTool
             int index = int.Parse(((DataRowView)BootListBox.SelectedItem).Row[0].ToString());
 
             Boot boot = bootController.LoadBoot(index);
-            BootIDTextBox.Text = boot.Id.ToString();
+            BootIDTextBox.Text = boot.ID.ToString();
             BootNameTextBox.Text = boot.Name;
             BootOrderTextBox.Text = boot.Order.ToString();
         }
@@ -569,16 +569,16 @@ namespace EvoTool
             }
 
             Boot temp = bootController.LoadBoot(index);
-            if (ushort.Parse(BootIDTextBox.Text) != temp.Id)
+            if (ushort.Parse(BootIDTextBox.Text) != temp.ID)
             {
-                if (bootController.LoadBootById(ushort.Parse(BootIDTextBox.Text)) != -1)
+                if (bootController.LoadBootByID(ushort.Parse(BootIDTextBox.Text)) != -1)
                 {
                     MessageBox.Show("Boots already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
             }
 
-            temp.Id = ushort.Parse(BootIDTextBox.Text);
+            temp.ID = ushort.Parse(BootIDTextBox.Text);
             temp.Name = BootNameTextBox.Text;
             temp.Order = byte.Parse(BootOrderTextBox.Text);
             int status = bootController.ApplyBoot(index, temp);
@@ -624,11 +624,11 @@ namespace EvoTool
             int index = int.Parse(((DataRowView)CoachListBox.SelectedItem).Row[0].ToString());
 
             Coach coach = coachController.LoadCoach(index);
-            CoachIdTextBox.Text = coach.Id.ToString();
+            CoachIdTextBox.Text = coach.ID.ToString();
             CoachNameTextBox.Text = coach.Name;
             CoachChineseTextBox.Text = coach.ChineseName;
             CoachJapTextBox.Text = coach.JapaneseName;
-            CoachNationalityComboBox.SelectedIndex = countryController.LoadCountryById(coach.Nationality);
+            CoachNationalityComboBox.SelectedIndex = countryController.LoadCountryByID(coach.Nationality);
         }
 
         private void CoachApplyButton_Click(object sender, EventArgs e)
@@ -646,9 +646,9 @@ namespace EvoTool
 
             // check id
             Coach coach = coachController.LoadCoach(index);
-            if (uint.Parse(CoachIdTextBox.Text) != coach.Id)
+            if (uint.Parse(CoachIdTextBox.Text) != coach.ID)
             {
-                if (coachController.LoadCoachById(uint.Parse(CoachIdTextBox.Text)) != -1)
+                if (coachController.LoadCoachByID(uint.Parse(CoachIdTextBox.Text)) != -1)
                 {
                     MessageBox.Show("Coach's already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
@@ -656,14 +656,14 @@ namespace EvoTool
                 //controller.replaceTeamCoachPersister(coach.Id, uint.Parse(CoachIdTextBox.Text));
             }
 
-            coach.Id = uint.Parse(CoachIdTextBox.Text);
+            coach.ID = uint.Parse(CoachIdTextBox.Text);
             coach.Name = CoachNameTextBox.Text;
             coach.JapaneseName = CoachJapTextBox.Text;
             coach.ChineseName = CoachChineseTextBox.Text;
-            coach.Nationality = countryController.LoadCountry(CoachNationalityComboBox.SelectedIndex).Id;
+            coach.Nationality = countryController.LoadCountry(CoachNationalityComboBox.SelectedIndex).ID;
             coachController.ApplyCoach(index, coach);
 
-            //Update listbox
+            // update listbox
             coachController.CoachTable.Rows[index].SetField("Name", CoachNameTextBox.Text);
             //teamCoachComboBox.Items[CoachListBox.SelectedIndex] = coachNameTextBox.Text;
         }
@@ -704,10 +704,10 @@ namespace EvoTool
 
             Stadium stadium = stadiumController.LoadStadium(index);
             StadiumNameTextBox.Text = stadium.Name;
-            StadiumIdTextBox.Text = stadium.Id.ToString();
+            StadiumIdTextBox.Text = stadium.ID.ToString();
             StadiumJapTextBox.Text = stadium.JapaneseName;
             StadiumCapacityTextBox.Text = stadium.Capacity.ToString();
-            StadiumCountryComboBox.SelectedIndex = countryController.LoadCountryById(stadium.Country);
+            StadiumCountryComboBox.SelectedIndex = countryController.LoadCountryByID(stadium.Country);
         }
 
         private void StadiumApplyButton_Click(object sender, EventArgs e)
@@ -725,9 +725,9 @@ namespace EvoTool
             }
 
             Stadium stadium = stadiumController.LoadStadium(index);
-            if (ushort.Parse(StadiumIdTextBox.Text) != stadium.Id)
+            if (ushort.Parse(StadiumIdTextBox.Text) != stadium.ID)
             {
-                if (stadiumController.LoadStadiumById(ushort.Parse(StadiumIdTextBox.Text)) != -1)
+                if (stadiumController.LoadStadiumByID(ushort.Parse(StadiumIdTextBox.Text)) != -1)
                 {
                     MessageBox.Show("Stadium's already present in the database!", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
@@ -738,14 +738,14 @@ namespace EvoTool
                 //controller.replaceStadiumOrderConfStadiumPersister(temp.getId(), ushort.Parse(stadiumIdTextBox.Text));
             }
 
-            stadium.Id = ushort.Parse(StadiumIdTextBox.Text);
+            stadium.ID = ushort.Parse(StadiumIdTextBox.Text);
             stadium.Capacity = ushort.Parse(StadiumCapacityTextBox.Text);
-            stadium.Country = countryController.LoadCountry(StadiumCountryComboBox.SelectedIndex).Id;
+            stadium.Country = countryController.LoadCountry(StadiumCountryComboBox.SelectedIndex).ID;
             stadium.JapaneseName = StadiumJapTextBox.Text;
             stadium.Name = StadiumNameTextBox.Text;
             stadiumController.ApplyStadium(index, stadium);
 
-            //Update listbox
+            // update listbox
             stadiumController.StadiumTable.Rows[index].SetField("Name", StadiumNameTextBox.Text);
             //teamStadiumComboBox.Items[index] = stadiumNameTextBox.Text;
         }
@@ -775,7 +775,7 @@ namespace EvoTool
         {
             PlayerNameTextBox.Text = player.Name;
             PlayerShirtTextBox.Text = player.ShirtName;
-            PlayerIDLabel.Text = player.Id.ToString();
+            PlayerIDLabel.Text = player.ID.ToString();
             //PlayerTypeLabel.Text = player.getStringFake();
             PlayerAgeLabel.Text = player.Age.ToString();
             PlayerWeightLabel.Text = player.Weight.ToString();
@@ -821,7 +821,7 @@ namespace EvoTool
                 PlayerHandLabel.Text = "Left";
             //giocatoreSquadra.Text = controller.getStringClubTeamOfPlayer(player.getId(), 0);
             //giocatoreNazionale.Text = controller.getStringClubTeamOfPlayer(player.getId(), 1);
-            PlayerNationalityComboBox.SelectedIndex = countryController.LoadCountryById(player.NationalId1);
+            PlayerNationalityComboBox.SelectedIndex = countryController.LoadCountryByID(player.NationalID1);
             PlayerRankLabel.Text = CalculateOverall.Overall(player.RegisteredPosition, player.GKReach, player.GKCatching, player.GKAwareness, player.Balance, player.Jump, player.Heading, player.DefensiveAwareness, player.Tackling, player.Speed, player.Stamina, player.OffensiveAwareness, player.BallControl, player.Dribbling, player.LoftedPass, player.LowPass, player.Aggression, player.SetPieceTaking, player.Finishing, player.KickingPower).ToString();
             UtilGUI.ChangeBackColorLabel(PlayerRankLabel);
 
@@ -970,6 +970,28 @@ namespace EvoTool
         private void GKReachLabel_TextChanged(object sender, EventArgs e)
         {
             UtilGUI.ChangeColorLabel(GKReachLabel);
+        }
+
+        // change player name
+        private void PlayerNameTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                int index = playerController.LoadPlayerByID(uint.Parse(PlayerIDLabel.Text));
+                Player player = playerController.LoadPlayer(index);
+                player.Name = PlayerNameTextBox.Text;
+                playerController.ApplyPlayer(index, player);
+                //UpdateTeamView(player.getId(), player.getId(), name);
+                // update listbox
+                playerController.PlayerTable.Rows[index].SetField("Name", PlayerNameTextBox.Text);
+            }
+        }
+
+        // change shirt name
+        private void PlayerShirtTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            //if (e.KeyCode == Keys.Enter)
+            //    changeShirtPlayer(uint.Parse(PlayerIDLabel.Text), PlayerNameTextBox.Text);
         }
     }
 }

@@ -9,12 +9,12 @@ namespace EvoTool.Models
     public class Stadium
     {
 
-        public Stadium(ushort id)
+        public Stadium(ushort ID)
         {
-            this.Id = id;
+            this.ID = ID;
         }
 
-        public ushort Id { get; set; }
+        public ushort ID { get; set; }
         public string Name { get; set; }
         public string JapaneseName { get; set; }
         public ushort Country { get; set; }

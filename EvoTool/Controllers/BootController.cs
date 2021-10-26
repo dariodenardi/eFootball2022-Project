@@ -76,7 +76,7 @@ namespace EvoTool.Controllers
         {
             Boot boot;
 
-            ushort bootId;
+            ushort bootID;
             byte order;
             string bootName;
             try
@@ -85,12 +85,12 @@ namespace EvoTool.Controllers
                 bootName = Encoding.UTF8.GetString(ReadBoot.ReadBytes(100)).TrimEnd('\0');
 
                 ReadBoot.BaseStream.Position = index * BLOCK;
-                bootId = ReadBoot.ReadUInt16();
+                bootID = ReadBoot.ReadUInt16();
 
                 ReadBoot.BaseStream.Position = index * BLOCK + 2;
                 order = ReadBoot.ReadByte();
 
-                boot = new Boot(bootId);
+                boot = new Boot(bootID);
                 boot.Name = bootName;
                 boot.Order = order;
             }
@@ -102,14 +102,14 @@ namespace EvoTool.Controllers
             return boot;
         }
 
-        public int LoadBootById(ushort bootId)
+        public int LoadBootByID(ushort bootID)
         {
             int bootNumber = (int)MemoryBoot.Length / BLOCK;
 
             ReadBoot.BaseStream.Position = 0;
             for (int i = 0; i < bootNumber; i++)
             {
-                if (bootId == ReadBoot.ReadUInt16())
+                if (bootID == ReadBoot.ReadUInt16())
                     return i;
 
                 ReadBoot.BaseStream.Position += BLOCK - 2;
@@ -126,7 +126,7 @@ namespace EvoTool.Controllers
                 WriteBoot.BaseStream.Position = offsetBase;
                 byte zero = 0;
 
-                WriteBoot.Write(boot.Id);
+                WriteBoot.Write(boot.ID);
                 WriteBoot.Write(boot.Order);
                 for (int i = 0; i <= 100; i++)
                 {

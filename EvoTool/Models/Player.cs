@@ -8,16 +8,15 @@ namespace EvoTool.Models
 {
     class Player
     {
-        public Player(uint id)
+        public Player(uint ID)
         {
-            this.Id = id;
+            this.ID = ID;
         }
 
-        public uint YouthPlayerId { get; set; }
-        public uint OwnerClubId { get; set; }
-        public uint Id { get; set; }
-        public uint Padding { get; set; }
-        public uint ClubId { get; set; }
+        public uint YouthPlayerID { get; set; }
+        public uint OwnerClubID { get; set; }
+        public uint ID { get; set; }
+        public uint ClubID { get; set; }
         public uint FreeKickMotion { get; set; }
         public uint ContractDate { get; set; }
         public uint PlayingStyle { get; set; }
@@ -28,8 +27,8 @@ namespace EvoTool.Models
         public uint UnknownBits1 { get; set; }
         public uint SetPieceTaking { get; set; }
         public uint GoalCelebration { get; set; }
-        public ushort NationalId1 { get; set; }
-        public ushort NationalId2 { get; set; }
+        public ushort NationalID1 { get; set; }
+        public ushort NationalID2 { get; set; }
         public uint CornerKick { get; set; }
         public uint Weight { get; set; }
         public uint UnknownBits2 { get; set; }

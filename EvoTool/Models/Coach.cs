@@ -8,12 +8,12 @@ namespace EvoTool.Models
 {
     public class Coach
     {
-        public Coach(uint id)
+        public Coach(uint ID)
         {
-            this.Id = id;
+            this.ID = ID;
         }
 
-        public uint Id { get; set; }
+        public uint ID { get; set; }
         public string Name { get; set; }
         public string ChineseName { get; set; }
         public string JapaneseName { get; set; }

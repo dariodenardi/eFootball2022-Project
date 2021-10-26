@@ -75,13 +75,13 @@ namespace EvoTool.Controllers
         {
             Ball ball;
 
-            ushort ballId;
+            ushort ballID;
             byte order;
             string ballName;
             try
             {
                 ReadBall.BaseStream.Position = index * BLOCK;
-                ballId = ReadBall.ReadUInt16();
+                ballID = ReadBall.ReadUInt16();
 
                 ReadBall.BaseStream.Position = index * BLOCK + 2;
                 order = ReadBall.ReadByte();
@@ -89,7 +89,7 @@ namespace EvoTool.Controllers
                 ReadBall.BaseStream.Position = index * BLOCK + 4;
                 ballName = Encoding.UTF8.GetString(ReadBall.ReadBytes(135)).TrimEnd('\0');
 
-                ball = new Ball(ballId);
+                ball = new Ball(ballID);
                 ball.Name = ballName;
                 ball.Order = order;
             }
@@ -101,14 +101,14 @@ namespace EvoTool.Controllers
             return ball;
         }
 
-        public int LoadBallById(ushort ballId)
+        public int LoadBallByID(ushort ballID)
         {
             int ballNumber = (int)MemoryBall.Length / BLOCK;
 
             ReadBall.BaseStream.Position = 0;
             for (int i = 0; i < ballNumber; i++)
             {
-                if (ballId == ReadBall.ReadUInt16())
+                if (ballID == ReadBall.ReadUInt16())
                     return i;
 
                 ReadBall.BaseStream.Position += BLOCK - 2;
@@ -125,7 +125,7 @@ namespace EvoTool.Controllers
                 WriteBall.BaseStream.Position = offsetBase;
                 byte zero = 0;
 
-                WriteBall.Write(ball.Id);
+                WriteBall.Write(ball.ID);
                 WriteBall.Write(ball.Order);
                 for (int i = 0; i <= 135; i++)
                 {

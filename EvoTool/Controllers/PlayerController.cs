@@ -57,7 +57,7 @@ namespace EvoTool.Controllers
                 {
                     START += BLOCK;
                     MemoryPlayer.Seek(START, SeekOrigin.Begin);
-                    playerName = Encoding.UTF8.GetString(ReadPlayer.ReadBytes(44)).TrimEnd('\0');
+                    playerName = Encoding.UTF8.GetString(ReadPlayer.ReadBytes(61)).TrimEnd('\0');
 
                     PlayerTable.Rows.Add(i, playerName);
                 }
@@ -75,11 +75,11 @@ namespace EvoTool.Controllers
         {
             Player player;
 
-            uint youthPlayerId;
-            uint ownerClubId;
-            uint playerId;
-            uint padding;
-            uint clubId;
+            uint youthPlayerID;
+            uint ownerClubID;
+            uint playerID;
+            //uint padding;
+            uint clubID;
             uint freeKickMotion;
             uint contractDate;
             uint playingStyle;
@@ -90,8 +90,8 @@ namespace EvoTool.Controllers
             uint unknownBits1;
             uint setPieceTaking;
             uint goalCelebration;
-            ushort nationalId1;
-            ushort nationalId2;
+            ushort nationalID1;
+            ushort nationalID2;
             uint cornerKick;
             uint weight;
             uint unknownBits2;
@@ -218,11 +218,11 @@ namespace EvoTool.Controllers
             try
             {
                 ReadPlayer.BaseStream.Position = index * BLOCK;
-                youthPlayerId = ReadPlayer.ReadUInt32();
-                ownerClubId = ReadPlayer.ReadUInt32();
-                playerId = ReadPlayer.ReadUInt32();
-                padding = ReadPlayer.ReadUInt32();
-                clubId = ReadPlayer.ReadUInt32();
+                youthPlayerID = ReadPlayer.ReadUInt32();
+                ownerClubID = ReadPlayer.ReadUInt32();
+                playerID = ReadPlayer.ReadUInt32();
+                ReadPlayer.ReadUInt32(); //padding
+                clubID = ReadPlayer.ReadUInt32();
 
                 uint aux1 = ReadPlayer.ReadUInt32();
                 freeKickMotion = ((aux1 << 0) >> 27) + 1;
@@ -243,8 +243,8 @@ namespace EvoTool.Controllers
                 uint aux5 = ReadPlayer.ReadUInt32();
                 setPieceTaking = ((aux5 << 0) >> 26) + 40;
                 goalCelebration = aux5 << 6 >> 24;
-                nationalId1 = (ushort) (aux5 << 14 >> 23);
-                nationalId2 = (ushort) (aux5 << 23 >> 23);
+                nationalID1 = (ushort) (aux5 << 14 >> 23);
+                nationalID2 = (ushort) (aux5 << 23 >> 23);
 
                 uint aux6 = ReadPlayer.ReadUInt32();
                 cornerKick = ((aux6 << 0) >> 28) + 1;
@@ -394,11 +394,10 @@ namespace EvoTool.Controllers
 
                 name = Encoding.UTF8.GetString(ReadPlayer.ReadBytes(61)).TrimEnd('\0');
 
-                player = new Player(playerId);
-                player.YouthPlayerId = youthPlayerId;
-                player.OwnerClubId = ownerClubId;
-                player.Padding = padding;
-                player.ClubId = clubId;
+                player = new Player(playerID);
+                player.YouthPlayerID = youthPlayerID;
+                player.OwnerClubID = ownerClubID;
+                player.ClubID = clubID;
                 player.FreeKickMotion = freeKickMotion;
                 player.ContractDate = contractDate;
                 player.PlayingStyle = playingStyle;
@@ -409,8 +408,8 @@ namespace EvoTool.Controllers
                 player.UnknownBits1 = unknownBits1;
                 player.SetPieceTaking = setPieceTaking;
                 player.GoalCelebration = goalCelebration;
-                player.NationalId1 = nationalId1;
-                player.NationalId2 = nationalId2;
+                player.NationalID1 = nationalID1;
+                player.NationalID2 = nationalID2;
                 player.CornerKick = cornerKick;
                 player.Weight = weight;
                 player.UnknownBits2 = unknownBits2;
@@ -543,14 +542,14 @@ namespace EvoTool.Controllers
             return player;
         }
 
-        public int LoadPlayerById(uint playerId)
+        public int LoadPlayerByID(uint playerID)
         {
             int playerNumber = (int)MemoryPlayer.Length / BLOCK;
 
             ReadPlayer.BaseStream.Position = 8;
             for (int i = 0; i < playerNumber; i++)
             {
-                if (playerId == ReadPlayer.ReadUInt32())
+                if (playerID == ReadPlayer.ReadUInt32())
                     return i;
 
                 ReadPlayer.BaseStream.Position += BLOCK - 4;
@@ -559,7 +558,258 @@ namespace EvoTool.Controllers
             return -1;
         }
 
+        public int ApplyPlayer(int index, Player player)
+        {
+            try
+            {
+                int offsetBase = BLOCK * index;
+                WritePlayer.BaseStream.Position = offsetBase;
+                byte zero = 0;
 
+                WritePlayer.BaseStream.Position = offsetBase;
+                WritePlayer.Write(player.YouthPlayerID);
+                WritePlayer.Write(player.OwnerClubID);
+                WritePlayer.Write(player.ID);
+                WritePlayer.Write(0);
+                WritePlayer.Write(player.ClubID);
+
+                string value1 = "";
+                value1 = Convert.ToString(player.ContractDate, 2).PadLeft(27, '0') + value1;
+                value1 = Convert.ToString(player.FreeKickMotion - 1, 2).PadLeft(5, '0') + value1;
+                WritePlayer.Write(Convert.ToUInt32(value1, 2));
+
+                string value2 = "";
+                value2 = Convert.ToString(player.LoanContractExpiryDate, 2).PadLeft(27, '0') + value2;
+                value2 = Convert.ToString(player.PlayingStyle, 2).PadLeft(5, '0') + value2;
+                WritePlayer.Write(Convert.ToUInt32(value2, 2));
+
+                string value3 = "";
+                value3 = Convert.ToString(player.MarketValue, 2).PadLeft(24, '0') + value3;
+                value3 = Convert.ToString(player.NationalTeamCaps, 2).PadLeft(8, '0') + value3;
+                WritePlayer.Write(Convert.ToUInt32(value3, 2));
+
+                string value4 = "";
+                value4 = Convert.ToString(0, 2).PadLeft(24, '0') + value4;
+                value4 = Convert.ToString(player.Height - 100, 2).PadLeft(8, '0') + value4;
+                WritePlayer.Write(Convert.ToUInt32(value4, 2));
+
+                string value5 = "";
+                value5 = Convert.ToString(player.NationalID2, 2).PadLeft(9, '0') + value5;
+                value5 = Convert.ToString(player.NationalID1, 2).PadLeft(9, '0') + value5;
+                value5 = Convert.ToString(player.GoalCelebration, 2).PadLeft(8, '0') + value5;
+                value5 = Convert.ToString(player.SetPieceTaking - 40, 2).PadLeft(6, '0') + value5;
+                WritePlayer.Write(Convert.ToUInt32(value5, 2));
+
+                string value6 = "";
+                value6 = Convert.ToString(player.UnknownBits4, 2).PadLeft(7, '0') + value6;
+                value6 = Convert.ToString(player.UnknownBits3, 2).PadLeft(7, '0') + value6;
+                value6 = Convert.ToString(player.UnknownBits2, 2).PadLeft(7, '0') + value6;
+                value6 = Convert.ToString(player.Weight - 30, 2).PadLeft(7, '0') + value6;
+                value6 = Convert.ToString(player.CornerKick - 1, 2).PadLeft(4, '0') + value6;
+                WritePlayer.Write(Convert.ToUInt32(value6, 2));
+
+                string value7 = "";
+                value7 = Convert.ToString(player.UnknownBits6, 2).PadLeft(6, '0') + value7;
+                value7 = Convert.ToString(player.UnknownBits5, 2).PadLeft(6, '0') + value7;
+                value7 = Convert.ToString(player.UnknownBit2 ? "1" : "0") + value7;
+                value7 = Convert.ToString(player.UnknownBit1 ? "1" : "0") + value7;
+                value7 = Convert.ToString(player.LowPass - 40, 2).PadLeft(6, '0') + value7;
+                value7 = Convert.ToString(player.KickingPower - 40, 2).PadLeft(6, '0') + value7;
+                value7 = Convert.ToString(player.DefensiveAwareness - 40, 2).PadLeft(6, '0') + value7;
+                WritePlayer.Write(Convert.ToUInt32(value7, 2));
+
+                string value8 = "";
+                value8 = Convert.ToString(player.BallControl - 40, 2).PadLeft(6, '0') + value8;
+                value8 = Convert.ToString(player.Heading - 40, 2).PadLeft(6, '0') + value8;
+                value8 = Convert.ToString(player.Jump - 40, 2).PadLeft(6, '0') + value8;
+                value8 = Convert.ToString(player.GKCatching - 40, 2).PadLeft(6, '0') + value8;
+                value8 = Convert.ToString(player.Speed - 40, 2).PadLeft(6, '0') + value8;
+                value8 = Convert.ToString(player.PlayableLB, 2).PadLeft(2, '0') + value8;
+                WritePlayer.Write(Convert.ToUInt32(value8, 2));
+
+                string value9 = "";
+                value9 = Convert.ToString(player.GKReach - 40, 2).PadLeft(6, '0') + value9;
+                value9 = Convert.ToString(player.Tackling - 40, 2).PadLeft(6, '0') + value9;
+                value9 = Convert.ToString(player.GKReflexes - 40, 2).PadLeft(6, '0') + value9;
+                value9 = Convert.ToString(player.GKParrying - 40, 2).PadLeft(6, '0') + value9;
+                value9 = Convert.ToString(player.GKAwareness - 40, 2).PadLeft(6, '0') + value9;
+                value9 = Convert.ToString(player.PlayableLMF, 2).PadLeft(2, '0') + value9;
+                WritePlayer.Write(Convert.ToUInt32(value9, 2));
+
+                string value10 = "";
+                value10 = Convert.ToString(player.Curl - 40, 2).PadLeft(6, '0') + value10;
+                value10 = Convert.ToString(player.Stamina - 40, 2).PadLeft(6, '0') + value10;
+                value10 = Convert.ToString(player.Acceleration - 40, 2).PadLeft(6, '0') + value10;
+                value10 = Convert.ToString(player.Dribbling - 40, 2).PadLeft(6, '0') + value10;
+                value10 = Convert.ToString(player.OffensiveAwareness - 40, 2).PadLeft(6, '0') + value10;
+                value10 = Convert.ToString(player.PlayableGK, 2).PadLeft(2, '0') + value10;
+                WritePlayer.Write(Convert.ToUInt32(value10, 2));
+
+                string value11 = "";
+                value11 = Convert.ToString(player.Balance - 40, 2).PadLeft(6, '0') + value11;
+                value11 = Convert.ToString(player.Aggression - 40, 2).PadLeft(6, '0') + value11;
+                value11 = Convert.ToString(player.PhysicalContact - 40, 2).PadLeft(6, '0') + value11;
+                value11 = Convert.ToString(player.Finishing - 40, 2).PadLeft(6, '0') + value11;
+                value11 = Convert.ToString(player.LoftedPass - 40, 2).PadLeft(6, '0') + value11;
+                value11 = Convert.ToString(player.UnknownBit4 ? "1" : "0") + value11;
+                value11 = Convert.ToString(player.UnknownBit3 ? "1" : "0") + value11;
+                WritePlayer.Write(Convert.ToUInt32(value11, 2));
+
+                string value12 = "";
+                value12 = Convert.ToString(player.Age - 15, 2).PadLeft(6, '0') + value12;
+                value12 = Convert.ToString(player.DefensiveEngangement - 40, 2).PadLeft(6, '0') + value12;
+                value12 = Convert.ToString(player.TightPossession - 40, 2).PadLeft(6, '0') + value12;
+                value12 = Convert.ToString(player.DribblingArmMovement - 1, 2).PadLeft(4, '0') + value12;
+                value12 = Convert.ToString(player.RunningArmMovement - 1, 2).PadLeft(4, '0') + value12;
+                value12 = Convert.ToString(player.RegisteredPosition, 2).PadLeft(4, '0') + value12;
+                value12 = Convert.ToString(player.WeakFootUsage, 2).PadLeft(2, '0') + value12;
+                WritePlayer.Write(Convert.ToUInt32(value12, 2));
+
+                string value13 = "";
+                value13 = Convert.ToString(player.PenaltyKickMotion - 1, 2).PadLeft(3, '0') + value13;
+                value13 = Convert.ToString(player.DribblingHunching - 1, 2).PadLeft(3, '0') + value13;
+                value13 = Convert.ToString(player.RunningHunching - 1, 2).PadLeft(3, '0') + value13;
+                value13 = Convert.ToString(player.UnknownBits7, 2).PadLeft(3, '0') + value13;
+                value13 = Convert.ToString(player.PlayableCMF, 2).PadLeft(2, '0') + value13;
+                value13 = Convert.ToString(player.InjuryResistance, 2).PadLeft(2, '0') + value13;
+                value13 = Convert.ToString(player.PlayableRMF, 2).PadLeft(2, '0') + value13;
+                value13 = Convert.ToString(player.WeakFootAccuracy, 2).PadLeft(2, '0') + value13;
+                value13 = Convert.ToString(player.PlayableAMF, 2).PadLeft(2, '0') + value13;
+                value13 = Convert.ToString(player.Form, 2).PadLeft(2, '0') + value13;
+                value13 = Convert.ToString(player.PlayableCB, 2).PadLeft(2, '0') + value13;
+                value13 = Convert.ToString(player.PlayableCF, 2).PadLeft(2, '0') + value13;
+                value13 = Convert.ToString(player.PlayableLWF, 2).PadLeft(2, '0') + value13;
+                value13 = Convert.ToString(player.PlayableRB, 2).PadLeft(2, '0') + value13;
+                WritePlayer.Write(Convert.ToUInt32(value13, 2));
+
+                string value14 = "";
+                value14 = Convert.ToString(player.PlayableDMF, 2).PadLeft(2, '0') + value14;
+                value14 = Convert.ToString(player.PlayableRWF, 2).PadLeft(2, '0') + value14;
+                value14 = Convert.ToString(player.PlayableSS, 2).PadLeft(2, '0') + value14;
+                value14 = Convert.ToString(player.DribblingMotion - 1, 2).PadLeft(2, '0') + value14;
+                value14 = Convert.ToString(player.ChopTurn ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.EarlyCross ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.Sombrero ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.PinpointCrossing ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.AerialSuperiority ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.WeightedPass ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.FlipFlap ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.FightingSpirit ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.ThroughPassing ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.LowLoftedPass ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.TrickSter ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.GkLowPunt ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.Gamasmanship ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.Captanincy ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.OutsideCurler ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.HeadingSkills ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.GKHighPunt ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.MarseilleTurn ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.BallonDorWinner ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.RisingShots ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.SoleControl ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.PenaltySpecialist ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.GKPenaltySaver ? "1" : "0") + value14;
+                value14 = Convert.ToString(player.SlidingTackle ? "1" : "0") + value14;
+                WritePlayer.Write(Convert.ToUInt32(value14, 2));
+
+                string value15 = "";
+                value15 = Convert.ToString(player.Interception ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.ManMarking ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.HellTrick ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.ChipShotControl ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.OneTouchPass ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.LongRanger ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.UnknownBit7 ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.IncisiveRun ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.FirstTimeShot ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.NoLookPass ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.KnuckleShot ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.StroongerFoot ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.DippingShot ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.Rabona ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.SuperSub ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.TrackBack ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.LongRangeShooting ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.ScissorsFeint ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.LongThrow ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.GKLongThrow ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.DoubleTouch ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.AcrobaticFinishing ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.ScotchMove ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.Blocker ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.SpeedingBullet ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.LongRangeCurler ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.AcrobaticClear ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.LongBallExpert ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.UnknownBit6 ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.MazingRun ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.StrongerHand ? "1" : "0") + value15;
+                value15 = Convert.ToString(player.UnknownBit5 ? "1" : "0") + value15;
+                WritePlayer.Write(Convert.ToUInt32(value15, 2));
+
+                for (int i = 0; i <= 61; i++)
+                {
+                    WritePlayer.Write(zero);
+                }
+
+                WritePlayer.BaseStream.Position = offsetBase + 80;
+                WritePlayer.Write(Encoding.UTF8.GetBytes(player.JapaneseName.PadRight(61, '\0')), 0, 61);
+
+                for (int i = 0; i <= 61; i++)
+                {
+                    WritePlayer.Write(zero);
+                }
+
+                WritePlayer.BaseStream.Position = offsetBase + 141;
+                WritePlayer.Write(Encoding.UTF8.GetBytes(player.ShirtName.PadRight(61, '\0')), 0, 61);
+
+                for (int i = 0; i <= 61; i++)
+                {
+                    WritePlayer.Write(zero);
+                }
+
+                WritePlayer.BaseStream.Position = offsetBase + 202;
+                WritePlayer.Write(Encoding.UTF8.GetBytes(player.ChineseName.PadRight(61, '\0')), 0, 61);
+
+                for (int i = 0; i <= 61; i++)
+                {
+                    WritePlayer.Write(zero);
+                }
+
+                WritePlayer.BaseStream.Position = offsetBase + 263;
+                WritePlayer.Write(Encoding.UTF8.GetBytes(player.ClubShirtName.PadRight(61, '\0')), 0, 61);
+
+                for (int i = 0; i <= 61; i++)
+                {
+                    WritePlayer.Write(zero);
+                }
+
+                WritePlayer.BaseStream.Position = offsetBase + 324;
+                WritePlayer.Write(Encoding.UTF8.GetBytes(player.Name.PadRight(61, '\0')), 0, 61);
+            }
+            catch (Exception)
+            {
+                return 1;
+            }
+
+            return 0;
+        }
+
+        public int Save(string patch)
+        {
+            try
+            {
+                byte[] ss13 = Zlib.ZlibFilePC(MemoryPlayer.ToArray());
+                File.WriteAllBytes(patch + FILE_NAME, ss13);
+            }
+            catch (Exception)
+            {
+                return 1;
+            }
+
+            return 0;
+        }
 
         public void CloseMemory()
         {

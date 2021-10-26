@@ -8,12 +8,12 @@ namespace EvoTool.Models
 {
     class Country
     {
-        public Country(ushort id)
+        public Country(ushort ID)
         {
-            this.Id = id;
+            this.ID = ID;
         }
 
-        public ushort Id { get; set; }
+        public ushort ID { get; set; }
         public string Name { get; set; }
 
         public override string ToString()

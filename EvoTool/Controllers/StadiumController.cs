@@ -75,7 +75,7 @@ namespace EvoTool.Controllers
         {
             Stadium stadium;
 
-            ushort stadiumId;
+            ushort stadiumID;
             string stadiumName;
             string stadiumJapName;
             uint country;
@@ -93,7 +93,7 @@ namespace EvoTool.Controllers
                 capacity = capacity >> 12;
 
                 ReadStadium.BaseStream.Position = index * BLOCK + 4;
-                stadiumId = ReadStadium.ReadUInt16();
+                stadiumID = ReadStadium.ReadUInt16();
 
                 ReadStadium.BaseStream.Position = index * BLOCK + 189;
                 stadiumJapName = Encoding.UTF8.GetString(ReadStadium.ReadBytes(110)).TrimEnd('\0');
@@ -103,7 +103,7 @@ namespace EvoTool.Controllers
 
 
 
-                stadium = new Stadium(stadiumId);
+                stadium = new Stadium(stadiumID);
                 stadium.Name = stadiumName;
                 stadium.JapaneseName = stadiumJapName;
                 stadium.Country = (ushort)country;
@@ -117,14 +117,14 @@ namespace EvoTool.Controllers
             return stadium;
         }
 
-        public int LoadStadiumById(ushort stadiumId)
+        public int LoadStadiumByID(ushort stadiumID)
         {
             int ballNumber = (int)MemoryStadium.Length / BLOCK;
 
             ReadStadium.BaseStream.Position = 4;
             for (int i = 0; i < ballNumber; i++)
             {
-                if (stadiumId == ReadStadium.ReadUInt16())
+                if (stadiumID == ReadStadium.ReadUInt16())
                     return i;
 
                 ReadStadium.BaseStream.Position += BLOCK - 2;
@@ -151,7 +151,7 @@ namespace EvoTool.Controllers
                 WriteStadium.Write(aux1);
 
                 WriteStadium.BaseStream.Position = offsetBase + 4;
-                WriteStadium.Write(stadium.Id);
+                WriteStadium.Write(stadium.ID);
 
                 WriteStadium.BaseStream.Position = offsetBase + 189;
                 for (int i = 0; i <= 110; i++)

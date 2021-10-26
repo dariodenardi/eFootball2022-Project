@@ -76,7 +76,7 @@ namespace EvoTool.Controllers
         {
             Glove glove;
 
-            ushort gloveId;
+            ushort gloveID;
             byte order;
             string gloveName;
             try
@@ -85,12 +85,12 @@ namespace EvoTool.Controllers
                 gloveName = Encoding.UTF8.GetString(ReadGlove.ReadBytes(100)).TrimEnd('\0');
 
                 ReadGlove.BaseStream.Position = index * BLOCK;
-                gloveId = ReadGlove.ReadUInt16();
+                gloveID = ReadGlove.ReadUInt16();
 
                 ReadGlove.BaseStream.Position = index * BLOCK + 2;
                 order = ReadGlove.ReadByte();
 
-                glove = new Glove(gloveId);
+                glove = new Glove(gloveID);
                 glove.Name = gloveName;
                 glove.Order = order;
             }
@@ -102,14 +102,14 @@ namespace EvoTool.Controllers
             return glove;
         }
 
-        public int LoadGloveById(ushort gloveId)
+        public int LoadGloveByID(ushort gloveID)
         {
             int gloveNumber = (int)MemoryGlove.Length / BLOCK;
 
             ReadGlove.BaseStream.Position = 0;
             for (int i = 0; i < gloveNumber; i++)
             {
-                if (gloveId == ReadGlove.ReadUInt16())
+                if (gloveID == ReadGlove.ReadUInt16())
                     return i;
 
                 ReadGlove.BaseStream.Position += BLOCK - 2;
@@ -126,7 +126,7 @@ namespace EvoTool.Controllers
                 WriteGlove.BaseStream.Position = offsetBase;
                 byte zero = 0;
 
-                WriteGlove.Write(glove.Id);
+                WriteGlove.Write(glove.ID);
                 WriteGlove.Write(glove.Order);
                 for (int i = 0; i <= 100; i++)
                 {

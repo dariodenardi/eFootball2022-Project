@@ -74,20 +74,20 @@ namespace EvoTool.Controllers
         {
             Coach coach;
 
-            uint coachId;
+            uint coachID;
             string coachName;
             string coachChineseName;
             string coachJapaneseName;
-            ushort countryId;
+            ushort countryID;
             try
             {
                 ReadCoach.BaseStream.Position = index * BLOCK;
-                coachId = ReadCoach.ReadUInt32();
+                coachID = ReadCoach.ReadUInt32();
 
                 ReadCoach.BaseStream.Position = index * BLOCK + 8;
                 ushort aux1 = ReadCoach.ReadUInt16();
-                countryId = (ushort)(aux1 << 7);
-                countryId = (ushort)(countryId >> 7);
+                countryID = (ushort)(aux1 << 7);
+                countryID = (ushort)(countryID >> 7);
 
                 ReadCoach.BaseStream.Position = index * BLOCK + 0x6c;
                 coachName = Encoding.UTF8.GetString(ReadCoach.ReadBytes(0x33)).TrimEnd('\0');
@@ -98,11 +98,11 @@ namespace EvoTool.Controllers
                 ReadCoach.BaseStream.Position = index * BLOCK + 62;
                 coachChineseName = Encoding.UTF8.GetString(ReadCoach.ReadBytes(0x2d)).TrimEnd('\0');
 
-                coach = new Coach(coachId);
+                coach = new Coach(coachID);
                 coach.Name = coachName;
                 coach.ChineseName = coachChineseName;
                 coach.JapaneseName = coachJapaneseName;
-                coach.Nationality = countryId;
+                coach.Nationality = countryID;
             }
             catch (Exception)
             {
@@ -112,14 +112,14 @@ namespace EvoTool.Controllers
             return coach;
         }
 
-        public int LoadCoachById(uint coachId)
+        public int LoadCoachByID(uint coachID)
         {
             int coachNumber = (int)MemoryCoach.Length / BLOCK;
 
             ReadCoach.BaseStream.Position = 8;
             for (int i = 0; i < coachNumber; i++)
             {
-                if (coachId == ReadCoach.ReadUInt32())
+                if (coachID == ReadCoach.ReadUInt32())
                     return i;
 
                 ReadCoach.BaseStream.Position += BLOCK - 4;
@@ -137,7 +137,7 @@ namespace EvoTool.Controllers
 
                 byte zero = 0;
 
-                WriteCoach.Write(coach.Id);
+                WriteCoach.Write(coach.ID);
 
                 ReadCoach.BaseStream.Position = index * BLOCK + 8;
                 ushort aux1 = ReadCoach.ReadUInt16();
