@@ -242,7 +242,7 @@
             this.label102 = new System.Windows.Forms.Label();
             this.teamAnthem = new System.Windows.Forms.ComboBox();
             this.label101 = new System.Windows.Forms.Label();
-            this.teamListBox = new System.Windows.Forms.ListBox();
+            this.TeamListBox = new System.Windows.Forms.ListBox();
             this.teamSearchTextBox = new System.Windows.Forms.TextBox();
             this.teamGroupBox6 = new System.Windows.Forms.GroupBox();
             this.teamChinese = new System.Windows.Forms.TextBox();
@@ -2817,7 +2817,7 @@
             // 
             this.Teams.Controls.Add(this.teamGroupBox5);
             this.Teams.Controls.Add(this.teamGroupBox4);
-            this.Teams.Controls.Add(this.teamListBox);
+            this.Teams.Controls.Add(this.TeamListBox);
             this.Teams.Controls.Add(this.teamSearchTextBox);
             this.Teams.Controls.Add(this.teamGroupBox6);
             this.Teams.Controls.Add(this.teamGroupBox3);
@@ -3028,14 +3028,14 @@
             this.label101.TabIndex = 133;
             this.label101.Text = "Has Anthem";
             // 
-            // teamListBox
+            // TeamListBox
             // 
-            this.teamListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
-            this.teamListBox.FormattingEnabled = true;
-            this.teamListBox.Location = new System.Drawing.Point(3, 6);
-            this.teamListBox.Name = "teamListBox";
-            this.teamListBox.Size = new System.Drawing.Size(233, 589);
-            this.teamListBox.TabIndex = 130;
+            this.TeamListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F);
+            this.TeamListBox.FormattingEnabled = true;
+            this.TeamListBox.Location = new System.Drawing.Point(3, 6);
+            this.TeamListBox.Name = "TeamListBox";
+            this.TeamListBox.Size = new System.Drawing.Size(233, 589);
+            this.TeamListBox.TabIndex = 130;
             // 
             // teamSearchTextBox
             // 
@@ -9594,7 +9594,7 @@
         internal System.Windows.Forms.ComboBox CoachNationalityComboBox;
         internal System.Windows.Forms.ListBox PlayerListBox;
         internal System.Windows.Forms.ComboBox PlayerNationalityComboBox;
-        internal System.Windows.Forms.ListBox teamListBox;
+        internal System.Windows.Forms.ListBox TeamListBox;
         internal System.Windows.Forms.ComboBox teamStadiumComboBox;
         internal System.Windows.Forms.ComboBox teamCountryComboBox;
         internal System.Windows.Forms.ComboBox teamCoachComboBox;

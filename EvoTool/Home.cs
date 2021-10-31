@@ -25,6 +25,7 @@ namespace EvoTool
         private string path;
         private CountryController countryController;
         private PlayerController playerController;
+        private TeamController teamController;
         private CoachController coachController;
         private StadiumController stadiumController;
         private BallController ballController;
@@ -35,6 +36,7 @@ namespace EvoTool
         {
             countryController = new CountryController();
             playerController = new PlayerController();
+            teamController = new TeamController();
             coachController = new CoachController();
             stadiumController = new StadiumController();
             ballController = new BallController();
@@ -75,7 +77,7 @@ namespace EvoTool
         {
             // enable buttons
             // if there are files found
-            if (playerController.PlayerTable.Rows.Count != 0 || coachController.CoachTable.Rows.Count != 0 || stadiumController.StadiumTable.Rows.Count != 0 || ballController.BallTable.Rows.Count != 0 || bootController.BootTable.Rows.Count != 0 || gloveController.GloveTable.Rows.Count != 0)
+            if (playerController.PlayerTable.Rows.Count != 0 || teamController.TeamTable.Rows.Count != 0 || coachController.CoachTable.Rows.Count != 0 || stadiumController.StadiumTable.Rows.Count != 0 || ballController.BallTable.Rows.Count != 0 || bootController.BootTable.Rows.Count != 0 || gloveController.GloveTable.Rows.Count != 0)
             {
                 tabControl1.Enabled = true;
                 Save.Enabled = true;
@@ -152,7 +154,7 @@ namespace EvoTool
             teamCoachComboBox.Enabled = false;
             CoachPictureBox1.Enabled = false;
 
-            teamListBox.Enabled = false;
+            TeamListBox.Enabled = false;
             teamSearchTextBox.Enabled = false;
             teamGroupBox1.Enabled = false;
             teamGroupBox2.Enabled = false;
@@ -201,6 +203,18 @@ namespace EvoTool
         private void Save_Click(object sender, EventArgs e)
         {
             // save file
+            if (playerController.PlayerTable.Rows.Count != 0)
+            {
+                int status = playerController.Save(path);
+                if (status != 0)
+                    MessageBox.Show("Error saved Player.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            if (coachController.CoachTable.Rows.Count != 0)
+            {
+                int status = coachController.Save(path);
+                if (status != 0)
+                    MessageBox.Show("Error saved Coach.bin", Application.ProductName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             if (stadiumController.StadiumTable.Rows.Count != 0)
             {
                 int status = stadiumController.Save(path);
@@ -251,6 +265,19 @@ namespace EvoTool
                 PlayerListBox.Enabled = true;
 
                 PlayerListBox.SelectedValue = 0;
+            }
+            // if there are Team.bin
+            int openteam = teamController.Load(folder);
+            if (openteam == 0 && countrystatus == 0)
+            {
+                TeamListBox.SelectedValue = -1; // if I load database a second time, the first items isn't selected, so I must deselect and then select first item
+                TeamListBox.DataSource = teamController.TeamTable;
+                TeamListBox.DisplayMember = "Name";
+                TeamListBox.ValueMember = "Index";
+
+                TeamListBox.Enabled = true;
+
+                TeamListBox.SelectedValue = 0;
             }
             // if there are Coach.bin
             int opencoach = coachController.Load(folder);
@@ -361,7 +388,7 @@ namespace EvoTool
                 GloveListBox.SelectedValue = 0;
             }
 
-            toolStripTextBox1.Text = playerController.PlayerTable.Rows.Count + " Players | " + 0 + " Teams | " + coachController.CoachTable.Rows.Count + " Coaches | "
+            toolStripTextBox1.Text = playerController.PlayerTable.Rows.Count + " Players | " + teamController.TeamTable.Rows.Count + " Teams | " + coachController.CoachTable.Rows.Count + " Coaches | "
                 + stadiumController.StadiumTable.Rows.Count + " Stadiums | " + ballController.BallTable.Rows.Count + " Balls | " + bootController.BootTable.Rows.Count + " Boots | " + gloveController.GloveTable.Rows.Count + " Gloves";
         }
 

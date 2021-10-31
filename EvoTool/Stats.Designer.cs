@@ -232,8 +232,6 @@
             this.adjustTextBox = new System.Windows.Forms.TextBox();
             this.adjustPlusButton = new System.Windows.Forms.Button();
             this.adjustLessPercButton = new System.Windows.Forms.Button();
-            this.searchPsdButton = new System.Windows.Forms.Button();
-            this.pastePsdButton = new System.Windows.Forms.Button();
             this.acceptButton = new System.Windows.Forms.Button();
             this.cancelButton = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
@@ -415,7 +413,7 @@
             // 
             // hiddenPlayerCheckBox
             // 
-            this.hiddenPlayerCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.hiddenPlayerCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.hiddenPlayerCheckBox.AutoSize = true;
             this.hiddenPlayerCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -712,7 +710,7 @@
             // 
             // goldenBallCheckBox
             // 
-            this.goldenBallCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.goldenBallCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.goldenBallCheckBox.AutoSize = true;
             this.goldenBallCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1246,7 +1244,7 @@
             // 
             // cfLabel
             // 
-            this.cfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.cfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.cfLabel.AutoSize = true;
             this.cfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1258,7 +1256,7 @@
             // 
             // cfComboBox
             // 
-            this.cfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.cfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.cfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1270,7 +1268,7 @@
             // 
             // ssLabel
             // 
-            this.ssLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ssLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.ssLabel.AutoSize = true;
             this.ssLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1282,7 +1280,7 @@
             // 
             // ssComboBox
             // 
-            this.ssComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ssComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.ssComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ssComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1294,7 +1292,7 @@
             // 
             // rwfLabel
             // 
-            this.rwfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.rwfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.rwfLabel.AutoSize = true;
             this.rwfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1306,7 +1304,7 @@
             // 
             // rwfComboBox
             // 
-            this.rwfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.rwfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.rwfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.rwfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1318,7 +1316,7 @@
             // 
             // lwfLabel
             // 
-            this.lwfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.lwfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lwfLabel.AutoSize = true;
             this.lwfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1330,7 +1328,7 @@
             // 
             // lwfComboBox
             // 
-            this.lwfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.lwfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lwfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.lwfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1342,7 +1340,7 @@
             // 
             // rmfLabel
             // 
-            this.rmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.rmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.rmfLabel.AutoSize = true;
             this.rmfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1354,7 +1352,7 @@
             // 
             // rmfComboBox
             // 
-            this.rmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.rmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.rmfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.rmfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1366,7 +1364,7 @@
             // 
             // amfLabel
             // 
-            this.amfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.amfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.amfLabel.AutoSize = true;
             this.amfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1378,7 +1376,7 @@
             // 
             // amfComboBox
             // 
-            this.amfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.amfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.amfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.amfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1390,7 +1388,7 @@
             // 
             // lmfLabel
             // 
-            this.lmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.lmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lmfLabel.AutoSize = true;
             this.lmfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1402,7 +1400,7 @@
             // 
             // lmfComboBox
             // 
-            this.lmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.lmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lmfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.lmfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1414,7 +1412,7 @@
             // 
             // cmfLabel
             // 
-            this.cmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.cmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.cmfLabel.AutoSize = true;
             this.cmfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1426,7 +1424,7 @@
             // 
             // cmfComboBox
             // 
-            this.cmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.cmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.cmfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1438,7 +1436,7 @@
             // 
             // dmfLabel
             // 
-            this.dmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.dmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dmfLabel.AutoSize = true;
             this.dmfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1450,7 +1448,7 @@
             // 
             // dmfComboBox
             // 
-            this.dmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.dmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dmfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.dmfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1462,7 +1460,7 @@
             // 
             // rbLabel
             // 
-            this.rbLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.rbLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.rbLabel.AutoSize = true;
             this.rbLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1474,7 +1472,7 @@
             // 
             // rbComboBox
             // 
-            this.rbComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.rbComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.rbComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.rbComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1486,7 +1484,7 @@
             // 
             // lbLabel
             // 
-            this.lbLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.lbLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lbLabel.AutoSize = true;
             this.lbLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1498,7 +1496,7 @@
             // 
             // lbComboBox
             // 
-            this.lbComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.lbComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lbComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.lbComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1510,7 +1508,7 @@
             // 
             // cbLabel
             // 
-            this.cbLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.cbLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.cbLabel.AutoSize = true;
             this.cbLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1522,7 +1520,7 @@
             // 
             // cbComboBox
             // 
-            this.cbComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.cbComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.cbComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1534,7 +1532,7 @@
             // 
             // gkLabel
             // 
-            this.gkLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.gkLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.gkLabel.AutoSize = true;
             this.gkLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1546,7 +1544,7 @@
             // 
             // gkComboBox
             // 
-            this.gkComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.gkComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.gkComboBox.BackColor = System.Drawing.SystemColors.Window;
             this.gkComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -1578,7 +1576,7 @@
             // 
             // groupBox21
             // 
-            this.groupBox21.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.groupBox21.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBox21.Controls.Add(this.throughPassingCheckBox);
             this.groupBox21.Controls.Add(this.gamesmanchipCheckBox);
@@ -1632,7 +1630,7 @@
             // 
             // throughPassingCheckBox
             // 
-            this.throughPassingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.throughPassingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.throughPassingCheckBox.AutoSize = true;
             this.throughPassingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1645,7 +1643,7 @@
             // 
             // gamesmanchipCheckBox
             // 
-            this.gamesmanchipCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.gamesmanchipCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.gamesmanchipCheckBox.AutoSize = true;
             this.gamesmanchipCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1658,7 +1656,7 @@
             // 
             // stepSkillControlCheckBox
             // 
-            this.stepSkillControlCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.stepSkillControlCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.stepSkillControlCheckBox.AutoSize = true;
             this.stepSkillControlCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1671,7 +1669,7 @@
             // 
             // risingShotsCheckBox
             // 
-            this.risingShotsCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.risingShotsCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.risingShotsCheckBox.AutoSize = true;
             this.risingShotsCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1684,7 +1682,7 @@
             // 
             // penalitySpecialistCheckBox
             // 
-            this.penalitySpecialistCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.penalitySpecialistCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.penalitySpecialistCheckBox.AutoSize = true;
             this.penalitySpecialistCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1697,7 +1695,7 @@
             // 
             // interceptionCheckBox
             // 
-            this.interceptionCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.interceptionCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.interceptionCheckBox.AutoSize = true;
             this.interceptionCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1710,7 +1708,7 @@
             // 
             // noLookPassCheckBox
             // 
-            this.noLookPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.noLookPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.noLookPassCheckBox.AutoSize = true;
             this.noLookPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1723,7 +1721,7 @@
             // 
             // gkPenaltySaverCheckBox
             // 
-            this.gkPenaltySaverCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.gkPenaltySaverCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.gkPenaltySaverCheckBox.AutoSize = true;
             this.gkPenaltySaverCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1736,7 +1734,7 @@
             // 
             // gkHighPuntCheckBox
             // 
-            this.gkHighPuntCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.gkHighPuntCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.gkHighPuntCheckBox.AutoSize = true;
             this.gkHighPuntCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1749,7 +1747,7 @@
             // 
             // doubleTouchCheckBox
             // 
-            this.doubleTouchCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.doubleTouchCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.doubleTouchCheckBox.AutoSize = true;
             this.doubleTouchCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1762,7 +1760,7 @@
             // 
             // dippingShotsCheckBox
             // 
-            this.dippingShotsCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.dippingShotsCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dippingShotsCheckBox.AutoSize = true;
             this.dippingShotsCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1775,7 +1773,7 @@
             // 
             // crossOverTurnCheckBox
             // 
-            this.crossOverTurnCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.crossOverTurnCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.crossOverTurnCheckBox.AutoSize = true;
             this.crossOverTurnCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1788,7 +1786,7 @@
             // 
             // chipShotControlCheckBox
             // 
-            this.chipShotControlCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.chipShotControlCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.chipShotControlCheckBox.AutoSize = true;
             this.chipShotControlCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1801,7 +1799,7 @@
             // 
             // captaincyCheckBox
             // 
-            this.captaincyCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.captaincyCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.captaincyCheckBox.AutoSize = true;
             this.captaincyCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1814,7 +1812,7 @@
             // 
             // superSubCheckBox
             // 
-            this.superSubCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.superSubCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.superSubCheckBox.AutoSize = true;
             this.superSubCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1827,7 +1825,7 @@
             // 
             // trackBackCheckBox
             // 
-            this.trackBackCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.trackBackCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.trackBackCheckBox.AutoSize = true;
             this.trackBackCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1840,7 +1838,7 @@
             // 
             // hellTrickCheckBox
             // 
-            this.hellTrickCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.hellTrickCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.hellTrickCheckBox.AutoSize = true;
             this.hellTrickCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1853,7 +1851,7 @@
             // 
             // headingCheckBox
             // 
-            this.headingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.headingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.headingCheckBox.AutoSize = true;
             this.headingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1866,7 +1864,7 @@
             // 
             // sombreroCheckBox
             // 
-            this.sombreroCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.sombreroCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.sombreroCheckBox.AutoSize = true;
             this.sombreroCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1879,7 +1877,7 @@
             // 
             // longRangeShootingCheckBox
             // 
-            this.longRangeShootingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.longRangeShootingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.longRangeShootingCheckBox.AutoSize = true;
             this.longRangeShootingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1892,7 +1890,7 @@
             // 
             // rabonaCheckBox
             // 
-            this.rabonaCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.rabonaCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.rabonaCheckBox.AutoSize = true;
             this.rabonaCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1905,7 +1903,7 @@
             // 
             // flipFlapCheckBox
             // 
-            this.flipFlapCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.flipFlapCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.flipFlapCheckBox.AutoSize = true;
             this.flipFlapCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1918,7 +1916,7 @@
             // 
             // longRangeDriveCheckBox
             // 
-            this.longRangeDriveCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.longRangeDriveCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.longRangeDriveCheckBox.AutoSize = true;
             this.longRangeDriveCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1931,7 +1929,7 @@
             // 
             // gkLowPuntCheckBox
             // 
-            this.gkLowPuntCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.gkLowPuntCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.gkLowPuntCheckBox.AutoSize = true;
             this.gkLowPuntCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1944,7 +1942,7 @@
             // 
             // pinpointCrossingCheckBox
             // 
-            this.pinpointCrossingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.pinpointCrossingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.pinpointCrossingCheckBox.AutoSize = true;
             this.pinpointCrossingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1957,7 +1955,7 @@
             // 
             // acrobaticFinishingCheckBox
             // 
-            this.acrobaticFinishingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.acrobaticFinishingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.acrobaticFinishingCheckBox.AutoSize = true;
             this.acrobaticFinishingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1970,7 +1968,7 @@
             // 
             // weightedPassCheckBox
             // 
-            this.weightedPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.weightedPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.weightedPassCheckBox.AutoSize = true;
             this.weightedPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1983,7 +1981,7 @@
             // 
             // oneTouchPassCheckBox
             // 
-            this.oneTouchPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.oneTouchPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.oneTouchPassCheckBox.AutoSize = true;
             this.oneTouchPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -1996,7 +1994,7 @@
             // 
             // lowLoftedPassCheckBox
             // 
-            this.lowLoftedPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.lowLoftedPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lowLoftedPassCheckBox.AutoSize = true;
             this.lowLoftedPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2009,7 +2007,7 @@
             // 
             // scissorsFeintCheckBox
             // 
-            this.scissorsFeintCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.scissorsFeintCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.scissorsFeintCheckBox.AutoSize = true;
             this.scissorsFeintCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2022,7 +2020,7 @@
             // 
             // cutBehindTurnCheckBox
             // 
-            this.cutBehindTurnCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.cutBehindTurnCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.cutBehindTurnCheckBox.AutoSize = true;
             this.cutBehindTurnCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2035,7 +2033,7 @@
             // 
             // gkLongThrowCheckBox
             // 
-            this.gkLongThrowCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.gkLongThrowCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.gkLongThrowCheckBox.AutoSize = true;
             this.gkLongThrowCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2048,7 +2046,7 @@
             // 
             // scothMoveCheckBox
             // 
-            this.scothMoveCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.scothMoveCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.scothMoveCheckBox.AutoSize = true;
             this.scothMoveCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2061,7 +2059,7 @@
             // 
             // marseilleTurnCheckBox
             // 
-            this.marseilleTurnCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.marseilleTurnCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.marseilleTurnCheckBox.AutoSize = true;
             this.marseilleTurnCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2074,7 +2072,7 @@
             // 
             // outsideCurlerCheckBox
             // 
-            this.outsideCurlerCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.outsideCurlerCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.outsideCurlerCheckBox.AutoSize = true;
             this.outsideCurlerCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2087,7 +2085,7 @@
             // 
             // manMarkingCheckBox
             // 
-            this.manMarkingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.manMarkingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.manMarkingCheckBox.AutoSize = true;
             this.manMarkingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2100,7 +2098,7 @@
             // 
             // longThrowCheckBox
             // 
-            this.longThrowCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.longThrowCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.longThrowCheckBox.AutoSize = true;
             this.longThrowCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2113,7 +2111,7 @@
             // 
             // firstTimeShotCheckBox
             // 
-            this.firstTimeShotCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.firstTimeShotCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.firstTimeShotCheckBox.AutoSize = true;
             this.firstTimeShotCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2126,7 +2124,7 @@
             // 
             // knucleShotCheckBox
             // 
-            this.knucleShotCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.knucleShotCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.knucleShotCheckBox.AutoSize = true;
             this.knucleShotCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2139,7 +2137,7 @@
             // 
             // acrobaticClearCheckBox
             // 
-            this.acrobaticClearCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.acrobaticClearCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.acrobaticClearCheckBox.AutoSize = true;
             this.acrobaticClearCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2152,7 +2150,7 @@
             // 
             // fightingSpiritCheckBox
             // 
-            this.fightingSpiritCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.fightingSpiritCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.fightingSpiritCheckBox.AutoSize = true;
             this.fightingSpiritCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2201,7 +2199,7 @@
             // 
             // groupBox22
             // 
-            this.groupBox22.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.groupBox22.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBox22.Controls.Add(this.comEarlyCrossCheckBox);
             this.groupBox22.Controls.Add(this.comSpeedingBulletCheckBox);
@@ -2330,7 +2328,7 @@
             // 
             // driblMotionLabel
             // 
-            this.driblMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.driblMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.driblMotionLabel.AutoSize = true;
             this.driblMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2352,7 +2350,7 @@
             // 
             // playAttitudeLabel
             // 
-            this.playAttitudeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.playAttitudeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.playAttitudeLabel.AutoSize = true;
             this.playAttitudeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2384,7 +2382,7 @@
             // 
             // pkMotionLabel
             // 
-            this.pkMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.pkMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.pkMotionLabel.AutoSize = true;
             this.pkMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2406,7 +2404,7 @@
             // 
             // fkMotionLabel
             // 
-            this.fkMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.fkMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.fkMotionLabel.AutoSize = true;
             this.fkMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2428,7 +2426,7 @@
             // 
             // ckMotionLabel
             // 
-            this.ckMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ckMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.ckMotionLabel.AutoSize = true;
             this.ckMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2450,7 +2448,7 @@
             // 
             // runArmMoveLabel
             // 
-            this.runArmMoveLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.runArmMoveLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.runArmMoveLabel.AutoSize = true;
             this.runArmMoveLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2472,7 +2470,7 @@
             // 
             // runHunchLabel
             // 
-            this.runHunchLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.runHunchLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.runHunchLabel.AutoSize = true;
             this.runHunchLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2494,7 +2492,7 @@
             // 
             // dribArmMoveLabel
             // 
-            this.dribArmMoveLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.dribArmMoveLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dribArmMoveLabel.AutoSize = true;
             this.dribArmMoveLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2516,7 +2514,7 @@
             // 
             // dribHunchLabel
             // 
-            this.dribHunchLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.dribHunchLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dribHunchLabel.AutoSize = true;
             this.dribHunchLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2528,7 +2526,7 @@
             // 
             // goalCelebLabel
             // 
-            this.goalCelebLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.goalCelebLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.goalCelebLabel.AutoSize = true;
             this.goalCelebLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -2650,44 +2648,6 @@
             this.adjustLessPercButton.Text = "-%";
             this.adjustLessPercButton.UseVisualStyleBackColor = false;
             // 
-            // searchPsdButton
-            // 
-            this.searchPsdButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.searchPsdButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.searchPsdButton.Enabled = false;
-            this.searchPsdButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.searchPsdButton.FlatAppearance.BorderSize = 0;
-            this.searchPsdButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.searchPsdButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
-            this.searchPsdButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.searchPsdButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.searchPsdButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.searchPsdButton.Location = new System.Drawing.Point(894, 361);
-            this.searchPsdButton.Name = "searchPsdButton";
-            this.searchPsdButton.Size = new System.Drawing.Size(111, 29);
-            this.searchPsdButton.TabIndex = 119;
-            this.searchPsdButton.Text = "Search on PSD";
-            this.searchPsdButton.UseVisualStyleBackColor = false;
-            // 
-            // pastePsdButton
-            // 
-            this.pastePsdButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.pastePsdButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pastePsdButton.Enabled = false;
-            this.pastePsdButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.pastePsdButton.FlatAppearance.BorderSize = 0;
-            this.pastePsdButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.pastePsdButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
-            this.pastePsdButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pastePsdButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.pastePsdButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.pastePsdButton.Location = new System.Drawing.Point(894, 325);
-            this.pastePsdButton.Name = "pastePsdButton";
-            this.pastePsdButton.Size = new System.Drawing.Size(111, 29);
-            this.pastePsdButton.TabIndex = 120;
-            this.pastePsdButton.Text = "Paste PSD Stats";
-            this.pastePsdButton.UseVisualStyleBackColor = false;
-            // 
             // acceptButton
             // 
             this.acceptButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
@@ -2726,7 +2686,7 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBox5.Controls.Add(this.skinNullPictureBox);
             this.groupBox5.Controls.Add(this.skin6);
@@ -2981,7 +2941,7 @@
             this.label4.TabIndex = 132;
             this.label4.Text = "Contract Expiry Date:";
             // 
-            // Giocatore
+            // Stats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -2995,8 +2955,6 @@
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.acceptButton);
-            this.Controls.Add(this.pastePsdButton);
-            this.Controls.Add(this.searchPsdButton);
             this.Controls.Add(this.groupBox23);
             this.Controls.Add(this.groupBox19);
             this.Controls.Add(this.groupBox22);
@@ -3008,7 +2966,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Giocatore";
+            this.Name = "Stats";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Player -";
             this.Load += new System.EventHandler(this.Giocatore_Load);
@@ -3187,8 +3145,6 @@
         private System.Windows.Forms.TextBox adjustTextBox;
         private System.Windows.Forms.Button adjustLessPercButton;
         private System.Windows.Forms.Button adjustEqualButton;
-        private System.Windows.Forms.Button searchPsdButton;
-        private System.Windows.Forms.Button pastePsdButton;
         private System.Windows.Forms.Label cfLabel;
         private System.Windows.Forms.ComboBox cfComboBox;
         private System.Windows.Forms.Label ssLabel;

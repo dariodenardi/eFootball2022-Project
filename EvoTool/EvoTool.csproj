@@ -72,6 +72,7 @@
     <Compile Include="Controllers\CoachController.cs" />
     <Compile Include="Controllers\CountryController.cs" />
     <Compile Include="Controllers\GloveController.cs" />
+    <Compile Include="Controllers\TeamController.cs" />
     <Compile Include="Models\Ball.cs" />
     <Compile Include="Models\Boot.cs" />
     <Compile Include="Models\Coach.cs" />
