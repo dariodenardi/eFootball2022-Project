@@ -408,8 +408,8 @@ namespace EvoTool.Controllers
                 player.UnknownBits1 = unknownBits1;
                 player.SetPieceTaking = setPieceTaking;
                 player.GoalCelebration = goalCelebration;
-                player.NationalID1 = nationalID1;
-                player.NationalID2 = nationalID2;
+                player.NationalityID1 = nationalID1;
+                player.NationalityID2 = nationalID2;
                 player.CornerKick = cornerKick;
                 player.Weight = weight;
                 player.UnknownBits2 = unknownBits2;
@@ -594,8 +594,8 @@ namespace EvoTool.Controllers
                 WritePlayer.Write(Convert.ToUInt32(value4, 2));
 
                 string value5 = "";
-                value5 = Convert.ToString(player.NationalID2, 2).PadLeft(9, '0') + value5;
-                value5 = Convert.ToString(player.NationalID1, 2).PadLeft(9, '0') + value5;
+                value5 = Convert.ToString(player.NationalityID2, 2).PadLeft(9, '0') + value5;
+                value5 = Convert.ToString(player.NationalityID1, 2).PadLeft(9, '0') + value5;
                 value5 = Convert.ToString(player.GoalCelebration, 2).PadLeft(8, '0') + value5;
                 value5 = Convert.ToString(player.SetPieceTaking - 40, 2).PadLeft(6, '0') + value5;
                 WritePlayer.Write(Convert.ToUInt32(value5, 2));

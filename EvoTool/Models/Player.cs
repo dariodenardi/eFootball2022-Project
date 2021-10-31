@@ -27,8 +27,8 @@ namespace EvoTool.Models
         public uint UnknownBits1 { get; set; }
         public uint SetPieceTaking { get; set; }
         public uint GoalCelebration { get; set; }
-        public ushort NationalID1 { get; set; }
-        public ushort NationalID2 { get; set; }
+        public ushort NationalityID1 { get; set; }
+        public ushort NationalityID2 { get; set; }
         public uint CornerKick { get; set; }
         public uint Weight { get; set; }
         public uint UnknownBits2 { get; set; }

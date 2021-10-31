@@ -774,7 +774,7 @@ namespace EvoTool
         private void ReadPlayer(Player player)
         {
             PlayerNameTextBox.Text = player.Name;
-            PlayerShirtTextBox.Text = player.ShirtName;
+            PlayerShirtNameTextBox.Text = player.ShirtName;
             PlayerIDLabel.Text = player.ID.ToString();
             //PlayerTypeLabel.Text = player.getStringFake();
             PlayerAgeLabel.Text = player.Age.ToString();
@@ -821,7 +821,7 @@ namespace EvoTool
                 PlayerHandLabel.Text = "Left";
             //giocatoreSquadra.Text = controller.getStringClubTeamOfPlayer(player.getId(), 0);
             //giocatoreNazionale.Text = controller.getStringClubTeamOfPlayer(player.getId(), 1);
-            PlayerNationalityComboBox.SelectedIndex = countryController.LoadCountryByID(player.NationalID1);
+            PlayerNationalityComboBox.SelectedIndex = countryController.LoadCountryByID(player.NationalityID1);
             PlayerRankLabel.Text = CalculateOverall.Overall(player.RegisteredPosition, player.GKReach, player.GKCatching, player.GKAwareness, player.Balance, player.Jump, player.Heading, player.DefensiveAwareness, player.Tackling, player.Speed, player.Stamina, player.OffensiveAwareness, player.BallControl, player.Dribbling, player.LoftedPass, player.LowPass, player.Aggression, player.SetPieceTaking, player.Finishing, player.KickingPower).ToString();
             UtilGUI.ChangeBackColorLabel(PlayerRankLabel);
 
@@ -990,8 +990,22 @@ namespace EvoTool
         // change shirt name
         private void PlayerShirtTextBox_KeyDown(object sender, KeyEventArgs e)
         {
-            //if (e.KeyCode == Keys.Enter)
-            //    changeShirtPlayer(uint.Parse(PlayerIDLabel.Text), PlayerNameTextBox.Text);
+            if (e.KeyCode == Keys.Enter)
+            {
+                int index = playerController.LoadPlayerByID(uint.Parse(PlayerIDLabel.Text));
+                Player player = playerController.LoadPlayer(index);
+                player.ShirtName = PlayerShirtNameTextBox.Text;
+                playerController.ApplyPlayer(index, player);
+            }
+        }
+
+        // change nationality
+        private void PlayerNationalityComboBox_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            int index = playerController.LoadPlayerByID(uint.Parse(PlayerIDLabel.Text));
+            Player player = playerController.LoadPlayer(index);
+            player.NationalityID1 = countryController.LoadCountry(PlayerNationalityComboBox.SelectedIndex).ID;
+            playerController.ApplyPlayer(index, player);
         }
     }
 }
