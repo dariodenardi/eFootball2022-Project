@@ -807,10 +807,10 @@ namespace EvoTool
             PlayerAgeLabel.Text = player.Age.ToString();
             PlayerWeightLabel.Text = player.Weight.ToString();
             PlayerHeightLabel.Text = player.Height.ToString();
-            PlayerFormLabel.Text = player.Form.ToString();
-            PlayerAccLabel.Text = player.WeakFootAccuracy.ToString();
-            PlayerUseLabel.Text = player.WeakFootUsage.ToString();
-            PlayerInjuryLabel.Text = player.InjuryResistance.ToString();
+            PlayerFormLabel.Text = ((Player.PlayerForm)(player.Form)).ToString();
+            PlayerAccLabel.Text = ((Player.WeakFoot)(player.WeakFootAccuracy)).ToString().Replace('_', ' ');
+            PlayerUseLabel.Text = ((Player.WeakFoot)(player.WeakFootUsage)).ToString().Replace('_', ' ');
+            PlayerInjuryLabel.Text = ((Player.InjuryRes)(player.InjuryResistance)).ToString();
 
             OffensiveProwessLabel.Text = player.OffensiveAwareness.ToString();
             BallControlLabel.Text = player.BallControl.ToString();
@@ -838,14 +838,8 @@ namespace EvoTool
             GKParryingLabel.Text = player.GKParrying.ToString();
             GKReflexesLabel.Text = player.GKReflexes.ToString();
             GKReachLabel.Text = player.GKReach.ToString();
-            if (player.StroongerFoot == false)
-                PlayerFootLabel.Text = "Right";
-            else
-                PlayerFootLabel.Text = "Left";
-            if (player.StrongerHand == false)
-                PlayerHandLabel.Text = "Right";
-            else
-                PlayerHandLabel.Text = "Left";
+            PlayerFootLabel.Text = player.StroongerFoot ? "Left" : "Right";
+            PlayerHandLabel.Text = player.StrongerHand ? "Left" : "Right";
             //giocatoreSquadra.Text = controller.getStringClubTeamOfPlayer(player.getId(), 0);
             //giocatoreNazionale.Text = controller.getStringClubTeamOfPlayer(player.getId(), 1);
             PlayerNationalityComboBox.SelectedIndex = countryController.LoadCountryByID(player.NationalityID1);
