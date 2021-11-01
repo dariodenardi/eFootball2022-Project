@@ -8,6 +8,9 @@ namespace EvoTool.Models
 {
     class Player
     {
+        public enum PlayerForm { Inconsistent = 0, Standard = 1, Unwavering = 2 }
+        public enum WeakFoot { Slightly_Low = 0, Medium = 1, High = 2, Very_High = 3 }
+        public enum InjuryRes { Low = 0, Medium = 1, High = 2 }
         public Player(uint ID)
         {
             this.ID = ID;
