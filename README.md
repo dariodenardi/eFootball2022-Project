@@ -14,6 +14,7 @@
 
 **Features**
 
+- Add Players&Transfers (work in progress...)
 - Add Coaches Section
 - Add Stadiums Section
 - Add Balls Section
@@ -29,8 +30,6 @@
 - Click on File, Open and select a folder where you find Coach.bin, Stadium.bin, Ball.bin, Boot.bin, Glove.bin ...
 
 **Tool changes the game database (no EDIT.bin)**
-
-
 
 <div align="center">
 
