@@ -812,32 +812,32 @@ namespace EvoTool
             PlayerUseLabel.Text = ((Player.WeakFoot)(player.WeakFootUsage)).ToString().Replace('_', ' ');
             PlayerInjuryLabel.Text = ((Player.InjuryRes)(player.InjuryResistance)).ToString();
 
-            OffensiveProwessLabel.Text = player.OffensiveAwareness.ToString();
-            BallControlLabel.Text = player.BallControl.ToString();
-            DribblingLabel.Text = player.Dribbling.ToString();
-            TightPossessionLabel.Text = player.TightPossession.ToString();
-            LowPassLabel.Text = player.LowPass.ToString();
-            LoftedPassLabel.Text = player.LoftedPass.ToString();
-            FinishingLabel.Text = player.Finishing.ToString();
-            HeadingLabel.Text = player.Heading.ToString();
-            SetPieceTakingLabel.Text = player.SetPieceTaking.ToString();
-            CurlLabel.Text = player.Curl.ToString();
-            SpeedLabel.Text = player.Speed.ToString();
-            AccelerationLabel.Text = player.Acceleration.ToString();
-            KickingPowerLabel.Text = player.KickingPower.ToString();
-            JumpLabel.Text = player.Jump.ToString();
-            PhysicalContactLabel.Text = player.PhysicalContact.ToString();
-            BalanceLabel.Text = player.Balance.ToString();
-            StaminaLabel.Text = player.Stamina.ToString();
-            DefensiveAwarenessLabel.Text = player.DefensiveAwareness.ToString();
-            TacklingLabel.Text = player.Tackling.ToString();
-            DefensiveEngangementLabel.Text = player.DefensiveEngangement.ToString();
-            AggressionLabel.Text = player.Aggression.ToString();
-            GKAwarenessLabel.Text = player.GKAwareness.ToString();
-            GKCatchingLabel.Text = player.GKCatching.ToString();
-            GKParryingLabel.Text = player.GKParrying.ToString();
-            GKReflexesLabel.Text = player.GKReflexes.ToString();
-            GKReachLabel.Text = player.GKReach.ToString();
+            OffensiveProwessValueLabel.Text = player.OffensiveAwareness.ToString();
+            BallControlValueLabel.Text = player.BallControl.ToString();
+            DribblingValueLabel.Text = player.Dribbling.ToString();
+            TightPossessionValueLabel.Text = player.TightPossession.ToString();
+            LowPassValueLabel.Text = player.LowPass.ToString();
+            LoftedPassValueLabel.Text = player.LoftedPass.ToString();
+            FinishingValueLabel.Text = player.Finishing.ToString();
+            HeadingValueLabel.Text = player.Heading.ToString();
+            SetPieceTakingValueLabel.Text = player.SetPieceTaking.ToString();
+            CurlValueLabel.Text = player.Curl.ToString();
+            SpeedValueLabel.Text = player.Speed.ToString();
+            AccelerationValueLabel.Text = player.Acceleration.ToString();
+            KickingPowerValueLabel.Text = player.KickingPower.ToString();
+            JumpValueLabel.Text = player.Jump.ToString();
+            PhysicalContactValueLabel.Text = player.PhysicalContact.ToString();
+            BalanceValueLabel.Text = player.Balance.ToString();
+            StaminaValueLabel.Text = player.Stamina.ToString();
+            DefensiveAwarenessValueLabel.Text = player.DefensiveAwareness.ToString();
+            TacklingValueLabel.Text = player.Tackling.ToString();
+            DefensiveEngangementValueLabel.Text = player.DefensiveEngangement.ToString();
+            AggressionValueLabel.Text = player.Aggression.ToString();
+            GKAwarenessValueLabel.Text = player.GKAwareness.ToString();
+            GKCatchingValueLabel.Text = player.GKCatching.ToString();
+            GKParryingValueLabel.Text = player.GKParrying.ToString();
+            GKReflexesValueLabel.Text = player.GKReflexes.ToString();
+            GKReachValueLabel.Text = player.GKReach.ToString();
             PlayerFootLabel.Text = player.StroongerFoot ? "Left" : "Right";
             PlayerHandLabel.Text = player.StrongerHand ? "Left" : "Right";
             //giocatoreSquadra.Text = controller.getStringClubTeamOfPlayer(player.getId(), 0);
@@ -865,132 +865,132 @@ namespace EvoTool
         // Change color Label
         private void OffensiveProwessLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(OffensiveProwessLabel);
+            UtilGUI.ChangeColorLabel(OffensiveProwessValueLabel);
         }
 
         private void BallControlLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(BallControlLabel);
+            UtilGUI.ChangeColorLabel(BallControlValueLabel);
         }
 
         private void DribblingLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(DribblingLabel);
+            UtilGUI.ChangeColorLabel(DribblingValueLabel);
         }
 
         private void TightPossessionLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(TightPossessionLabel);
+            UtilGUI.ChangeColorLabel(TightPossessionValueLabel);
         }
 
         private void LowPassLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(LowPassLabel);
+            UtilGUI.ChangeColorLabel(LowPassValueLabel);
         }
 
         private void LoftedPassLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(LoftedPassLabel);
+            UtilGUI.ChangeColorLabel(LoftedPassValueLabel);
         }
 
         private void FinishingLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(FinishingLabel);
+            UtilGUI.ChangeColorLabel(FinishingValueLabel);
         }
 
         private void HeadingLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(HeadingLabel);
+            UtilGUI.ChangeColorLabel(HeadingValueLabel);
         }
 
         private void SetPieceTakingLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(SetPieceTakingLabel);
+            UtilGUI.ChangeColorLabel(SetPieceTakingValueLabel);
         }
 
         private void CurlLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(CurlLabel);
+            UtilGUI.ChangeColorLabel(CurlValueLabel);
         }
 
         private void SpeedLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(SpeedLabel);
+            UtilGUI.ChangeColorLabel(SpeedValueLabel);
         }
 
         private void AccelerationLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(AccelerationLabel);
+            UtilGUI.ChangeColorLabel(AccelerationValueLabel);
         }
 
         private void KickingPowerLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(KickingPowerLabel);
+            UtilGUI.ChangeColorLabel(KickingPowerValueLabel);
         }
 
         private void JumpLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(JumpLabel);
+            UtilGUI.ChangeColorLabel(JumpValueLabel);
         }
 
         private void PhysicalContactLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(PhysicalContactLabel);
+            UtilGUI.ChangeColorLabel(PhysicalContactValueLabel);
         }
 
         private void BalanceLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(BalanceLabel);
+            UtilGUI.ChangeColorLabel(BalanceValueLabel);
         }
 
         private void StaminaLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(StaminaLabel);
+            UtilGUI.ChangeColorLabel(StaminaValueLabel);
         }
 
         private void DefensiveAwarenessLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(DefensiveAwarenessLabel);
+            UtilGUI.ChangeColorLabel(DefensiveAwarenessValueLabel);
         }
 
         private void TacklingLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(TacklingLabel);
+            UtilGUI.ChangeColorLabel(TacklingValueLabel);
         }
 
         private void DefensiveEngangementLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(DefensiveEngangementLabel);
+            UtilGUI.ChangeColorLabel(DefensiveEngangementValueLabel);
         }
 
         private void AggressionLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(AggressionLabel);
+            UtilGUI.ChangeColorLabel(AggressionValueLabel);
         }
 
         private void GKAwarenessLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(GKAwarenessLabel);
+            UtilGUI.ChangeColorLabel(GKAwarenessValueLabel);
         }
 
         private void GKCatchingLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(GKCatchingLabel);
+            UtilGUI.ChangeColorLabel(GKCatchingValueLabel);
         }
 
         private void GKParryingLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(GKParryingLabel);
+            UtilGUI.ChangeColorLabel(GKParryingValueLabel);
         }
 
         private void GKReflexesLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(GKReflexesLabel);
+            UtilGUI.ChangeColorLabel(GKReflexesValueLabel);
         }
 
         private void GKReachLabel_TextChanged(object sender, EventArgs e)
         {
-            UtilGUI.ChangeColorLabel(GKReachLabel);
+            UtilGUI.ChangeColorLabel(GKReachValueLabel);
         }
 
         // change player name

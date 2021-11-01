@@ -123,12 +123,12 @@
             this.columnHeader28 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.PlayerPanel2 = new System.Windows.Forms.Panel();
             this.PlayerRankLabel = new System.Windows.Forms.Label();
+            this.GKReachValueLabel = new System.Windows.Forms.Label();
             this.GKReachLabel = new System.Windows.Forms.Label();
-            this.label84 = new System.Windows.Forms.Label();
+            this.KickingPowerValueLabel = new System.Windows.Forms.Label();
             this.KickingPowerLabel = new System.Windows.Forms.Label();
-            this.label83 = new System.Windows.Forms.Label();
+            this.TightPossessionValueLabel = new System.Windows.Forms.Label();
             this.TightPossessionLabel = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
             this.PlayerPanel5 = new System.Windows.Forms.Panel();
             this.PlayerInjuryLabel = new System.Windows.Forms.Label();
             this.PlayerUseLabel = new System.Windows.Forms.Label();
@@ -138,30 +138,30 @@
             this.label107 = new System.Windows.Forms.Label();
             this.label108 = new System.Windows.Forms.Label();
             this.label109 = new System.Windows.Forms.Label();
-            this.GKReflexesLabel = new System.Windows.Forms.Label();
-            this.GKParryingLabel = new System.Windows.Forms.Label();
-            this.GKCatchingLabel = new System.Windows.Forms.Label();
-            this.GKAwarenessLabel = new System.Windows.Forms.Label();
-            this.AggressionLabel = new System.Windows.Forms.Label();
-            this.DefensiveEngangementLabel = new System.Windows.Forms.Label();
-            this.TacklingLabel = new System.Windows.Forms.Label();
+            this.GKReflexesValueLabel = new System.Windows.Forms.Label();
+            this.GKParryingValueLabel = new System.Windows.Forms.Label();
+            this.GKCatchingValueLabel = new System.Windows.Forms.Label();
+            this.GKAwarenessValueLabel = new System.Windows.Forms.Label();
+            this.AggressionValueLabel = new System.Windows.Forms.Label();
+            this.DefensiveEngangementValueLabel = new System.Windows.Forms.Label();
+            this.TacklingValueLabel = new System.Windows.Forms.Label();
+            this.DefensiveAwarenessValueLabel = new System.Windows.Forms.Label();
+            this.StaminaValueLabel = new System.Windows.Forms.Label();
+            this.BalanceValueLabel = new System.Windows.Forms.Label();
+            this.PhysicalContactValueLabel = new System.Windows.Forms.Label();
+            this.JumpValueLabel = new System.Windows.Forms.Label();
+            this.AccelerationValueLabel = new System.Windows.Forms.Label();
+            this.SpeedValueLabel = new System.Windows.Forms.Label();
+            this.CurlValueLabel = new System.Windows.Forms.Label();
+            this.SetPieceTakingValueLabel = new System.Windows.Forms.Label();
+            this.HeadingValueLabel = new System.Windows.Forms.Label();
+            this.FinishingValueLabel = new System.Windows.Forms.Label();
+            this.LoftedPassValueLabel = new System.Windows.Forms.Label();
+            this.LowPassValueLabel = new System.Windows.Forms.Label();
+            this.DribblingValueLabel = new System.Windows.Forms.Label();
+            this.BallControlValueLabel = new System.Windows.Forms.Label();
+            this.OffensiveProwessValueLabel = new System.Windows.Forms.Label();
             this.DefensiveAwarenessLabel = new System.Windows.Forms.Label();
-            this.StaminaLabel = new System.Windows.Forms.Label();
-            this.BalanceLabel = new System.Windows.Forms.Label();
-            this.PhysicalContactLabel = new System.Windows.Forms.Label();
-            this.JumpLabel = new System.Windows.Forms.Label();
-            this.AccelerationLabel = new System.Windows.Forms.Label();
-            this.SpeedLabel = new System.Windows.Forms.Label();
-            this.CurlLabel = new System.Windows.Forms.Label();
-            this.SetPieceTakingLabel = new System.Windows.Forms.Label();
-            this.HeadingLabel = new System.Windows.Forms.Label();
-            this.FinishingLabel = new System.Windows.Forms.Label();
-            this.LoftedPassLabel = new System.Windows.Forms.Label();
-            this.LowPassLabel = new System.Windows.Forms.Label();
-            this.DribblingLabel = new System.Windows.Forms.Label();
-            this.BallControlLabel = new System.Windows.Forms.Label();
-            this.OffensiveProwessLabel = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
             this.PlayerPanel4 = new System.Windows.Forms.Panel();
             this.PlayerHandLabel = new System.Windows.Forms.Label();
             this.label89 = new System.Windows.Forms.Label();
@@ -180,28 +180,28 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.GKReflexesLabel = new System.Windows.Forms.Label();
+            this.GKParryingLabel = new System.Windows.Forms.Label();
+            this.GKCatchingLabel = new System.Windows.Forms.Label();
+            this.GKAwarenessLabel = new System.Windows.Forms.Label();
+            this.AggressionLabel = new System.Windows.Forms.Label();
+            this.DefensiveEngangementLabel = new System.Windows.Forms.Label();
+            this.TacklingLabel = new System.Windows.Forms.Label();
+            this.StaminaLabel = new System.Windows.Forms.Label();
+            this.BalanceLabel = new System.Windows.Forms.Label();
+            this.PhysicalContactLabel = new System.Windows.Forms.Label();
+            this.JumpLabel = new System.Windows.Forms.Label();
+            this.AccelerationLabel = new System.Windows.Forms.Label();
+            this.SpeedLabel = new System.Windows.Forms.Label();
+            this.CurlLabel = new System.Windows.Forms.Label();
+            this.SetPieceTakingLabel = new System.Windows.Forms.Label();
+            this.HeadingLabel = new System.Windows.Forms.Label();
+            this.FinishingLabel = new System.Windows.Forms.Label();
+            this.LoftedPassLabel = new System.Windows.Forms.Label();
+            this.LowPassLabel = new System.Windows.Forms.Label();
+            this.DribblingLabel = new System.Windows.Forms.Label();
+            this.BallControlLabel = new System.Windows.Forms.Label();
+            this.OffensiveProwessLabel = new System.Windows.Forms.Label();
             this.PlayerPanel1 = new System.Windows.Forms.Panel();
             this.PlayerNationalityComboBox = new System.Windows.Forms.ComboBox();
             this.PlayerClubTextBox = new System.Windows.Forms.TextBox();
@@ -1713,13 +1713,39 @@
             this.PlayerPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.PlayerPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PlayerPanel2.Controls.Add(this.PlayerRankLabel);
+            this.PlayerPanel2.Controls.Add(this.GKReachValueLabel);
             this.PlayerPanel2.Controls.Add(this.GKReachLabel);
-            this.PlayerPanel2.Controls.Add(this.label84);
+            this.PlayerPanel2.Controls.Add(this.KickingPowerValueLabel);
             this.PlayerPanel2.Controls.Add(this.KickingPowerLabel);
-            this.PlayerPanel2.Controls.Add(this.label83);
+            this.PlayerPanel2.Controls.Add(this.TightPossessionValueLabel);
             this.PlayerPanel2.Controls.Add(this.TightPossessionLabel);
-            this.PlayerPanel2.Controls.Add(this.label61);
             this.PlayerPanel2.Controls.Add(this.PlayerPanel5);
+            this.PlayerPanel2.Controls.Add(this.GKReflexesValueLabel);
+            this.PlayerPanel2.Controls.Add(this.GKParryingValueLabel);
+            this.PlayerPanel2.Controls.Add(this.GKCatchingValueLabel);
+            this.PlayerPanel2.Controls.Add(this.GKAwarenessValueLabel);
+            this.PlayerPanel2.Controls.Add(this.AggressionValueLabel);
+            this.PlayerPanel2.Controls.Add(this.DefensiveEngangementValueLabel);
+            this.PlayerPanel2.Controls.Add(this.TacklingValueLabel);
+            this.PlayerPanel2.Controls.Add(this.DefensiveAwarenessValueLabel);
+            this.PlayerPanel2.Controls.Add(this.StaminaValueLabel);
+            this.PlayerPanel2.Controls.Add(this.BalanceValueLabel);
+            this.PlayerPanel2.Controls.Add(this.PhysicalContactValueLabel);
+            this.PlayerPanel2.Controls.Add(this.JumpValueLabel);
+            this.PlayerPanel2.Controls.Add(this.AccelerationValueLabel);
+            this.PlayerPanel2.Controls.Add(this.SpeedValueLabel);
+            this.PlayerPanel2.Controls.Add(this.CurlValueLabel);
+            this.PlayerPanel2.Controls.Add(this.SetPieceTakingValueLabel);
+            this.PlayerPanel2.Controls.Add(this.HeadingValueLabel);
+            this.PlayerPanel2.Controls.Add(this.FinishingValueLabel);
+            this.PlayerPanel2.Controls.Add(this.LoftedPassValueLabel);
+            this.PlayerPanel2.Controls.Add(this.LowPassValueLabel);
+            this.PlayerPanel2.Controls.Add(this.DribblingValueLabel);
+            this.PlayerPanel2.Controls.Add(this.BallControlValueLabel);
+            this.PlayerPanel2.Controls.Add(this.OffensiveProwessValueLabel);
+            this.PlayerPanel2.Controls.Add(this.DefensiveAwarenessLabel);
+            this.PlayerPanel2.Controls.Add(this.PlayerPanel4);
+            this.PlayerPanel2.Controls.Add(this.PlayerPanel3);
             this.PlayerPanel2.Controls.Add(this.GKReflexesLabel);
             this.PlayerPanel2.Controls.Add(this.GKParryingLabel);
             this.PlayerPanel2.Controls.Add(this.GKCatchingLabel);
@@ -1727,7 +1753,6 @@
             this.PlayerPanel2.Controls.Add(this.AggressionLabel);
             this.PlayerPanel2.Controls.Add(this.DefensiveEngangementLabel);
             this.PlayerPanel2.Controls.Add(this.TacklingLabel);
-            this.PlayerPanel2.Controls.Add(this.DefensiveAwarenessLabel);
             this.PlayerPanel2.Controls.Add(this.StaminaLabel);
             this.PlayerPanel2.Controls.Add(this.BalanceLabel);
             this.PlayerPanel2.Controls.Add(this.PhysicalContactLabel);
@@ -1743,31 +1768,6 @@
             this.PlayerPanel2.Controls.Add(this.DribblingLabel);
             this.PlayerPanel2.Controls.Add(this.BallControlLabel);
             this.PlayerPanel2.Controls.Add(this.OffensiveProwessLabel);
-            this.PlayerPanel2.Controls.Add(this.label44);
-            this.PlayerPanel2.Controls.Add(this.PlayerPanel4);
-            this.PlayerPanel2.Controls.Add(this.PlayerPanel3);
-            this.PlayerPanel2.Controls.Add(this.label29);
-            this.PlayerPanel2.Controls.Add(this.label28);
-            this.PlayerPanel2.Controls.Add(this.label27);
-            this.PlayerPanel2.Controls.Add(this.label26);
-            this.PlayerPanel2.Controls.Add(this.label25);
-            this.PlayerPanel2.Controls.Add(this.label24);
-            this.PlayerPanel2.Controls.Add(this.label23);
-            this.PlayerPanel2.Controls.Add(this.label22);
-            this.PlayerPanel2.Controls.Add(this.label21);
-            this.PlayerPanel2.Controls.Add(this.label20);
-            this.PlayerPanel2.Controls.Add(this.label19);
-            this.PlayerPanel2.Controls.Add(this.label18);
-            this.PlayerPanel2.Controls.Add(this.label17);
-            this.PlayerPanel2.Controls.Add(this.label16);
-            this.PlayerPanel2.Controls.Add(this.label15);
-            this.PlayerPanel2.Controls.Add(this.label14);
-            this.PlayerPanel2.Controls.Add(this.label13);
-            this.PlayerPanel2.Controls.Add(this.label12);
-            this.PlayerPanel2.Controls.Add(this.label11);
-            this.PlayerPanel2.Controls.Add(this.label10);
-            this.PlayerPanel2.Controls.Add(this.label9);
-            this.PlayerPanel2.Controls.Add(this.label8);
             this.PlayerPanel2.Enabled = false;
             this.PlayerPanel2.Location = new System.Drawing.Point(618, 160);
             this.PlayerPanel2.Name = "PlayerPanel2";
@@ -1788,68 +1788,68 @@
             this.PlayerRankLabel.Text = "40";
             this.PlayerRankLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // GKReachValueLabel
+            // 
+            this.GKReachValueLabel.AutoSize = true;
+            this.GKReachValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKReachValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.GKReachValueLabel.Location = new System.Drawing.Point(134, 455);
+            this.GKReachValueLabel.Name = "GKReachValueLabel";
+            this.GKReachValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.GKReachValueLabel.TabIndex = 91;
+            this.GKReachValueLabel.Text = "40";
+            this.GKReachValueLabel.TextChanged += new System.EventHandler(this.GKReachLabel_TextChanged);
+            // 
             // GKReachLabel
             // 
             this.GKReachLabel.AutoSize = true;
-            this.GKReachLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GKReachLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.GKReachLabel.Location = new System.Drawing.Point(134, 455);
+            this.GKReachLabel.Location = new System.Drawing.Point(7, 455);
             this.GKReachLabel.Name = "GKReachLabel";
-            this.GKReachLabel.Size = new System.Drawing.Size(21, 13);
-            this.GKReachLabel.TabIndex = 91;
-            this.GKReachLabel.Text = "40";
-            this.GKReachLabel.TextChanged += new System.EventHandler(this.GKReachLabel_TextChanged);
+            this.GKReachLabel.Size = new System.Drawing.Size(60, 13);
+            this.GKReachLabel.TabIndex = 90;
+            this.GKReachLabel.Text = "GK Reach:";
             // 
-            // label84
+            // KickingPowerValueLabel
             // 
-            this.label84.AutoSize = true;
-            this.label84.Location = new System.Drawing.Point(7, 455);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(60, 13);
-            this.label84.TabIndex = 90;
-            this.label84.Text = "GK Reach:";
+            this.KickingPowerValueLabel.AutoSize = true;
+            this.KickingPowerValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KickingPowerValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.KickingPowerValueLabel.Location = new System.Drawing.Point(134, 221);
+            this.KickingPowerValueLabel.Name = "KickingPowerValueLabel";
+            this.KickingPowerValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.KickingPowerValueLabel.TabIndex = 89;
+            this.KickingPowerValueLabel.Text = "40";
+            this.KickingPowerValueLabel.TextChanged += new System.EventHandler(this.KickingPowerLabel_TextChanged);
             // 
             // KickingPowerLabel
             // 
             this.KickingPowerLabel.AutoSize = true;
-            this.KickingPowerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KickingPowerLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.KickingPowerLabel.Location = new System.Drawing.Point(134, 221);
+            this.KickingPowerLabel.Location = new System.Drawing.Point(4, 221);
             this.KickingPowerLabel.Name = "KickingPowerLabel";
-            this.KickingPowerLabel.Size = new System.Drawing.Size(21, 13);
-            this.KickingPowerLabel.TabIndex = 89;
-            this.KickingPowerLabel.Text = "40";
-            this.KickingPowerLabel.TextChanged += new System.EventHandler(this.KickingPowerLabel_TextChanged);
+            this.KickingPowerLabel.Size = new System.Drawing.Size(78, 13);
+            this.KickingPowerLabel.TabIndex = 88;
+            this.KickingPowerLabel.Text = "Kicking Power:";
             // 
-            // label83
+            // TightPossessionValueLabel
             // 
-            this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(4, 221);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(78, 13);
-            this.label83.TabIndex = 88;
-            this.label83.Text = "Kicking Power:";
+            this.TightPossessionValueLabel.AutoSize = true;
+            this.TightPossessionValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TightPossessionValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.TightPossessionValueLabel.Location = new System.Drawing.Point(134, 59);
+            this.TightPossessionValueLabel.Name = "TightPossessionValueLabel";
+            this.TightPossessionValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.TightPossessionValueLabel.TabIndex = 87;
+            this.TightPossessionValueLabel.Text = "40";
+            this.TightPossessionValueLabel.TextChanged += new System.EventHandler(this.TightPossessionLabel_TextChanged);
             // 
             // TightPossessionLabel
             // 
             this.TightPossessionLabel.AutoSize = true;
-            this.TightPossessionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TightPossessionLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.TightPossessionLabel.Location = new System.Drawing.Point(134, 59);
+            this.TightPossessionLabel.Location = new System.Drawing.Point(5, 59);
             this.TightPossessionLabel.Name = "TightPossessionLabel";
-            this.TightPossessionLabel.Size = new System.Drawing.Size(21, 13);
-            this.TightPossessionLabel.TabIndex = 87;
-            this.TightPossessionLabel.Text = "40";
-            this.TightPossessionLabel.TextChanged += new System.EventHandler(this.TightPossessionLabel_TextChanged);
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(5, 59);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(90, 13);
-            this.label61.TabIndex = 86;
-            this.label61.Text = "Tight Possession:";
+            this.TightPossessionLabel.Size = new System.Drawing.Size(90, 13);
+            this.TightPossessionLabel.TabIndex = 86;
+            this.TightPossessionLabel.Text = "Tight Possession:";
             // 
             // PlayerPanel5
             // 
@@ -1940,290 +1940,290 @@
             this.label109.TabIndex = 60;
             this.label109.Text = "Form:";
             // 
-            // GKReflexesLabel
+            // GKReflexesValueLabel
             // 
-            this.GKReflexesLabel.AutoSize = true;
-            this.GKReflexesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GKReflexesLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.GKReflexesLabel.Location = new System.Drawing.Point(134, 437);
-            this.GKReflexesLabel.Name = "GKReflexesLabel";
-            this.GKReflexesLabel.Size = new System.Drawing.Size(21, 13);
-            this.GKReflexesLabel.TabIndex = 82;
-            this.GKReflexesLabel.Text = "40";
-            this.GKReflexesLabel.TextChanged += new System.EventHandler(this.GKReflexesLabel_TextChanged);
+            this.GKReflexesValueLabel.AutoSize = true;
+            this.GKReflexesValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKReflexesValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.GKReflexesValueLabel.Location = new System.Drawing.Point(134, 437);
+            this.GKReflexesValueLabel.Name = "GKReflexesValueLabel";
+            this.GKReflexesValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.GKReflexesValueLabel.TabIndex = 82;
+            this.GKReflexesValueLabel.Text = "40";
+            this.GKReflexesValueLabel.TextChanged += new System.EventHandler(this.GKReflexesLabel_TextChanged);
             // 
-            // GKParryingLabel
+            // GKParryingValueLabel
             // 
-            this.GKParryingLabel.AutoSize = true;
-            this.GKParryingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GKParryingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.GKParryingLabel.Location = new System.Drawing.Point(134, 419);
-            this.GKParryingLabel.Name = "GKParryingLabel";
-            this.GKParryingLabel.Size = new System.Drawing.Size(21, 13);
-            this.GKParryingLabel.TabIndex = 81;
-            this.GKParryingLabel.Text = "40";
-            this.GKParryingLabel.TextChanged += new System.EventHandler(this.GKParryingLabel_TextChanged);
+            this.GKParryingValueLabel.AutoSize = true;
+            this.GKParryingValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKParryingValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.GKParryingValueLabel.Location = new System.Drawing.Point(134, 419);
+            this.GKParryingValueLabel.Name = "GKParryingValueLabel";
+            this.GKParryingValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.GKParryingValueLabel.TabIndex = 81;
+            this.GKParryingValueLabel.Text = "40";
+            this.GKParryingValueLabel.TextChanged += new System.EventHandler(this.GKParryingLabel_TextChanged);
             // 
-            // GKCatchingLabel
+            // GKCatchingValueLabel
             // 
-            this.GKCatchingLabel.AutoSize = true;
-            this.GKCatchingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GKCatchingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.GKCatchingLabel.Location = new System.Drawing.Point(134, 401);
-            this.GKCatchingLabel.Name = "GKCatchingLabel";
-            this.GKCatchingLabel.Size = new System.Drawing.Size(21, 13);
-            this.GKCatchingLabel.TabIndex = 80;
-            this.GKCatchingLabel.Text = "40";
-            this.GKCatchingLabel.TextChanged += new System.EventHandler(this.GKCatchingLabel_TextChanged);
+            this.GKCatchingValueLabel.AutoSize = true;
+            this.GKCatchingValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKCatchingValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.GKCatchingValueLabel.Location = new System.Drawing.Point(134, 401);
+            this.GKCatchingValueLabel.Name = "GKCatchingValueLabel";
+            this.GKCatchingValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.GKCatchingValueLabel.TabIndex = 80;
+            this.GKCatchingValueLabel.Text = "40";
+            this.GKCatchingValueLabel.TextChanged += new System.EventHandler(this.GKCatchingLabel_TextChanged);
             // 
-            // GKAwarenessLabel
+            // GKAwarenessValueLabel
             // 
-            this.GKAwarenessLabel.AutoSize = true;
-            this.GKAwarenessLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GKAwarenessLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.GKAwarenessLabel.Location = new System.Drawing.Point(134, 383);
-            this.GKAwarenessLabel.Name = "GKAwarenessLabel";
-            this.GKAwarenessLabel.Size = new System.Drawing.Size(21, 13);
-            this.GKAwarenessLabel.TabIndex = 79;
-            this.GKAwarenessLabel.Text = "40";
-            this.GKAwarenessLabel.TextChanged += new System.EventHandler(this.GKAwarenessLabel_TextChanged);
+            this.GKAwarenessValueLabel.AutoSize = true;
+            this.GKAwarenessValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKAwarenessValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.GKAwarenessValueLabel.Location = new System.Drawing.Point(134, 383);
+            this.GKAwarenessValueLabel.Name = "GKAwarenessValueLabel";
+            this.GKAwarenessValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.GKAwarenessValueLabel.TabIndex = 79;
+            this.GKAwarenessValueLabel.Text = "40";
+            this.GKAwarenessValueLabel.TextChanged += new System.EventHandler(this.GKAwarenessLabel_TextChanged);
             // 
-            // AggressionLabel
+            // AggressionValueLabel
             // 
-            this.AggressionLabel.AutoSize = true;
-            this.AggressionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AggressionLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AggressionLabel.Location = new System.Drawing.Point(134, 365);
-            this.AggressionLabel.Name = "AggressionLabel";
-            this.AggressionLabel.Size = new System.Drawing.Size(21, 13);
-            this.AggressionLabel.TabIndex = 78;
-            this.AggressionLabel.Text = "40";
-            this.AggressionLabel.TextChanged += new System.EventHandler(this.AggressionLabel_TextChanged);
+            this.AggressionValueLabel.AutoSize = true;
+            this.AggressionValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AggressionValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.AggressionValueLabel.Location = new System.Drawing.Point(134, 365);
+            this.AggressionValueLabel.Name = "AggressionValueLabel";
+            this.AggressionValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.AggressionValueLabel.TabIndex = 78;
+            this.AggressionValueLabel.Text = "40";
+            this.AggressionValueLabel.TextChanged += new System.EventHandler(this.AggressionLabel_TextChanged);
             // 
-            // DefensiveEngangementLabel
+            // DefensiveEngangementValueLabel
             // 
-            this.DefensiveEngangementLabel.AutoSize = true;
-            this.DefensiveEngangementLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DefensiveEngangementLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.DefensiveEngangementLabel.Location = new System.Drawing.Point(134, 347);
-            this.DefensiveEngangementLabel.Name = "DefensiveEngangementLabel";
-            this.DefensiveEngangementLabel.Size = new System.Drawing.Size(21, 13);
-            this.DefensiveEngangementLabel.TabIndex = 77;
-            this.DefensiveEngangementLabel.Text = "40";
-            this.DefensiveEngangementLabel.TextChanged += new System.EventHandler(this.DefensiveEngangementLabel_TextChanged);
+            this.DefensiveEngangementValueLabel.AutoSize = true;
+            this.DefensiveEngangementValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DefensiveEngangementValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.DefensiveEngangementValueLabel.Location = new System.Drawing.Point(134, 347);
+            this.DefensiveEngangementValueLabel.Name = "DefensiveEngangementValueLabel";
+            this.DefensiveEngangementValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.DefensiveEngangementValueLabel.TabIndex = 77;
+            this.DefensiveEngangementValueLabel.Text = "40";
+            this.DefensiveEngangementValueLabel.TextChanged += new System.EventHandler(this.DefensiveEngangementLabel_TextChanged);
             // 
-            // TacklingLabel
+            // TacklingValueLabel
             // 
-            this.TacklingLabel.AutoSize = true;
-            this.TacklingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TacklingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.TacklingLabel.Location = new System.Drawing.Point(134, 329);
-            this.TacklingLabel.Name = "TacklingLabel";
-            this.TacklingLabel.Size = new System.Drawing.Size(21, 13);
-            this.TacklingLabel.TabIndex = 76;
-            this.TacklingLabel.Text = "40";
-            this.TacklingLabel.TextChanged += new System.EventHandler(this.TacklingLabel_TextChanged);
+            this.TacklingValueLabel.AutoSize = true;
+            this.TacklingValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TacklingValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.TacklingValueLabel.Location = new System.Drawing.Point(134, 329);
+            this.TacklingValueLabel.Name = "TacklingValueLabel";
+            this.TacklingValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.TacklingValueLabel.TabIndex = 76;
+            this.TacklingValueLabel.Text = "40";
+            this.TacklingValueLabel.TextChanged += new System.EventHandler(this.TacklingLabel_TextChanged);
+            // 
+            // DefensiveAwarenessValueLabel
+            // 
+            this.DefensiveAwarenessValueLabel.AutoSize = true;
+            this.DefensiveAwarenessValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DefensiveAwarenessValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.DefensiveAwarenessValueLabel.Location = new System.Drawing.Point(134, 311);
+            this.DefensiveAwarenessValueLabel.Name = "DefensiveAwarenessValueLabel";
+            this.DefensiveAwarenessValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.DefensiveAwarenessValueLabel.TabIndex = 75;
+            this.DefensiveAwarenessValueLabel.Text = "40";
+            this.DefensiveAwarenessValueLabel.TextChanged += new System.EventHandler(this.DefensiveAwarenessLabel_TextChanged);
+            // 
+            // StaminaValueLabel
+            // 
+            this.StaminaValueLabel.AutoSize = true;
+            this.StaminaValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StaminaValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.StaminaValueLabel.Location = new System.Drawing.Point(134, 293);
+            this.StaminaValueLabel.Name = "StaminaValueLabel";
+            this.StaminaValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.StaminaValueLabel.TabIndex = 74;
+            this.StaminaValueLabel.Text = "40";
+            this.StaminaValueLabel.TextChanged += new System.EventHandler(this.StaminaLabel_TextChanged);
+            // 
+            // BalanceValueLabel
+            // 
+            this.BalanceValueLabel.AutoSize = true;
+            this.BalanceValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BalanceValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.BalanceValueLabel.Location = new System.Drawing.Point(134, 275);
+            this.BalanceValueLabel.Name = "BalanceValueLabel";
+            this.BalanceValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.BalanceValueLabel.TabIndex = 73;
+            this.BalanceValueLabel.Text = "40";
+            this.BalanceValueLabel.TextChanged += new System.EventHandler(this.BalanceLabel_TextChanged);
+            // 
+            // PhysicalContactValueLabel
+            // 
+            this.PhysicalContactValueLabel.AutoSize = true;
+            this.PhysicalContactValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PhysicalContactValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.PhysicalContactValueLabel.Location = new System.Drawing.Point(134, 257);
+            this.PhysicalContactValueLabel.Name = "PhysicalContactValueLabel";
+            this.PhysicalContactValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.PhysicalContactValueLabel.TabIndex = 72;
+            this.PhysicalContactValueLabel.Text = "40";
+            this.PhysicalContactValueLabel.TextChanged += new System.EventHandler(this.PhysicalContactLabel_TextChanged);
+            // 
+            // JumpValueLabel
+            // 
+            this.JumpValueLabel.AutoSize = true;
+            this.JumpValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JumpValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.JumpValueLabel.Location = new System.Drawing.Point(134, 239);
+            this.JumpValueLabel.Name = "JumpValueLabel";
+            this.JumpValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.JumpValueLabel.TabIndex = 71;
+            this.JumpValueLabel.Text = "40";
+            this.JumpValueLabel.TextChanged += new System.EventHandler(this.JumpLabel_TextChanged);
+            // 
+            // AccelerationValueLabel
+            // 
+            this.AccelerationValueLabel.AutoSize = true;
+            this.AccelerationValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AccelerationValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.AccelerationValueLabel.Location = new System.Drawing.Point(134, 203);
+            this.AccelerationValueLabel.Name = "AccelerationValueLabel";
+            this.AccelerationValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.AccelerationValueLabel.TabIndex = 70;
+            this.AccelerationValueLabel.Text = "40";
+            this.AccelerationValueLabel.TextChanged += new System.EventHandler(this.AccelerationLabel_TextChanged);
+            // 
+            // SpeedValueLabel
+            // 
+            this.SpeedValueLabel.AutoSize = true;
+            this.SpeedValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpeedValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.SpeedValueLabel.Location = new System.Drawing.Point(134, 185);
+            this.SpeedValueLabel.Name = "SpeedValueLabel";
+            this.SpeedValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.SpeedValueLabel.TabIndex = 69;
+            this.SpeedValueLabel.Text = "40";
+            this.SpeedValueLabel.TextChanged += new System.EventHandler(this.SpeedLabel_TextChanged);
+            // 
+            // CurlValueLabel
+            // 
+            this.CurlValueLabel.AutoSize = true;
+            this.CurlValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CurlValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.CurlValueLabel.Location = new System.Drawing.Point(134, 167);
+            this.CurlValueLabel.Name = "CurlValueLabel";
+            this.CurlValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.CurlValueLabel.TabIndex = 68;
+            this.CurlValueLabel.Text = "40";
+            this.CurlValueLabel.TextChanged += new System.EventHandler(this.CurlLabel_TextChanged);
+            // 
+            // SetPieceTakingValueLabel
+            // 
+            this.SetPieceTakingValueLabel.AutoSize = true;
+            this.SetPieceTakingValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SetPieceTakingValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.SetPieceTakingValueLabel.Location = new System.Drawing.Point(134, 149);
+            this.SetPieceTakingValueLabel.Name = "SetPieceTakingValueLabel";
+            this.SetPieceTakingValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.SetPieceTakingValueLabel.TabIndex = 67;
+            this.SetPieceTakingValueLabel.Text = "40";
+            this.SetPieceTakingValueLabel.TextChanged += new System.EventHandler(this.SetPieceTakingLabel_TextChanged);
+            // 
+            // HeadingValueLabel
+            // 
+            this.HeadingValueLabel.AutoSize = true;
+            this.HeadingValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HeadingValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.HeadingValueLabel.Location = new System.Drawing.Point(134, 131);
+            this.HeadingValueLabel.Name = "HeadingValueLabel";
+            this.HeadingValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.HeadingValueLabel.TabIndex = 66;
+            this.HeadingValueLabel.Text = "40";
+            this.HeadingValueLabel.TextChanged += new System.EventHandler(this.HeadingLabel_TextChanged);
+            // 
+            // FinishingValueLabel
+            // 
+            this.FinishingValueLabel.AutoSize = true;
+            this.FinishingValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FinishingValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FinishingValueLabel.Location = new System.Drawing.Point(134, 113);
+            this.FinishingValueLabel.Name = "FinishingValueLabel";
+            this.FinishingValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.FinishingValueLabel.TabIndex = 65;
+            this.FinishingValueLabel.Text = "40";
+            this.FinishingValueLabel.TextChanged += new System.EventHandler(this.FinishingLabel_TextChanged);
+            // 
+            // LoftedPassValueLabel
+            // 
+            this.LoftedPassValueLabel.AutoSize = true;
+            this.LoftedPassValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoftedPassValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.LoftedPassValueLabel.Location = new System.Drawing.Point(134, 95);
+            this.LoftedPassValueLabel.Name = "LoftedPassValueLabel";
+            this.LoftedPassValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.LoftedPassValueLabel.TabIndex = 64;
+            this.LoftedPassValueLabel.Text = "40";
+            this.LoftedPassValueLabel.TextChanged += new System.EventHandler(this.LoftedPassLabel_TextChanged);
+            // 
+            // LowPassValueLabel
+            // 
+            this.LowPassValueLabel.AutoSize = true;
+            this.LowPassValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LowPassValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.LowPassValueLabel.Location = new System.Drawing.Point(134, 77);
+            this.LowPassValueLabel.Name = "LowPassValueLabel";
+            this.LowPassValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.LowPassValueLabel.TabIndex = 63;
+            this.LowPassValueLabel.Text = "40";
+            this.LowPassValueLabel.TextChanged += new System.EventHandler(this.LowPassLabel_TextChanged);
+            // 
+            // DribblingValueLabel
+            // 
+            this.DribblingValueLabel.AutoSize = true;
+            this.DribblingValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DribblingValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.DribblingValueLabel.Location = new System.Drawing.Point(134, 41);
+            this.DribblingValueLabel.Name = "DribblingValueLabel";
+            this.DribblingValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.DribblingValueLabel.TabIndex = 62;
+            this.DribblingValueLabel.Text = "40";
+            this.DribblingValueLabel.TextChanged += new System.EventHandler(this.DribblingLabel_TextChanged);
+            // 
+            // BallControlValueLabel
+            // 
+            this.BallControlValueLabel.AutoSize = true;
+            this.BallControlValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BallControlValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.BallControlValueLabel.Location = new System.Drawing.Point(134, 23);
+            this.BallControlValueLabel.Name = "BallControlValueLabel";
+            this.BallControlValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.BallControlValueLabel.TabIndex = 61;
+            this.BallControlValueLabel.Text = "40";
+            this.BallControlValueLabel.TextChanged += new System.EventHandler(this.BallControlLabel_TextChanged);
+            // 
+            // OffensiveProwessValueLabel
+            // 
+            this.OffensiveProwessValueLabel.AutoSize = true;
+            this.OffensiveProwessValueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OffensiveProwessValueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.OffensiveProwessValueLabel.Location = new System.Drawing.Point(134, 5);
+            this.OffensiveProwessValueLabel.Name = "OffensiveProwessValueLabel";
+            this.OffensiveProwessValueLabel.Size = new System.Drawing.Size(21, 13);
+            this.OffensiveProwessValueLabel.TabIndex = 60;
+            this.OffensiveProwessValueLabel.Text = "40";
+            this.OffensiveProwessValueLabel.TextChanged += new System.EventHandler(this.OffensiveProwessLabel_TextChanged);
             // 
             // DefensiveAwarenessLabel
             // 
             this.DefensiveAwarenessLabel.AutoSize = true;
-            this.DefensiveAwarenessLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DefensiveAwarenessLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.DefensiveAwarenessLabel.Location = new System.Drawing.Point(134, 311);
+            this.DefensiveAwarenessLabel.Location = new System.Drawing.Point(5, 311);
             this.DefensiveAwarenessLabel.Name = "DefensiveAwarenessLabel";
-            this.DefensiveAwarenessLabel.Size = new System.Drawing.Size(21, 13);
-            this.DefensiveAwarenessLabel.TabIndex = 75;
-            this.DefensiveAwarenessLabel.Text = "40";
-            this.DefensiveAwarenessLabel.TextChanged += new System.EventHandler(this.DefensiveAwarenessLabel_TextChanged);
-            // 
-            // StaminaLabel
-            // 
-            this.StaminaLabel.AutoSize = true;
-            this.StaminaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StaminaLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.StaminaLabel.Location = new System.Drawing.Point(134, 293);
-            this.StaminaLabel.Name = "StaminaLabel";
-            this.StaminaLabel.Size = new System.Drawing.Size(21, 13);
-            this.StaminaLabel.TabIndex = 74;
-            this.StaminaLabel.Text = "40";
-            this.StaminaLabel.TextChanged += new System.EventHandler(this.StaminaLabel_TextChanged);
-            // 
-            // BalanceLabel
-            // 
-            this.BalanceLabel.AutoSize = true;
-            this.BalanceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BalanceLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.BalanceLabel.Location = new System.Drawing.Point(134, 275);
-            this.BalanceLabel.Name = "BalanceLabel";
-            this.BalanceLabel.Size = new System.Drawing.Size(21, 13);
-            this.BalanceLabel.TabIndex = 73;
-            this.BalanceLabel.Text = "40";
-            this.BalanceLabel.TextChanged += new System.EventHandler(this.BalanceLabel_TextChanged);
-            // 
-            // PhysicalContactLabel
-            // 
-            this.PhysicalContactLabel.AutoSize = true;
-            this.PhysicalContactLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PhysicalContactLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.PhysicalContactLabel.Location = new System.Drawing.Point(134, 257);
-            this.PhysicalContactLabel.Name = "PhysicalContactLabel";
-            this.PhysicalContactLabel.Size = new System.Drawing.Size(21, 13);
-            this.PhysicalContactLabel.TabIndex = 72;
-            this.PhysicalContactLabel.Text = "40";
-            this.PhysicalContactLabel.TextChanged += new System.EventHandler(this.PhysicalContactLabel_TextChanged);
-            // 
-            // JumpLabel
-            // 
-            this.JumpLabel.AutoSize = true;
-            this.JumpLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JumpLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.JumpLabel.Location = new System.Drawing.Point(134, 239);
-            this.JumpLabel.Name = "JumpLabel";
-            this.JumpLabel.Size = new System.Drawing.Size(21, 13);
-            this.JumpLabel.TabIndex = 71;
-            this.JumpLabel.Text = "40";
-            this.JumpLabel.TextChanged += new System.EventHandler(this.JumpLabel_TextChanged);
-            // 
-            // AccelerationLabel
-            // 
-            this.AccelerationLabel.AutoSize = true;
-            this.AccelerationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AccelerationLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.AccelerationLabel.Location = new System.Drawing.Point(134, 203);
-            this.AccelerationLabel.Name = "AccelerationLabel";
-            this.AccelerationLabel.Size = new System.Drawing.Size(21, 13);
-            this.AccelerationLabel.TabIndex = 70;
-            this.AccelerationLabel.Text = "40";
-            this.AccelerationLabel.TextChanged += new System.EventHandler(this.AccelerationLabel_TextChanged);
-            // 
-            // SpeedLabel
-            // 
-            this.SpeedLabel.AutoSize = true;
-            this.SpeedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SpeedLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.SpeedLabel.Location = new System.Drawing.Point(134, 185);
-            this.SpeedLabel.Name = "SpeedLabel";
-            this.SpeedLabel.Size = new System.Drawing.Size(21, 13);
-            this.SpeedLabel.TabIndex = 69;
-            this.SpeedLabel.Text = "40";
-            this.SpeedLabel.TextChanged += new System.EventHandler(this.SpeedLabel_TextChanged);
-            // 
-            // CurlLabel
-            // 
-            this.CurlLabel.AutoSize = true;
-            this.CurlLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CurlLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.CurlLabel.Location = new System.Drawing.Point(134, 167);
-            this.CurlLabel.Name = "CurlLabel";
-            this.CurlLabel.Size = new System.Drawing.Size(21, 13);
-            this.CurlLabel.TabIndex = 68;
-            this.CurlLabel.Text = "40";
-            this.CurlLabel.TextChanged += new System.EventHandler(this.CurlLabel_TextChanged);
-            // 
-            // SetPieceTakingLabel
-            // 
-            this.SetPieceTakingLabel.AutoSize = true;
-            this.SetPieceTakingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SetPieceTakingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.SetPieceTakingLabel.Location = new System.Drawing.Point(134, 149);
-            this.SetPieceTakingLabel.Name = "SetPieceTakingLabel";
-            this.SetPieceTakingLabel.Size = new System.Drawing.Size(21, 13);
-            this.SetPieceTakingLabel.TabIndex = 67;
-            this.SetPieceTakingLabel.Text = "40";
-            this.SetPieceTakingLabel.TextChanged += new System.EventHandler(this.SetPieceTakingLabel_TextChanged);
-            // 
-            // HeadingLabel
-            // 
-            this.HeadingLabel.AutoSize = true;
-            this.HeadingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HeadingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.HeadingLabel.Location = new System.Drawing.Point(134, 131);
-            this.HeadingLabel.Name = "HeadingLabel";
-            this.HeadingLabel.Size = new System.Drawing.Size(21, 13);
-            this.HeadingLabel.TabIndex = 66;
-            this.HeadingLabel.Text = "40";
-            this.HeadingLabel.TextChanged += new System.EventHandler(this.HeadingLabel_TextChanged);
-            // 
-            // FinishingLabel
-            // 
-            this.FinishingLabel.AutoSize = true;
-            this.FinishingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FinishingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.FinishingLabel.Location = new System.Drawing.Point(134, 113);
-            this.FinishingLabel.Name = "FinishingLabel";
-            this.FinishingLabel.Size = new System.Drawing.Size(21, 13);
-            this.FinishingLabel.TabIndex = 65;
-            this.FinishingLabel.Text = "40";
-            this.FinishingLabel.TextChanged += new System.EventHandler(this.FinishingLabel_TextChanged);
-            // 
-            // LoftedPassLabel
-            // 
-            this.LoftedPassLabel.AutoSize = true;
-            this.LoftedPassLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoftedPassLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LoftedPassLabel.Location = new System.Drawing.Point(134, 95);
-            this.LoftedPassLabel.Name = "LoftedPassLabel";
-            this.LoftedPassLabel.Size = new System.Drawing.Size(21, 13);
-            this.LoftedPassLabel.TabIndex = 64;
-            this.LoftedPassLabel.Text = "40";
-            this.LoftedPassLabel.TextChanged += new System.EventHandler(this.LoftedPassLabel_TextChanged);
-            // 
-            // LowPassLabel
-            // 
-            this.LowPassLabel.AutoSize = true;
-            this.LowPassLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LowPassLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LowPassLabel.Location = new System.Drawing.Point(134, 77);
-            this.LowPassLabel.Name = "LowPassLabel";
-            this.LowPassLabel.Size = new System.Drawing.Size(21, 13);
-            this.LowPassLabel.TabIndex = 63;
-            this.LowPassLabel.Text = "40";
-            this.LowPassLabel.TextChanged += new System.EventHandler(this.LowPassLabel_TextChanged);
-            // 
-            // DribblingLabel
-            // 
-            this.DribblingLabel.AutoSize = true;
-            this.DribblingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DribblingLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.DribblingLabel.Location = new System.Drawing.Point(134, 41);
-            this.DribblingLabel.Name = "DribblingLabel";
-            this.DribblingLabel.Size = new System.Drawing.Size(21, 13);
-            this.DribblingLabel.TabIndex = 62;
-            this.DribblingLabel.Text = "40";
-            this.DribblingLabel.TextChanged += new System.EventHandler(this.DribblingLabel_TextChanged);
-            // 
-            // BallControlLabel
-            // 
-            this.BallControlLabel.AutoSize = true;
-            this.BallControlLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BallControlLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.BallControlLabel.Location = new System.Drawing.Point(134, 23);
-            this.BallControlLabel.Name = "BallControlLabel";
-            this.BallControlLabel.Size = new System.Drawing.Size(21, 13);
-            this.BallControlLabel.TabIndex = 61;
-            this.BallControlLabel.Text = "40";
-            this.BallControlLabel.TextChanged += new System.EventHandler(this.BallControlLabel_TextChanged);
-            // 
-            // OffensiveProwessLabel
-            // 
-            this.OffensiveProwessLabel.AutoSize = true;
-            this.OffensiveProwessLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OffensiveProwessLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.OffensiveProwessLabel.Location = new System.Drawing.Point(134, 5);
-            this.OffensiveProwessLabel.Name = "OffensiveProwessLabel";
-            this.OffensiveProwessLabel.Size = new System.Drawing.Size(21, 13);
-            this.OffensiveProwessLabel.TabIndex = 60;
-            this.OffensiveProwessLabel.Text = "40";
-            this.OffensiveProwessLabel.TextChanged += new System.EventHandler(this.OffensiveProwessLabel_TextChanged);
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(5, 311);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(113, 13);
-            this.label44.TabIndex = 58;
-            this.label44.Text = "Defensive Awareness:";
+            this.DefensiveAwarenessLabel.Size = new System.Drawing.Size(113, 13);
+            this.DefensiveAwarenessLabel.TabIndex = 58;
+            this.DefensiveAwarenessLabel.Text = "Defensive Awareness:";
             // 
             // PlayerPanel4
             // 
@@ -2403,203 +2403,203 @@
             this.label30.TabIndex = 57;
             this.label30.Text = "ID:";
             // 
-            // label29
+            // GKReflexesLabel
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(7, 437);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(69, 13);
-            this.label29.TabIndex = 54;
-            this.label29.Text = "GK Reflexes:";
+            this.GKReflexesLabel.AutoSize = true;
+            this.GKReflexesLabel.Location = new System.Drawing.Point(7, 437);
+            this.GKReflexesLabel.Name = "GKReflexesLabel";
+            this.GKReflexesLabel.Size = new System.Drawing.Size(69, 13);
+            this.GKReflexesLabel.TabIndex = 54;
+            this.GKReflexesLabel.Text = "GK Reflexes:";
             // 
-            // label28
+            // GKParryingLabel
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(7, 419);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(66, 13);
-            this.label28.TabIndex = 53;
-            this.label28.Text = "GK Parrying:";
+            this.GKParryingLabel.AutoSize = true;
+            this.GKParryingLabel.Location = new System.Drawing.Point(7, 419);
+            this.GKParryingLabel.Name = "GKParryingLabel";
+            this.GKParryingLabel.Size = new System.Drawing.Size(66, 13);
+            this.GKParryingLabel.TabIndex = 53;
+            this.GKParryingLabel.Text = "GK Parrying:";
             // 
-            // label27
+            // GKCatchingLabel
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(7, 401);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(70, 13);
-            this.label27.TabIndex = 52;
-            this.label27.Text = "GK Catching:";
+            this.GKCatchingLabel.AutoSize = true;
+            this.GKCatchingLabel.Location = new System.Drawing.Point(7, 401);
+            this.GKCatchingLabel.Name = "GKCatchingLabel";
+            this.GKCatchingLabel.Size = new System.Drawing.Size(70, 13);
+            this.GKCatchingLabel.TabIndex = 52;
+            this.GKCatchingLabel.Text = "GK Catching:";
             // 
-            // label26
+            // GKAwarenessLabel
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(7, 383);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(80, 13);
-            this.label26.TabIndex = 47;
-            this.label26.Text = "GK Awareness:";
+            this.GKAwarenessLabel.AutoSize = true;
+            this.GKAwarenessLabel.Location = new System.Drawing.Point(7, 383);
+            this.GKAwarenessLabel.Name = "GKAwarenessLabel";
+            this.GKAwarenessLabel.Size = new System.Drawing.Size(80, 13);
+            this.GKAwarenessLabel.TabIndex = 47;
+            this.GKAwarenessLabel.Text = "GK Awareness:";
             // 
-            // label25
+            // AggressionLabel
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(6, 365);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(62, 13);
-            this.label25.TabIndex = 18;
-            this.label25.Text = "Aggression:";
+            this.AggressionLabel.AutoSize = true;
+            this.AggressionLabel.Location = new System.Drawing.Point(6, 365);
+            this.AggressionLabel.Name = "AggressionLabel";
+            this.AggressionLabel.Size = new System.Drawing.Size(62, 13);
+            this.AggressionLabel.TabIndex = 18;
+            this.AggressionLabel.Text = "Aggression:";
             // 
-            // label24
+            // DefensiveEngangementLabel
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(5, 347);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(127, 13);
-            this.label24.TabIndex = 17;
-            this.label24.Text = "Defensive Engangement:";
+            this.DefensiveEngangementLabel.AutoSize = true;
+            this.DefensiveEngangementLabel.Location = new System.Drawing.Point(5, 347);
+            this.DefensiveEngangementLabel.Name = "DefensiveEngangementLabel";
+            this.DefensiveEngangementLabel.Size = new System.Drawing.Size(127, 13);
+            this.DefensiveEngangementLabel.TabIndex = 17;
+            this.DefensiveEngangementLabel.Text = "Defensive Engangement:";
             // 
-            // label23
+            // TacklingLabel
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(5, 329);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(51, 13);
-            this.label23.TabIndex = 16;
-            this.label23.Text = "Tackling:";
+            this.TacklingLabel.AutoSize = true;
+            this.TacklingLabel.Location = new System.Drawing.Point(5, 329);
+            this.TacklingLabel.Name = "TacklingLabel";
+            this.TacklingLabel.Size = new System.Drawing.Size(51, 13);
+            this.TacklingLabel.TabIndex = 16;
+            this.TacklingLabel.Text = "Tackling:";
             // 
-            // label22
+            // StaminaLabel
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(5, 293);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(48, 13);
-            this.label22.TabIndex = 15;
-            this.label22.Text = "Stamina:";
+            this.StaminaLabel.AutoSize = true;
+            this.StaminaLabel.Location = new System.Drawing.Point(5, 293);
+            this.StaminaLabel.Name = "StaminaLabel";
+            this.StaminaLabel.Size = new System.Drawing.Size(48, 13);
+            this.StaminaLabel.TabIndex = 15;
+            this.StaminaLabel.Text = "Stamina:";
             // 
-            // label21
+            // BalanceLabel
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(6, 275);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(49, 13);
-            this.label21.TabIndex = 14;
-            this.label21.Text = "Balance:";
+            this.BalanceLabel.AutoSize = true;
+            this.BalanceLabel.Location = new System.Drawing.Point(6, 275);
+            this.BalanceLabel.Name = "BalanceLabel";
+            this.BalanceLabel.Size = new System.Drawing.Size(49, 13);
+            this.BalanceLabel.TabIndex = 14;
+            this.BalanceLabel.Text = "Balance:";
             // 
-            // label20
+            // PhysicalContactLabel
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(6, 257);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(89, 13);
-            this.label20.TabIndex = 13;
-            this.label20.Text = "Physical Contact:";
+            this.PhysicalContactLabel.AutoSize = true;
+            this.PhysicalContactLabel.Location = new System.Drawing.Point(6, 257);
+            this.PhysicalContactLabel.Name = "PhysicalContactLabel";
+            this.PhysicalContactLabel.Size = new System.Drawing.Size(89, 13);
+            this.PhysicalContactLabel.TabIndex = 13;
+            this.PhysicalContactLabel.Text = "Physical Contact:";
             // 
-            // label19
+            // JumpLabel
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(5, 239);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(35, 13);
-            this.label19.TabIndex = 12;
-            this.label19.Text = "Jump:";
+            this.JumpLabel.AutoSize = true;
+            this.JumpLabel.Location = new System.Drawing.Point(5, 239);
+            this.JumpLabel.Name = "JumpLabel";
+            this.JumpLabel.Size = new System.Drawing.Size(35, 13);
+            this.JumpLabel.TabIndex = 12;
+            this.JumpLabel.Text = "Jump:";
             // 
-            // label18
+            // AccelerationLabel
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(4, 203);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(69, 13);
-            this.label18.TabIndex = 11;
-            this.label18.Text = "Acceleration:";
+            this.AccelerationLabel.AutoSize = true;
+            this.AccelerationLabel.Location = new System.Drawing.Point(4, 203);
+            this.AccelerationLabel.Name = "AccelerationLabel";
+            this.AccelerationLabel.Size = new System.Drawing.Size(69, 13);
+            this.AccelerationLabel.TabIndex = 11;
+            this.AccelerationLabel.Text = "Acceleration:";
             // 
-            // label17
+            // SpeedLabel
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(5, 185);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 13);
-            this.label17.TabIndex = 10;
-            this.label17.Text = "Speed:";
+            this.SpeedLabel.AutoSize = true;
+            this.SpeedLabel.Location = new System.Drawing.Point(5, 185);
+            this.SpeedLabel.Name = "SpeedLabel";
+            this.SpeedLabel.Size = new System.Drawing.Size(41, 13);
+            this.SpeedLabel.TabIndex = 10;
+            this.SpeedLabel.Text = "Speed:";
             // 
-            // label16
+            // CurlLabel
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(5, 167);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(28, 13);
-            this.label16.TabIndex = 9;
-            this.label16.Text = "Curl:";
+            this.CurlLabel.AutoSize = true;
+            this.CurlLabel.Location = new System.Drawing.Point(5, 167);
+            this.CurlLabel.Name = "CurlLabel";
+            this.CurlLabel.Size = new System.Drawing.Size(28, 13);
+            this.CurlLabel.TabIndex = 9;
+            this.CurlLabel.Text = "Curl:";
             // 
-            // label15
+            // SetPieceTakingLabel
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(5, 149);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(92, 13);
-            this.label15.TabIndex = 8;
-            this.label15.Text = "Set Piece Taking:";
+            this.SetPieceTakingLabel.AutoSize = true;
+            this.SetPieceTakingLabel.Location = new System.Drawing.Point(5, 149);
+            this.SetPieceTakingLabel.Name = "SetPieceTakingLabel";
+            this.SetPieceTakingLabel.Size = new System.Drawing.Size(92, 13);
+            this.SetPieceTakingLabel.TabIndex = 8;
+            this.SetPieceTakingLabel.Text = "Set Piece Taking:";
             // 
-            // label14
+            // HeadingLabel
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(4, 131);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(50, 13);
-            this.label14.TabIndex = 7;
-            this.label14.Text = "Heading:";
+            this.HeadingLabel.AutoSize = true;
+            this.HeadingLabel.Location = new System.Drawing.Point(4, 131);
+            this.HeadingLabel.Name = "HeadingLabel";
+            this.HeadingLabel.Size = new System.Drawing.Size(50, 13);
+            this.HeadingLabel.TabIndex = 7;
+            this.HeadingLabel.Text = "Heading:";
             // 
-            // label13
+            // FinishingLabel
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(5, 113);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(51, 13);
-            this.label13.TabIndex = 6;
-            this.label13.Text = "Finishing:";
+            this.FinishingLabel.AutoSize = true;
+            this.FinishingLabel.Location = new System.Drawing.Point(5, 113);
+            this.FinishingLabel.Name = "FinishingLabel";
+            this.FinishingLabel.Size = new System.Drawing.Size(51, 13);
+            this.FinishingLabel.TabIndex = 6;
+            this.FinishingLabel.Text = "Finishing:";
             // 
-            // label12
+            // LoftedPassLabel
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(5, 95);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(66, 13);
-            this.label12.TabIndex = 5;
-            this.label12.Text = "Lofted Pass:";
+            this.LoftedPassLabel.AutoSize = true;
+            this.LoftedPassLabel.Location = new System.Drawing.Point(5, 95);
+            this.LoftedPassLabel.Name = "LoftedPassLabel";
+            this.LoftedPassLabel.Size = new System.Drawing.Size(66, 13);
+            this.LoftedPassLabel.TabIndex = 5;
+            this.LoftedPassLabel.Text = "Lofted Pass:";
             // 
-            // label11
+            // LowPassLabel
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(5, 77);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(56, 13);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "Low Pass:";
+            this.LowPassLabel.AutoSize = true;
+            this.LowPassLabel.Location = new System.Drawing.Point(5, 77);
+            this.LowPassLabel.Name = "LowPassLabel";
+            this.LowPassLabel.Size = new System.Drawing.Size(56, 13);
+            this.LowPassLabel.TabIndex = 4;
+            this.LowPassLabel.Text = "Low Pass:";
             // 
-            // label10
+            // DribblingLabel
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(5, 41);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(51, 13);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "Dribbling:";
+            this.DribblingLabel.AutoSize = true;
+            this.DribblingLabel.Location = new System.Drawing.Point(5, 41);
+            this.DribblingLabel.Name = "DribblingLabel";
+            this.DribblingLabel.Size = new System.Drawing.Size(51, 13);
+            this.DribblingLabel.TabIndex = 3;
+            this.DribblingLabel.Text = "Dribbling:";
             // 
-            // label9
+            // BallControlLabel
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(5, 23);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(63, 13);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Ball Control:";
+            this.BallControlLabel.AutoSize = true;
+            this.BallControlLabel.Location = new System.Drawing.Point(5, 23);
+            this.BallControlLabel.Name = "BallControlLabel";
+            this.BallControlLabel.Size = new System.Drawing.Size(63, 13);
+            this.BallControlLabel.TabIndex = 2;
+            this.BallControlLabel.Text = "Ball Control:";
             // 
-            // label8
+            // OffensiveProwessLabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(5, 5);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(98, 13);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Offensive Prowess:";
+            this.OffensiveProwessLabel.AutoSize = true;
+            this.OffensiveProwessLabel.Location = new System.Drawing.Point(5, 5);
+            this.OffensiveProwessLabel.Name = "OffensiveProwessLabel";
+            this.OffensiveProwessLabel.Size = new System.Drawing.Size(98, 13);
+            this.OffensiveProwessLabel.TabIndex = 1;
+            this.OffensiveProwessLabel.Text = "Offensive Prowess:";
             // 
             // PlayerPanel1
             // 
@@ -9054,28 +9054,28 @@
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label GKReflexesLabel;
+        private System.Windows.Forms.Label GKParryingLabel;
+        private System.Windows.Forms.Label GKCatchingLabel;
+        private System.Windows.Forms.Label GKAwarenessLabel;
+        private System.Windows.Forms.Label AggressionLabel;
+        private System.Windows.Forms.Label DefensiveEngangementLabel;
+        private System.Windows.Forms.Label TacklingLabel;
+        private System.Windows.Forms.Label StaminaLabel;
+        private System.Windows.Forms.Label BalanceLabel;
+        private System.Windows.Forms.Label PhysicalContactLabel;
+        private System.Windows.Forms.Label JumpLabel;
+        private System.Windows.Forms.Label AccelerationLabel;
+        private System.Windows.Forms.Label SpeedLabel;
+        private System.Windows.Forms.Label CurlLabel;
+        private System.Windows.Forms.Label SetPieceTakingLabel;
+        private System.Windows.Forms.Label HeadingLabel;
+        private System.Windows.Forms.Label FinishingLabel;
+        private System.Windows.Forms.Label LoftedPassLabel;
+        private System.Windows.Forms.Label LowPassLabel;
+        private System.Windows.Forms.Label DribblingLabel;
+        private System.Windows.Forms.Label BallControlLabel;
+        private System.Windows.Forms.Label OffensiveProwessLabel;
         private System.Windows.Forms.Panel PlayerPanel1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
@@ -9124,7 +9124,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label DefensiveAwarenessLabel;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.ToolStripMenuItem playerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem csvToolStripMenuItem6;
@@ -9624,29 +9624,29 @@
         internal System.Windows.Forms.Button GloveApplyButton;
         internal System.Windows.Forms.TextBox GloveSearchTextBox;
         internal System.Windows.Forms.Label label38;
-        internal System.Windows.Forms.Label LoftedPassLabel;
-        internal System.Windows.Forms.Label LowPassLabel;
-        internal System.Windows.Forms.Label DribblingLabel;
-        internal System.Windows.Forms.Label BallControlLabel;
-        internal System.Windows.Forms.Label OffensiveProwessLabel;
-        internal System.Windows.Forms.Label GKReflexesLabel;
-        internal System.Windows.Forms.Label GKParryingLabel;
-        internal System.Windows.Forms.Label GKCatchingLabel;
-        internal System.Windows.Forms.Label GKAwarenessLabel;
-        internal System.Windows.Forms.Label AggressionLabel;
-        internal System.Windows.Forms.Label DefensiveEngangementLabel;
-        internal System.Windows.Forms.Label TacklingLabel;
-        internal System.Windows.Forms.Label DefensiveAwarenessLabel;
-        internal System.Windows.Forms.Label StaminaLabel;
-        internal System.Windows.Forms.Label BalanceLabel;
-        internal System.Windows.Forms.Label PhysicalContactLabel;
-        internal System.Windows.Forms.Label JumpLabel;
-        internal System.Windows.Forms.Label AccelerationLabel;
-        internal System.Windows.Forms.Label SpeedLabel;
-        internal System.Windows.Forms.Label CurlLabel;
-        internal System.Windows.Forms.Label SetPieceTakingLabel;
-        internal System.Windows.Forms.Label HeadingLabel;
-        internal System.Windows.Forms.Label FinishingLabel;
+        internal System.Windows.Forms.Label LoftedPassValueLabel;
+        internal System.Windows.Forms.Label LowPassValueLabel;
+        internal System.Windows.Forms.Label DribblingValueLabel;
+        internal System.Windows.Forms.Label BallControlValueLabel;
+        internal System.Windows.Forms.Label OffensiveProwessValueLabel;
+        internal System.Windows.Forms.Label GKReflexesValueLabel;
+        internal System.Windows.Forms.Label GKParryingValueLabel;
+        internal System.Windows.Forms.Label GKCatchingValueLabel;
+        internal System.Windows.Forms.Label GKAwarenessValueLabel;
+        internal System.Windows.Forms.Label AggressionValueLabel;
+        internal System.Windows.Forms.Label DefensiveEngangementValueLabel;
+        internal System.Windows.Forms.Label TacklingValueLabel;
+        internal System.Windows.Forms.Label DefensiveAwarenessValueLabel;
+        internal System.Windows.Forms.Label StaminaValueLabel;
+        internal System.Windows.Forms.Label BalanceValueLabel;
+        internal System.Windows.Forms.Label PhysicalContactValueLabel;
+        internal System.Windows.Forms.Label JumpValueLabel;
+        internal System.Windows.Forms.Label AccelerationValueLabel;
+        internal System.Windows.Forms.Label SpeedValueLabel;
+        internal System.Windows.Forms.Label CurlValueLabel;
+        internal System.Windows.Forms.Label SetPieceTakingValueLabel;
+        internal System.Windows.Forms.Label HeadingValueLabel;
+        internal System.Windows.Forms.Label FinishingValueLabel;
         internal System.Windows.Forms.Label PlayerAgeLabel;
         internal System.Windows.Forms.Label PlayerHeightLabel;
         internal System.Windows.Forms.Label PlayerWeightLabel;
@@ -9772,18 +9772,18 @@
         private System.Windows.Forms.ToolStripMenuItem copyPlayerToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem pastePlayerToolStripMenuItem1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
-        internal System.Windows.Forms.Label TightPossessionLabel;
-        private System.Windows.Forms.Label label61;
-        internal System.Windows.Forms.Label KickingPowerLabel;
-        private System.Windows.Forms.Label label83;
+        internal System.Windows.Forms.Label TightPossessionValueLabel;
+        private System.Windows.Forms.Label TightPossessionLabel;
+        internal System.Windows.Forms.Label KickingPowerValueLabel;
+        private System.Windows.Forms.Label KickingPowerLabel;
         private System.Windows.Forms.ToolStripMenuItem importPlayerAppearanceFromDino19ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem importPlayerAppearanceFromDino19ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem importPlayerAppearanceFromDino19ToolStripMenuItem2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.TextBox CoachChineseTextBox;
         private System.Windows.Forms.Label label59;
-        internal System.Windows.Forms.Label GKReachLabel;
-        private System.Windows.Forms.Label label84;
+        internal System.Windows.Forms.Label GKReachValueLabel;
+        private System.Windows.Forms.Label GKReachLabel;
         internal System.Windows.Forms.Label PlayerHandLabel;
         private System.Windows.Forms.Label label89;
         internal System.Windows.Forms.Label PlayerRankLabel;

@@ -72,56 +72,56 @@
             this.idLabel = new System.Windows.Forms.Label();
             this.goldenBallCheckBox = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.aggressionTextBox = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tightPossessionTextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.physicalTextBox = new System.Windows.Forms.TextBox();
-            this.physicalLabel = new System.Windows.Forms.Label();
-            this.coverageLabel = new System.Windows.Forms.Label();
-            this.reflexesLabel = new System.Windows.Forms.Label();
-            this.clearingLabel = new System.Windows.Forms.Label();
-            this.reflexesTextBox = new System.Windows.Forms.TextBox();
-            this.clearingTextBox = new System.Windows.Forms.TextBox();
-            this.cathingTextBox = new System.Windows.Forms.TextBox();
-            this.coverageTextBox = new System.Windows.Forms.TextBox();
-            this.cathingLabel = new System.Windows.Forms.Label();
-            this.goalkeepingTextBox = new System.Windows.Forms.TextBox();
-            this.staminaTextBox = new System.Windows.Forms.TextBox();
-            this.jumpTextBox = new System.Windows.Forms.TextBox();
-            this.balanceTextBox = new System.Windows.Forms.TextBox();
-            this.accelerationTextBox = new System.Windows.Forms.TextBox();
-            this.speedTextBox = new System.Windows.Forms.TextBox();
-            this.kickingPowerTextBox = new System.Windows.Forms.TextBox();
-            this.ballWinningTextBox = new System.Windows.Forms.TextBox();
-            this.defenseTextBox = new System.Windows.Forms.TextBox();
-            this.headerTextBox = new System.Windows.Forms.TextBox();
-            this.curlTextBox = new System.Windows.Forms.TextBox();
-            this.placeKickTextBox = new System.Windows.Forms.TextBox();
-            this.finishingTextBox = new System.Windows.Forms.TextBox();
-            this.loftedPassTextBox = new System.Windows.Forms.TextBox();
-            this.lowPassTextBox = new System.Windows.Forms.TextBox();
-            this.dribblingTextBox = new System.Windows.Forms.TextBox();
-            this.ballControlTextBox = new System.Windows.Forms.TextBox();
-            this.attackTextBox = new System.Windows.Forms.TextBox();
-            this.goalkeepingLabel = new System.Windows.Forms.Label();
-            this.staminaLabel = new System.Windows.Forms.Label();
-            this.jumpLabel = new System.Windows.Forms.Label();
-            this.balanceLabel = new System.Windows.Forms.Label();
-            this.accelerationLabel = new System.Windows.Forms.Label();
-            this.speedLabel = new System.Windows.Forms.Label();
-            this.kickingPowerLabel = new System.Windows.Forms.Label();
-            this.ballWinningLabel = new System.Windows.Forms.Label();
-            this.defenseLabel = new System.Windows.Forms.Label();
-            this.headerLabel = new System.Windows.Forms.Label();
-            this.curlLabel = new System.Windows.Forms.Label();
-            this.placeKickLabel = new System.Windows.Forms.Label();
-            this.finishingLabel = new System.Windows.Forms.Label();
-            this.loftedPassLabel = new System.Windows.Forms.Label();
-            this.lowPassLabel = new System.Windows.Forms.Label();
-            this.dribblingLabel = new System.Windows.Forms.Label();
-            this.ballControlLabel = new System.Windows.Forms.Label();
-            this.attackLabel = new System.Windows.Forms.Label();
+            this.DefensiveEngangementTextBox = new System.Windows.Forms.TextBox();
+            this.DefensiveEngangementLabel = new System.Windows.Forms.Label();
+            this.TightPossessionTextBox = new System.Windows.Forms.TextBox();
+            this.TightPossessionLabel = new System.Windows.Forms.Label();
+            this.PhysicalContactTextBox = new System.Windows.Forms.TextBox();
+            this.PhysicalContactLabel = new System.Windows.Forms.Label();
+            this.GKReflexesLabel = new System.Windows.Forms.Label();
+            this.GKParryingLabel = new System.Windows.Forms.Label();
+            this.GKCatchingLabel = new System.Windows.Forms.Label();
+            this.GKParryingTextBox = new System.Windows.Forms.TextBox();
+            this.GKCatchingTextBox = new System.Windows.Forms.TextBox();
+            this.GKAwarenessTextBox = new System.Windows.Forms.TextBox();
+            this.GKReflexesTextBox = new System.Windows.Forms.TextBox();
+            this.GKAwarenessLabel = new System.Windows.Forms.Label();
+            this.AggressionTextBox = new System.Windows.Forms.TextBox();
+            this.StaminaTextBox = new System.Windows.Forms.TextBox();
+            this.JumpTextBox = new System.Windows.Forms.TextBox();
+            this.BalanceTextBox = new System.Windows.Forms.TextBox();
+            this.AccelerationTextBox = new System.Windows.Forms.TextBox();
+            this.SpeedTextBox = new System.Windows.Forms.TextBox();
+            this.KickingPowerTextBox = new System.Windows.Forms.TextBox();
+            this.TacklingTextBox = new System.Windows.Forms.TextBox();
+            this.DefensiveAwarenessTextBox = new System.Windows.Forms.TextBox();
+            this.HeadingTextBox = new System.Windows.Forms.TextBox();
+            this.CurlTextBox = new System.Windows.Forms.TextBox();
+            this.SetPieceTakingTextBox = new System.Windows.Forms.TextBox();
+            this.FinishingTextBox = new System.Windows.Forms.TextBox();
+            this.LoftedPassTextBox = new System.Windows.Forms.TextBox();
+            this.LowPassTextBox = new System.Windows.Forms.TextBox();
+            this.DribblingTextBox = new System.Windows.Forms.TextBox();
+            this.BallControlTextBox = new System.Windows.Forms.TextBox();
+            this.OffensiveProwessTextBox = new System.Windows.Forms.TextBox();
+            this.AggressionLabel = new System.Windows.Forms.Label();
+            this.StaminaLabel = new System.Windows.Forms.Label();
+            this.JumpLabel = new System.Windows.Forms.Label();
+            this.BalanceLabel = new System.Windows.Forms.Label();
+            this.AccelerationLabel = new System.Windows.Forms.Label();
+            this.SpeedLabel = new System.Windows.Forms.Label();
+            this.KickingPowerLabel = new System.Windows.Forms.Label();
+            this.TacklingLabel = new System.Windows.Forms.Label();
+            this.DefensiveAwarenessLabel = new System.Windows.Forms.Label();
+            this.HeadingLabel = new System.Windows.Forms.Label();
+            this.CurlLabel = new System.Windows.Forms.Label();
+            this.SetPieceTakingLabel = new System.Windows.Forms.Label();
+            this.FinishingLabel = new System.Windows.Forms.Label();
+            this.LoftedPassLabel = new System.Windows.Forms.Label();
+            this.LowPassLabel = new System.Windows.Forms.Label();
+            this.DribblingLabel = new System.Windows.Forms.Label();
+            this.BallControlLabel = new System.Windows.Forms.Label();
+            this.OffensiveProwessLabel = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.cfLabel = new System.Windows.Forms.Label();
             this.cfComboBox = new System.Windows.Forms.ComboBox();
@@ -234,16 +234,6 @@
             this.adjustLessPercButton = new System.Windows.Forms.Button();
             this.acceptButton = new System.Windows.Forms.Button();
             this.cancelButton = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.skinNullPictureBox = new System.Windows.Forms.PictureBox();
-            this.skin6 = new System.Windows.Forms.PictureBox();
-            this.skin5 = new System.Windows.Forms.PictureBox();
-            this.skin4 = new System.Windows.Forms.PictureBox();
-            this.skin3 = new System.Windows.Forms.PictureBox();
-            this.skin2 = new System.Windows.Forms.PictureBox();
-            this.skinColourNumeric = new System.Windows.Forms.NumericUpDown();
-            this.skinColourLabel = new System.Windows.Forms.Label();
-            this.skin1 = new System.Windows.Forms.PictureBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.addGloveRelinkButton = new System.Windows.Forms.Button();
             this.gloveRelinkComboBox = new System.Windows.Forms.ComboBox();
@@ -256,6 +246,8 @@
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.contractDateTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.GKReachLabel = new System.Windows.Forms.Label();
+            this.GKReachTextBox = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -264,15 +256,6 @@
             this.groupBox22.SuspendLayout();
             this.groupBox19.SuspendLayout();
             this.groupBox23.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.skinNullPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skinColourNumeric)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin1)).BeginInit();
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
@@ -723,487 +706,489 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.aggressionTextBox);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.tightPossessionTextBox);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.physicalTextBox);
-            this.groupBox2.Controls.Add(this.physicalLabel);
-            this.groupBox2.Controls.Add(this.coverageLabel);
-            this.groupBox2.Controls.Add(this.reflexesLabel);
-            this.groupBox2.Controls.Add(this.clearingLabel);
-            this.groupBox2.Controls.Add(this.reflexesTextBox);
-            this.groupBox2.Controls.Add(this.clearingTextBox);
-            this.groupBox2.Controls.Add(this.cathingTextBox);
-            this.groupBox2.Controls.Add(this.coverageTextBox);
-            this.groupBox2.Controls.Add(this.cathingLabel);
-            this.groupBox2.Controls.Add(this.goalkeepingTextBox);
-            this.groupBox2.Controls.Add(this.staminaTextBox);
-            this.groupBox2.Controls.Add(this.jumpTextBox);
-            this.groupBox2.Controls.Add(this.balanceTextBox);
-            this.groupBox2.Controls.Add(this.accelerationTextBox);
-            this.groupBox2.Controls.Add(this.speedTextBox);
-            this.groupBox2.Controls.Add(this.kickingPowerTextBox);
-            this.groupBox2.Controls.Add(this.ballWinningTextBox);
-            this.groupBox2.Controls.Add(this.defenseTextBox);
-            this.groupBox2.Controls.Add(this.headerTextBox);
-            this.groupBox2.Controls.Add(this.curlTextBox);
-            this.groupBox2.Controls.Add(this.placeKickTextBox);
-            this.groupBox2.Controls.Add(this.finishingTextBox);
-            this.groupBox2.Controls.Add(this.loftedPassTextBox);
-            this.groupBox2.Controls.Add(this.lowPassTextBox);
-            this.groupBox2.Controls.Add(this.dribblingTextBox);
-            this.groupBox2.Controls.Add(this.ballControlTextBox);
-            this.groupBox2.Controls.Add(this.attackTextBox);
-            this.groupBox2.Controls.Add(this.goalkeepingLabel);
-            this.groupBox2.Controls.Add(this.staminaLabel);
-            this.groupBox2.Controls.Add(this.jumpLabel);
-            this.groupBox2.Controls.Add(this.balanceLabel);
-            this.groupBox2.Controls.Add(this.accelerationLabel);
-            this.groupBox2.Controls.Add(this.speedLabel);
-            this.groupBox2.Controls.Add(this.kickingPowerLabel);
-            this.groupBox2.Controls.Add(this.ballWinningLabel);
-            this.groupBox2.Controls.Add(this.defenseLabel);
-            this.groupBox2.Controls.Add(this.headerLabel);
-            this.groupBox2.Controls.Add(this.curlLabel);
-            this.groupBox2.Controls.Add(this.placeKickLabel);
-            this.groupBox2.Controls.Add(this.finishingLabel);
-            this.groupBox2.Controls.Add(this.loftedPassLabel);
-            this.groupBox2.Controls.Add(this.lowPassLabel);
-            this.groupBox2.Controls.Add(this.dribblingLabel);
-            this.groupBox2.Controls.Add(this.ballControlLabel);
-            this.groupBox2.Controls.Add(this.attackLabel);
+            this.groupBox2.Controls.Add(this.GKReachLabel);
+            this.groupBox2.Controls.Add(this.GKReachTextBox);
+            this.groupBox2.Controls.Add(this.DefensiveEngangementTextBox);
+            this.groupBox2.Controls.Add(this.DefensiveEngangementLabel);
+            this.groupBox2.Controls.Add(this.TightPossessionTextBox);
+            this.groupBox2.Controls.Add(this.TightPossessionLabel);
+            this.groupBox2.Controls.Add(this.PhysicalContactTextBox);
+            this.groupBox2.Controls.Add(this.PhysicalContactLabel);
+            this.groupBox2.Controls.Add(this.GKReflexesLabel);
+            this.groupBox2.Controls.Add(this.GKParryingLabel);
+            this.groupBox2.Controls.Add(this.GKCatchingLabel);
+            this.groupBox2.Controls.Add(this.GKParryingTextBox);
+            this.groupBox2.Controls.Add(this.GKCatchingTextBox);
+            this.groupBox2.Controls.Add(this.GKAwarenessTextBox);
+            this.groupBox2.Controls.Add(this.GKReflexesTextBox);
+            this.groupBox2.Controls.Add(this.GKAwarenessLabel);
+            this.groupBox2.Controls.Add(this.AggressionTextBox);
+            this.groupBox2.Controls.Add(this.StaminaTextBox);
+            this.groupBox2.Controls.Add(this.JumpTextBox);
+            this.groupBox2.Controls.Add(this.BalanceTextBox);
+            this.groupBox2.Controls.Add(this.AccelerationTextBox);
+            this.groupBox2.Controls.Add(this.SpeedTextBox);
+            this.groupBox2.Controls.Add(this.KickingPowerTextBox);
+            this.groupBox2.Controls.Add(this.TacklingTextBox);
+            this.groupBox2.Controls.Add(this.DefensiveAwarenessTextBox);
+            this.groupBox2.Controls.Add(this.HeadingTextBox);
+            this.groupBox2.Controls.Add(this.CurlTextBox);
+            this.groupBox2.Controls.Add(this.SetPieceTakingTextBox);
+            this.groupBox2.Controls.Add(this.FinishingTextBox);
+            this.groupBox2.Controls.Add(this.LoftedPassTextBox);
+            this.groupBox2.Controls.Add(this.LowPassTextBox);
+            this.groupBox2.Controls.Add(this.DribblingTextBox);
+            this.groupBox2.Controls.Add(this.BallControlTextBox);
+            this.groupBox2.Controls.Add(this.OffensiveProwessTextBox);
+            this.groupBox2.Controls.Add(this.AggressionLabel);
+            this.groupBox2.Controls.Add(this.StaminaLabel);
+            this.groupBox2.Controls.Add(this.JumpLabel);
+            this.groupBox2.Controls.Add(this.BalanceLabel);
+            this.groupBox2.Controls.Add(this.AccelerationLabel);
+            this.groupBox2.Controls.Add(this.SpeedLabel);
+            this.groupBox2.Controls.Add(this.KickingPowerLabel);
+            this.groupBox2.Controls.Add(this.TacklingLabel);
+            this.groupBox2.Controls.Add(this.DefensiveAwarenessLabel);
+            this.groupBox2.Controls.Add(this.HeadingLabel);
+            this.groupBox2.Controls.Add(this.CurlLabel);
+            this.groupBox2.Controls.Add(this.SetPieceTakingLabel);
+            this.groupBox2.Controls.Add(this.FinishingLabel);
+            this.groupBox2.Controls.Add(this.LoftedPassLabel);
+            this.groupBox2.Controls.Add(this.LowPassLabel);
+            this.groupBox2.Controls.Add(this.DribblingLabel);
+            this.groupBox2.Controls.Add(this.BallControlLabel);
+            this.groupBox2.Controls.Add(this.OffensiveProwessLabel);
             this.groupBox2.Location = new System.Drawing.Point(272, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(190, 598);
+            this.groupBox2.Size = new System.Drawing.Size(190, 621);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Abilities";
             // 
-            // aggressionTextBox
-            // 
-            this.aggressionTextBox.Location = new System.Drawing.Point(127, 452);
-            this.aggressionTextBox.MaxLength = 2;
-            this.aggressionTextBox.Name = "aggressionTextBox";
-            this.aggressionTextBox.Size = new System.Drawing.Size(35, 20);
-            this.aggressionTextBox.TabIndex = 109;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 455);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 13);
-            this.label3.TabIndex = 108;
-            this.label3.Text = "Aggression:";
-            // 
-            // tightPossessionTextBox
-            // 
-            this.tightPossessionTextBox.Location = new System.Drawing.Point(127, 84);
-            this.tightPossessionTextBox.MaxLength = 2;
-            this.tightPossessionTextBox.Name = "tightPossessionTextBox";
-            this.tightPossessionTextBox.Size = new System.Drawing.Size(35, 20);
-            this.tightPossessionTextBox.TabIndex = 107;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 88);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 13);
-            this.label2.TabIndex = 106;
-            this.label2.Text = "Tight Possession:";
-            // 
-            // physicalTextBox
-            // 
-            this.physicalTextBox.Location = new System.Drawing.Point(127, 337);
-            this.physicalTextBox.MaxLength = 2;
-            this.physicalTextBox.Name = "physicalTextBox";
-            this.physicalTextBox.Size = new System.Drawing.Size(35, 20);
-            this.physicalTextBox.TabIndex = 105;
-            // 
-            // physicalLabel
-            // 
-            this.physicalLabel.AutoSize = true;
-            this.physicalLabel.Location = new System.Drawing.Point(13, 340);
-            this.physicalLabel.Name = "physicalLabel";
-            this.physicalLabel.Size = new System.Drawing.Size(89, 13);
-            this.physicalLabel.TabIndex = 104;
-            this.physicalLabel.Text = "Physical Contact:";
-            // 
-            // coverageLabel
-            // 
-            this.coverageLabel.AutoSize = true;
-            this.coverageLabel.Location = new System.Drawing.Point(15, 570);
-            this.coverageLabel.Name = "coverageLabel";
-            this.coverageLabel.Size = new System.Drawing.Size(56, 13);
-            this.coverageLabel.TabIndex = 103;
-            this.coverageLabel.Text = "Coverage:";
-            // 
-            // reflexesLabel
-            // 
-            this.reflexesLabel.AutoSize = true;
-            this.reflexesLabel.Location = new System.Drawing.Point(15, 547);
-            this.reflexesLabel.Name = "reflexesLabel";
-            this.reflexesLabel.Size = new System.Drawing.Size(51, 13);
-            this.reflexesLabel.TabIndex = 102;
-            this.reflexesLabel.Text = "Reflexes:";
-            // 
-            // clearingLabel
-            // 
-            this.clearingLabel.AutoSize = true;
-            this.clearingLabel.Location = new System.Drawing.Point(15, 524);
-            this.clearingLabel.Name = "clearingLabel";
-            this.clearingLabel.Size = new System.Drawing.Size(48, 13);
-            this.clearingLabel.TabIndex = 101;
-            this.clearingLabel.Text = "Clearing:";
-            // 
-            // reflexesTextBox
-            // 
-            this.reflexesTextBox.Location = new System.Drawing.Point(127, 544);
-            this.reflexesTextBox.MaxLength = 2;
-            this.reflexesTextBox.Name = "reflexesTextBox";
-            this.reflexesTextBox.Size = new System.Drawing.Size(35, 20);
-            this.reflexesTextBox.TabIndex = 100;
-            // 
-            // clearingTextBox
-            // 
-            this.clearingTextBox.Location = new System.Drawing.Point(127, 521);
-            this.clearingTextBox.MaxLength = 2;
-            this.clearingTextBox.Name = "clearingTextBox";
-            this.clearingTextBox.Size = new System.Drawing.Size(35, 20);
-            this.clearingTextBox.TabIndex = 99;
-            // 
-            // cathingTextBox
-            // 
-            this.cathingTextBox.Location = new System.Drawing.Point(127, 498);
-            this.cathingTextBox.MaxLength = 2;
-            this.cathingTextBox.Name = "cathingTextBox";
-            this.cathingTextBox.Size = new System.Drawing.Size(35, 20);
-            this.cathingTextBox.TabIndex = 98;
+            // DefensiveEngangementTextBox
+            // 
+            this.DefensiveEngangementTextBox.Location = new System.Drawing.Point(142, 452);
+            this.DefensiveEngangementTextBox.MaxLength = 2;
+            this.DefensiveEngangementTextBox.Name = "DefensiveEngangementTextBox";
+            this.DefensiveEngangementTextBox.Size = new System.Drawing.Size(35, 20);
+            this.DefensiveEngangementTextBox.TabIndex = 109;
+            // 
+            // DefensiveEngangementLabel
+            // 
+            this.DefensiveEngangementLabel.AutoSize = true;
+            this.DefensiveEngangementLabel.Location = new System.Drawing.Point(12, 455);
+            this.DefensiveEngangementLabel.Name = "DefensiveEngangementLabel";
+            this.DefensiveEngangementLabel.Size = new System.Drawing.Size(127, 13);
+            this.DefensiveEngangementLabel.TabIndex = 108;
+            this.DefensiveEngangementLabel.Text = "Defensive Engangement:";
+            // 
+            // TightPossessionTextBox
+            // 
+            this.TightPossessionTextBox.Location = new System.Drawing.Point(142, 84);
+            this.TightPossessionTextBox.MaxLength = 2;
+            this.TightPossessionTextBox.Name = "TightPossessionTextBox";
+            this.TightPossessionTextBox.Size = new System.Drawing.Size(35, 20);
+            this.TightPossessionTextBox.TabIndex = 107;
+            // 
+            // TightPossessionLabel
+            // 
+            this.TightPossessionLabel.AutoSize = true;
+            this.TightPossessionLabel.Location = new System.Drawing.Point(15, 88);
+            this.TightPossessionLabel.Name = "TightPossessionLabel";
+            this.TightPossessionLabel.Size = new System.Drawing.Size(90, 13);
+            this.TightPossessionLabel.TabIndex = 106;
+            this.TightPossessionLabel.Text = "Tight Possession:";
+            // 
+            // PhysicalContactTextBox
+            // 
+            this.PhysicalContactTextBox.Location = new System.Drawing.Point(142, 337);
+            this.PhysicalContactTextBox.MaxLength = 2;
+            this.PhysicalContactTextBox.Name = "PhysicalContactTextBox";
+            this.PhysicalContactTextBox.Size = new System.Drawing.Size(35, 20);
+            this.PhysicalContactTextBox.TabIndex = 105;
+            // 
+            // PhysicalContactLabel
+            // 
+            this.PhysicalContactLabel.AutoSize = true;
+            this.PhysicalContactLabel.Location = new System.Drawing.Point(13, 340);
+            this.PhysicalContactLabel.Name = "PhysicalContactLabel";
+            this.PhysicalContactLabel.Size = new System.Drawing.Size(89, 13);
+            this.PhysicalContactLabel.TabIndex = 104;
+            this.PhysicalContactLabel.Text = "Physical Contact:";
+            // 
+            // GKReflexesLabel
+            // 
+            this.GKReflexesLabel.AutoSize = true;
+            this.GKReflexesLabel.Location = new System.Drawing.Point(15, 570);
+            this.GKReflexesLabel.Name = "GKReflexesLabel";
+            this.GKReflexesLabel.Size = new System.Drawing.Size(69, 13);
+            this.GKReflexesLabel.TabIndex = 103;
+            this.GKReflexesLabel.Text = "GK Reflexes:";
+            // 
+            // GKParryingLabel
+            // 
+            this.GKParryingLabel.AutoSize = true;
+            this.GKParryingLabel.Location = new System.Drawing.Point(15, 547);
+            this.GKParryingLabel.Name = "GKParryingLabel";
+            this.GKParryingLabel.Size = new System.Drawing.Size(66, 13);
+            this.GKParryingLabel.TabIndex = 102;
+            this.GKParryingLabel.Text = "GK Parrying:";
+            // 
+            // GKCatchingLabel
+            // 
+            this.GKCatchingLabel.AutoSize = true;
+            this.GKCatchingLabel.Location = new System.Drawing.Point(15, 524);
+            this.GKCatchingLabel.Name = "GKCatchingLabel";
+            this.GKCatchingLabel.Size = new System.Drawing.Size(70, 13);
+            this.GKCatchingLabel.TabIndex = 101;
+            this.GKCatchingLabel.Text = "GK Catching:";
+            // 
+            // GKParryingTextBox
+            // 
+            this.GKParryingTextBox.Location = new System.Drawing.Point(142, 544);
+            this.GKParryingTextBox.MaxLength = 2;
+            this.GKParryingTextBox.Name = "GKParryingTextBox";
+            this.GKParryingTextBox.Size = new System.Drawing.Size(35, 20);
+            this.GKParryingTextBox.TabIndex = 100;
+            // 
+            // GKCatchingTextBox
+            // 
+            this.GKCatchingTextBox.Location = new System.Drawing.Point(142, 521);
+            this.GKCatchingTextBox.MaxLength = 2;
+            this.GKCatchingTextBox.Name = "GKCatchingTextBox";
+            this.GKCatchingTextBox.Size = new System.Drawing.Size(35, 20);
+            this.GKCatchingTextBox.TabIndex = 99;
+            // 
+            // GKAwarenessTextBox
+            // 
+            this.GKAwarenessTextBox.Location = new System.Drawing.Point(142, 498);
+            this.GKAwarenessTextBox.MaxLength = 2;
+            this.GKAwarenessTextBox.Name = "GKAwarenessTextBox";
+            this.GKAwarenessTextBox.Size = new System.Drawing.Size(35, 20);
+            this.GKAwarenessTextBox.TabIndex = 98;
             // 
-            // coverageTextBox
+            // GKReflexesTextBox
             // 
-            this.coverageTextBox.Location = new System.Drawing.Point(127, 567);
-            this.coverageTextBox.MaxLength = 2;
-            this.coverageTextBox.Name = "coverageTextBox";
-            this.coverageTextBox.Size = new System.Drawing.Size(35, 20);
-            this.coverageTextBox.TabIndex = 97;
+            this.GKReflexesTextBox.Location = new System.Drawing.Point(142, 567);
+            this.GKReflexesTextBox.MaxLength = 2;
+            this.GKReflexesTextBox.Name = "GKReflexesTextBox";
+            this.GKReflexesTextBox.Size = new System.Drawing.Size(35, 20);
+            this.GKReflexesTextBox.TabIndex = 97;
             // 
-            // cathingLabel
+            // GKAwarenessLabel
             // 
-            this.cathingLabel.AutoSize = true;
-            this.cathingLabel.Location = new System.Drawing.Point(15, 501);
-            this.cathingLabel.Name = "cathingLabel";
-            this.cathingLabel.Size = new System.Drawing.Size(52, 13);
-            this.cathingLabel.TabIndex = 96;
-            this.cathingLabel.Text = "Catching:";
+            this.GKAwarenessLabel.AutoSize = true;
+            this.GKAwarenessLabel.Location = new System.Drawing.Point(15, 501);
+            this.GKAwarenessLabel.Name = "GKAwarenessLabel";
+            this.GKAwarenessLabel.Size = new System.Drawing.Size(80, 13);
+            this.GKAwarenessLabel.TabIndex = 96;
+            this.GKAwarenessLabel.Text = "GK Awareness:";
             // 
-            // goalkeepingTextBox
+            // AggressionTextBox
             // 
-            this.goalkeepingTextBox.Location = new System.Drawing.Point(127, 475);
-            this.goalkeepingTextBox.MaxLength = 2;
-            this.goalkeepingTextBox.Name = "goalkeepingTextBox";
-            this.goalkeepingTextBox.Size = new System.Drawing.Size(35, 20);
-            this.goalkeepingTextBox.TabIndex = 95;
+            this.AggressionTextBox.Location = new System.Drawing.Point(142, 475);
+            this.AggressionTextBox.MaxLength = 2;
+            this.AggressionTextBox.Name = "AggressionTextBox";
+            this.AggressionTextBox.Size = new System.Drawing.Size(35, 20);
+            this.AggressionTextBox.TabIndex = 95;
             // 
-            // staminaTextBox
+            // StaminaTextBox
             // 
-            this.staminaTextBox.Location = new System.Drawing.Point(127, 383);
-            this.staminaTextBox.MaxLength = 2;
-            this.staminaTextBox.Name = "staminaTextBox";
-            this.staminaTextBox.Size = new System.Drawing.Size(35, 20);
-            this.staminaTextBox.TabIndex = 94;
+            this.StaminaTextBox.Location = new System.Drawing.Point(142, 383);
+            this.StaminaTextBox.MaxLength = 2;
+            this.StaminaTextBox.Name = "StaminaTextBox";
+            this.StaminaTextBox.Size = new System.Drawing.Size(35, 20);
+            this.StaminaTextBox.TabIndex = 94;
             // 
-            // jumpTextBox
+            // JumpTextBox
             // 
-            this.jumpTextBox.Location = new System.Drawing.Point(127, 314);
-            this.jumpTextBox.MaxLength = 2;
-            this.jumpTextBox.Name = "jumpTextBox";
-            this.jumpTextBox.Size = new System.Drawing.Size(35, 20);
-            this.jumpTextBox.TabIndex = 93;
+            this.JumpTextBox.Location = new System.Drawing.Point(142, 314);
+            this.JumpTextBox.MaxLength = 2;
+            this.JumpTextBox.Name = "JumpTextBox";
+            this.JumpTextBox.Size = new System.Drawing.Size(35, 20);
+            this.JumpTextBox.TabIndex = 93;
             // 
-            // balanceTextBox
+            // BalanceTextBox
             // 
-            this.balanceTextBox.Location = new System.Drawing.Point(127, 360);
-            this.balanceTextBox.MaxLength = 2;
-            this.balanceTextBox.Name = "balanceTextBox";
-            this.balanceTextBox.Size = new System.Drawing.Size(35, 20);
-            this.balanceTextBox.TabIndex = 92;
+            this.BalanceTextBox.Location = new System.Drawing.Point(142, 360);
+            this.BalanceTextBox.MaxLength = 2;
+            this.BalanceTextBox.Name = "BalanceTextBox";
+            this.BalanceTextBox.Size = new System.Drawing.Size(35, 20);
+            this.BalanceTextBox.TabIndex = 92;
             // 
-            // accelerationTextBox
+            // AccelerationTextBox
             // 
-            this.accelerationTextBox.Location = new System.Drawing.Point(127, 268);
-            this.accelerationTextBox.MaxLength = 2;
-            this.accelerationTextBox.Name = "accelerationTextBox";
-            this.accelerationTextBox.Size = new System.Drawing.Size(35, 20);
-            this.accelerationTextBox.TabIndex = 91;
+            this.AccelerationTextBox.Location = new System.Drawing.Point(142, 268);
+            this.AccelerationTextBox.MaxLength = 2;
+            this.AccelerationTextBox.Name = "AccelerationTextBox";
+            this.AccelerationTextBox.Size = new System.Drawing.Size(35, 20);
+            this.AccelerationTextBox.TabIndex = 91;
             // 
-            // speedTextBox
+            // SpeedTextBox
             // 
-            this.speedTextBox.Location = new System.Drawing.Point(127, 245);
-            this.speedTextBox.MaxLength = 2;
-            this.speedTextBox.Name = "speedTextBox";
-            this.speedTextBox.Size = new System.Drawing.Size(35, 20);
-            this.speedTextBox.TabIndex = 90;
+            this.SpeedTextBox.Location = new System.Drawing.Point(142, 245);
+            this.SpeedTextBox.MaxLength = 2;
+            this.SpeedTextBox.Name = "SpeedTextBox";
+            this.SpeedTextBox.Size = new System.Drawing.Size(35, 20);
+            this.SpeedTextBox.TabIndex = 90;
             // 
-            // kickingPowerTextBox
+            // KickingPowerTextBox
             // 
-            this.kickingPowerTextBox.Location = new System.Drawing.Point(127, 291);
-            this.kickingPowerTextBox.MaxLength = 2;
-            this.kickingPowerTextBox.Name = "kickingPowerTextBox";
-            this.kickingPowerTextBox.Size = new System.Drawing.Size(35, 20);
-            this.kickingPowerTextBox.TabIndex = 89;
+            this.KickingPowerTextBox.Location = new System.Drawing.Point(142, 291);
+            this.KickingPowerTextBox.MaxLength = 2;
+            this.KickingPowerTextBox.Name = "KickingPowerTextBox";
+            this.KickingPowerTextBox.Size = new System.Drawing.Size(35, 20);
+            this.KickingPowerTextBox.TabIndex = 89;
             // 
-            // ballWinningTextBox
+            // TacklingTextBox
             // 
-            this.ballWinningTextBox.Location = new System.Drawing.Point(127, 429);
-            this.ballWinningTextBox.MaxLength = 2;
-            this.ballWinningTextBox.Name = "ballWinningTextBox";
-            this.ballWinningTextBox.Size = new System.Drawing.Size(35, 20);
-            this.ballWinningTextBox.TabIndex = 88;
-            // 
-            // defenseTextBox
+            this.TacklingTextBox.Location = new System.Drawing.Point(142, 429);
+            this.TacklingTextBox.MaxLength = 2;
+            this.TacklingTextBox.Name = "TacklingTextBox";
+            this.TacklingTextBox.Size = new System.Drawing.Size(35, 20);
+            this.TacklingTextBox.TabIndex = 88;
+            // 
+            // DefensiveAwarenessTextBox
             // 
-            this.defenseTextBox.Location = new System.Drawing.Point(127, 406);
-            this.defenseTextBox.MaxLength = 2;
-            this.defenseTextBox.Name = "defenseTextBox";
-            this.defenseTextBox.Size = new System.Drawing.Size(35, 20);
-            this.defenseTextBox.TabIndex = 87;
-            // 
-            // headerTextBox
+            this.DefensiveAwarenessTextBox.Location = new System.Drawing.Point(142, 406);
+            this.DefensiveAwarenessTextBox.MaxLength = 2;
+            this.DefensiveAwarenessTextBox.Name = "DefensiveAwarenessTextBox";
+            this.DefensiveAwarenessTextBox.Size = new System.Drawing.Size(35, 20);
+            this.DefensiveAwarenessTextBox.TabIndex = 87;
+            // 
+            // HeadingTextBox
             // 
-            this.headerTextBox.Location = new System.Drawing.Point(127, 176);
-            this.headerTextBox.MaxLength = 2;
-            this.headerTextBox.Name = "headerTextBox";
-            this.headerTextBox.Size = new System.Drawing.Size(35, 20);
-            this.headerTextBox.TabIndex = 86;
-            // 
-            // curlTextBox
-            // 
-            this.curlTextBox.Location = new System.Drawing.Point(127, 222);
-            this.curlTextBox.MaxLength = 2;
-            this.curlTextBox.Name = "curlTextBox";
-            this.curlTextBox.Size = new System.Drawing.Size(35, 20);
-            this.curlTextBox.TabIndex = 85;
-            // 
-            // placeKickTextBox
-            // 
-            this.placeKickTextBox.Location = new System.Drawing.Point(127, 199);
-            this.placeKickTextBox.MaxLength = 2;
-            this.placeKickTextBox.Name = "placeKickTextBox";
-            this.placeKickTextBox.Size = new System.Drawing.Size(35, 20);
-            this.placeKickTextBox.TabIndex = 84;
-            // 
-            // finishingTextBox
-            // 
-            this.finishingTextBox.Location = new System.Drawing.Point(127, 153);
-            this.finishingTextBox.MaxLength = 2;
-            this.finishingTextBox.Name = "finishingTextBox";
-            this.finishingTextBox.Size = new System.Drawing.Size(35, 20);
-            this.finishingTextBox.TabIndex = 83;
-            // 
-            // loftedPassTextBox
-            // 
-            this.loftedPassTextBox.Location = new System.Drawing.Point(127, 130);
-            this.loftedPassTextBox.MaxLength = 2;
-            this.loftedPassTextBox.Name = "loftedPassTextBox";
-            this.loftedPassTextBox.Size = new System.Drawing.Size(35, 20);
-            this.loftedPassTextBox.TabIndex = 82;
-            // 
-            // lowPassTextBox
-            // 
-            this.lowPassTextBox.Location = new System.Drawing.Point(127, 107);
-            this.lowPassTextBox.MaxLength = 2;
-            this.lowPassTextBox.Name = "lowPassTextBox";
-            this.lowPassTextBox.Size = new System.Drawing.Size(35, 20);
-            this.lowPassTextBox.TabIndex = 81;
-            // 
-            // dribblingTextBox
-            // 
-            this.dribblingTextBox.Location = new System.Drawing.Point(127, 61);
-            this.dribblingTextBox.MaxLength = 2;
-            this.dribblingTextBox.Name = "dribblingTextBox";
-            this.dribblingTextBox.Size = new System.Drawing.Size(35, 20);
-            this.dribblingTextBox.TabIndex = 80;
-            // 
-            // ballControlTextBox
-            // 
-            this.ballControlTextBox.Location = new System.Drawing.Point(127, 38);
-            this.ballControlTextBox.MaxLength = 2;
-            this.ballControlTextBox.Name = "ballControlTextBox";
-            this.ballControlTextBox.Size = new System.Drawing.Size(35, 20);
-            this.ballControlTextBox.TabIndex = 79;
-            // 
-            // attackTextBox
-            // 
-            this.attackTextBox.Location = new System.Drawing.Point(127, 15);
-            this.attackTextBox.MaxLength = 2;
-            this.attackTextBox.Name = "attackTextBox";
-            this.attackTextBox.Size = new System.Drawing.Size(35, 20);
-            this.attackTextBox.TabIndex = 78;
-            // 
-            // goalkeepingLabel
-            // 
-            this.goalkeepingLabel.AutoSize = true;
-            this.goalkeepingLabel.Location = new System.Drawing.Point(14, 478);
-            this.goalkeepingLabel.Name = "goalkeepingLabel";
-            this.goalkeepingLabel.Size = new System.Drawing.Size(70, 13);
-            this.goalkeepingLabel.TabIndex = 77;
-            this.goalkeepingLabel.Text = "Goalkeeping:";
-            // 
-            // staminaLabel
-            // 
-            this.staminaLabel.AutoSize = true;
-            this.staminaLabel.Location = new System.Drawing.Point(13, 386);
-            this.staminaLabel.Name = "staminaLabel";
-            this.staminaLabel.Size = new System.Drawing.Size(48, 13);
-            this.staminaLabel.TabIndex = 76;
-            this.staminaLabel.Text = "Stamina:";
-            // 
-            // jumpLabel
-            // 
-            this.jumpLabel.AutoSize = true;
-            this.jumpLabel.Location = new System.Drawing.Point(13, 317);
-            this.jumpLabel.Name = "jumpLabel";
-            this.jumpLabel.Size = new System.Drawing.Size(35, 13);
-            this.jumpLabel.TabIndex = 75;
-            this.jumpLabel.Text = "Jump:";
-            // 
-            // balanceLabel
-            // 
-            this.balanceLabel.AutoSize = true;
-            this.balanceLabel.Location = new System.Drawing.Point(13, 363);
-            this.balanceLabel.Name = "balanceLabel";
-            this.balanceLabel.Size = new System.Drawing.Size(109, 13);
-            this.balanceLabel.TabIndex = 74;
-            this.balanceLabel.Text = "Unwavering Balance:";
-            // 
-            // accelerationLabel
-            // 
-            this.accelerationLabel.AutoSize = true;
-            this.accelerationLabel.Location = new System.Drawing.Point(14, 271);
-            this.accelerationLabel.Name = "accelerationLabel";
-            this.accelerationLabel.Size = new System.Drawing.Size(69, 13);
-            this.accelerationLabel.TabIndex = 73;
-            this.accelerationLabel.Text = "Acceleration:";
-            // 
-            // speedLabel
-            // 
-            this.speedLabel.AutoSize = true;
-            this.speedLabel.Location = new System.Drawing.Point(14, 248);
-            this.speedLabel.Name = "speedLabel";
-            this.speedLabel.Size = new System.Drawing.Size(41, 13);
-            this.speedLabel.TabIndex = 72;
-            this.speedLabel.Text = "Speed:";
-            // 
-            // kickingPowerLabel
-            // 
-            this.kickingPowerLabel.AutoSize = true;
-            this.kickingPowerLabel.Location = new System.Drawing.Point(13, 294);
-            this.kickingPowerLabel.Name = "kickingPowerLabel";
-            this.kickingPowerLabel.Size = new System.Drawing.Size(78, 13);
-            this.kickingPowerLabel.TabIndex = 71;
-            this.kickingPowerLabel.Text = "Kicking Power:";
-            // 
-            // ballWinningLabel
-            // 
-            this.ballWinningLabel.AutoSize = true;
-            this.ballWinningLabel.Location = new System.Drawing.Point(12, 432);
-            this.ballWinningLabel.Name = "ballWinningLabel";
-            this.ballWinningLabel.Size = new System.Drawing.Size(69, 13);
-            this.ballWinningLabel.TabIndex = 70;
-            this.ballWinningLabel.Text = "Ball Winning:";
-            // 
-            // defenseLabel
-            // 
-            this.defenseLabel.AutoSize = true;
-            this.defenseLabel.Location = new System.Drawing.Point(13, 409);
-            this.defenseLabel.Name = "defenseLabel";
-            this.defenseLabel.Size = new System.Drawing.Size(101, 13);
-            this.defenseLabel.TabIndex = 69;
-            this.defenseLabel.Text = "Defensive Prowess:";
-            // 
-            // headerLabel
-            // 
-            this.headerLabel.AutoSize = true;
-            this.headerLabel.Location = new System.Drawing.Point(15, 180);
-            this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(45, 13);
-            this.headerLabel.TabIndex = 68;
-            this.headerLabel.Text = "Header:";
-            // 
-            // curlLabel
-            // 
-            this.curlLabel.AutoSize = true;
-            this.curlLabel.Location = new System.Drawing.Point(15, 228);
-            this.curlLabel.Name = "curlLabel";
-            this.curlLabel.Size = new System.Drawing.Size(28, 13);
-            this.curlLabel.TabIndex = 67;
-            this.curlLabel.Text = "Curl:";
-            // 
-            // placeKickLabel
-            // 
-            this.placeKickLabel.AutoSize = true;
-            this.placeKickLabel.Location = new System.Drawing.Point(14, 206);
-            this.placeKickLabel.Name = "placeKickLabel";
-            this.placeKickLabel.Size = new System.Drawing.Size(75, 13);
-            this.placeKickLabel.TabIndex = 66;
-            this.placeKickLabel.Text = "Place Kicking:";
-            // 
-            // finishingLabel
-            // 
-            this.finishingLabel.AutoSize = true;
-            this.finishingLabel.Location = new System.Drawing.Point(15, 159);
-            this.finishingLabel.Name = "finishingLabel";
-            this.finishingLabel.Size = new System.Drawing.Size(51, 13);
-            this.finishingLabel.TabIndex = 65;
-            this.finishingLabel.Text = "Finishing:";
-            // 
-            // loftedPassLabel
-            // 
-            this.loftedPassLabel.AutoSize = true;
-            this.loftedPassLabel.Location = new System.Drawing.Point(15, 135);
-            this.loftedPassLabel.Name = "loftedPassLabel";
-            this.loftedPassLabel.Size = new System.Drawing.Size(66, 13);
-            this.loftedPassLabel.TabIndex = 64;
-            this.loftedPassLabel.Text = "Lofted Pass:";
-            // 
-            // lowPassLabel
-            // 
-            this.lowPassLabel.AutoSize = true;
-            this.lowPassLabel.Location = new System.Drawing.Point(15, 111);
-            this.lowPassLabel.Name = "lowPassLabel";
-            this.lowPassLabel.Size = new System.Drawing.Size(56, 13);
-            this.lowPassLabel.TabIndex = 63;
-            this.lowPassLabel.Text = "Low Pass:";
-            // 
-            // dribblingLabel
-            // 
-            this.dribblingLabel.AutoSize = true;
-            this.dribblingLabel.Location = new System.Drawing.Point(15, 65);
-            this.dribblingLabel.Name = "dribblingLabel";
-            this.dribblingLabel.Size = new System.Drawing.Size(51, 13);
-            this.dribblingLabel.TabIndex = 62;
-            this.dribblingLabel.Text = "Dribbling:";
-            // 
-            // ballControlLabel
-            // 
-            this.ballControlLabel.AutoSize = true;
-            this.ballControlLabel.Location = new System.Drawing.Point(15, 41);
-            this.ballControlLabel.Name = "ballControlLabel";
-            this.ballControlLabel.Size = new System.Drawing.Size(63, 13);
-            this.ballControlLabel.TabIndex = 61;
-            this.ballControlLabel.Text = "Ball Control:";
-            // 
-            // attackLabel
-            // 
-            this.attackLabel.AutoSize = true;
-            this.attackLabel.Location = new System.Drawing.Point(15, 17);
-            this.attackLabel.Name = "attackLabel";
-            this.attackLabel.Size = new System.Drawing.Size(98, 13);
-            this.attackLabel.TabIndex = 60;
-            this.attackLabel.Text = "Attacking Prowess:";
+            this.HeadingTextBox.Location = new System.Drawing.Point(142, 176);
+            this.HeadingTextBox.MaxLength = 2;
+            this.HeadingTextBox.Name = "HeadingTextBox";
+            this.HeadingTextBox.Size = new System.Drawing.Size(35, 20);
+            this.HeadingTextBox.TabIndex = 86;
+            // 
+            // CurlTextBox
+            // 
+            this.CurlTextBox.Location = new System.Drawing.Point(142, 222);
+            this.CurlTextBox.MaxLength = 2;
+            this.CurlTextBox.Name = "CurlTextBox";
+            this.CurlTextBox.Size = new System.Drawing.Size(35, 20);
+            this.CurlTextBox.TabIndex = 85;
+            // 
+            // SetPieceTakingTextBox
+            // 
+            this.SetPieceTakingTextBox.Location = new System.Drawing.Point(142, 199);
+            this.SetPieceTakingTextBox.MaxLength = 2;
+            this.SetPieceTakingTextBox.Name = "SetPieceTakingTextBox";
+            this.SetPieceTakingTextBox.Size = new System.Drawing.Size(35, 20);
+            this.SetPieceTakingTextBox.TabIndex = 84;
+            // 
+            // FinishingTextBox
+            // 
+            this.FinishingTextBox.Location = new System.Drawing.Point(142, 153);
+            this.FinishingTextBox.MaxLength = 2;
+            this.FinishingTextBox.Name = "FinishingTextBox";
+            this.FinishingTextBox.Size = new System.Drawing.Size(35, 20);
+            this.FinishingTextBox.TabIndex = 83;
+            // 
+            // LoftedPassTextBox
+            // 
+            this.LoftedPassTextBox.Location = new System.Drawing.Point(142, 130);
+            this.LoftedPassTextBox.MaxLength = 2;
+            this.LoftedPassTextBox.Name = "LoftedPassTextBox";
+            this.LoftedPassTextBox.Size = new System.Drawing.Size(35, 20);
+            this.LoftedPassTextBox.TabIndex = 82;
+            // 
+            // LowPassTextBox
+            // 
+            this.LowPassTextBox.Location = new System.Drawing.Point(142, 107);
+            this.LowPassTextBox.MaxLength = 2;
+            this.LowPassTextBox.Name = "LowPassTextBox";
+            this.LowPassTextBox.Size = new System.Drawing.Size(35, 20);
+            this.LowPassTextBox.TabIndex = 81;
+            // 
+            // DribblingTextBox
+            // 
+            this.DribblingTextBox.Location = new System.Drawing.Point(142, 61);
+            this.DribblingTextBox.MaxLength = 2;
+            this.DribblingTextBox.Name = "DribblingTextBox";
+            this.DribblingTextBox.Size = new System.Drawing.Size(35, 20);
+            this.DribblingTextBox.TabIndex = 80;
+            // 
+            // BallControlTextBox
+            // 
+            this.BallControlTextBox.Location = new System.Drawing.Point(142, 38);
+            this.BallControlTextBox.MaxLength = 2;
+            this.BallControlTextBox.Name = "BallControlTextBox";
+            this.BallControlTextBox.Size = new System.Drawing.Size(35, 20);
+            this.BallControlTextBox.TabIndex = 79;
+            // 
+            // OffensiveProwessTextBox
+            // 
+            this.OffensiveProwessTextBox.Location = new System.Drawing.Point(142, 15);
+            this.OffensiveProwessTextBox.MaxLength = 2;
+            this.OffensiveProwessTextBox.Name = "OffensiveProwessTextBox";
+            this.OffensiveProwessTextBox.Size = new System.Drawing.Size(35, 20);
+            this.OffensiveProwessTextBox.TabIndex = 78;
+            // 
+            // AggressionLabel
+            // 
+            this.AggressionLabel.AutoSize = true;
+            this.AggressionLabel.Location = new System.Drawing.Point(14, 478);
+            this.AggressionLabel.Name = "AggressionLabel";
+            this.AggressionLabel.Size = new System.Drawing.Size(62, 13);
+            this.AggressionLabel.TabIndex = 77;
+            this.AggressionLabel.Text = "Aggression:";
+            // 
+            // StaminaLabel
+            // 
+            this.StaminaLabel.AutoSize = true;
+            this.StaminaLabel.Location = new System.Drawing.Point(13, 386);
+            this.StaminaLabel.Name = "StaminaLabel";
+            this.StaminaLabel.Size = new System.Drawing.Size(48, 13);
+            this.StaminaLabel.TabIndex = 76;
+            this.StaminaLabel.Text = "Stamina:";
+            // 
+            // JumpLabel
+            // 
+            this.JumpLabel.AutoSize = true;
+            this.JumpLabel.Location = new System.Drawing.Point(13, 317);
+            this.JumpLabel.Name = "JumpLabel";
+            this.JumpLabel.Size = new System.Drawing.Size(35, 13);
+            this.JumpLabel.TabIndex = 75;
+            this.JumpLabel.Text = "Jump:";
+            // 
+            // BalanceLabel
+            // 
+            this.BalanceLabel.AutoSize = true;
+            this.BalanceLabel.Location = new System.Drawing.Point(13, 363);
+            this.BalanceLabel.Name = "BalanceLabel";
+            this.BalanceLabel.Size = new System.Drawing.Size(49, 13);
+            this.BalanceLabel.TabIndex = 74;
+            this.BalanceLabel.Text = "Balance:";
+            // 
+            // AccelerationLabel
+            // 
+            this.AccelerationLabel.AutoSize = true;
+            this.AccelerationLabel.Location = new System.Drawing.Point(14, 271);
+            this.AccelerationLabel.Name = "AccelerationLabel";
+            this.AccelerationLabel.Size = new System.Drawing.Size(69, 13);
+            this.AccelerationLabel.TabIndex = 73;
+            this.AccelerationLabel.Text = "Acceleration:";
+            // 
+            // SpeedLabel
+            // 
+            this.SpeedLabel.AutoSize = true;
+            this.SpeedLabel.Location = new System.Drawing.Point(14, 248);
+            this.SpeedLabel.Name = "SpeedLabel";
+            this.SpeedLabel.Size = new System.Drawing.Size(41, 13);
+            this.SpeedLabel.TabIndex = 72;
+            this.SpeedLabel.Text = "Speed:";
+            // 
+            // KickingPowerLabel
+            // 
+            this.KickingPowerLabel.AutoSize = true;
+            this.KickingPowerLabel.Location = new System.Drawing.Point(13, 294);
+            this.KickingPowerLabel.Name = "KickingPowerLabel";
+            this.KickingPowerLabel.Size = new System.Drawing.Size(78, 13);
+            this.KickingPowerLabel.TabIndex = 71;
+            this.KickingPowerLabel.Text = "Kicking Power:";
+            // 
+            // TacklingLabel
+            // 
+            this.TacklingLabel.AutoSize = true;
+            this.TacklingLabel.Location = new System.Drawing.Point(12, 432);
+            this.TacklingLabel.Name = "TacklingLabel";
+            this.TacklingLabel.Size = new System.Drawing.Size(51, 13);
+            this.TacklingLabel.TabIndex = 70;
+            this.TacklingLabel.Text = "Tackling:";
+            // 
+            // DefensiveAwarenessLabel
+            // 
+            this.DefensiveAwarenessLabel.AutoSize = true;
+            this.DefensiveAwarenessLabel.Location = new System.Drawing.Point(13, 409);
+            this.DefensiveAwarenessLabel.Name = "DefensiveAwarenessLabel";
+            this.DefensiveAwarenessLabel.Size = new System.Drawing.Size(113, 13);
+            this.DefensiveAwarenessLabel.TabIndex = 69;
+            this.DefensiveAwarenessLabel.Text = "Defensive Awareness:";
+            // 
+            // HeadingLabel
+            // 
+            this.HeadingLabel.AutoSize = true;
+            this.HeadingLabel.Location = new System.Drawing.Point(15, 180);
+            this.HeadingLabel.Name = "HeadingLabel";
+            this.HeadingLabel.Size = new System.Drawing.Size(50, 13);
+            this.HeadingLabel.TabIndex = 68;
+            this.HeadingLabel.Text = "Heading:";
+            // 
+            // CurlLabel
+            // 
+            this.CurlLabel.AutoSize = true;
+            this.CurlLabel.Location = new System.Drawing.Point(15, 228);
+            this.CurlLabel.Name = "CurlLabel";
+            this.CurlLabel.Size = new System.Drawing.Size(28, 13);
+            this.CurlLabel.TabIndex = 67;
+            this.CurlLabel.Text = "Curl:";
+            // 
+            // SetPieceTakingLabel
+            // 
+            this.SetPieceTakingLabel.AutoSize = true;
+            this.SetPieceTakingLabel.Location = new System.Drawing.Point(14, 206);
+            this.SetPieceTakingLabel.Name = "SetPieceTakingLabel";
+            this.SetPieceTakingLabel.Size = new System.Drawing.Size(92, 13);
+            this.SetPieceTakingLabel.TabIndex = 66;
+            this.SetPieceTakingLabel.Text = "Set Piece Taking:";
+            // 
+            // FinishingLabel
+            // 
+            this.FinishingLabel.AutoSize = true;
+            this.FinishingLabel.Location = new System.Drawing.Point(15, 159);
+            this.FinishingLabel.Name = "FinishingLabel";
+            this.FinishingLabel.Size = new System.Drawing.Size(51, 13);
+            this.FinishingLabel.TabIndex = 65;
+            this.FinishingLabel.Text = "Finishing:";
+            // 
+            // LoftedPassLabel
+            // 
+            this.LoftedPassLabel.AutoSize = true;
+            this.LoftedPassLabel.Location = new System.Drawing.Point(15, 135);
+            this.LoftedPassLabel.Name = "LoftedPassLabel";
+            this.LoftedPassLabel.Size = new System.Drawing.Size(66, 13);
+            this.LoftedPassLabel.TabIndex = 64;
+            this.LoftedPassLabel.Text = "Lofted Pass:";
+            // 
+            // LowPassLabel
+            // 
+            this.LowPassLabel.AutoSize = true;
+            this.LowPassLabel.Location = new System.Drawing.Point(15, 111);
+            this.LowPassLabel.Name = "LowPassLabel";
+            this.LowPassLabel.Size = new System.Drawing.Size(56, 13);
+            this.LowPassLabel.TabIndex = 63;
+            this.LowPassLabel.Text = "Low Pass:";
+            // 
+            // DribblingLabel
+            // 
+            this.DribblingLabel.AutoSize = true;
+            this.DribblingLabel.Location = new System.Drawing.Point(15, 65);
+            this.DribblingLabel.Name = "DribblingLabel";
+            this.DribblingLabel.Size = new System.Drawing.Size(51, 13);
+            this.DribblingLabel.TabIndex = 62;
+            this.DribblingLabel.Text = "Dribbling:";
+            // 
+            // BallControlLabel
+            // 
+            this.BallControlLabel.AutoSize = true;
+            this.BallControlLabel.Location = new System.Drawing.Point(15, 41);
+            this.BallControlLabel.Name = "BallControlLabel";
+            this.BallControlLabel.Size = new System.Drawing.Size(63, 13);
+            this.BallControlLabel.TabIndex = 61;
+            this.BallControlLabel.Text = "Ball Control:";
+            // 
+            // OffensiveProwessLabel
+            // 
+            this.OffensiveProwessLabel.AutoSize = true;
+            this.OffensiveProwessLabel.Location = new System.Drawing.Point(15, 17);
+            this.OffensiveProwessLabel.Name = "OffensiveProwessLabel";
+            this.OffensiveProwessLabel.Size = new System.Drawing.Size(98, 13);
+            this.OffensiveProwessLabel.TabIndex = 60;
+            this.OffensiveProwessLabel.Text = "Attacking Prowess:";
             // 
             // groupBox3
             // 
@@ -1623,7 +1608,7 @@
             this.groupBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.groupBox21.Location = new System.Drawing.Point(479, 6);
             this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(190, 655);
+            this.groupBox21.Size = new System.Drawing.Size(190, 688);
             this.groupBox21.TabIndex = 110;
             this.groupBox21.TabStop = false;
             this.groupBox21.Text = "Player Skills";
@@ -2209,21 +2194,21 @@
             this.groupBox22.Controls.Add(this.comMazingRunCheckBox);
             this.groupBox22.Controls.Add(this.comTricksterCheckBox);
             this.groupBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.groupBox22.Location = new System.Drawing.Point(686, 120);
+            this.groupBox22.Location = new System.Drawing.Point(686, 6);
             this.groupBox22.Name = "groupBox22";
-            this.groupBox22.Size = new System.Drawing.Size(190, 144);
+            this.groupBox22.Size = new System.Drawing.Size(190, 152);
             this.groupBox22.TabIndex = 112;
             this.groupBox22.TabStop = false;
-            this.groupBox22.Text = "Com Playing Style";
+            this.groupBox22.Text = "AI Playing Styles";
             // 
             // comEarlyCrossCheckBox
             // 
             this.comEarlyCrossCheckBox.AutoSize = true;
             this.comEarlyCrossCheckBox.Location = new System.Drawing.Point(17, 122);
             this.comEarlyCrossCheckBox.Name = "comEarlyCrossCheckBox";
-            this.comEarlyCrossCheckBox.Size = new System.Drawing.Size(101, 17);
+            this.comEarlyCrossCheckBox.Size = new System.Drawing.Size(116, 17);
             this.comEarlyCrossCheckBox.TabIndex = 6;
-            this.comEarlyCrossCheckBox.Text = "EARLY CROSS";
+            this.comEarlyCrossCheckBox.Text = "P07 - Long Ranger";
             this.comEarlyCrossCheckBox.UseVisualStyleBackColor = true;
             // 
             // comSpeedingBulletCheckBox
@@ -2231,9 +2216,9 @@
             this.comSpeedingBulletCheckBox.AutoSize = true;
             this.comSpeedingBulletCheckBox.Location = new System.Drawing.Point(17, 105);
             this.comSpeedingBulletCheckBox.Name = "comSpeedingBulletCheckBox";
-            this.comSpeedingBulletCheckBox.Size = new System.Drawing.Size(125, 17);
+            this.comSpeedingBulletCheckBox.Size = new System.Drawing.Size(106, 17);
             this.comSpeedingBulletCheckBox.TabIndex = 5;
-            this.comSpeedingBulletCheckBox.Text = "SPEEDING BULLET";
+            this.comSpeedingBulletCheckBox.Text = "P06 - Early Cross";
             this.comSpeedingBulletCheckBox.UseVisualStyleBackColor = true;
             // 
             // comIncisiveRunCheckBox
@@ -2241,9 +2226,9 @@
             this.comIncisiveRunCheckBox.AutoSize = true;
             this.comIncisiveRunCheckBox.Location = new System.Drawing.Point(17, 88);
             this.comIncisiveRunCheckBox.Name = "comIncisiveRunCheckBox";
-            this.comIncisiveRunCheckBox.Size = new System.Drawing.Size(98, 17);
+            this.comIncisiveRunCheckBox.Size = new System.Drawing.Size(131, 17);
             this.comIncisiveRunCheckBox.TabIndex = 4;
-            this.comIncisiveRunCheckBox.Text = "INCISIVE RUN";
+            this.comIncisiveRunCheckBox.Text = "P05 - Long Ball Expert";
             this.comIncisiveRunCheckBox.UseVisualStyleBackColor = true;
             // 
             // comLongRangerCheckBox
@@ -2251,9 +2236,9 @@
             this.comLongRangerCheckBox.AutoSize = true;
             this.comLongRangerCheckBox.Location = new System.Drawing.Point(17, 71);
             this.comLongRangerCheckBox.Name = "comLongRangerCheckBox";
-            this.comLongRangerCheckBox.Size = new System.Drawing.Size(105, 17);
+            this.comLongRangerCheckBox.Size = new System.Drawing.Size(113, 17);
             this.comLongRangerCheckBox.TabIndex = 3;
-            this.comLongRangerCheckBox.Text = "LONG RANGER";
+            this.comLongRangerCheckBox.Text = "P04 - Incisive Run";
             this.comLongRangerCheckBox.UseVisualStyleBackColor = true;
             // 
             // comLongBallExpertCheckBox
@@ -2261,9 +2246,9 @@
             this.comLongBallExpertCheckBox.AutoSize = true;
             this.comLongBallExpertCheckBox.Location = new System.Drawing.Point(17, 54);
             this.comLongBallExpertCheckBox.Name = "comLongBallExpertCheckBox";
-            this.comLongBallExpertCheckBox.Size = new System.Drawing.Size(131, 17);
+            this.comLongBallExpertCheckBox.Size = new System.Drawing.Size(128, 17);
             this.comLongBallExpertCheckBox.TabIndex = 2;
-            this.comLongBallExpertCheckBox.Text = "LONG BALL EXPERT";
+            this.comLongBallExpertCheckBox.Text = "P03 - Speeding Bullet";
             this.comLongBallExpertCheckBox.UseVisualStyleBackColor = true;
             // 
             // comMazingRunCheckBox
@@ -2271,9 +2256,9 @@
             this.comMazingRunCheckBox.AutoSize = true;
             this.comMazingRunCheckBox.Location = new System.Drawing.Point(17, 37);
             this.comMazingRunCheckBox.Name = "comMazingRunCheckBox";
-            this.comMazingRunCheckBox.Size = new System.Drawing.Size(95, 17);
+            this.comMazingRunCheckBox.Size = new System.Drawing.Size(111, 17);
             this.comMazingRunCheckBox.TabIndex = 1;
-            this.comMazingRunCheckBox.Text = "MAZING RUN";
+            this.comMazingRunCheckBox.Text = "P02 - Mazing Run";
             this.comMazingRunCheckBox.UseVisualStyleBackColor = true;
             // 
             // comTricksterCheckBox
@@ -2281,9 +2266,9 @@
             this.comTricksterCheckBox.AutoSize = true;
             this.comTricksterCheckBox.Location = new System.Drawing.Point(17, 20);
             this.comTricksterCheckBox.Name = "comTricksterCheckBox";
-            this.comTricksterCheckBox.Size = new System.Drawing.Size(87, 17);
+            this.comTricksterCheckBox.Size = new System.Drawing.Size(95, 17);
             this.comTricksterCheckBox.TabIndex = 0;
-            this.comTricksterCheckBox.Text = "TRICKSTER";
+            this.comTricksterCheckBox.Text = "P01 - Trickster";
             this.comTricksterCheckBox.UseVisualStyleBackColor = true;
             // 
             // groupBox19
@@ -2554,11 +2539,11 @@
             // 
             // adjustLessButton
             // 
-            this.adjustLessButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.adjustLessButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.adjustLessButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.adjustLessButton.FlatAppearance.BorderSize = 0;
-            this.adjustLessButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.adjustLessButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.adjustLessButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.adjustLessButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.adjustLessButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.adjustLessButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.adjustLessButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2571,11 +2556,11 @@
             // 
             // adjustEqualButton
             // 
-            this.adjustEqualButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.adjustEqualButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.adjustEqualButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.adjustEqualButton.FlatAppearance.BorderSize = 0;
-            this.adjustEqualButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.adjustEqualButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.adjustEqualButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.adjustEqualButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.adjustEqualButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.adjustEqualButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.adjustEqualButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2588,11 +2573,11 @@
             // 
             // adjustPlusPercButton
             // 
-            this.adjustPlusPercButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.adjustPlusPercButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.adjustPlusPercButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.adjustPlusPercButton.FlatAppearance.BorderSize = 0;
-            this.adjustPlusPercButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.adjustPlusPercButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.adjustPlusPercButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.adjustPlusPercButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.adjustPlusPercButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.adjustPlusPercButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.adjustPlusPercButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2616,11 +2601,11 @@
             // 
             // adjustPlusButton
             // 
-            this.adjustPlusButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.adjustPlusButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.adjustPlusButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.adjustPlusButton.FlatAppearance.BorderSize = 0;
-            this.adjustPlusButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.adjustPlusButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.adjustPlusButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.adjustPlusButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.adjustPlusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.adjustPlusButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.adjustPlusButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2633,11 +2618,11 @@
             // 
             // adjustLessPercButton
             // 
-            this.adjustLessPercButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.adjustLessPercButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.adjustLessPercButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.adjustLessPercButton.FlatAppearance.BorderSize = 0;
-            this.adjustLessPercButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.adjustLessPercButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.adjustLessPercButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.adjustLessPercButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.adjustLessPercButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.adjustLessPercButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.adjustLessPercButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2650,12 +2635,12 @@
             // 
             // acceptButton
             // 
-            this.acceptButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.acceptButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.acceptButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.acceptButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.acceptButton.FlatAppearance.BorderSize = 0;
-            this.acceptButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.acceptButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.acceptButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.acceptButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.acceptButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.acceptButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.acceptButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2668,12 +2653,12 @@
             // 
             // cancelButton
             // 
-            this.cancelButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.cancelButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
             this.cancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cancelButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.cancelButton.FlatAppearance.BorderSize = 0;
-            this.cancelButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.cancelButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.cancelButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.cancelButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
             this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.cancelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2683,143 +2668,6 @@
             this.cancelButton.TabIndex = 124;
             this.cancelButton.Text = "Cancel";
             this.cancelButton.UseVisualStyleBackColor = false;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBox5.Controls.Add(this.skinNullPictureBox);
-            this.groupBox5.Controls.Add(this.skin6);
-            this.groupBox5.Controls.Add(this.skin5);
-            this.groupBox5.Controls.Add(this.skin4);
-            this.groupBox5.Controls.Add(this.skin3);
-            this.groupBox5.Controls.Add(this.skin2);
-            this.groupBox5.Controls.Add(this.skinColourNumeric);
-            this.groupBox5.Controls.Add(this.skinColourLabel);
-            this.groupBox5.Controls.Add(this.skin1);
-            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.groupBox5.Location = new System.Drawing.Point(686, 10);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(190, 108);
-            this.groupBox5.TabIndex = 125;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Skin Colour";
-            // 
-            // skinNullPictureBox
-            // 
-            this.skinNullPictureBox.BackColor = System.Drawing.Color.LightGray;
-            this.skinNullPictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.skinNullPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("skinNullPictureBox.Image")));
-            this.skinNullPictureBox.InitialImage = null;
-            this.skinNullPictureBox.Location = new System.Drawing.Point(62, 50);
-            this.skinNullPictureBox.Name = "skinNullPictureBox";
-            this.skinNullPictureBox.Size = new System.Drawing.Size(40, 37);
-            this.skinNullPictureBox.TabIndex = 135;
-            this.skinNullPictureBox.TabStop = false;
-            this.skinNullPictureBox.Visible = false;
-            // 
-            // skin6
-            // 
-            this.skin6.BackColor = System.Drawing.Color.LightGray;
-            this.skin6.Image = ((System.Drawing.Image)(resources.GetObject("skin6.Image")));
-            this.skin6.InitialImage = null;
-            this.skin6.Location = new System.Drawing.Point(62, 50);
-            this.skin6.Name = "skin6";
-            this.skin6.Size = new System.Drawing.Size(40, 37);
-            this.skin6.TabIndex = 134;
-            this.skin6.TabStop = false;
-            this.skin6.Visible = false;
-            // 
-            // skin5
-            // 
-            this.skin5.BackColor = System.Drawing.Color.LightGray;
-            this.skin5.Image = ((System.Drawing.Image)(resources.GetObject("skin5.Image")));
-            this.skin5.InitialImage = null;
-            this.skin5.Location = new System.Drawing.Point(62, 50);
-            this.skin5.Name = "skin5";
-            this.skin5.Size = new System.Drawing.Size(40, 37);
-            this.skin5.TabIndex = 133;
-            this.skin5.TabStop = false;
-            this.skin5.Visible = false;
-            // 
-            // skin4
-            // 
-            this.skin4.BackColor = System.Drawing.Color.LightGray;
-            this.skin4.Image = ((System.Drawing.Image)(resources.GetObject("skin4.Image")));
-            this.skin4.InitialImage = null;
-            this.skin4.Location = new System.Drawing.Point(62, 50);
-            this.skin4.Name = "skin4";
-            this.skin4.Size = new System.Drawing.Size(40, 37);
-            this.skin4.TabIndex = 132;
-            this.skin4.TabStop = false;
-            this.skin4.Visible = false;
-            // 
-            // skin3
-            // 
-            this.skin3.BackColor = System.Drawing.Color.LightGray;
-            this.skin3.Image = ((System.Drawing.Image)(resources.GetObject("skin3.Image")));
-            this.skin3.InitialImage = null;
-            this.skin3.Location = new System.Drawing.Point(62, 50);
-            this.skin3.Name = "skin3";
-            this.skin3.Size = new System.Drawing.Size(40, 37);
-            this.skin3.TabIndex = 131;
-            this.skin3.TabStop = false;
-            this.skin3.Visible = false;
-            // 
-            // skin2
-            // 
-            this.skin2.BackColor = System.Drawing.Color.LightGray;
-            this.skin2.Image = ((System.Drawing.Image)(resources.GetObject("skin2.Image")));
-            this.skin2.InitialImage = null;
-            this.skin2.Location = new System.Drawing.Point(62, 50);
-            this.skin2.Name = "skin2";
-            this.skin2.Size = new System.Drawing.Size(40, 37);
-            this.skin2.TabIndex = 130;
-            this.skin2.TabStop = false;
-            this.skin2.Visible = false;
-            // 
-            // skinColourNumeric
-            // 
-            this.skinColourNumeric.Location = new System.Drawing.Point(118, 18);
-            this.skinColourNumeric.Maximum = new decimal(new int[] {
-            6,
-            0,
-            0,
-            0});
-            this.skinColourNumeric.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.skinColourNumeric.Name = "skinColourNumeric";
-            this.skinColourNumeric.Size = new System.Drawing.Size(35, 20);
-            this.skinColourNumeric.TabIndex = 129;
-            this.skinColourNumeric.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // skinColourLabel
-            // 
-            this.skinColourLabel.AutoSize = true;
-            this.skinColourLabel.Location = new System.Drawing.Point(7, 20);
-            this.skinColourLabel.Name = "skinColourLabel";
-            this.skinColourLabel.Size = new System.Drawing.Size(97, 13);
-            this.skinColourLabel.TabIndex = 128;
-            this.skinColourLabel.Text = "Select Skin Colour:";
-            // 
-            // skin1
-            // 
-            this.skin1.BackColor = System.Drawing.Color.LightGray;
-            this.skin1.Image = ((System.Drawing.Image)(resources.GetObject("skin1.Image")));
-            this.skin1.InitialImage = null;
-            this.skin1.Location = new System.Drawing.Point(62, 50);
-            this.skin1.Name = "skin1";
-            this.skin1.Size = new System.Drawing.Size(40, 37);
-            this.skin1.TabIndex = 127;
-            this.skin1.TabStop = false;
-            this.skin1.Visible = false;
             // 
             // groupBox6
             // 
@@ -2860,7 +2708,7 @@
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.youthClubComboBox);
-            this.groupBox7.Location = new System.Drawing.Point(272, 607);
+            this.groupBox7.Location = new System.Drawing.Point(272, 640);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(190, 54);
             this.groupBox7.TabIndex = 128;
@@ -2941,18 +2789,34 @@
             this.label4.TabIndex = 132;
             this.label4.Text = "Contract Expiry Date:";
             // 
+            // GKReachLabel
+            // 
+            this.GKReachLabel.AutoSize = true;
+            this.GKReachLabel.Location = new System.Drawing.Point(15, 593);
+            this.GKReachLabel.Name = "GKReachLabel";
+            this.GKReachLabel.Size = new System.Drawing.Size(60, 13);
+            this.GKReachLabel.TabIndex = 111;
+            this.GKReachLabel.Text = "GK Reach:";
+            // 
+            // GKReachTextBox
+            // 
+            this.GKReachTextBox.Location = new System.Drawing.Point(142, 590);
+            this.GKReachTextBox.MaxLength = 2;
+            this.GKReachTextBox.Name = "GKReachTextBox";
+            this.GKReachTextBox.Size = new System.Drawing.Size(35, 20);
+            this.GKReachTextBox.TabIndex = 110;
+            // 
             // Stats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1012, 665);
+            this.ClientSize = new System.Drawing.Size(1012, 698);
             this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.glovePictureBox);
             this.Controls.Add(this.bootPictureBox);
             this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.acceptButton);
             this.Controls.Add(this.groupBox23);
@@ -2985,16 +2849,6 @@
             this.groupBox19.PerformLayout();
             this.groupBox23.ResumeLayout(false);
             this.groupBox23.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.skinNullPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skinColourNumeric)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.skin1)).EndInit();
             this.groupBox6.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
@@ -3033,52 +2887,52 @@
         private System.Windows.Forms.ComboBox weAccComboBox;
         private System.Windows.Forms.ComboBox formComboBox;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox physicalTextBox;
-        private System.Windows.Forms.Label physicalLabel;
-        private System.Windows.Forms.Label coverageLabel;
-        private System.Windows.Forms.Label reflexesLabel;
-        private System.Windows.Forms.Label clearingLabel;
-        private System.Windows.Forms.TextBox reflexesTextBox;
-        private System.Windows.Forms.TextBox clearingTextBox;
-        private System.Windows.Forms.TextBox cathingTextBox;
-        private System.Windows.Forms.TextBox coverageTextBox;
-        private System.Windows.Forms.Label cathingLabel;
-        private System.Windows.Forms.TextBox goalkeepingTextBox;
-        private System.Windows.Forms.TextBox staminaTextBox;
-        private System.Windows.Forms.TextBox jumpTextBox;
-        private System.Windows.Forms.TextBox balanceTextBox;
-        private System.Windows.Forms.TextBox accelerationTextBox;
-        private System.Windows.Forms.TextBox speedTextBox;
-        private System.Windows.Forms.TextBox kickingPowerTextBox;
-        private System.Windows.Forms.TextBox ballWinningTextBox;
-        private System.Windows.Forms.TextBox defenseTextBox;
-        private System.Windows.Forms.TextBox headerTextBox;
-        private System.Windows.Forms.TextBox curlTextBox;
-        private System.Windows.Forms.TextBox placeKickTextBox;
-        private System.Windows.Forms.TextBox finishingTextBox;
-        private System.Windows.Forms.TextBox loftedPassTextBox;
-        private System.Windows.Forms.TextBox lowPassTextBox;
-        private System.Windows.Forms.TextBox dribblingTextBox;
-        private System.Windows.Forms.TextBox ballControlTextBox;
-        private System.Windows.Forms.TextBox attackTextBox;
-        private System.Windows.Forms.Label goalkeepingLabel;
-        private System.Windows.Forms.Label staminaLabel;
-        private System.Windows.Forms.Label jumpLabel;
-        private System.Windows.Forms.Label balanceLabel;
-        private System.Windows.Forms.Label accelerationLabel;
-        private System.Windows.Forms.Label speedLabel;
-        private System.Windows.Forms.Label kickingPowerLabel;
-        private System.Windows.Forms.Label ballWinningLabel;
-        private System.Windows.Forms.Label defenseLabel;
-        private System.Windows.Forms.Label headerLabel;
-        private System.Windows.Forms.Label curlLabel;
-        private System.Windows.Forms.Label placeKickLabel;
-        private System.Windows.Forms.Label finishingLabel;
-        private System.Windows.Forms.Label loftedPassLabel;
-        private System.Windows.Forms.Label lowPassLabel;
-        private System.Windows.Forms.Label dribblingLabel;
-        private System.Windows.Forms.Label ballControlLabel;
-        private System.Windows.Forms.Label attackLabel;
+        private System.Windows.Forms.TextBox PhysicalContactTextBox;
+        private System.Windows.Forms.Label PhysicalContactLabel;
+        private System.Windows.Forms.Label GKReflexesLabel;
+        private System.Windows.Forms.Label GKParryingLabel;
+        private System.Windows.Forms.Label GKCatchingLabel;
+        private System.Windows.Forms.TextBox GKParryingTextBox;
+        private System.Windows.Forms.TextBox GKCatchingTextBox;
+        private System.Windows.Forms.TextBox GKAwarenessTextBox;
+        private System.Windows.Forms.TextBox GKReflexesTextBox;
+        private System.Windows.Forms.Label GKAwarenessLabel;
+        private System.Windows.Forms.TextBox AggressionTextBox;
+        private System.Windows.Forms.TextBox StaminaTextBox;
+        private System.Windows.Forms.TextBox JumpTextBox;
+        private System.Windows.Forms.TextBox BalanceTextBox;
+        private System.Windows.Forms.TextBox AccelerationTextBox;
+        private System.Windows.Forms.TextBox SpeedTextBox;
+        private System.Windows.Forms.TextBox KickingPowerTextBox;
+        private System.Windows.Forms.TextBox TacklingTextBox;
+        private System.Windows.Forms.TextBox DefensiveAwarenessTextBox;
+        private System.Windows.Forms.TextBox HeadingTextBox;
+        private System.Windows.Forms.TextBox CurlTextBox;
+        private System.Windows.Forms.TextBox SetPieceTakingTextBox;
+        private System.Windows.Forms.TextBox FinishingTextBox;
+        private System.Windows.Forms.TextBox LoftedPassTextBox;
+        private System.Windows.Forms.TextBox LowPassTextBox;
+        private System.Windows.Forms.TextBox DribblingTextBox;
+        private System.Windows.Forms.TextBox BallControlTextBox;
+        private System.Windows.Forms.TextBox OffensiveProwessTextBox;
+        private System.Windows.Forms.Label AggressionLabel;
+        private System.Windows.Forms.Label StaminaLabel;
+        private System.Windows.Forms.Label JumpLabel;
+        private System.Windows.Forms.Label BalanceLabel;
+        private System.Windows.Forms.Label AccelerationLabel;
+        private System.Windows.Forms.Label SpeedLabel;
+        private System.Windows.Forms.Label KickingPowerLabel;
+        private System.Windows.Forms.Label TacklingLabel;
+        private System.Windows.Forms.Label DefensiveAwarenessLabel;
+        private System.Windows.Forms.Label HeadingLabel;
+        private System.Windows.Forms.Label CurlLabel;
+        private System.Windows.Forms.Label SetPieceTakingLabel;
+        private System.Windows.Forms.Label FinishingLabel;
+        private System.Windows.Forms.Label LoftedPassLabel;
+        private System.Windows.Forms.Label LowPassLabel;
+        private System.Windows.Forms.Label DribblingLabel;
+        private System.Windows.Forms.Label BallControlLabel;
+        private System.Windows.Forms.Label OffensiveProwessLabel;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.ComboBox positionComboBox;
         private System.Windows.Forms.Label positionLabel;
@@ -3180,15 +3034,6 @@
         private System.Windows.Forms.Button fakeButton;
         private System.Windows.Forms.Button charButton;
         private System.Windows.Forms.CheckBox hiddenPlayerCheckBox;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.PictureBox skin1;
-        private System.Windows.Forms.NumericUpDown skinColourNumeric;
-        private System.Windows.Forms.Label skinColourLabel;
-        private System.Windows.Forms.PictureBox skin6;
-        private System.Windows.Forms.PictureBox skin5;
-        private System.Windows.Forms.PictureBox skin4;
-        private System.Windows.Forms.PictureBox skin3;
-        private System.Windows.Forms.PictureBox skin2;
         private System.Windows.Forms.TextBox heightTextBox;
         private System.Windows.Forms.TextBox japaneseTextBox;
         private System.Windows.Forms.Label japaneseLabel;
@@ -3199,7 +3044,6 @@
         private System.Windows.Forms.ComboBox youthClubComboBox;
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.Label popularityLabel;
-        private System.Windows.Forms.PictureBox skinNullPictureBox;
         private System.Windows.Forms.Button addBootRelinkButton;
         private System.Windows.Forms.Button addGloveRelinkButton;
         private System.Windows.Forms.ComboBox strongHandComboBox;
@@ -3225,10 +3069,10 @@
         private System.Windows.Forms.Label driblMotionLabel;
         private System.Windows.Forms.TextBox shirtNameClubTextBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox aggressionTextBox;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tightPossessionTextBox;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox DefensiveEngangementTextBox;
+        private System.Windows.Forms.Label DefensiveEngangementLabel;
+        private System.Windows.Forms.TextBox TightPossessionTextBox;
+        private System.Windows.Forms.Label TightPossessionLabel;
         private System.Windows.Forms.CheckBox throughPassingCheckBox;
         private System.Windows.Forms.CheckBox gamesmanchipCheckBox;
         private System.Windows.Forms.GroupBox groupBox9;
@@ -3236,5 +3080,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox popularityComboBox;
         private System.Windows.Forms.TextBox marketValueTextBox;
+        private System.Windows.Forms.Label GKReachLabel;
+        private System.Windows.Forms.TextBox GKReachTextBox;
     }
 }
