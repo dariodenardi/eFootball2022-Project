@@ -22,7 +22,7 @@
 - Add Gloves Section
 
 **Instructions**
-- Download the archive (click on **Releases**)
+- [Download the archive](../../releases)
 - Extract the content
 - Run .exe
 
