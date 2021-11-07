@@ -30,48 +30,50 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Stats));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.popularityComboBox = new System.Windows.Forms.ComboBox();
-            this.shirtNameClubTextBox = new System.Windows.Forms.TextBox();
-            this.popularityLabel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.typeTextBox = new System.Windows.Forms.TextBox();
-            this.strongHandComboBox = new System.Windows.Forms.ComboBox();
-            this.strongHandLabel = new System.Windows.Forms.Label();
-            this.japaneseTextBox = new System.Windows.Forms.TextBox();
-            this.japaneseLabel = new System.Windows.Forms.Label();
-            this.hiddenPlayerCheckBox = new System.Windows.Forms.CheckBox();
-            this.charButton = new System.Windows.Forms.Button();
-            this.fakeButton = new System.Windows.Forms.Button();
-            this.weUsageComboBox = new System.Windows.Forms.ComboBox();
+            this.WeUsageLabel = new System.Windows.Forms.Label();
+            this.ShirtNameNationalTextBox = new System.Windows.Forms.TextBox();
+            this.ShirtNameNationalLabel = new System.Windows.Forms.Label();
+            this.ShirtNameClubTextBox = new System.Windows.Forms.TextBox();
+            this.ShirtNameClubLabel = new System.Windows.Forms.Label();
+            this.TypeTextBox = new System.Windows.Forms.TextBox();
+            this.StrongHandComboBox = new System.Windows.Forms.ComboBox();
+            this.StrongHandLabel = new System.Windows.Forms.Label();
+            this.JapaneseTextBox = new System.Windows.Forms.TextBox();
+            this.JapaneseLabel = new System.Windows.Forms.Label();
+            this.WinnerGoldenBallCheckBox = new System.Windows.Forms.CheckBox();
+            this.CharButton = new System.Windows.Forms.Button();
+            this.FakeButton = new System.Windows.Forms.Button();
+            this.WeUsageComboBox = new System.Windows.Forms.ComboBox();
             this.InjuryComboBox = new System.Windows.Forms.ComboBox();
-            this.injuryLabel = new System.Windows.Forms.Label();
-            this.sndNationalityComboBox = new System.Windows.Forms.ComboBox();
-            this.strongFootComboBox = new System.Windows.Forms.ComboBox();
-            this.sndNationalityLabel = new System.Windows.Forms.Label();
-            this.strongFootLabel = new System.Windows.Forms.Label();
-            this.playingStyleComboBox = new System.Windows.Forms.ComboBox();
-            this.playingStyleLabel = new System.Windows.Forms.Label();
-            this.weAccComboBox = new System.Windows.Forms.ComboBox();
-            this.formComboBox = new System.Windows.Forms.ComboBox();
-            this.nationalityComboBox = new System.Windows.Forms.ComboBox();
-            this.weAccUseLabel = new System.Windows.Forms.Label();
-            this.formLabel = new System.Windows.Forms.Label();
-            this.typeLabel = new System.Windows.Forms.Label();
-            this.weightTextBox = new System.Windows.Forms.TextBox();
-            this.weightLabel = new System.Windows.Forms.Label();
-            this.heightTextBox = new System.Windows.Forms.TextBox();
-            this.heightLabel = new System.Windows.Forms.Label();
-            this.ageTextBox = new System.Windows.Forms.TextBox();
-            this.ageLabel = new System.Windows.Forms.Label();
-            this.nationalityLabel = new System.Windows.Forms.Label();
-            this.shirtNameTextBox = new System.Windows.Forms.TextBox();
-            this.shirtNameLabel = new System.Windows.Forms.Label();
-            this.nameTextBox = new System.Windows.Forms.TextBox();
-            this.nameLabel = new System.Windows.Forms.Label();
-            this.idTextBox = new System.Windows.Forms.TextBox();
-            this.idLabel = new System.Windows.Forms.Label();
-            this.goldenBallCheckBox = new System.Windows.Forms.CheckBox();
+            this.InjuryLabel = new System.Windows.Forms.Label();
+            this.SecondNationalityComboBox = new System.Windows.Forms.ComboBox();
+            this.StrongFootComboBox = new System.Windows.Forms.ComboBox();
+            this.SecondNationalityLabel = new System.Windows.Forms.Label();
+            this.StrongFootLabel = new System.Windows.Forms.Label();
+            this.PlayingStyleComboBox = new System.Windows.Forms.ComboBox();
+            this.PlayingStyleLabel = new System.Windows.Forms.Label();
+            this.WeAccComboBox = new System.Windows.Forms.ComboBox();
+            this.FormComboBox = new System.Windows.Forms.ComboBox();
+            this.NationalityComboBox = new System.Windows.Forms.ComboBox();
+            this.WeAccUseLabel = new System.Windows.Forms.Label();
+            this.FormLabel = new System.Windows.Forms.Label();
+            this.TypeLabel = new System.Windows.Forms.Label();
+            this.WeightTextBox = new System.Windows.Forms.TextBox();
+            this.WeightLabel = new System.Windows.Forms.Label();
+            this.HeightTextBox = new System.Windows.Forms.TextBox();
+            this.HeightLabel = new System.Windows.Forms.Label();
+            this.AgeTextBox = new System.Windows.Forms.TextBox();
+            this.AgeLabel = new System.Windows.Forms.Label();
+            this.NationalityLabel = new System.Windows.Forms.Label();
+            this.ChineseNameTextBox = new System.Windows.Forms.TextBox();
+            this.ChineseLabel = new System.Windows.Forms.Label();
+            this.NameTextBox = new System.Windows.Forms.TextBox();
+            this.NameLabel = new System.Windows.Forms.Label();
+            this.IDTextBox = new System.Windows.Forms.TextBox();
+            this.IDLabel = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.GKReachLabel = new System.Windows.Forms.Label();
+            this.GKReachTextBox = new System.Windows.Forms.TextBox();
             this.DefensiveEngangementTextBox = new System.Windows.Forms.TextBox();
             this.DefensiveEngangementLabel = new System.Windows.Forms.Label();
             this.TightPossessionTextBox = new System.Windows.Forms.TextBox();
@@ -123,586 +125,589 @@
             this.BallControlLabel = new System.Windows.Forms.Label();
             this.OffensiveProwessLabel = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.cfLabel = new System.Windows.Forms.Label();
-            this.cfComboBox = new System.Windows.Forms.ComboBox();
-            this.ssLabel = new System.Windows.Forms.Label();
-            this.ssComboBox = new System.Windows.Forms.ComboBox();
-            this.rwfLabel = new System.Windows.Forms.Label();
-            this.rwfComboBox = new System.Windows.Forms.ComboBox();
-            this.lwfLabel = new System.Windows.Forms.Label();
-            this.lwfComboBox = new System.Windows.Forms.ComboBox();
-            this.rmfLabel = new System.Windows.Forms.Label();
-            this.rmfComboBox = new System.Windows.Forms.ComboBox();
-            this.amfLabel = new System.Windows.Forms.Label();
-            this.amfComboBox = new System.Windows.Forms.ComboBox();
-            this.lmfLabel = new System.Windows.Forms.Label();
-            this.lmfComboBox = new System.Windows.Forms.ComboBox();
-            this.cmfLabel = new System.Windows.Forms.Label();
-            this.cmfComboBox = new System.Windows.Forms.ComboBox();
-            this.dmfLabel = new System.Windows.Forms.Label();
-            this.dmfComboBox = new System.Windows.Forms.ComboBox();
-            this.rbLabel = new System.Windows.Forms.Label();
-            this.rbComboBox = new System.Windows.Forms.ComboBox();
-            this.lbLabel = new System.Windows.Forms.Label();
-            this.lbComboBox = new System.Windows.Forms.ComboBox();
-            this.cbLabel = new System.Windows.Forms.Label();
-            this.cbComboBox = new System.Windows.Forms.ComboBox();
-            this.gkLabel = new System.Windows.Forms.Label();
-            this.gkComboBox = new System.Windows.Forms.ComboBox();
-            this.positionComboBox = new System.Windows.Forms.ComboBox();
-            this.positionLabel = new System.Windows.Forms.Label();
-            this.groupBox21 = new System.Windows.Forms.GroupBox();
-            this.throughPassingCheckBox = new System.Windows.Forms.CheckBox();
-            this.gamesmanchipCheckBox = new System.Windows.Forms.CheckBox();
-            this.stepSkillControlCheckBox = new System.Windows.Forms.CheckBox();
-            this.risingShotsCheckBox = new System.Windows.Forms.CheckBox();
-            this.penalitySpecialistCheckBox = new System.Windows.Forms.CheckBox();
-            this.interceptionCheckBox = new System.Windows.Forms.CheckBox();
-            this.noLookPassCheckBox = new System.Windows.Forms.CheckBox();
-            this.gkPenaltySaverCheckBox = new System.Windows.Forms.CheckBox();
-            this.gkHighPuntCheckBox = new System.Windows.Forms.CheckBox();
-            this.doubleTouchCheckBox = new System.Windows.Forms.CheckBox();
-            this.dippingShotsCheckBox = new System.Windows.Forms.CheckBox();
-            this.crossOverTurnCheckBox = new System.Windows.Forms.CheckBox();
-            this.chipShotControlCheckBox = new System.Windows.Forms.CheckBox();
-            this.captaincyCheckBox = new System.Windows.Forms.CheckBox();
-            this.superSubCheckBox = new System.Windows.Forms.CheckBox();
-            this.trackBackCheckBox = new System.Windows.Forms.CheckBox();
-            this.hellTrickCheckBox = new System.Windows.Forms.CheckBox();
-            this.headingCheckBox = new System.Windows.Forms.CheckBox();
-            this.sombreroCheckBox = new System.Windows.Forms.CheckBox();
-            this.longRangeShootingCheckBox = new System.Windows.Forms.CheckBox();
-            this.rabonaCheckBox = new System.Windows.Forms.CheckBox();
-            this.flipFlapCheckBox = new System.Windows.Forms.CheckBox();
-            this.longRangeDriveCheckBox = new System.Windows.Forms.CheckBox();
-            this.gkLowPuntCheckBox = new System.Windows.Forms.CheckBox();
-            this.pinpointCrossingCheckBox = new System.Windows.Forms.CheckBox();
-            this.acrobaticFinishingCheckBox = new System.Windows.Forms.CheckBox();
-            this.weightedPassCheckBox = new System.Windows.Forms.CheckBox();
-            this.oneTouchPassCheckBox = new System.Windows.Forms.CheckBox();
-            this.lowLoftedPassCheckBox = new System.Windows.Forms.CheckBox();
-            this.scissorsFeintCheckBox = new System.Windows.Forms.CheckBox();
-            this.cutBehindTurnCheckBox = new System.Windows.Forms.CheckBox();
-            this.gkLongThrowCheckBox = new System.Windows.Forms.CheckBox();
-            this.scothMoveCheckBox = new System.Windows.Forms.CheckBox();
-            this.marseilleTurnCheckBox = new System.Windows.Forms.CheckBox();
-            this.outsideCurlerCheckBox = new System.Windows.Forms.CheckBox();
-            this.manMarkingCheckBox = new System.Windows.Forms.CheckBox();
-            this.longThrowCheckBox = new System.Windows.Forms.CheckBox();
-            this.firstTimeShotCheckBox = new System.Windows.Forms.CheckBox();
-            this.knucleShotCheckBox = new System.Windows.Forms.CheckBox();
-            this.acrobaticClearCheckBox = new System.Windows.Forms.CheckBox();
-            this.fightingSpiritCheckBox = new System.Windows.Forms.CheckBox();
+            this.CFLabel = new System.Windows.Forms.Label();
+            this.CFComboBox = new System.Windows.Forms.ComboBox();
+            this.SSLabel = new System.Windows.Forms.Label();
+            this.SSComboBox = new System.Windows.Forms.ComboBox();
+            this.RWFLabel = new System.Windows.Forms.Label();
+            this.RWFComboBox = new System.Windows.Forms.ComboBox();
+            this.LWFLabel = new System.Windows.Forms.Label();
+            this.LWFComboBox = new System.Windows.Forms.ComboBox();
+            this.RMFLabel = new System.Windows.Forms.Label();
+            this.RMFComboBox = new System.Windows.Forms.ComboBox();
+            this.AMFLabel = new System.Windows.Forms.Label();
+            this.AMFComboBox = new System.Windows.Forms.ComboBox();
+            this.LMFLabel = new System.Windows.Forms.Label();
+            this.LMFComboBox = new System.Windows.Forms.ComboBox();
+            this.CMFLabel = new System.Windows.Forms.Label();
+            this.CMFComboBox = new System.Windows.Forms.ComboBox();
+            this.DMFLabel = new System.Windows.Forms.Label();
+            this.DMFComboBox = new System.Windows.Forms.ComboBox();
+            this.RBLabel = new System.Windows.Forms.Label();
+            this.RBComboBox = new System.Windows.Forms.ComboBox();
+            this.LBLabel = new System.Windows.Forms.Label();
+            this.LBComboBox = new System.Windows.Forms.ComboBox();
+            this.CBLabel = new System.Windows.Forms.Label();
+            this.CBComboBox = new System.Windows.Forms.ComboBox();
+            this.GKLabel = new System.Windows.Forms.Label();
+            this.GKComboBox = new System.Windows.Forms.ComboBox();
+            this.PositionComboBox = new System.Windows.Forms.ComboBox();
+            this.PositionLabel = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.addBootRelinkButton = new System.Windows.Forms.Button();
-            this.bootRelinkComboBox = new System.Windows.Forms.ComboBox();
-            this.groupBox22 = new System.Windows.Forms.GroupBox();
-            this.comEarlyCrossCheckBox = new System.Windows.Forms.CheckBox();
-            this.comSpeedingBulletCheckBox = new System.Windows.Forms.CheckBox();
-            this.comIncisiveRunCheckBox = new System.Windows.Forms.CheckBox();
-            this.comLongRangerCheckBox = new System.Windows.Forms.CheckBox();
-            this.comLongBallExpertCheckBox = new System.Windows.Forms.CheckBox();
-            this.comMazingRunCheckBox = new System.Windows.Forms.CheckBox();
-            this.comTricksterCheckBox = new System.Windows.Forms.CheckBox();
-            this.groupBox19 = new System.Windows.Forms.GroupBox();
-            this.driblMotionComboBox = new System.Windows.Forms.ComboBox();
-            this.driblMotionLabel = new System.Windows.Forms.Label();
-            this.playAttitudeComboBox = new System.Windows.Forms.ComboBox();
-            this.playAttitudeLabel = new System.Windows.Forms.Label();
-            this.goalCelebComboBox = new System.Windows.Forms.ComboBox();
-            this.pkMotionComboBox = new System.Windows.Forms.ComboBox();
-            this.pkMotionLabel = new System.Windows.Forms.Label();
-            this.fkMotionComboBox = new System.Windows.Forms.ComboBox();
-            this.fkMotionLabel = new System.Windows.Forms.Label();
-            this.ckMotionComboBox = new System.Windows.Forms.ComboBox();
-            this.ckMotionLabel = new System.Windows.Forms.Label();
-            this.runArmMoveComboBox = new System.Windows.Forms.ComboBox();
-            this.runArmMoveLabel = new System.Windows.Forms.Label();
-            this.runHunchComboBox = new System.Windows.Forms.ComboBox();
-            this.runHunchLabel = new System.Windows.Forms.Label();
-            this.dribArmMoveComboBox = new System.Windows.Forms.ComboBox();
-            this.dribArmMoveLabel = new System.Windows.Forms.Label();
-            this.dribHunchComboBox = new System.Windows.Forms.ComboBox();
-            this.dribHunchLabel = new System.Windows.Forms.Label();
-            this.goalCelebLabel = new System.Windows.Forms.Label();
-            this.groupBox23 = new System.Windows.Forms.GroupBox();
-            this.adjustLessButton = new System.Windows.Forms.Button();
-            this.adjustEqualButton = new System.Windows.Forms.Button();
-            this.adjustPlusPercButton = new System.Windows.Forms.Button();
-            this.adjustTextBox = new System.Windows.Forms.TextBox();
-            this.adjustPlusButton = new System.Windows.Forms.Button();
-            this.adjustLessPercButton = new System.Windows.Forms.Button();
-            this.acceptButton = new System.Windows.Forms.Button();
-            this.cancelButton = new System.Windows.Forms.Button();
+            this.AddBootRelinkButton = new System.Windows.Forms.Button();
+            this.BootRelinkComboBox = new System.Windows.Forms.ComboBox();
+            this.BootPictureBox = new System.Windows.Forms.PictureBox();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.LongRangerAICheckBox = new System.Windows.Forms.CheckBox();
+            this.EarlyCrossAICheckBox = new System.Windows.Forms.CheckBox();
+            this.LongBallExpertAICheckBox = new System.Windows.Forms.CheckBox();
+            this.IncisiveRunAICheckBox = new System.Windows.Forms.CheckBox();
+            this.SpeedingBulletAICheckBox = new System.Windows.Forms.CheckBox();
+            this.MazingRunAICheckBox = new System.Windows.Forms.CheckBox();
+            this.TricksterAICheckBox = new System.Windows.Forms.CheckBox();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.GoalCelebComboBox = new System.Windows.Forms.ComboBox();
+            this.GoalCelebLabel = new System.Windows.Forms.Label();
+            this.penalityKickComboBox = new System.Windows.Forms.ComboBox();
+            this.penalityKickLabel = new System.Windows.Forms.Label();
+            this.FreeKickComboBox = new System.Windows.Forms.ComboBox();
+            this.FreeKickLabel = new System.Windows.Forms.Label();
+            this.CornerKickComboBox = new System.Windows.Forms.ComboBox();
+            this.CornerKickLabel = new System.Windows.Forms.Label();
+            this.RunArmMoveComboBox = new System.Windows.Forms.ComboBox();
+            this.RunArmMoveLabel = new System.Windows.Forms.Label();
+            this.RunHunchingComboBox = new System.Windows.Forms.ComboBox();
+            this.RunHunchingLabel = new System.Windows.Forms.Label();
+            this.DribArmMoveComboBox = new System.Windows.Forms.ComboBox();
+            this.DribArmMoveLabel = new System.Windows.Forms.Label();
+            this.DribHunchingComboBox = new System.Windows.Forms.ComboBox();
+            this.DribHunchingLabel = new System.Windows.Forms.Label();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.AdjustLessButton = new System.Windows.Forms.Button();
+            this.AdjustEqualButton = new System.Windows.Forms.Button();
+            this.AdjustPlusPercButton = new System.Windows.Forms.Button();
+            this.AdjustTextBox = new System.Windows.Forms.TextBox();
+            this.AdjustPlusButton = new System.Windows.Forms.Button();
+            this.AdjustLessPercButton = new System.Windows.Forms.Button();
+            this.ApplyButton = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.addGloveRelinkButton = new System.Windows.Forms.Button();
-            this.gloveRelinkComboBox = new System.Windows.Forms.ComboBox();
+            this.AddGloveRelinkButton = new System.Windows.Forms.Button();
+            this.GloveRelinkComboBox = new System.Windows.Forms.ComboBox();
+            this.GlovePictureBox = new System.Windows.Forms.PictureBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.youthClubComboBox = new System.Windows.Forms.ComboBox();
+            this.MarketValueTextBox = new System.Windows.Forms.TextBox();
+            this.MarketValueLabel = new System.Windows.Forms.Label();
+            this.ClubIDLabel = new System.Windows.Forms.Label();
+            this.ClubIDComboBox = new System.Windows.Forms.ComboBox();
+            this.NationalTeamCapLabel = new System.Windows.Forms.Label();
+            this.NationalTeamCapComboBox = new System.Windows.Forms.ComboBox();
+            this.LoanExpiryDateTextBox = new System.Windows.Forms.TextBox();
+            this.OwnerClubLabel = new System.Windows.Forms.Label();
+            this.LoanExpiryDateLabel = new System.Windows.Forms.Label();
+            this.OwnerClubComboBox = new System.Windows.Forms.ComboBox();
+            this.ContractExpiryDateTextBox = new System.Windows.Forms.TextBox();
+            this.YouthClubLabel = new System.Windows.Forms.Label();
+            this.ContractExpiryDateLabel = new System.Windows.Forms.Label();
+            this.YouthClubComboBox = new System.Windows.Forms.ComboBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.marketValueTextBox = new System.Windows.Forms.TextBox();
-            this.bootPictureBox = new System.Windows.Forms.PictureBox();
-            this.glovePictureBox = new System.Windows.Forms.PictureBox();
+            this.GKLowPuntCheckBox = new System.Windows.Forms.CheckBox();
+            this.LongRangeShootingCheckBox = new System.Windows.Forms.CheckBox();
+            this.TrackBackCheckBox = new System.Windows.Forms.CheckBox();
+            this.RabonaCheckBox = new System.Windows.Forms.CheckBox();
+            this.DippingShotCheckBox = new System.Windows.Forms.CheckBox();
+            this.KnuckleShootCheckBox = new System.Windows.Forms.CheckBox();
+            this.NoLookPassCheckBox = new System.Windows.Forms.CheckBox();
+            this.SuperSubCheckBox = new System.Windows.Forms.CheckBox();
+            this.FirstTimeShotCheckBox = new System.Windows.Forms.CheckBox();
+            this.PinpointCrossingCheckBox = new System.Windows.Forms.CheckBox();
+            this.AerialSuperiorityCheckBox = new System.Windows.Forms.CheckBox();
+            this.WeightedPassCheckBox = new System.Windows.Forms.CheckBox();
+            this.FlipFlapCheckBox = new System.Windows.Forms.CheckBox();
+            this.FightingSpiritCheckBox = new System.Windows.Forms.CheckBox();
+            this.SombreroCheckBox = new System.Windows.Forms.CheckBox();
+            this.ChopTurnCheckBox = new System.Windows.Forms.CheckBox();
+            this.ChipShotControlCheckBox = new System.Windows.Forms.CheckBox();
+            this.HeadingCheckBox = new System.Windows.Forms.CheckBox();
+            this.OutsideCurlerCheckBox = new System.Windows.Forms.CheckBox();
+            this.CaptaincyCheckBox = new System.Windows.Forms.CheckBox();
+            this.ThroughPassingCheckBox = new System.Windows.Forms.CheckBox();
+            this.GamesmanshipCheckBox = new System.Windows.Forms.CheckBox();
+            this.LowLoftedPassCheckBox = new System.Windows.Forms.CheckBox();
+            this.HeelTrickCheckBox = new System.Windows.Forms.CheckBox();
+            this.OneTouchPassCheckBox = new System.Windows.Forms.CheckBox();
+            this.ManMarkingCheckBox = new System.Windows.Forms.CheckBox();
+            this.InterceptionCheckBox = new System.Windows.Forms.CheckBox();
+            this.GKHighPuntCheckBox = new System.Windows.Forms.CheckBox();
+            this.MarseilleTurnCheckBox = new System.Windows.Forms.CheckBox();
+            this.RisingShotsCheckBox = new System.Windows.Forms.CheckBox();
+            this.SlidingTackleCheckBox = new System.Windows.Forms.CheckBox();
+            this.PenaltySpecialistCheckBox = new System.Windows.Forms.CheckBox();
+            this.GKPenaltySaverCheckBox = new System.Windows.Forms.CheckBox();
+            this.SoleControlCheckBox = new System.Windows.Forms.CheckBox();
+            this.AcrobaticClearanceCheckBox = new System.Windows.Forms.CheckBox();
+            this.CutBehindTurnCheckBox = new System.Windows.Forms.CheckBox();
+            this.BlockerCheckBox = new System.Windows.Forms.CheckBox();
+            this.ScotchMoveCheckBox = new System.Windows.Forms.CheckBox();
+            this.AcrobaticFinishingCheckBox = new System.Windows.Forms.CheckBox();
+            this.DoubleTouchCheckBox = new System.Windows.Forms.CheckBox();
+            this.LongThrowCheckBox = new System.Windows.Forms.CheckBox();
+            this.ScissorsFeintCheckBox = new System.Windows.Forms.CheckBox();
+            this.LongRangeCurlerCheckBox = new System.Windows.Forms.CheckBox();
+            this.GKLongThrowCheckBox = new System.Windows.Forms.CheckBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.lbl_Overall = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.contractDateTextBox = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.GKReachLabel = new System.Windows.Forms.Label();
-            this.GKReachTextBox = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.groupBox21.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            this.groupBox22.SuspendLayout();
-            this.groupBox19.SuspendLayout();
-            this.groupBox23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BootPictureBox)).BeginInit();
+            this.groupBox12.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.groupBox10.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GlovePictureBox)).BeginInit();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bootPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.glovePictureBox)).BeginInit();
+            this.groupBox5.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.popularityComboBox);
-            this.groupBox1.Controls.Add(this.shirtNameClubTextBox);
-            this.groupBox1.Controls.Add(this.popularityLabel);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.typeTextBox);
-            this.groupBox1.Controls.Add(this.strongHandComboBox);
-            this.groupBox1.Controls.Add(this.strongHandLabel);
-            this.groupBox1.Controls.Add(this.japaneseTextBox);
-            this.groupBox1.Controls.Add(this.japaneseLabel);
-            this.groupBox1.Controls.Add(this.hiddenPlayerCheckBox);
-            this.groupBox1.Controls.Add(this.charButton);
-            this.groupBox1.Controls.Add(this.fakeButton);
-            this.groupBox1.Controls.Add(this.weUsageComboBox);
+            this.groupBox1.Controls.Add(this.WeUsageLabel);
+            this.groupBox1.Controls.Add(this.ShirtNameNationalTextBox);
+            this.groupBox1.Controls.Add(this.ShirtNameNationalLabel);
+            this.groupBox1.Controls.Add(this.ShirtNameClubTextBox);
+            this.groupBox1.Controls.Add(this.ShirtNameClubLabel);
+            this.groupBox1.Controls.Add(this.TypeTextBox);
+            this.groupBox1.Controls.Add(this.StrongHandComboBox);
+            this.groupBox1.Controls.Add(this.StrongHandLabel);
+            this.groupBox1.Controls.Add(this.JapaneseTextBox);
+            this.groupBox1.Controls.Add(this.JapaneseLabel);
+            this.groupBox1.Controls.Add(this.WinnerGoldenBallCheckBox);
+            this.groupBox1.Controls.Add(this.CharButton);
+            this.groupBox1.Controls.Add(this.FakeButton);
+            this.groupBox1.Controls.Add(this.WeUsageComboBox);
             this.groupBox1.Controls.Add(this.InjuryComboBox);
-            this.groupBox1.Controls.Add(this.injuryLabel);
-            this.groupBox1.Controls.Add(this.sndNationalityComboBox);
-            this.groupBox1.Controls.Add(this.strongFootComboBox);
-            this.groupBox1.Controls.Add(this.sndNationalityLabel);
-            this.groupBox1.Controls.Add(this.strongFootLabel);
-            this.groupBox1.Controls.Add(this.playingStyleComboBox);
-            this.groupBox1.Controls.Add(this.playingStyleLabel);
-            this.groupBox1.Controls.Add(this.weAccComboBox);
-            this.groupBox1.Controls.Add(this.formComboBox);
-            this.groupBox1.Controls.Add(this.nationalityComboBox);
-            this.groupBox1.Controls.Add(this.weAccUseLabel);
-            this.groupBox1.Controls.Add(this.formLabel);
-            this.groupBox1.Controls.Add(this.typeLabel);
-            this.groupBox1.Controls.Add(this.weightTextBox);
-            this.groupBox1.Controls.Add(this.weightLabel);
-            this.groupBox1.Controls.Add(this.heightTextBox);
-            this.groupBox1.Controls.Add(this.heightLabel);
-            this.groupBox1.Controls.Add(this.ageTextBox);
-            this.groupBox1.Controls.Add(this.ageLabel);
-            this.groupBox1.Controls.Add(this.nationalityLabel);
-            this.groupBox1.Controls.Add(this.shirtNameTextBox);
-            this.groupBox1.Controls.Add(this.shirtNameLabel);
-            this.groupBox1.Controls.Add(this.nameTextBox);
-            this.groupBox1.Controls.Add(this.nameLabel);
-            this.groupBox1.Controls.Add(this.idTextBox);
-            this.groupBox1.Controls.Add(this.idLabel);
+            this.groupBox1.Controls.Add(this.InjuryLabel);
+            this.groupBox1.Controls.Add(this.SecondNationalityComboBox);
+            this.groupBox1.Controls.Add(this.StrongFootComboBox);
+            this.groupBox1.Controls.Add(this.SecondNationalityLabel);
+            this.groupBox1.Controls.Add(this.StrongFootLabel);
+            this.groupBox1.Controls.Add(this.PlayingStyleComboBox);
+            this.groupBox1.Controls.Add(this.PlayingStyleLabel);
+            this.groupBox1.Controls.Add(this.WeAccComboBox);
+            this.groupBox1.Controls.Add(this.FormComboBox);
+            this.groupBox1.Controls.Add(this.NationalityComboBox);
+            this.groupBox1.Controls.Add(this.WeAccUseLabel);
+            this.groupBox1.Controls.Add(this.FormLabel);
+            this.groupBox1.Controls.Add(this.TypeLabel);
+            this.groupBox1.Controls.Add(this.WeightTextBox);
+            this.groupBox1.Controls.Add(this.WeightLabel);
+            this.groupBox1.Controls.Add(this.HeightTextBox);
+            this.groupBox1.Controls.Add(this.HeightLabel);
+            this.groupBox1.Controls.Add(this.AgeTextBox);
+            this.groupBox1.Controls.Add(this.AgeLabel);
+            this.groupBox1.Controls.Add(this.NationalityLabel);
+            this.groupBox1.Controls.Add(this.ChineseNameTextBox);
+            this.groupBox1.Controls.Add(this.ChineseLabel);
+            this.groupBox1.Controls.Add(this.NameTextBox);
+            this.groupBox1.Controls.Add(this.NameLabel);
+            this.groupBox1.Controls.Add(this.IDTextBox);
+            this.groupBox1.Controls.Add(this.IDLabel);
             this.groupBox1.Location = new System.Drawing.Point(12, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(242, 464);
+            this.groupBox1.Size = new System.Drawing.Size(252, 491);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "General";
             // 
-            // popularityComboBox
+            // WeUsageLabel
             // 
-            this.popularityComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.popularityComboBox.FormattingEnabled = true;
-            this.popularityComboBox.Location = new System.Drawing.Point(94, 419);
-            this.popularityComboBox.Name = "popularityComboBox";
-            this.popularityComboBox.Size = new System.Drawing.Size(65, 21);
-            this.popularityComboBox.TabIndex = 135;
-            this.popularityComboBox.TabStop = false;
+            this.WeUsageLabel.AutoSize = true;
+            this.WeUsageLabel.Location = new System.Drawing.Point(7, 424);
+            this.WeUsageLabel.Name = "WeUsageLabel";
+            this.WeUsageLabel.Size = new System.Drawing.Size(97, 13);
+            this.WeUsageLabel.TabIndex = 138;
+            this.WeUsageLabel.Text = "Weak Foot Usage:";
             // 
-            // shirtNameClubTextBox
+            // ShirtNameNationalTextBox
             // 
-            this.shirtNameClubTextBox.Location = new System.Drawing.Point(94, 133);
-            this.shirtNameClubTextBox.MaxLength = 20;
-            this.shirtNameClubTextBox.Name = "shirtNameClubTextBox";
-            this.shirtNameClubTextBox.Size = new System.Drawing.Size(137, 20);
-            this.shirtNameClubTextBox.TabIndex = 134;
+            this.ShirtNameNationalTextBox.Location = new System.Drawing.Point(105, 156);
+            this.ShirtNameNationalTextBox.MaxLength = 20;
+            this.ShirtNameNationalTextBox.Name = "ShirtNameNationalTextBox";
+            this.ShirtNameNationalTextBox.Size = new System.Drawing.Size(137, 20);
+            this.ShirtNameNationalTextBox.TabIndex = 137;
             // 
-            // popularityLabel
+            // ShirtNameNationalLabel
             // 
-            this.popularityLabel.AutoSize = true;
-            this.popularityLabel.Location = new System.Drawing.Point(7, 422);
-            this.popularityLabel.Name = "popularityLabel";
-            this.popularityLabel.Size = new System.Drawing.Size(56, 13);
-            this.popularityLabel.TabIndex = 132;
-            this.popularityLabel.Text = "Popularity:";
+            this.ShirtNameNationalLabel.AutoSize = true;
+            this.ShirtNameNationalLabel.Location = new System.Drawing.Point(7, 160);
+            this.ShirtNameNationalLabel.Name = "ShirtNameNationalLabel";
+            this.ShirtNameNationalLabel.Size = new System.Drawing.Size(88, 13);
+            this.ShirtNameNationalLabel.TabIndex = 136;
+            this.ShirtNameNationalLabel.Text = "Shirt Name (Nat):";
             // 
-            // label1
+            // ShirtNameClubTextBox
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 137);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 13);
-            this.label1.TabIndex = 133;
-            this.label1.Text = "Shirt Name (C):";
+            this.ShirtNameClubTextBox.Location = new System.Drawing.Point(105, 133);
+            this.ShirtNameClubTextBox.MaxLength = 20;
+            this.ShirtNameClubTextBox.Name = "ShirtNameClubTextBox";
+            this.ShirtNameClubTextBox.Size = new System.Drawing.Size(137, 20);
+            this.ShirtNameClubTextBox.TabIndex = 134;
             // 
-            // typeTextBox
+            // ShirtNameClubLabel
             // 
-            this.typeTextBox.Location = new System.Drawing.Point(94, 42);
-            this.typeTextBox.MaxLength = 44;
-            this.typeTextBox.Name = "typeTextBox";
-            this.typeTextBox.ReadOnly = true;
-            this.typeTextBox.Size = new System.Drawing.Size(136, 20);
-            this.typeTextBox.TabIndex = 132;
+            this.ShirtNameClubLabel.AutoSize = true;
+            this.ShirtNameClubLabel.Location = new System.Drawing.Point(7, 137);
+            this.ShirtNameClubLabel.Name = "ShirtNameClubLabel";
+            this.ShirtNameClubLabel.Size = new System.Drawing.Size(92, 13);
+            this.ShirtNameClubLabel.TabIndex = 133;
+            this.ShirtNameClubLabel.Text = "Shirt Name (Club):";
             // 
-            // strongHandComboBox
+            // TypeTextBox
             // 
-            this.strongHandComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.strongHandComboBox.FormattingEnabled = true;
-            this.strongHandComboBox.Location = new System.Drawing.Point(94, 322);
-            this.strongHandComboBox.Name = "strongHandComboBox";
-            this.strongHandComboBox.Size = new System.Drawing.Size(65, 21);
-            this.strongHandComboBox.TabIndex = 132;
-            this.strongHandComboBox.TabStop = false;
+            this.TypeTextBox.Location = new System.Drawing.Point(105, 42);
+            this.TypeTextBox.MaxLength = 44;
+            this.TypeTextBox.Name = "TypeTextBox";
+            this.TypeTextBox.ReadOnly = true;
+            this.TypeTextBox.Size = new System.Drawing.Size(136, 20);
+            this.TypeTextBox.TabIndex = 132;
             // 
-            // strongHandLabel
+            // StrongHandComboBox
             // 
-            this.strongHandLabel.AutoSize = true;
-            this.strongHandLabel.Location = new System.Drawing.Point(7, 326);
-            this.strongHandLabel.Name = "strongHandLabel";
-            this.strongHandLabel.Size = new System.Drawing.Size(79, 13);
-            this.strongHandLabel.TabIndex = 131;
-            this.strongHandLabel.Text = "Stronger Hand:";
+            this.StrongHandComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.StrongHandComboBox.FormattingEnabled = true;
+            this.StrongHandComboBox.Location = new System.Drawing.Point(105, 345);
+            this.StrongHandComboBox.Name = "StrongHandComboBox";
+            this.StrongHandComboBox.Size = new System.Drawing.Size(65, 21);
+            this.StrongHandComboBox.TabIndex = 132;
+            this.StrongHandComboBox.TabStop = false;
             // 
-            // japaneseTextBox
+            // StrongHandLabel
             // 
-            this.japaneseTextBox.Location = new System.Drawing.Point(94, 88);
-            this.japaneseTextBox.MaxLength = 30;
-            this.japaneseTextBox.Name = "japaneseTextBox";
-            this.japaneseTextBox.Size = new System.Drawing.Size(137, 20);
-            this.japaneseTextBox.TabIndex = 129;
+            this.StrongHandLabel.AutoSize = true;
+            this.StrongHandLabel.Location = new System.Drawing.Point(7, 349);
+            this.StrongHandLabel.Name = "StrongHandLabel";
+            this.StrongHandLabel.Size = new System.Drawing.Size(79, 13);
+            this.StrongHandLabel.TabIndex = 131;
+            this.StrongHandLabel.Text = "Stronger Hand:";
             // 
-            // japaneseLabel
+            // JapaneseTextBox
             // 
-            this.japaneseLabel.AutoSize = true;
-            this.japaneseLabel.Location = new System.Drawing.Point(7, 92);
-            this.japaneseLabel.Name = "japaneseLabel";
-            this.japaneseLabel.Size = new System.Drawing.Size(87, 13);
-            this.japaneseLabel.TabIndex = 128;
-            this.japaneseLabel.Text = "Japanese Name:";
+            this.JapaneseTextBox.Location = new System.Drawing.Point(105, 88);
+            this.JapaneseTextBox.MaxLength = 30;
+            this.JapaneseTextBox.Name = "JapaneseTextBox";
+            this.JapaneseTextBox.Size = new System.Drawing.Size(137, 20);
+            this.JapaneseTextBox.TabIndex = 129;
             // 
-            // hiddenPlayerCheckBox
+            // JapaneseLabel
             // 
-            this.hiddenPlayerCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.JapaneseLabel.AutoSize = true;
+            this.JapaneseLabel.Location = new System.Drawing.Point(7, 92);
+            this.JapaneseLabel.Name = "JapaneseLabel";
+            this.JapaneseLabel.Size = new System.Drawing.Size(87, 13);
+            this.JapaneseLabel.TabIndex = 128;
+            this.JapaneseLabel.Text = "Japanese Name:";
+            // 
+            // WinnerGoldenBallCheckBox
+            // 
+            this.WinnerGoldenBallCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.hiddenPlayerCheckBox.AutoSize = true;
-            this.hiddenPlayerCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.hiddenPlayerCheckBox.Location = new System.Drawing.Point(10, 442);
-            this.hiddenPlayerCheckBox.Name = "hiddenPlayerCheckBox";
-            this.hiddenPlayerCheckBox.Size = new System.Drawing.Size(92, 17);
-            this.hiddenPlayerCheckBox.TabIndex = 127;
-            this.hiddenPlayerCheckBox.Text = "Hidden Player";
-            this.hiddenPlayerCheckBox.UseVisualStyleBackColor = true;
+            this.WinnerGoldenBallCheckBox.AutoSize = true;
+            this.WinnerGoldenBallCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.WinnerGoldenBallCheckBox.Location = new System.Drawing.Point(10, 465);
+            this.WinnerGoldenBallCheckBox.Name = "WinnerGoldenBallCheckBox";
+            this.WinnerGoldenBallCheckBox.Size = new System.Drawing.Size(129, 17);
+            this.WinnerGoldenBallCheckBox.TabIndex = 127;
+            this.WinnerGoldenBallCheckBox.Text = "Winner of Golden Ball";
+            this.WinnerGoldenBallCheckBox.UseVisualStyleBackColor = true;
             // 
-            // charButton
+            // CharButton
             // 
-            this.charButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.charButton.FlatAppearance.BorderSize = 0;
-            this.charButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.charButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.charButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.charButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.charButton.Image = ((System.Drawing.Image)(resources.GetObject("charButton.Image")));
-            this.charButton.Location = new System.Drawing.Point(213, 66);
-            this.charButton.Name = "charButton";
-            this.charButton.Size = new System.Drawing.Size(17, 17);
-            this.charButton.TabIndex = 126;
-            this.charButton.UseVisualStyleBackColor = true;
+            this.CharButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CharButton.FlatAppearance.BorderSize = 0;
+            this.CharButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.CharButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.CharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.CharButton.Image = ((System.Drawing.Image)(resources.GetObject("CharButton.Image")));
+            this.CharButton.Location = new System.Drawing.Point(224, 66);
+            this.CharButton.Name = "CharButton";
+            this.CharButton.Size = new System.Drawing.Size(17, 17);
+            this.CharButton.TabIndex = 126;
+            this.CharButton.UseVisualStyleBackColor = true;
             // 
-            // fakeButton
+            // FakeButton
             // 
-            this.fakeButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.fakeButton.FlatAppearance.BorderSize = 0;
-            this.fakeButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.fakeButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.fakeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.fakeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.fakeButton.Image = ((System.Drawing.Image)(resources.GetObject("fakeButton.Image")));
-            this.fakeButton.Location = new System.Drawing.Point(166, 20);
-            this.fakeButton.Name = "fakeButton";
-            this.fakeButton.Size = new System.Drawing.Size(17, 17);
-            this.fakeButton.TabIndex = 125;
-            this.fakeButton.UseVisualStyleBackColor = true;
+            this.FakeButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FakeButton.FlatAppearance.BorderSize = 0;
+            this.FakeButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.FakeButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.FakeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FakeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.FakeButton.Image = ((System.Drawing.Image)(resources.GetObject("FakeButton.Image")));
+            this.FakeButton.Location = new System.Drawing.Point(177, 20);
+            this.FakeButton.Name = "FakeButton";
+            this.FakeButton.Size = new System.Drawing.Size(17, 17);
+            this.FakeButton.TabIndex = 125;
+            this.FakeButton.UseVisualStyleBackColor = true;
             // 
-            // weUsageComboBox
+            // WeUsageComboBox
             // 
-            this.weUsageComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.weUsageComboBox.FormattingEnabled = true;
-            this.weUsageComboBox.Location = new System.Drawing.Point(166, 371);
-            this.weUsageComboBox.Name = "weUsageComboBox";
-            this.weUsageComboBox.Size = new System.Drawing.Size(65, 21);
-            this.weUsageComboBox.TabIndex = 39;
-            this.weUsageComboBox.TabStop = false;
+            this.WeUsageComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.WeUsageComboBox.FormattingEnabled = true;
+            this.WeUsageComboBox.Location = new System.Drawing.Point(105, 416);
+            this.WeUsageComboBox.Name = "WeUsageComboBox";
+            this.WeUsageComboBox.Size = new System.Drawing.Size(65, 21);
+            this.WeUsageComboBox.TabIndex = 39;
+            this.WeUsageComboBox.TabStop = false;
             // 
             // InjuryComboBox
             // 
             this.InjuryComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.InjuryComboBox.FormattingEnabled = true;
-            this.InjuryComboBox.Location = new System.Drawing.Point(94, 394);
+            this.InjuryComboBox.Location = new System.Drawing.Point(105, 440);
             this.InjuryComboBox.Name = "InjuryComboBox";
             this.InjuryComboBox.Size = new System.Drawing.Size(65, 21);
             this.InjuryComboBox.TabIndex = 38;
             this.InjuryComboBox.TabStop = false;
             // 
-            // injuryLabel
+            // InjuryLabel
             // 
-            this.injuryLabel.AutoSize = true;
-            this.injuryLabel.Location = new System.Drawing.Point(7, 398);
-            this.injuryLabel.Name = "injuryLabel";
-            this.injuryLabel.Size = new System.Drawing.Size(57, 13);
-            this.injuryLabel.TabIndex = 37;
-            this.injuryLabel.Text = "Injury Res:";
+            this.InjuryLabel.AutoSize = true;
+            this.InjuryLabel.Location = new System.Drawing.Point(8, 445);
+            this.InjuryLabel.Name = "InjuryLabel";
+            this.InjuryLabel.Size = new System.Drawing.Size(57, 13);
+            this.InjuryLabel.TabIndex = 37;
+            this.InjuryLabel.Text = "Injury Res:";
             // 
-            // sndNationalityComboBox
+            // SecondNationalityComboBox
             // 
-            this.sndNationalityComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.sndNationalityComboBox.FormattingEnabled = true;
-            this.sndNationalityComboBox.Location = new System.Drawing.Point(94, 205);
-            this.sndNationalityComboBox.Name = "sndNationalityComboBox";
-            this.sndNationalityComboBox.Size = new System.Drawing.Size(137, 21);
-            this.sndNationalityComboBox.TabIndex = 36;
-            this.sndNationalityComboBox.TabStop = false;
+            this.SecondNationalityComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.SecondNationalityComboBox.FormattingEnabled = true;
+            this.SecondNationalityComboBox.Location = new System.Drawing.Point(105, 228);
+            this.SecondNationalityComboBox.Name = "SecondNationalityComboBox";
+            this.SecondNationalityComboBox.Size = new System.Drawing.Size(137, 21);
+            this.SecondNationalityComboBox.TabIndex = 36;
+            this.SecondNationalityComboBox.TabStop = false;
             // 
-            // strongFootComboBox
+            // StrongFootComboBox
             // 
-            this.strongFootComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.strongFootComboBox.FormattingEnabled = true;
-            this.strongFootComboBox.Location = new System.Drawing.Point(94, 298);
-            this.strongFootComboBox.Name = "strongFootComboBox";
-            this.strongFootComboBox.Size = new System.Drawing.Size(65, 21);
-            this.strongFootComboBox.TabIndex = 30;
-            this.strongFootComboBox.TabStop = false;
+            this.StrongFootComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.StrongFootComboBox.FormattingEnabled = true;
+            this.StrongFootComboBox.Location = new System.Drawing.Point(105, 321);
+            this.StrongFootComboBox.Name = "StrongFootComboBox";
+            this.StrongFootComboBox.Size = new System.Drawing.Size(65, 21);
+            this.StrongFootComboBox.TabIndex = 30;
+            this.StrongFootComboBox.TabStop = false;
             // 
-            // sndNationalityLabel
+            // SecondNationalityLabel
             // 
-            this.sndNationalityLabel.AutoSize = true;
-            this.sndNationalityLabel.Location = new System.Drawing.Point(7, 209);
-            this.sndNationalityLabel.Name = "sndNationalityLabel";
-            this.sndNationalityLabel.Size = new System.Drawing.Size(72, 13);
-            this.sndNationalityLabel.TabIndex = 35;
-            this.sndNationalityLabel.Text = "2° Nationality:";
+            this.SecondNationalityLabel.AutoSize = true;
+            this.SecondNationalityLabel.Location = new System.Drawing.Point(7, 232);
+            this.SecondNationalityLabel.Name = "SecondNationalityLabel";
+            this.SecondNationalityLabel.Size = new System.Drawing.Size(72, 13);
+            this.SecondNationalityLabel.TabIndex = 35;
+            this.SecondNationalityLabel.Text = "2° Nationality:";
             // 
-            // strongFootLabel
+            // StrongFootLabel
             // 
-            this.strongFootLabel.AutoSize = true;
-            this.strongFootLabel.Location = new System.Drawing.Point(7, 302);
-            this.strongFootLabel.Name = "strongFootLabel";
-            this.strongFootLabel.Size = new System.Drawing.Size(74, 13);
-            this.strongFootLabel.TabIndex = 16;
-            this.strongFootLabel.Text = "Stronger Foot:";
+            this.StrongFootLabel.AutoSize = true;
+            this.StrongFootLabel.Location = new System.Drawing.Point(7, 325);
+            this.StrongFootLabel.Name = "StrongFootLabel";
+            this.StrongFootLabel.Size = new System.Drawing.Size(74, 13);
+            this.StrongFootLabel.TabIndex = 16;
+            this.StrongFootLabel.Text = "Stronger Foot:";
             // 
-            // playingStyleComboBox
+            // PlayingStyleComboBox
             // 
-            this.playingStyleComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.playingStyleComboBox.FormattingEnabled = true;
-            this.playingStyleComboBox.Location = new System.Drawing.Point(94, 156);
-            this.playingStyleComboBox.Name = "playingStyleComboBox";
-            this.playingStyleComboBox.Size = new System.Drawing.Size(137, 21);
-            this.playingStyleComboBox.TabIndex = 33;
-            this.playingStyleComboBox.TabStop = false;
+            this.PlayingStyleComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.PlayingStyleComboBox.FormattingEnabled = true;
+            this.PlayingStyleComboBox.Location = new System.Drawing.Point(105, 179);
+            this.PlayingStyleComboBox.Name = "PlayingStyleComboBox";
+            this.PlayingStyleComboBox.Size = new System.Drawing.Size(137, 21);
+            this.PlayingStyleComboBox.TabIndex = 33;
+            this.PlayingStyleComboBox.TabStop = false;
             // 
-            // playingStyleLabel
+            // PlayingStyleLabel
             // 
-            this.playingStyleLabel.AutoSize = true;
-            this.playingStyleLabel.Location = new System.Drawing.Point(7, 160);
-            this.playingStyleLabel.Name = "playingStyleLabel";
-            this.playingStyleLabel.Size = new System.Drawing.Size(70, 13);
-            this.playingStyleLabel.TabIndex = 34;
-            this.playingStyleLabel.Text = "Playing Style:";
+            this.PlayingStyleLabel.AutoSize = true;
+            this.PlayingStyleLabel.Location = new System.Drawing.Point(7, 183);
+            this.PlayingStyleLabel.Name = "PlayingStyleLabel";
+            this.PlayingStyleLabel.Size = new System.Drawing.Size(70, 13);
+            this.PlayingStyleLabel.TabIndex = 34;
+            this.PlayingStyleLabel.Text = "Playing Style:";
             // 
-            // weAccComboBox
+            // WeAccComboBox
             // 
-            this.weAccComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.weAccComboBox.FormattingEnabled = true;
-            this.weAccComboBox.Location = new System.Drawing.Point(94, 370);
-            this.weAccComboBox.Name = "weAccComboBox";
-            this.weAccComboBox.Size = new System.Drawing.Size(65, 21);
-            this.weAccComboBox.TabIndex = 32;
-            this.weAccComboBox.TabStop = false;
+            this.WeAccComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.WeAccComboBox.FormattingEnabled = true;
+            this.WeAccComboBox.Location = new System.Drawing.Point(105, 393);
+            this.WeAccComboBox.Name = "WeAccComboBox";
+            this.WeAccComboBox.Size = new System.Drawing.Size(65, 21);
+            this.WeAccComboBox.TabIndex = 32;
+            this.WeAccComboBox.TabStop = false;
             // 
-            // formComboBox
+            // FormComboBox
             // 
-            this.formComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.formComboBox.FormattingEnabled = true;
-            this.formComboBox.Location = new System.Drawing.Point(94, 346);
-            this.formComboBox.Name = "formComboBox";
-            this.formComboBox.Size = new System.Drawing.Size(65, 21);
-            this.formComboBox.TabIndex = 31;
-            this.formComboBox.TabStop = false;
+            this.FormComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.FormComboBox.FormattingEnabled = true;
+            this.FormComboBox.Location = new System.Drawing.Point(105, 369);
+            this.FormComboBox.Name = "FormComboBox";
+            this.FormComboBox.Size = new System.Drawing.Size(65, 21);
+            this.FormComboBox.TabIndex = 31;
+            this.FormComboBox.TabStop = false;
             // 
-            // nationalityComboBox
+            // NationalityComboBox
             // 
-            this.nationalityComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.nationalityComboBox.FormattingEnabled = true;
-            this.nationalityComboBox.Location = new System.Drawing.Point(94, 181);
-            this.nationalityComboBox.Name = "nationalityComboBox";
-            this.nationalityComboBox.Size = new System.Drawing.Size(137, 21);
-            this.nationalityComboBox.TabIndex = 29;
-            this.nationalityComboBox.TabStop = false;
+            this.NationalityComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.NationalityComboBox.FormattingEnabled = true;
+            this.NationalityComboBox.Location = new System.Drawing.Point(105, 204);
+            this.NationalityComboBox.Name = "NationalityComboBox";
+            this.NationalityComboBox.Size = new System.Drawing.Size(137, 21);
+            this.NationalityComboBox.TabIndex = 29;
+            this.NationalityComboBox.TabStop = false;
             // 
-            // weAccUseLabel
+            // WeAccUseLabel
             // 
-            this.weAccUseLabel.AutoSize = true;
-            this.weAccUseLabel.Location = new System.Drawing.Point(7, 374);
-            this.weAccUseLabel.Name = "weAccUseLabel";
-            this.weAccUseLabel.Size = new System.Drawing.Size(73, 13);
-            this.weAccUseLabel.TabIndex = 28;
-            this.weAccUseLabel.Text = "We Acc/Use:";
+            this.WeAccUseLabel.AutoSize = true;
+            this.WeAccUseLabel.Location = new System.Drawing.Point(7, 397);
+            this.WeAccUseLabel.Name = "WeAccUseLabel";
+            this.WeAccUseLabel.Size = new System.Drawing.Size(85, 13);
+            this.WeAccUseLabel.TabIndex = 28;
+            this.WeAccUseLabel.Text = "Weak Foot Acc:";
             // 
-            // formLabel
+            // FormLabel
             // 
-            this.formLabel.AutoSize = true;
-            this.formLabel.Location = new System.Drawing.Point(7, 350);
-            this.formLabel.Name = "formLabel";
-            this.formLabel.Size = new System.Drawing.Size(33, 13);
-            this.formLabel.TabIndex = 26;
-            this.formLabel.Text = "Form:";
+            this.FormLabel.AutoSize = true;
+            this.FormLabel.Location = new System.Drawing.Point(7, 373);
+            this.FormLabel.Name = "FormLabel";
+            this.FormLabel.Size = new System.Drawing.Size(33, 13);
+            this.FormLabel.TabIndex = 26;
+            this.FormLabel.Text = "Form:";
             // 
-            // typeLabel
+            // TypeLabel
             // 
-            this.typeLabel.AutoSize = true;
-            this.typeLabel.Location = new System.Drawing.Point(7, 46);
-            this.typeLabel.Name = "typeLabel";
-            this.typeLabel.Size = new System.Drawing.Size(34, 13);
-            this.typeLabel.TabIndex = 24;
-            this.typeLabel.Text = "Type:";
+            this.TypeLabel.AutoSize = true;
+            this.TypeLabel.Location = new System.Drawing.Point(7, 46);
+            this.TypeLabel.Name = "TypeLabel";
+            this.TypeLabel.Size = new System.Drawing.Size(34, 13);
+            this.TypeLabel.TabIndex = 24;
+            this.TypeLabel.Text = "Type:";
             // 
-            // weightTextBox
+            // WeightTextBox
             // 
-            this.weightTextBox.Location = new System.Drawing.Point(94, 275);
-            this.weightTextBox.MaxLength = 3;
-            this.weightTextBox.Name = "weightTextBox";
-            this.weightTextBox.Size = new System.Drawing.Size(65, 20);
-            this.weightTextBox.TabIndex = 23;
+            this.WeightTextBox.Location = new System.Drawing.Point(105, 298);
+            this.WeightTextBox.MaxLength = 3;
+            this.WeightTextBox.Name = "WeightTextBox";
+            this.WeightTextBox.Size = new System.Drawing.Size(65, 20);
+            this.WeightTextBox.TabIndex = 23;
             // 
-            // weightLabel
+            // WeightLabel
             // 
-            this.weightLabel.AutoSize = true;
-            this.weightLabel.Location = new System.Drawing.Point(7, 279);
-            this.weightLabel.Name = "weightLabel";
-            this.weightLabel.Size = new System.Drawing.Size(65, 13);
-            this.weightLabel.TabIndex = 22;
-            this.weightLabel.Text = "Weight (kg):";
+            this.WeightLabel.AutoSize = true;
+            this.WeightLabel.Location = new System.Drawing.Point(7, 302);
+            this.WeightLabel.Name = "WeightLabel";
+            this.WeightLabel.Size = new System.Drawing.Size(65, 13);
+            this.WeightLabel.TabIndex = 22;
+            this.WeightLabel.Text = "Weight (kg):";
             // 
-            // heightTextBox
+            // HeightTextBox
             // 
-            this.heightTextBox.Location = new System.Drawing.Point(94, 252);
-            this.heightTextBox.MaxLength = 3;
-            this.heightTextBox.Name = "heightTextBox";
-            this.heightTextBox.Size = new System.Drawing.Size(65, 20);
-            this.heightTextBox.TabIndex = 21;
+            this.HeightTextBox.Location = new System.Drawing.Point(105, 275);
+            this.HeightTextBox.MaxLength = 3;
+            this.HeightTextBox.Name = "HeightTextBox";
+            this.HeightTextBox.Size = new System.Drawing.Size(65, 20);
+            this.HeightTextBox.TabIndex = 21;
             // 
-            // heightLabel
+            // HeightLabel
             // 
-            this.heightLabel.AutoSize = true;
-            this.heightLabel.Location = new System.Drawing.Point(7, 256);
-            this.heightLabel.Name = "heightLabel";
-            this.heightLabel.Size = new System.Drawing.Size(64, 13);
-            this.heightLabel.TabIndex = 20;
-            this.heightLabel.Text = "Height (cm):";
+            this.HeightLabel.AutoSize = true;
+            this.HeightLabel.Location = new System.Drawing.Point(7, 279);
+            this.HeightLabel.Name = "HeightLabel";
+            this.HeightLabel.Size = new System.Drawing.Size(64, 13);
+            this.HeightLabel.TabIndex = 20;
+            this.HeightLabel.Text = "Height (cm):";
             // 
-            // ageTextBox
+            // AgeTextBox
             // 
-            this.ageTextBox.Location = new System.Drawing.Point(94, 229);
-            this.ageTextBox.MaxLength = 2;
-            this.ageTextBox.Name = "ageTextBox";
-            this.ageTextBox.Size = new System.Drawing.Size(65, 20);
-            this.ageTextBox.TabIndex = 19;
+            this.AgeTextBox.Location = new System.Drawing.Point(105, 252);
+            this.AgeTextBox.MaxLength = 2;
+            this.AgeTextBox.Name = "AgeTextBox";
+            this.AgeTextBox.Size = new System.Drawing.Size(65, 20);
+            this.AgeTextBox.TabIndex = 19;
             // 
-            // ageLabel
+            // AgeLabel
             // 
-            this.ageLabel.AutoSize = true;
-            this.ageLabel.Location = new System.Drawing.Point(7, 233);
-            this.ageLabel.Name = "ageLabel";
-            this.ageLabel.Size = new System.Drawing.Size(29, 13);
-            this.ageLabel.TabIndex = 18;
-            this.ageLabel.Text = "Age:";
+            this.AgeLabel.AutoSize = true;
+            this.AgeLabel.Location = new System.Drawing.Point(7, 256);
+            this.AgeLabel.Name = "AgeLabel";
+            this.AgeLabel.Size = new System.Drawing.Size(29, 13);
+            this.AgeLabel.TabIndex = 18;
+            this.AgeLabel.Text = "Age:";
             // 
-            // nationalityLabel
+            // NationalityLabel
             // 
-            this.nationalityLabel.AutoSize = true;
-            this.nationalityLabel.Location = new System.Drawing.Point(7, 185);
-            this.nationalityLabel.Name = "nationalityLabel";
-            this.nationalityLabel.Size = new System.Drawing.Size(59, 13);
-            this.nationalityLabel.TabIndex = 14;
-            this.nationalityLabel.Text = "Nationality:";
+            this.NationalityLabel.AutoSize = true;
+            this.NationalityLabel.Location = new System.Drawing.Point(7, 208);
+            this.NationalityLabel.Name = "NationalityLabel";
+            this.NationalityLabel.Size = new System.Drawing.Size(59, 13);
+            this.NationalityLabel.TabIndex = 14;
+            this.NationalityLabel.Text = "Nationality:";
             // 
-            // shirtNameTextBox
+            // ChineseNameTextBox
             // 
-            this.shirtNameTextBox.Location = new System.Drawing.Point(94, 110);
-            this.shirtNameTextBox.MaxLength = 20;
-            this.shirtNameTextBox.Name = "shirtNameTextBox";
-            this.shirtNameTextBox.Size = new System.Drawing.Size(137, 20);
-            this.shirtNameTextBox.TabIndex = 11;
+            this.ChineseNameTextBox.Location = new System.Drawing.Point(105, 110);
+            this.ChineseNameTextBox.MaxLength = 20;
+            this.ChineseNameTextBox.Name = "ChineseNameTextBox";
+            this.ChineseNameTextBox.Size = new System.Drawing.Size(137, 20);
+            this.ChineseNameTextBox.TabIndex = 11;
             // 
-            // shirtNameLabel
+            // ChineseLabel
             // 
-            this.shirtNameLabel.AutoSize = true;
-            this.shirtNameLabel.Location = new System.Drawing.Point(7, 114);
-            this.shirtNameLabel.Name = "shirtNameLabel";
-            this.shirtNameLabel.Size = new System.Drawing.Size(79, 13);
-            this.shirtNameLabel.TabIndex = 10;
-            this.shirtNameLabel.Text = "Shirt Name (N):";
+            this.ChineseLabel.AutoSize = true;
+            this.ChineseLabel.Location = new System.Drawing.Point(7, 114);
+            this.ChineseLabel.Name = "ChineseLabel";
+            this.ChineseLabel.Size = new System.Drawing.Size(79, 13);
+            this.ChineseLabel.TabIndex = 10;
+            this.ChineseLabel.Text = "Chinese Name:";
             // 
-            // nameTextBox
+            // NameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(94, 65);
-            this.nameTextBox.MaxLength = 30;
-            this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(113, 20);
-            this.nameTextBox.TabIndex = 9;
+            this.NameTextBox.Location = new System.Drawing.Point(105, 65);
+            this.NameTextBox.MaxLength = 30;
+            this.NameTextBox.Name = "NameTextBox";
+            this.NameTextBox.Size = new System.Drawing.Size(113, 20);
+            this.NameTextBox.TabIndex = 9;
             // 
-            // nameLabel
+            // NameLabel
             // 
-            this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(7, 69);
-            this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(38, 13);
-            this.nameLabel.TabIndex = 8;
-            this.nameLabel.Text = "Name:";
+            this.NameLabel.AutoSize = true;
+            this.NameLabel.Location = new System.Drawing.Point(7, 69);
+            this.NameLabel.Name = "NameLabel";
+            this.NameLabel.Size = new System.Drawing.Size(38, 13);
+            this.NameLabel.TabIndex = 8;
+            this.NameLabel.Text = "Name:";
             // 
-            // idTextBox
+            // IDTextBox
             // 
-            this.idTextBox.Location = new System.Drawing.Point(94, 19);
-            this.idTextBox.MaxLength = 10;
-            this.idTextBox.Name = "idTextBox";
-            this.idTextBox.Size = new System.Drawing.Size(65, 20);
-            this.idTextBox.TabIndex = 7;
+            this.IDTextBox.Location = new System.Drawing.Point(105, 19);
+            this.IDTextBox.MaxLength = 10;
+            this.IDTextBox.Name = "IDTextBox";
+            this.IDTextBox.Size = new System.Drawing.Size(65, 20);
+            this.IDTextBox.TabIndex = 7;
             // 
-            // idLabel
+            // IDLabel
             // 
-            this.idLabel.AutoSize = true;
-            this.idLabel.Location = new System.Drawing.Point(7, 23);
-            this.idLabel.Name = "idLabel";
-            this.idLabel.Size = new System.Drawing.Size(21, 13);
-            this.idLabel.TabIndex = 6;
-            this.idLabel.Text = "ID:";
-            // 
-            // goldenBallCheckBox
-            // 
-            this.goldenBallCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.goldenBallCheckBox.AutoSize = true;
-            this.goldenBallCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.goldenBallCheckBox.Location = new System.Drawing.Point(18, 630);
-            this.goldenBallCheckBox.Name = "goldenBallCheckBox";
-            this.goldenBallCheckBox.Size = new System.Drawing.Size(128, 17);
-            this.goldenBallCheckBox.TabIndex = 130;
-            this.goldenBallCheckBox.Text = "Has Won Golden Ball";
-            this.goldenBallCheckBox.UseVisualStyleBackColor = true;
+            this.IDLabel.AutoSize = true;
+            this.IDLabel.Location = new System.Drawing.Point(7, 23);
+            this.IDLabel.Name = "IDLabel";
+            this.IDLabel.Size = new System.Drawing.Size(21, 13);
+            this.IDLabel.TabIndex = 6;
+            this.IDLabel.Text = "ID:";
             // 
             // groupBox2
             // 
@@ -758,12 +763,29 @@
             this.groupBox2.Controls.Add(this.DribblingLabel);
             this.groupBox2.Controls.Add(this.BallControlLabel);
             this.groupBox2.Controls.Add(this.OffensiveProwessLabel);
-            this.groupBox2.Location = new System.Drawing.Point(272, 6);
+            this.groupBox2.Location = new System.Drawing.Point(270, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(190, 621);
+            this.groupBox2.Size = new System.Drawing.Size(190, 614);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Abilities";
+            // 
+            // GKReachLabel
+            // 
+            this.GKReachLabel.AutoSize = true;
+            this.GKReachLabel.Location = new System.Drawing.Point(15, 593);
+            this.GKReachLabel.Name = "GKReachLabel";
+            this.GKReachLabel.Size = new System.Drawing.Size(60, 13);
+            this.GKReachLabel.TabIndex = 111;
+            this.GKReachLabel.Text = "GK Reach:";
+            // 
+            // GKReachTextBox
+            // 
+            this.GKReachTextBox.Location = new System.Drawing.Point(142, 590);
+            this.GKReachTextBox.MaxLength = 2;
+            this.GKReachTextBox.Name = "GKReachTextBox";
+            this.GKReachTextBox.Size = new System.Drawing.Size(35, 20);
+            this.GKReachTextBox.TabIndex = 110;
             // 
             // DefensiveEngangementTextBox
             // 
@@ -1192,1638 +1214,1643 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.cfLabel);
-            this.groupBox3.Controls.Add(this.cfComboBox);
-            this.groupBox3.Controls.Add(this.ssLabel);
-            this.groupBox3.Controls.Add(this.ssComboBox);
-            this.groupBox3.Controls.Add(this.rwfLabel);
-            this.groupBox3.Controls.Add(this.rwfComboBox);
-            this.groupBox3.Controls.Add(this.lwfLabel);
-            this.groupBox3.Controls.Add(this.lwfComboBox);
-            this.groupBox3.Controls.Add(this.rmfLabel);
-            this.groupBox3.Controls.Add(this.rmfComboBox);
-            this.groupBox3.Controls.Add(this.amfLabel);
-            this.groupBox3.Controls.Add(this.amfComboBox);
-            this.groupBox3.Controls.Add(this.lmfLabel);
-            this.groupBox3.Controls.Add(this.lmfComboBox);
-            this.groupBox3.Controls.Add(this.cmfLabel);
-            this.groupBox3.Controls.Add(this.cmfComboBox);
-            this.groupBox3.Controls.Add(this.dmfLabel);
-            this.groupBox3.Controls.Add(this.dmfComboBox);
-            this.groupBox3.Controls.Add(this.rbLabel);
-            this.groupBox3.Controls.Add(this.rbComboBox);
-            this.groupBox3.Controls.Add(this.lbLabel);
-            this.groupBox3.Controls.Add(this.lbComboBox);
-            this.groupBox3.Controls.Add(this.cbLabel);
-            this.groupBox3.Controls.Add(this.cbComboBox);
-            this.groupBox3.Controls.Add(this.gkLabel);
-            this.groupBox3.Controls.Add(this.gkComboBox);
-            this.groupBox3.Controls.Add(this.positionComboBox);
-            this.groupBox3.Controls.Add(this.positionLabel);
-            this.groupBox3.Location = new System.Drawing.Point(13, 476);
+            this.groupBox3.Controls.Add(this.CFLabel);
+            this.groupBox3.Controls.Add(this.CFComboBox);
+            this.groupBox3.Controls.Add(this.SSLabel);
+            this.groupBox3.Controls.Add(this.SSComboBox);
+            this.groupBox3.Controls.Add(this.RWFLabel);
+            this.groupBox3.Controls.Add(this.RWFComboBox);
+            this.groupBox3.Controls.Add(this.LWFLabel);
+            this.groupBox3.Controls.Add(this.LWFComboBox);
+            this.groupBox3.Controls.Add(this.RMFLabel);
+            this.groupBox3.Controls.Add(this.RMFComboBox);
+            this.groupBox3.Controls.Add(this.AMFLabel);
+            this.groupBox3.Controls.Add(this.AMFComboBox);
+            this.groupBox3.Controls.Add(this.LMFLabel);
+            this.groupBox3.Controls.Add(this.LMFComboBox);
+            this.groupBox3.Controls.Add(this.CMFLabel);
+            this.groupBox3.Controls.Add(this.CMFComboBox);
+            this.groupBox3.Controls.Add(this.DMFLabel);
+            this.groupBox3.Controls.Add(this.DMFComboBox);
+            this.groupBox3.Controls.Add(this.RBLabel);
+            this.groupBox3.Controls.Add(this.RBComboBox);
+            this.groupBox3.Controls.Add(this.LBLabel);
+            this.groupBox3.Controls.Add(this.LBComboBox);
+            this.groupBox3.Controls.Add(this.CBLabel);
+            this.groupBox3.Controls.Add(this.CBComboBox);
+            this.groupBox3.Controls.Add(this.GKLabel);
+            this.groupBox3.Controls.Add(this.GKComboBox);
+            this.groupBox3.Controls.Add(this.PositionComboBox);
+            this.groupBox3.Controls.Add(this.PositionLabel);
+            this.groupBox3.Location = new System.Drawing.Point(12, 503);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(241, 185);
+            this.groupBox3.Size = new System.Drawing.Size(252, 185);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Position";
             // 
-            // cfLabel
+            // CFLabel
             // 
-            this.cfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.CFLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.cfLabel.AutoSize = true;
-            this.cfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cfLabel.Location = new System.Drawing.Point(23, 158);
-            this.cfLabel.Name = "cfLabel";
-            this.cfLabel.Size = new System.Drawing.Size(21, 14);
-            this.cfLabel.TabIndex = 111;
-            this.cfLabel.Text = "CF";
-            // 
-            // cfComboBox
-            // 
-            this.cfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.cfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cfComboBox.FormattingEnabled = true;
-            this.cfComboBox.Location = new System.Drawing.Point(52, 154);
-            this.cfComboBox.Name = "cfComboBox";
-            this.cfComboBox.Size = new System.Drawing.Size(33, 23);
-            this.cfComboBox.TabIndex = 112;
-            // 
-            // ssLabel
-            // 
-            this.ssLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.ssLabel.AutoSize = true;
-            this.ssLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ssLabel.Location = new System.Drawing.Point(153, 132);
-            this.ssLabel.Name = "ssLabel";
-            this.ssLabel.Size = new System.Drawing.Size(21, 14);
-            this.ssLabel.TabIndex = 109;
-            this.ssLabel.Text = "SS";
-            // 
-            // ssComboBox
-            // 
-            this.ssComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.ssComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ssComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ssComboBox.FormattingEnabled = true;
-            this.ssComboBox.Location = new System.Drawing.Point(183, 128);
-            this.ssComboBox.Name = "ssComboBox";
-            this.ssComboBox.Size = new System.Drawing.Size(33, 23);
-            this.ssComboBox.TabIndex = 110;
-            // 
-            // rwfLabel
-            // 
-            this.rwfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.rwfLabel.AutoSize = true;
-            this.rwfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rwfLabel.Location = new System.Drawing.Point(87, 131);
-            this.rwfLabel.Name = "rwfLabel";
-            this.rwfLabel.Size = new System.Drawing.Size(30, 14);
-            this.rwfLabel.TabIndex = 107;
-            this.rwfLabel.Text = "RWF";
-            // 
-            // rwfComboBox
-            // 
-            this.rwfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.rwfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.rwfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rwfComboBox.FormattingEnabled = true;
-            this.rwfComboBox.Location = new System.Drawing.Point(117, 127);
-            this.rwfComboBox.Name = "rwfComboBox";
-            this.rwfComboBox.Size = new System.Drawing.Size(33, 23);
-            this.rwfComboBox.TabIndex = 108;
-            // 
-            // lwfLabel
-            // 
-            this.lwfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.lwfLabel.AutoSize = true;
-            this.lwfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lwfLabel.Location = new System.Drawing.Point(22, 131);
-            this.lwfLabel.Name = "lwfLabel";
-            this.lwfLabel.Size = new System.Drawing.Size(29, 14);
-            this.lwfLabel.TabIndex = 105;
-            this.lwfLabel.Text = "LWF";
-            // 
-            // lwfComboBox
-            // 
-            this.lwfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.lwfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.lwfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lwfComboBox.FormattingEnabled = true;
-            this.lwfComboBox.Location = new System.Drawing.Point(52, 127);
-            this.lwfComboBox.Name = "lwfComboBox";
-            this.lwfComboBox.Size = new System.Drawing.Size(33, 23);
-            this.lwfComboBox.TabIndex = 106;
-            // 
-            // rmfLabel
-            // 
-            this.rmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.rmfLabel.AutoSize = true;
-            this.rmfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rmfLabel.Location = new System.Drawing.Point(153, 105);
-            this.rmfLabel.Name = "rmfLabel";
-            this.rmfLabel.Size = new System.Drawing.Size(30, 14);
-            this.rmfLabel.TabIndex = 103;
-            this.rmfLabel.Text = "RMF";
-            // 
-            // rmfComboBox
-            // 
-            this.rmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.rmfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.rmfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rmfComboBox.FormattingEnabled = true;
-            this.rmfComboBox.Location = new System.Drawing.Point(183, 101);
-            this.rmfComboBox.Name = "rmfComboBox";
-            this.rmfComboBox.Size = new System.Drawing.Size(33, 23);
-            this.rmfComboBox.TabIndex = 104;
-            // 
-            // amfLabel
-            // 
-            this.amfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.amfLabel.AutoSize = true;
-            this.amfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.amfLabel.Location = new System.Drawing.Point(86, 104);
-            this.amfLabel.Name = "amfLabel";
-            this.amfLabel.Size = new System.Drawing.Size(31, 14);
-            this.amfLabel.TabIndex = 101;
-            this.amfLabel.Text = "AMF";
-            // 
-            // amfComboBox
-            // 
-            this.amfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.amfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.amfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.amfComboBox.FormattingEnabled = true;
-            this.amfComboBox.Location = new System.Drawing.Point(117, 100);
-            this.amfComboBox.Name = "amfComboBox";
-            this.amfComboBox.Size = new System.Drawing.Size(33, 23);
-            this.amfComboBox.TabIndex = 102;
-            // 
-            // lmfLabel
-            // 
-            this.lmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.lmfLabel.AutoSize = true;
-            this.lmfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lmfLabel.Location = new System.Drawing.Point(22, 104);
-            this.lmfLabel.Name = "lmfLabel";
-            this.lmfLabel.Size = new System.Drawing.Size(30, 14);
-            this.lmfLabel.TabIndex = 99;
-            this.lmfLabel.Text = "LMF";
-            // 
-            // lmfComboBox
-            // 
-            this.lmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.lmfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.lmfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lmfComboBox.FormattingEnabled = true;
-            this.lmfComboBox.Location = new System.Drawing.Point(52, 100);
-            this.lmfComboBox.Name = "lmfComboBox";
-            this.lmfComboBox.Size = new System.Drawing.Size(33, 23);
-            this.lmfComboBox.TabIndex = 100;
-            // 
-            // cmfLabel
-            // 
-            this.cmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.cmfLabel.AutoSize = true;
-            this.cmfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmfLabel.Location = new System.Drawing.Point(152, 76);
-            this.cmfLabel.Name = "cmfLabel";
-            this.cmfLabel.Size = new System.Drawing.Size(31, 14);
-            this.cmfLabel.TabIndex = 97;
-            this.cmfLabel.Text = "CMF";
-            // 
-            // cmfComboBox
-            // 
-            this.cmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.cmfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmfComboBox.FormattingEnabled = true;
-            this.cmfComboBox.Location = new System.Drawing.Point(183, 72);
-            this.cmfComboBox.Name = "cmfComboBox";
-            this.cmfComboBox.Size = new System.Drawing.Size(33, 23);
-            this.cmfComboBox.TabIndex = 98;
-            // 
-            // dmfLabel
-            // 
-            this.dmfLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.dmfLabel.AutoSize = true;
-            this.dmfLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dmfLabel.Location = new System.Drawing.Point(86, 75);
-            this.dmfLabel.Name = "dmfLabel";
-            this.dmfLabel.Size = new System.Drawing.Size(30, 14);
-            this.dmfLabel.TabIndex = 95;
-            this.dmfLabel.Text = "DMF";
-            // 
-            // dmfComboBox
-            // 
-            this.dmfComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.dmfComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.dmfComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dmfComboBox.FormattingEnabled = true;
-            this.dmfComboBox.Location = new System.Drawing.Point(116, 71);
-            this.dmfComboBox.Name = "dmfComboBox";
-            this.dmfComboBox.Size = new System.Drawing.Size(33, 23);
-            this.dmfComboBox.TabIndex = 96;
-            // 
-            // rbLabel
-            // 
-            this.rbLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.rbLabel.AutoSize = true;
-            this.rbLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbLabel.Location = new System.Drawing.Point(25, 75);
-            this.rbLabel.Name = "rbLabel";
-            this.rbLabel.Size = new System.Drawing.Size(21, 14);
-            this.rbLabel.TabIndex = 93;
-            this.rbLabel.Text = "RB";
-            // 
-            // rbComboBox
-            // 
-            this.rbComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.rbComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.rbComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbComboBox.FormattingEnabled = true;
-            this.rbComboBox.Location = new System.Drawing.Point(52, 71);
-            this.rbComboBox.Name = "rbComboBox";
-            this.rbComboBox.Size = new System.Drawing.Size(33, 23);
-            this.rbComboBox.TabIndex = 94;
-            // 
-            // lbLabel
-            // 
-            this.lbLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.lbLabel.AutoSize = true;
-            this.lbLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLabel.Location = new System.Drawing.Point(154, 46);
-            this.lbLabel.Name = "lbLabel";
-            this.lbLabel.Size = new System.Drawing.Size(21, 14);
-            this.lbLabel.TabIndex = 91;
-            this.lbLabel.Text = "LB";
-            // 
-            // lbComboBox
-            // 
-            this.lbComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.lbComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.lbComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbComboBox.FormattingEnabled = true;
-            this.lbComboBox.Location = new System.Drawing.Point(183, 43);
-            this.lbComboBox.Name = "lbComboBox";
-            this.lbComboBox.Size = new System.Drawing.Size(33, 23);
-            this.lbComboBox.TabIndex = 92;
-            // 
-            // cbLabel
-            // 
-            this.cbLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.cbLabel.AutoSize = true;
-            this.cbLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbLabel.Location = new System.Drawing.Point(90, 46);
-            this.cbLabel.Name = "cbLabel";
-            this.cbLabel.Size = new System.Drawing.Size(22, 14);
-            this.cbLabel.TabIndex = 89;
-            this.cbLabel.Text = "CB";
-            // 
-            // cbComboBox
-            // 
-            this.cbComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.cbComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbComboBox.FormattingEnabled = true;
-            this.cbComboBox.Location = new System.Drawing.Point(116, 42);
-            this.cbComboBox.Name = "cbComboBox";
-            this.cbComboBox.Size = new System.Drawing.Size(33, 23);
-            this.cbComboBox.TabIndex = 90;
-            // 
-            // gkLabel
-            // 
-            this.gkLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.gkLabel.AutoSize = true;
-            this.gkLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gkLabel.Location = new System.Drawing.Point(26, 46);
-            this.gkLabel.Name = "gkLabel";
-            this.gkLabel.Size = new System.Drawing.Size(22, 14);
-            this.gkLabel.TabIndex = 87;
-            this.gkLabel.Text = "GK";
-            // 
-            // gkComboBox
-            // 
-            this.gkComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.gkComboBox.BackColor = System.Drawing.SystemColors.Window;
-            this.gkComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gkComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gkComboBox.FormattingEnabled = true;
-            this.gkComboBox.Location = new System.Drawing.Point(52, 42);
-            this.gkComboBox.Name = "gkComboBox";
-            this.gkComboBox.Size = new System.Drawing.Size(33, 23);
-            this.gkComboBox.TabIndex = 88;
-            // 
-            // positionComboBox
-            // 
-            this.positionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.positionComboBox.FormattingEnabled = true;
-            this.positionComboBox.Location = new System.Drawing.Point(94, 13);
-            this.positionComboBox.Name = "positionComboBox";
-            this.positionComboBox.Size = new System.Drawing.Size(65, 21);
-            this.positionComboBox.TabIndex = 40;
-            this.positionComboBox.TabStop = false;
-            // 
-            // positionLabel
-            // 
-            this.positionLabel.AutoSize = true;
-            this.positionLabel.Location = new System.Drawing.Point(7, 17);
-            this.positionLabel.Name = "positionLabel";
-            this.positionLabel.Size = new System.Drawing.Size(76, 13);
-            this.positionLabel.TabIndex = 39;
-            this.positionLabel.Text = "Registred Pos:";
-            // 
-            // groupBox21
-            // 
-            this.groupBox21.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBox21.Controls.Add(this.throughPassingCheckBox);
-            this.groupBox21.Controls.Add(this.gamesmanchipCheckBox);
-            this.groupBox21.Controls.Add(this.stepSkillControlCheckBox);
-            this.groupBox21.Controls.Add(this.risingShotsCheckBox);
-            this.groupBox21.Controls.Add(this.penalitySpecialistCheckBox);
-            this.groupBox21.Controls.Add(this.goldenBallCheckBox);
-            this.groupBox21.Controls.Add(this.interceptionCheckBox);
-            this.groupBox21.Controls.Add(this.noLookPassCheckBox);
-            this.groupBox21.Controls.Add(this.gkPenaltySaverCheckBox);
-            this.groupBox21.Controls.Add(this.gkHighPuntCheckBox);
-            this.groupBox21.Controls.Add(this.doubleTouchCheckBox);
-            this.groupBox21.Controls.Add(this.dippingShotsCheckBox);
-            this.groupBox21.Controls.Add(this.crossOverTurnCheckBox);
-            this.groupBox21.Controls.Add(this.chipShotControlCheckBox);
-            this.groupBox21.Controls.Add(this.captaincyCheckBox);
-            this.groupBox21.Controls.Add(this.superSubCheckBox);
-            this.groupBox21.Controls.Add(this.trackBackCheckBox);
-            this.groupBox21.Controls.Add(this.hellTrickCheckBox);
-            this.groupBox21.Controls.Add(this.headingCheckBox);
-            this.groupBox21.Controls.Add(this.sombreroCheckBox);
-            this.groupBox21.Controls.Add(this.longRangeShootingCheckBox);
-            this.groupBox21.Controls.Add(this.rabonaCheckBox);
-            this.groupBox21.Controls.Add(this.flipFlapCheckBox);
-            this.groupBox21.Controls.Add(this.longRangeDriveCheckBox);
-            this.groupBox21.Controls.Add(this.gkLowPuntCheckBox);
-            this.groupBox21.Controls.Add(this.pinpointCrossingCheckBox);
-            this.groupBox21.Controls.Add(this.acrobaticFinishingCheckBox);
-            this.groupBox21.Controls.Add(this.weightedPassCheckBox);
-            this.groupBox21.Controls.Add(this.oneTouchPassCheckBox);
-            this.groupBox21.Controls.Add(this.lowLoftedPassCheckBox);
-            this.groupBox21.Controls.Add(this.scissorsFeintCheckBox);
-            this.groupBox21.Controls.Add(this.cutBehindTurnCheckBox);
-            this.groupBox21.Controls.Add(this.gkLongThrowCheckBox);
-            this.groupBox21.Controls.Add(this.scothMoveCheckBox);
-            this.groupBox21.Controls.Add(this.marseilleTurnCheckBox);
-            this.groupBox21.Controls.Add(this.outsideCurlerCheckBox);
-            this.groupBox21.Controls.Add(this.manMarkingCheckBox);
-            this.groupBox21.Controls.Add(this.longThrowCheckBox);
-            this.groupBox21.Controls.Add(this.firstTimeShotCheckBox);
-            this.groupBox21.Controls.Add(this.knucleShotCheckBox);
-            this.groupBox21.Controls.Add(this.acrobaticClearCheckBox);
-            this.groupBox21.Controls.Add(this.fightingSpiritCheckBox);
-            this.groupBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.groupBox21.Location = new System.Drawing.Point(479, 6);
-            this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(190, 688);
-            this.groupBox21.TabIndex = 110;
-            this.groupBox21.TabStop = false;
-            this.groupBox21.Text = "Player Skills";
-            // 
-            // throughPassingCheckBox
-            // 
-            this.throughPassingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.throughPassingCheckBox.AutoSize = true;
-            this.throughPassingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.throughPassingCheckBox.Location = new System.Drawing.Point(18, 613);
-            this.throughPassingCheckBox.Name = "throughPassingCheckBox";
-            this.throughPassingCheckBox.Size = new System.Drawing.Size(131, 17);
-            this.throughPassingCheckBox.TabIndex = 132;
-            this.throughPassingCheckBox.Text = "THROUGH PASSING";
-            this.throughPassingCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // gamesmanchipCheckBox
-            // 
-            this.gamesmanchipCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.gamesmanchipCheckBox.AutoSize = true;
-            this.gamesmanchipCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.gamesmanchipCheckBox.Location = new System.Drawing.Point(18, 598);
-            this.gamesmanchipCheckBox.Name = "gamesmanchipCheckBox";
-            this.gamesmanchipCheckBox.Size = new System.Drawing.Size(113, 17);
-            this.gamesmanchipCheckBox.TabIndex = 131;
-            this.gamesmanchipCheckBox.Text = "GAMESMANCHIP";
-            this.gamesmanchipCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // stepSkillControlCheckBox
-            // 
-            this.stepSkillControlCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.stepSkillControlCheckBox.AutoSize = true;
-            this.stepSkillControlCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.stepSkillControlCheckBox.Location = new System.Drawing.Point(18, 584);
-            this.stepSkillControlCheckBox.Name = "stepSkillControlCheckBox";
-            this.stepSkillControlCheckBox.Size = new System.Drawing.Size(166, 17);
-            this.stepSkillControlCheckBox.TabIndex = 130;
-            this.stepSkillControlCheckBox.Text = "STEP ON SKILL CONTROLL";
-            this.stepSkillControlCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // risingShotsCheckBox
-            // 
-            this.risingShotsCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.risingShotsCheckBox.AutoSize = true;
-            this.risingShotsCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.risingShotsCheckBox.Location = new System.Drawing.Point(18, 569);
-            this.risingShotsCheckBox.Name = "risingShotsCheckBox";
-            this.risingShotsCheckBox.Size = new System.Drawing.Size(103, 17);
-            this.risingShotsCheckBox.TabIndex = 129;
-            this.risingShotsCheckBox.Text = "RISING SHOTS";
-            this.risingShotsCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // penalitySpecialistCheckBox
-            // 
-            this.penalitySpecialistCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.penalitySpecialistCheckBox.AutoSize = true;
-            this.penalitySpecialistCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.penalitySpecialistCheckBox.Location = new System.Drawing.Point(18, 554);
-            this.penalitySpecialistCheckBox.Name = "penalitySpecialistCheckBox";
-            this.penalitySpecialistCheckBox.Size = new System.Drawing.Size(139, 17);
-            this.penalitySpecialistCheckBox.TabIndex = 128;
-            this.penalitySpecialistCheckBox.Text = "PENALTY SPECIALIST";
-            this.penalitySpecialistCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // interceptionCheckBox
-            // 
-            this.interceptionCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.interceptionCheckBox.AutoSize = true;
-            this.interceptionCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.interceptionCheckBox.Location = new System.Drawing.Point(18, 539);
-            this.interceptionCheckBox.Name = "interceptionCheckBox";
-            this.interceptionCheckBox.Size = new System.Drawing.Size(106, 17);
-            this.interceptionCheckBox.TabIndex = 127;
-            this.interceptionCheckBox.Text = "INTERCEPTION";
-            this.interceptionCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // noLookPassCheckBox
-            // 
-            this.noLookPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.noLookPassCheckBox.AutoSize = true;
-            this.noLookPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.noLookPassCheckBox.Location = new System.Drawing.Point(18, 524);
-            this.noLookPassCheckBox.Name = "noLookPassCheckBox";
-            this.noLookPassCheckBox.Size = new System.Drawing.Size(105, 17);
-            this.noLookPassCheckBox.TabIndex = 126;
-            this.noLookPassCheckBox.Text = "NO LOOK PASS";
-            this.noLookPassCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // gkPenaltySaverCheckBox
-            // 
-            this.gkPenaltySaverCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.gkPenaltySaverCheckBox.AutoSize = true;
-            this.gkPenaltySaverCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.gkPenaltySaverCheckBox.Location = new System.Drawing.Point(18, 509);
-            this.gkPenaltySaverCheckBox.Name = "gkPenaltySaverCheckBox";
-            this.gkPenaltySaverCheckBox.Size = new System.Drawing.Size(132, 17);
-            this.gkPenaltySaverCheckBox.TabIndex = 125;
-            this.gkPenaltySaverCheckBox.Text = "GK PENALTY SAVER";
-            this.gkPenaltySaverCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // gkHighPuntCheckBox
-            // 
-            this.gkHighPuntCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.gkHighPuntCheckBox.AutoSize = true;
-            this.gkHighPuntCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.gkHighPuntCheckBox.Location = new System.Drawing.Point(18, 494);
-            this.gkHighPuntCheckBox.Name = "gkHighPuntCheckBox";
-            this.gkHighPuntCheckBox.Size = new System.Drawing.Size(104, 17);
-            this.gkHighPuntCheckBox.TabIndex = 124;
-            this.gkHighPuntCheckBox.Text = "GK HIGH PUNT";
-            this.gkHighPuntCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // doubleTouchCheckBox
-            // 
-            this.doubleTouchCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.doubleTouchCheckBox.AutoSize = true;
-            this.doubleTouchCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.doubleTouchCheckBox.Location = new System.Drawing.Point(18, 479);
-            this.doubleTouchCheckBox.Name = "doubleTouchCheckBox";
-            this.doubleTouchCheckBox.Size = new System.Drawing.Size(111, 17);
-            this.doubleTouchCheckBox.TabIndex = 123;
-            this.doubleTouchCheckBox.Text = "DOUBLE TOUCH";
-            this.doubleTouchCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // dippingShotsCheckBox
-            // 
-            this.dippingShotsCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.dippingShotsCheckBox.AutoSize = true;
-            this.dippingShotsCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.dippingShotsCheckBox.Location = new System.Drawing.Point(18, 464);
-            this.dippingShotsCheckBox.Name = "dippingShotsCheckBox";
-            this.dippingShotsCheckBox.Size = new System.Drawing.Size(110, 17);
-            this.dippingShotsCheckBox.TabIndex = 122;
-            this.dippingShotsCheckBox.Text = "DIPPING SHOTS";
-            this.dippingShotsCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // crossOverTurnCheckBox
-            // 
-            this.crossOverTurnCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.crossOverTurnCheckBox.AutoSize = true;
-            this.crossOverTurnCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.crossOverTurnCheckBox.Location = new System.Drawing.Point(18, 449);
-            this.crossOverTurnCheckBox.Name = "crossOverTurnCheckBox";
-            this.crossOverTurnCheckBox.Size = new System.Drawing.Size(130, 17);
-            this.crossOverTurnCheckBox.TabIndex = 121;
-            this.crossOverTurnCheckBox.Text = "CROSS OVER TURN";
-            this.crossOverTurnCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // chipShotControlCheckBox
-            // 
-            this.chipShotControlCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.chipShotControlCheckBox.AutoSize = true;
-            this.chipShotControlCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.chipShotControlCheckBox.Location = new System.Drawing.Point(18, 434);
-            this.chipShotControlCheckBox.Name = "chipShotControlCheckBox";
-            this.chipShotControlCheckBox.Size = new System.Drawing.Size(139, 17);
-            this.chipShotControlCheckBox.TabIndex = 120;
-            this.chipShotControlCheckBox.Text = "CHIP SHOT CONTROL";
-            this.chipShotControlCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // captaincyCheckBox
-            // 
-            this.captaincyCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.captaincyCheckBox.AutoSize = true;
-            this.captaincyCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.captaincyCheckBox.Location = new System.Drawing.Point(18, 419);
-            this.captaincyCheckBox.Name = "captaincyCheckBox";
-            this.captaincyCheckBox.Size = new System.Drawing.Size(86, 17);
-            this.captaincyCheckBox.TabIndex = 112;
-            this.captaincyCheckBox.Text = "CAPTAINCY";
-            this.captaincyCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // superSubCheckBox
-            // 
-            this.superSubCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.superSubCheckBox.AutoSize = true;
-            this.superSubCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.superSubCheckBox.Location = new System.Drawing.Point(18, 405);
-            this.superSubCheckBox.Name = "superSubCheckBox";
-            this.superSubCheckBox.Size = new System.Drawing.Size(88, 17);
-            this.superSubCheckBox.TabIndex = 111;
-            this.superSubCheckBox.Text = "SUPER-SUB";
-            this.superSubCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // trackBackCheckBox
-            // 
-            this.trackBackCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.trackBackCheckBox.AutoSize = true;
-            this.trackBackCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.trackBackCheckBox.Location = new System.Drawing.Point(18, 390);
-            this.trackBackCheckBox.Name = "trackBackCheckBox";
-            this.trackBackCheckBox.Size = new System.Drawing.Size(93, 17);
-            this.trackBackCheckBox.TabIndex = 119;
-            this.trackBackCheckBox.Text = "TRACK BACK";
-            this.trackBackCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // hellTrickCheckBox
-            // 
-            this.hellTrickCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.hellTrickCheckBox.AutoSize = true;
-            this.hellTrickCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.hellTrickCheckBox.Location = new System.Drawing.Point(18, 375);
-            this.hellTrickCheckBox.Name = "hellTrickCheckBox";
-            this.hellTrickCheckBox.Size = new System.Drawing.Size(89, 17);
-            this.hellTrickCheckBox.TabIndex = 118;
-            this.hellTrickCheckBox.Text = "HEEL TRICK";
-            this.hellTrickCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // headingCheckBox
-            // 
-            this.headingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.headingCheckBox.AutoSize = true;
-            this.headingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.headingCheckBox.Location = new System.Drawing.Point(18, 360);
-            this.headingCheckBox.Name = "headingCheckBox";
-            this.headingCheckBox.Size = new System.Drawing.Size(75, 17);
-            this.headingCheckBox.TabIndex = 117;
-            this.headingCheckBox.Text = "HEADING";
-            this.headingCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // sombreroCheckBox
-            // 
-            this.sombreroCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.sombreroCheckBox.AutoSize = true;
-            this.sombreroCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.sombreroCheckBox.Location = new System.Drawing.Point(18, 345);
-            this.sombreroCheckBox.Name = "sombreroCheckBox";
-            this.sombreroCheckBox.Size = new System.Drawing.Size(88, 17);
-            this.sombreroCheckBox.TabIndex = 116;
-            this.sombreroCheckBox.Text = "SOMBRERO";
-            this.sombreroCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // longRangeShootingCheckBox
-            // 
-            this.longRangeShootingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.longRangeShootingCheckBox.AutoSize = true;
-            this.longRangeShootingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.longRangeShootingCheckBox.Location = new System.Drawing.Point(18, 330);
-            this.longRangeShootingCheckBox.Name = "longRangeShootingCheckBox";
-            this.longRangeShootingCheckBox.Size = new System.Drawing.Size(157, 17);
-            this.longRangeShootingCheckBox.TabIndex = 115;
-            this.longRangeShootingCheckBox.Text = "LONG RANGE SHOOTING";
-            this.longRangeShootingCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // rabonaCheckBox
-            // 
-            this.rabonaCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.rabonaCheckBox.AutoSize = true;
-            this.rabonaCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.rabonaCheckBox.Location = new System.Drawing.Point(18, 315);
-            this.rabonaCheckBox.Name = "rabonaCheckBox";
-            this.rabonaCheckBox.Size = new System.Drawing.Size(71, 17);
-            this.rabonaCheckBox.TabIndex = 114;
-            this.rabonaCheckBox.Text = "RABONA";
-            this.rabonaCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // flipFlapCheckBox
-            // 
-            this.flipFlapCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.flipFlapCheckBox.AutoSize = true;
-            this.flipFlapCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.flipFlapCheckBox.Location = new System.Drawing.Point(18, 300);
-            this.flipFlapCheckBox.Name = "flipFlapCheckBox";
-            this.flipFlapCheckBox.Size = new System.Drawing.Size(77, 17);
-            this.flipFlapCheckBox.TabIndex = 113;
-            this.flipFlapCheckBox.Text = "FLIP FLAP";
-            this.flipFlapCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // longRangeDriveCheckBox
-            // 
-            this.longRangeDriveCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.longRangeDriveCheckBox.AutoSize = true;
-            this.longRangeDriveCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.longRangeDriveCheckBox.Location = new System.Drawing.Point(18, 285);
-            this.longRangeDriveCheckBox.Name = "longRangeDriveCheckBox";
-            this.longRangeDriveCheckBox.Size = new System.Drawing.Size(133, 17);
-            this.longRangeDriveCheckBox.TabIndex = 18;
-            this.longRangeDriveCheckBox.Text = "LONG RANGE DRIVE";
-            this.longRangeDriveCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // gkLowPuntCheckBox
-            // 
-            this.gkLowPuntCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.gkLowPuntCheckBox.AutoSize = true;
-            this.gkLowPuntCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.gkLowPuntCheckBox.Location = new System.Drawing.Point(18, 270);
-            this.gkLowPuntCheckBox.Name = "gkLowPuntCheckBox";
-            this.gkLowPuntCheckBox.Size = new System.Drawing.Size(102, 17);
-            this.gkLowPuntCheckBox.TabIndex = 17;
-            this.gkLowPuntCheckBox.Text = "GK LOW PUNT";
-            this.gkLowPuntCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // pinpointCrossingCheckBox
-            // 
-            this.pinpointCrossingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.pinpointCrossingCheckBox.AutoSize = true;
-            this.pinpointCrossingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.pinpointCrossingCheckBox.Location = new System.Drawing.Point(18, 255);
-            this.pinpointCrossingCheckBox.Name = "pinpointCrossingCheckBox";
-            this.pinpointCrossingCheckBox.Size = new System.Drawing.Size(136, 17);
-            this.pinpointCrossingCheckBox.TabIndex = 16;
-            this.pinpointCrossingCheckBox.Text = "PINPOINT CROSSING";
-            this.pinpointCrossingCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // acrobaticFinishingCheckBox
-            // 
-            this.acrobaticFinishingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.acrobaticFinishingCheckBox.AutoSize = true;
-            this.acrobaticFinishingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.acrobaticFinishingCheckBox.Location = new System.Drawing.Point(18, 240);
-            this.acrobaticFinishingCheckBox.Name = "acrobaticFinishingCheckBox";
-            this.acrobaticFinishingCheckBox.Size = new System.Drawing.Size(144, 17);
-            this.acrobaticFinishingCheckBox.TabIndex = 15;
-            this.acrobaticFinishingCheckBox.Text = "ACROBATIC FINISHING";
-            this.acrobaticFinishingCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // weightedPassCheckBox
-            // 
-            this.weightedPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.weightedPassCheckBox.AutoSize = true;
-            this.weightedPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.weightedPassCheckBox.Location = new System.Drawing.Point(18, 225);
-            this.weightedPassCheckBox.Name = "weightedPassCheckBox";
-            this.weightedPassCheckBox.Size = new System.Drawing.Size(116, 17);
-            this.weightedPassCheckBox.TabIndex = 14;
-            this.weightedPassCheckBox.Text = "WEIGHTED PASS";
-            this.weightedPassCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // oneTouchPassCheckBox
-            // 
-            this.oneTouchPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.oneTouchPassCheckBox.AutoSize = true;
-            this.oneTouchPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.oneTouchPassCheckBox.Location = new System.Drawing.Point(18, 210);
-            this.oneTouchPassCheckBox.Name = "oneTouchPassCheckBox";
-            this.oneTouchPassCheckBox.Size = new System.Drawing.Size(121, 17);
-            this.oneTouchPassCheckBox.TabIndex = 13;
-            this.oneTouchPassCheckBox.Text = "ONE-TOUCH PASS";
-            this.oneTouchPassCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // lowLoftedPassCheckBox
-            // 
-            this.lowLoftedPassCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.lowLoftedPassCheckBox.AutoSize = true;
-            this.lowLoftedPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.lowLoftedPassCheckBox.Location = new System.Drawing.Point(18, 195);
-            this.lowLoftedPassCheckBox.Name = "lowLoftedPassCheckBox";
-            this.lowLoftedPassCheckBox.Size = new System.Drawing.Size(127, 17);
-            this.lowLoftedPassCheckBox.TabIndex = 12;
-            this.lowLoftedPassCheckBox.Text = "LOW LOFTED PASS";
-            this.lowLoftedPassCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // scissorsFeintCheckBox
-            // 
-            this.scissorsFeintCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.scissorsFeintCheckBox.AutoSize = true;
-            this.scissorsFeintCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.scissorsFeintCheckBox.Location = new System.Drawing.Point(18, 180);
-            this.scissorsFeintCheckBox.Name = "scissorsFeintCheckBox";
-            this.scissorsFeintCheckBox.Size = new System.Drawing.Size(114, 17);
-            this.scissorsFeintCheckBox.TabIndex = 11;
-            this.scissorsFeintCheckBox.Text = "SCISSORS FEINT";
-            this.scissorsFeintCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // cutBehindTurnCheckBox
-            // 
-            this.cutBehindTurnCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.cutBehindTurnCheckBox.AutoSize = true;
-            this.cutBehindTurnCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.cutBehindTurnCheckBox.Location = new System.Drawing.Point(18, 165);
-            this.cutBehindTurnCheckBox.Name = "cutBehindTurnCheckBox";
-            this.cutBehindTurnCheckBox.Size = new System.Drawing.Size(126, 17);
-            this.cutBehindTurnCheckBox.TabIndex = 10;
-            this.cutBehindTurnCheckBox.Text = "CUT BEHIND TURN";
-            this.cutBehindTurnCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // gkLongThrowCheckBox
-            // 
-            this.gkLongThrowCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.gkLongThrowCheckBox.AutoSize = true;
-            this.gkLongThrowCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.gkLongThrowCheckBox.Location = new System.Drawing.Point(18, 150);
-            this.gkLongThrowCheckBox.Name = "gkLongThrowCheckBox";
-            this.gkLongThrowCheckBox.Size = new System.Drawing.Size(119, 17);
-            this.gkLongThrowCheckBox.TabIndex = 9;
-            this.gkLongThrowCheckBox.Text = "GK LONG THROW";
-            this.gkLongThrowCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // scothMoveCheckBox
-            // 
-            this.scothMoveCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.scothMoveCheckBox.AutoSize = true;
-            this.scothMoveCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.scothMoveCheckBox.Location = new System.Drawing.Point(18, 135);
-            this.scothMoveCheckBox.Name = "scothMoveCheckBox";
-            this.scothMoveCheckBox.Size = new System.Drawing.Size(104, 17);
-            this.scothMoveCheckBox.TabIndex = 8;
-            this.scothMoveCheckBox.Text = "SCOTCH MOVE";
-            this.scothMoveCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // marseilleTurnCheckBox
-            // 
-            this.marseilleTurnCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.CFLabel.AutoSize = true;
+            this.CFLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CFLabel.Location = new System.Drawing.Point(23, 158);
+            this.CFLabel.Name = "CFLabel";
+            this.CFLabel.Size = new System.Drawing.Size(21, 14);
+            this.CFLabel.TabIndex = 111;
+            this.CFLabel.Text = "CF";
+            // 
+            // CFComboBox
+            // 
+            this.CFComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.marseilleTurnCheckBox.AutoSize = true;
-            this.marseilleTurnCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.marseilleTurnCheckBox.Location = new System.Drawing.Point(18, 120);
-            this.marseilleTurnCheckBox.Name = "marseilleTurnCheckBox";
-            this.marseilleTurnCheckBox.Size = new System.Drawing.Size(120, 17);
-            this.marseilleTurnCheckBox.TabIndex = 7;
-            this.marseilleTurnCheckBox.Text = "MARSEILLE TURN";
-            this.marseilleTurnCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // outsideCurlerCheckBox
-            // 
-            this.outsideCurlerCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.CFComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CFComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CFComboBox.FormattingEnabled = true;
+            this.CFComboBox.Location = new System.Drawing.Point(52, 154);
+            this.CFComboBox.Name = "CFComboBox";
+            this.CFComboBox.Size = new System.Drawing.Size(33, 23);
+            this.CFComboBox.TabIndex = 112;
+            // 
+            // SSLabel
+            // 
+            this.SSLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.outsideCurlerCheckBox.AutoSize = true;
-            this.outsideCurlerCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.outsideCurlerCheckBox.Location = new System.Drawing.Point(18, 105);
-            this.outsideCurlerCheckBox.Name = "outsideCurlerCheckBox";
-            this.outsideCurlerCheckBox.Size = new System.Drawing.Size(121, 17);
-            this.outsideCurlerCheckBox.TabIndex = 6;
-            this.outsideCurlerCheckBox.Text = "OUTSIDE CURLER";
-            this.outsideCurlerCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // manMarkingCheckBox
-            // 
-            this.manMarkingCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.SSLabel.AutoSize = true;
+            this.SSLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SSLabel.Location = new System.Drawing.Point(153, 132);
+            this.SSLabel.Name = "SSLabel";
+            this.SSLabel.Size = new System.Drawing.Size(21, 14);
+            this.SSLabel.TabIndex = 109;
+            this.SSLabel.Text = "SS";
+            // 
+            // SSComboBox
+            // 
+            this.SSComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.manMarkingCheckBox.AutoSize = true;
-            this.manMarkingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.manMarkingCheckBox.Location = new System.Drawing.Point(18, 90);
-            this.manMarkingCheckBox.Name = "manMarkingCheckBox";
-            this.manMarkingCheckBox.Size = new System.Drawing.Size(103, 17);
-            this.manMarkingCheckBox.TabIndex = 5;
-            this.manMarkingCheckBox.Text = "MAN MARKING";
-            this.manMarkingCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // longThrowCheckBox
-            // 
-            this.longThrowCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.SSComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.SSComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SSComboBox.FormattingEnabled = true;
+            this.SSComboBox.Location = new System.Drawing.Point(183, 128);
+            this.SSComboBox.Name = "SSComboBox";
+            this.SSComboBox.Size = new System.Drawing.Size(33, 23);
+            this.SSComboBox.TabIndex = 110;
+            // 
+            // RWFLabel
+            // 
+            this.RWFLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.longThrowCheckBox.AutoSize = true;
-            this.longThrowCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.longThrowCheckBox.Location = new System.Drawing.Point(18, 75);
-            this.longThrowCheckBox.Name = "longThrowCheckBox";
-            this.longThrowCheckBox.Size = new System.Drawing.Size(101, 17);
-            this.longThrowCheckBox.TabIndex = 4;
-            this.longThrowCheckBox.Text = "LONG THROW";
-            this.longThrowCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // firstTimeShotCheckBox
-            // 
-            this.firstTimeShotCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.RWFLabel.AutoSize = true;
+            this.RWFLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RWFLabel.Location = new System.Drawing.Point(87, 131);
+            this.RWFLabel.Name = "RWFLabel";
+            this.RWFLabel.Size = new System.Drawing.Size(30, 14);
+            this.RWFLabel.TabIndex = 107;
+            this.RWFLabel.Text = "RWF";
+            // 
+            // RWFComboBox
+            // 
+            this.RWFComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.firstTimeShotCheckBox.AutoSize = true;
-            this.firstTimeShotCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.firstTimeShotCheckBox.Location = new System.Drawing.Point(18, 60);
-            this.firstTimeShotCheckBox.Name = "firstTimeShotCheckBox";
-            this.firstTimeShotCheckBox.Size = new System.Drawing.Size(119, 17);
-            this.firstTimeShotCheckBox.TabIndex = 3;
-            this.firstTimeShotCheckBox.Text = "FIRST-TIME SHOT";
-            this.firstTimeShotCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // knucleShotCheckBox
-            // 
-            this.knucleShotCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.RWFComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RWFComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RWFComboBox.FormattingEnabled = true;
+            this.RWFComboBox.Location = new System.Drawing.Point(117, 127);
+            this.RWFComboBox.Name = "RWFComboBox";
+            this.RWFComboBox.Size = new System.Drawing.Size(33, 23);
+            this.RWFComboBox.TabIndex = 108;
+            // 
+            // LWFLabel
+            // 
+            this.LWFLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.knucleShotCheckBox.AutoSize = true;
-            this.knucleShotCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.knucleShotCheckBox.Location = new System.Drawing.Point(18, 45);
-            this.knucleShotCheckBox.Name = "knucleShotCheckBox";
-            this.knucleShotCheckBox.Size = new System.Drawing.Size(109, 17);
-            this.knucleShotCheckBox.TabIndex = 2;
-            this.knucleShotCheckBox.Text = "KNUCKLE SHOT";
-            this.knucleShotCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // acrobaticClearCheckBox
-            // 
-            this.acrobaticClearCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.LWFLabel.AutoSize = true;
+            this.LWFLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LWFLabel.Location = new System.Drawing.Point(22, 131);
+            this.LWFLabel.Name = "LWFLabel";
+            this.LWFLabel.Size = new System.Drawing.Size(29, 14);
+            this.LWFLabel.TabIndex = 105;
+            this.LWFLabel.Text = "LWF";
+            // 
+            // LWFComboBox
+            // 
+            this.LWFComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.acrobaticClearCheckBox.AutoSize = true;
-            this.acrobaticClearCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.acrobaticClearCheckBox.Location = new System.Drawing.Point(18, 30);
-            this.acrobaticClearCheckBox.Name = "acrobaticClearCheckBox";
-            this.acrobaticClearCheckBox.Size = new System.Drawing.Size(125, 17);
-            this.acrobaticClearCheckBox.TabIndex = 1;
-            this.acrobaticClearCheckBox.Text = "ACROBATIC CLEAR";
-            this.acrobaticClearCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // fightingSpiritCheckBox
-            // 
-            this.fightingSpiritCheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.LWFComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.LWFComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LWFComboBox.FormattingEnabled = true;
+            this.LWFComboBox.Location = new System.Drawing.Point(52, 127);
+            this.LWFComboBox.Name = "LWFComboBox";
+            this.LWFComboBox.Size = new System.Drawing.Size(33, 23);
+            this.LWFComboBox.TabIndex = 106;
+            // 
+            // RMFLabel
+            // 
+            this.RMFLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.fightingSpiritCheckBox.AutoSize = true;
-            this.fightingSpiritCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.fightingSpiritCheckBox.Location = new System.Drawing.Point(18, 15);
-            this.fightingSpiritCheckBox.Name = "fightingSpiritCheckBox";
-            this.fightingSpiritCheckBox.Size = new System.Drawing.Size(115, 17);
-            this.fightingSpiritCheckBox.TabIndex = 0;
-            this.fightingSpiritCheckBox.Text = "FIGHTING SPIRIT";
-            this.fightingSpiritCheckBox.UseVisualStyleBackColor = true;
+            this.RMFLabel.AutoSize = true;
+            this.RMFLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RMFLabel.Location = new System.Drawing.Point(153, 105);
+            this.RMFLabel.Name = "RMFLabel";
+            this.RMFLabel.Size = new System.Drawing.Size(30, 14);
+            this.RMFLabel.TabIndex = 103;
+            this.RMFLabel.Text = "RMF";
+            // 
+            // RMFComboBox
+            // 
+            this.RMFComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.RMFComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RMFComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RMFComboBox.FormattingEnabled = true;
+            this.RMFComboBox.Location = new System.Drawing.Point(183, 101);
+            this.RMFComboBox.Name = "RMFComboBox";
+            this.RMFComboBox.Size = new System.Drawing.Size(33, 23);
+            this.RMFComboBox.TabIndex = 104;
+            // 
+            // AMFLabel
+            // 
+            this.AMFLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.AMFLabel.AutoSize = true;
+            this.AMFLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AMFLabel.Location = new System.Drawing.Point(86, 104);
+            this.AMFLabel.Name = "AMFLabel";
+            this.AMFLabel.Size = new System.Drawing.Size(31, 14);
+            this.AMFLabel.TabIndex = 101;
+            this.AMFLabel.Text = "AMF";
+            // 
+            // AMFComboBox
+            // 
+            this.AMFComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.AMFComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.AMFComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AMFComboBox.FormattingEnabled = true;
+            this.AMFComboBox.Location = new System.Drawing.Point(117, 100);
+            this.AMFComboBox.Name = "AMFComboBox";
+            this.AMFComboBox.Size = new System.Drawing.Size(33, 23);
+            this.AMFComboBox.TabIndex = 102;
+            // 
+            // LMFLabel
+            // 
+            this.LMFLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.LMFLabel.AutoSize = true;
+            this.LMFLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LMFLabel.Location = new System.Drawing.Point(22, 104);
+            this.LMFLabel.Name = "LMFLabel";
+            this.LMFLabel.Size = new System.Drawing.Size(30, 14);
+            this.LMFLabel.TabIndex = 99;
+            this.LMFLabel.Text = "LMF";
+            // 
+            // LMFComboBox
+            // 
+            this.LMFComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.LMFComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.LMFComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LMFComboBox.FormattingEnabled = true;
+            this.LMFComboBox.Location = new System.Drawing.Point(52, 100);
+            this.LMFComboBox.Name = "LMFComboBox";
+            this.LMFComboBox.Size = new System.Drawing.Size(33, 23);
+            this.LMFComboBox.TabIndex = 100;
+            // 
+            // CMFLabel
+            // 
+            this.CMFLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.CMFLabel.AutoSize = true;
+            this.CMFLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CMFLabel.Location = new System.Drawing.Point(152, 76);
+            this.CMFLabel.Name = "CMFLabel";
+            this.CMFLabel.Size = new System.Drawing.Size(31, 14);
+            this.CMFLabel.TabIndex = 97;
+            this.CMFLabel.Text = "CMF";
+            // 
+            // CMFComboBox
+            // 
+            this.CMFComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.CMFComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CMFComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CMFComboBox.FormattingEnabled = true;
+            this.CMFComboBox.Location = new System.Drawing.Point(183, 72);
+            this.CMFComboBox.Name = "CMFComboBox";
+            this.CMFComboBox.Size = new System.Drawing.Size(33, 23);
+            this.CMFComboBox.TabIndex = 98;
+            // 
+            // DMFLabel
+            // 
+            this.DMFLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.DMFLabel.AutoSize = true;
+            this.DMFLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DMFLabel.Location = new System.Drawing.Point(86, 75);
+            this.DMFLabel.Name = "DMFLabel";
+            this.DMFLabel.Size = new System.Drawing.Size(30, 14);
+            this.DMFLabel.TabIndex = 95;
+            this.DMFLabel.Text = "DMF";
+            // 
+            // DMFComboBox
+            // 
+            this.DMFComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.DMFComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DMFComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DMFComboBox.FormattingEnabled = true;
+            this.DMFComboBox.Location = new System.Drawing.Point(116, 71);
+            this.DMFComboBox.Name = "DMFComboBox";
+            this.DMFComboBox.Size = new System.Drawing.Size(33, 23);
+            this.DMFComboBox.TabIndex = 96;
+            // 
+            // RBLabel
+            // 
+            this.RBLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.RBLabel.AutoSize = true;
+            this.RBLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBLabel.Location = new System.Drawing.Point(25, 75);
+            this.RBLabel.Name = "RBLabel";
+            this.RBLabel.Size = new System.Drawing.Size(21, 14);
+            this.RBLabel.TabIndex = 93;
+            this.RBLabel.Text = "RB";
+            // 
+            // RBComboBox
+            // 
+            this.RBComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.RBComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RBComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RBComboBox.FormattingEnabled = true;
+            this.RBComboBox.Location = new System.Drawing.Point(52, 71);
+            this.RBComboBox.Name = "RBComboBox";
+            this.RBComboBox.Size = new System.Drawing.Size(33, 23);
+            this.RBComboBox.TabIndex = 94;
+            // 
+            // LBLabel
+            // 
+            this.LBLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.LBLabel.AutoSize = true;
+            this.LBLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBLabel.Location = new System.Drawing.Point(154, 46);
+            this.LBLabel.Name = "LBLabel";
+            this.LBLabel.Size = new System.Drawing.Size(21, 14);
+            this.LBLabel.TabIndex = 91;
+            this.LBLabel.Text = "LB";
+            // 
+            // LBComboBox
+            // 
+            this.LBComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.LBComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.LBComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBComboBox.FormattingEnabled = true;
+            this.LBComboBox.Location = new System.Drawing.Point(183, 43);
+            this.LBComboBox.Name = "LBComboBox";
+            this.LBComboBox.Size = new System.Drawing.Size(33, 23);
+            this.LBComboBox.TabIndex = 92;
+            // 
+            // CBLabel
+            // 
+            this.CBLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.CBLabel.AutoSize = true;
+            this.CBLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBLabel.Location = new System.Drawing.Point(90, 46);
+            this.CBLabel.Name = "CBLabel";
+            this.CBLabel.Size = new System.Drawing.Size(22, 14);
+            this.CBLabel.TabIndex = 89;
+            this.CBLabel.Text = "CB";
+            // 
+            // CBComboBox
+            // 
+            this.CBComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.CBComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CBComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CBComboBox.FormattingEnabled = true;
+            this.CBComboBox.Location = new System.Drawing.Point(116, 42);
+            this.CBComboBox.Name = "CBComboBox";
+            this.CBComboBox.Size = new System.Drawing.Size(33, 23);
+            this.CBComboBox.TabIndex = 90;
+            // 
+            // GKLabel
+            // 
+            this.GKLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.GKLabel.AutoSize = true;
+            this.GKLabel.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKLabel.Location = new System.Drawing.Point(26, 46);
+            this.GKLabel.Name = "GKLabel";
+            this.GKLabel.Size = new System.Drawing.Size(22, 14);
+            this.GKLabel.TabIndex = 87;
+            this.GKLabel.Text = "GK";
+            // 
+            // GKComboBox
+            // 
+            this.GKComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.GKComboBox.BackColor = System.Drawing.SystemColors.Window;
+            this.GKComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.GKComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GKComboBox.FormattingEnabled = true;
+            this.GKComboBox.Location = new System.Drawing.Point(52, 42);
+            this.GKComboBox.Name = "GKComboBox";
+            this.GKComboBox.Size = new System.Drawing.Size(33, 23);
+            this.GKComboBox.TabIndex = 88;
+            // 
+            // PositionComboBox
+            // 
+            this.PositionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.PositionComboBox.FormattingEnabled = true;
+            this.PositionComboBox.Location = new System.Drawing.Point(94, 13);
+            this.PositionComboBox.Name = "PositionComboBox";
+            this.PositionComboBox.Size = new System.Drawing.Size(65, 21);
+            this.PositionComboBox.TabIndex = 40;
+            this.PositionComboBox.TabStop = false;
+            // 
+            // PositionLabel
+            // 
+            this.PositionLabel.AutoSize = true;
+            this.PositionLabel.Location = new System.Drawing.Point(7, 17);
+            this.PositionLabel.Name = "PositionLabel";
+            this.PositionLabel.Size = new System.Drawing.Size(76, 13);
+            this.PositionLabel.TabIndex = 39;
+            this.PositionLabel.Text = "Registred Pos:";
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.addBootRelinkButton);
-            this.groupBox4.Controls.Add(this.bootRelinkComboBox);
-            this.groupBox4.Location = new System.Drawing.Point(675, 544);
+            this.groupBox4.Controls.Add(this.AddBootRelinkButton);
+            this.groupBox4.Controls.Add(this.BootRelinkComboBox);
+            this.groupBox4.Controls.Add(this.BootPictureBox);
+            this.groupBox4.Location = new System.Drawing.Point(270, 622);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(330, 56);
+            this.groupBox4.Size = new System.Drawing.Size(385, 66);
             this.groupBox4.TabIndex = 111;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Boots Relink";
             // 
-            // addBootRelinkButton
+            // AddBootRelinkButton
             // 
-            this.addBootRelinkButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.addBootRelinkButton.FlatAppearance.BorderSize = 0;
-            this.addBootRelinkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.addBootRelinkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
-            this.addBootRelinkButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addBootRelinkButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.addBootRelinkButton.Image = ((System.Drawing.Image)(resources.GetObject("addBootRelinkButton.Image")));
-            this.addBootRelinkButton.Location = new System.Drawing.Point(301, 22);
-            this.addBootRelinkButton.Name = "addBootRelinkButton";
-            this.addBootRelinkButton.Size = new System.Drawing.Size(17, 17);
-            this.addBootRelinkButton.TabIndex = 126;
-            this.addBootRelinkButton.UseVisualStyleBackColor = true;
+            this.AddBootRelinkButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddBootRelinkButton.FlatAppearance.BorderSize = 0;
+            this.AddBootRelinkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.AddBootRelinkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.AddBootRelinkButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddBootRelinkButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.AddBootRelinkButton.Image = ((System.Drawing.Image)(resources.GetObject("AddBootRelinkButton.Image")));
+            this.AddBootRelinkButton.Location = new System.Drawing.Point(305, 32);
+            this.AddBootRelinkButton.Name = "AddBootRelinkButton";
+            this.AddBootRelinkButton.Size = new System.Drawing.Size(17, 17);
+            this.AddBootRelinkButton.TabIndex = 126;
+            this.AddBootRelinkButton.UseVisualStyleBackColor = true;
             // 
-            // bootRelinkComboBox
+            // BootRelinkComboBox
             // 
-            this.bootRelinkComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.bootRelinkComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.bootRelinkComboBox.FormattingEnabled = true;
-            this.bootRelinkComboBox.Location = new System.Drawing.Point(14, 21);
-            this.bootRelinkComboBox.Name = "bootRelinkComboBox";
-            this.bootRelinkComboBox.Size = new System.Drawing.Size(281, 21);
-            this.bootRelinkComboBox.TabIndex = 117;
+            this.BootRelinkComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.BootRelinkComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.BootRelinkComboBox.FormattingEnabled = true;
+            this.BootRelinkComboBox.Location = new System.Drawing.Point(15, 30);
+            this.BootRelinkComboBox.Name = "BootRelinkComboBox";
+            this.BootRelinkComboBox.Size = new System.Drawing.Size(287, 21);
+            this.BootRelinkComboBox.TabIndex = 117;
             // 
-            // groupBox22
+            // BootPictureBox
             // 
-            this.groupBox22.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.BootPictureBox.BackColor = System.Drawing.Color.LightGray;
+            this.BootPictureBox.Location = new System.Drawing.Point(328, 12);
+            this.BootPictureBox.Name = "BootPictureBox";
+            this.BootPictureBox.Size = new System.Drawing.Size(51, 51);
+            this.BootPictureBox.TabIndex = 130;
+            this.BootPictureBox.TabStop = false;
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBox22.Controls.Add(this.comEarlyCrossCheckBox);
-            this.groupBox22.Controls.Add(this.comSpeedingBulletCheckBox);
-            this.groupBox22.Controls.Add(this.comIncisiveRunCheckBox);
-            this.groupBox22.Controls.Add(this.comLongRangerCheckBox);
-            this.groupBox22.Controls.Add(this.comLongBallExpertCheckBox);
-            this.groupBox22.Controls.Add(this.comMazingRunCheckBox);
-            this.groupBox22.Controls.Add(this.comTricksterCheckBox);
-            this.groupBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.groupBox22.Location = new System.Drawing.Point(686, 6);
-            this.groupBox22.Name = "groupBox22";
-            this.groupBox22.Size = new System.Drawing.Size(190, 152);
-            this.groupBox22.TabIndex = 112;
-            this.groupBox22.TabStop = false;
-            this.groupBox22.Text = "AI Playing Styles";
+            this.groupBox12.Controls.Add(this.LongRangerAICheckBox);
+            this.groupBox12.Controls.Add(this.EarlyCrossAICheckBox);
+            this.groupBox12.Controls.Add(this.LongBallExpertAICheckBox);
+            this.groupBox12.Controls.Add(this.IncisiveRunAICheckBox);
+            this.groupBox12.Controls.Add(this.SpeedingBulletAICheckBox);
+            this.groupBox12.Controls.Add(this.MazingRunAICheckBox);
+            this.groupBox12.Controls.Add(this.TricksterAICheckBox);
+            this.groupBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.groupBox12.Location = new System.Drawing.Point(668, 230);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(180, 142);
+            this.groupBox12.TabIndex = 112;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "AI Playing Styles";
             // 
-            // comEarlyCrossCheckBox
+            // LongRangerAICheckBox
             // 
-            this.comEarlyCrossCheckBox.AutoSize = true;
-            this.comEarlyCrossCheckBox.Location = new System.Drawing.Point(17, 122);
-            this.comEarlyCrossCheckBox.Name = "comEarlyCrossCheckBox";
-            this.comEarlyCrossCheckBox.Size = new System.Drawing.Size(116, 17);
-            this.comEarlyCrossCheckBox.TabIndex = 6;
-            this.comEarlyCrossCheckBox.Text = "P07 - Long Ranger";
-            this.comEarlyCrossCheckBox.UseVisualStyleBackColor = true;
+            this.LongRangerAICheckBox.AutoSize = true;
+            this.LongRangerAICheckBox.Location = new System.Drawing.Point(17, 122);
+            this.LongRangerAICheckBox.Name = "LongRangerAICheckBox";
+            this.LongRangerAICheckBox.Size = new System.Drawing.Size(116, 17);
+            this.LongRangerAICheckBox.TabIndex = 6;
+            this.LongRangerAICheckBox.Text = "P07 - Long Ranger";
+            this.LongRangerAICheckBox.UseVisualStyleBackColor = true;
             // 
-            // comSpeedingBulletCheckBox
+            // EarlyCrossAICheckBox
             // 
-            this.comSpeedingBulletCheckBox.AutoSize = true;
-            this.comSpeedingBulletCheckBox.Location = new System.Drawing.Point(17, 105);
-            this.comSpeedingBulletCheckBox.Name = "comSpeedingBulletCheckBox";
-            this.comSpeedingBulletCheckBox.Size = new System.Drawing.Size(106, 17);
-            this.comSpeedingBulletCheckBox.TabIndex = 5;
-            this.comSpeedingBulletCheckBox.Text = "P06 - Early Cross";
-            this.comSpeedingBulletCheckBox.UseVisualStyleBackColor = true;
+            this.EarlyCrossAICheckBox.AutoSize = true;
+            this.EarlyCrossAICheckBox.Location = new System.Drawing.Point(17, 105);
+            this.EarlyCrossAICheckBox.Name = "EarlyCrossAICheckBox";
+            this.EarlyCrossAICheckBox.Size = new System.Drawing.Size(106, 17);
+            this.EarlyCrossAICheckBox.TabIndex = 5;
+            this.EarlyCrossAICheckBox.Text = "P06 - Early Cross";
+            this.EarlyCrossAICheckBox.UseVisualStyleBackColor = true;
             // 
-            // comIncisiveRunCheckBox
+            // LongBallExpertAICheckBox
             // 
-            this.comIncisiveRunCheckBox.AutoSize = true;
-            this.comIncisiveRunCheckBox.Location = new System.Drawing.Point(17, 88);
-            this.comIncisiveRunCheckBox.Name = "comIncisiveRunCheckBox";
-            this.comIncisiveRunCheckBox.Size = new System.Drawing.Size(131, 17);
-            this.comIncisiveRunCheckBox.TabIndex = 4;
-            this.comIncisiveRunCheckBox.Text = "P05 - Long Ball Expert";
-            this.comIncisiveRunCheckBox.UseVisualStyleBackColor = true;
+            this.LongBallExpertAICheckBox.AutoSize = true;
+            this.LongBallExpertAICheckBox.Location = new System.Drawing.Point(17, 88);
+            this.LongBallExpertAICheckBox.Name = "LongBallExpertAICheckBox";
+            this.LongBallExpertAICheckBox.Size = new System.Drawing.Size(131, 17);
+            this.LongBallExpertAICheckBox.TabIndex = 4;
+            this.LongBallExpertAICheckBox.Text = "P05 - Long Ball Expert";
+            this.LongBallExpertAICheckBox.UseVisualStyleBackColor = true;
             // 
-            // comLongRangerCheckBox
+            // IncisiveRunAICheckBox
             // 
-            this.comLongRangerCheckBox.AutoSize = true;
-            this.comLongRangerCheckBox.Location = new System.Drawing.Point(17, 71);
-            this.comLongRangerCheckBox.Name = "comLongRangerCheckBox";
-            this.comLongRangerCheckBox.Size = new System.Drawing.Size(113, 17);
-            this.comLongRangerCheckBox.TabIndex = 3;
-            this.comLongRangerCheckBox.Text = "P04 - Incisive Run";
-            this.comLongRangerCheckBox.UseVisualStyleBackColor = true;
+            this.IncisiveRunAICheckBox.AutoSize = true;
+            this.IncisiveRunAICheckBox.Location = new System.Drawing.Point(17, 71);
+            this.IncisiveRunAICheckBox.Name = "IncisiveRunAICheckBox";
+            this.IncisiveRunAICheckBox.Size = new System.Drawing.Size(113, 17);
+            this.IncisiveRunAICheckBox.TabIndex = 3;
+            this.IncisiveRunAICheckBox.Text = "P04 - Incisive Run";
+            this.IncisiveRunAICheckBox.UseVisualStyleBackColor = true;
             // 
-            // comLongBallExpertCheckBox
+            // SpeedingBulletAICheckBox
             // 
-            this.comLongBallExpertCheckBox.AutoSize = true;
-            this.comLongBallExpertCheckBox.Location = new System.Drawing.Point(17, 54);
-            this.comLongBallExpertCheckBox.Name = "comLongBallExpertCheckBox";
-            this.comLongBallExpertCheckBox.Size = new System.Drawing.Size(128, 17);
-            this.comLongBallExpertCheckBox.TabIndex = 2;
-            this.comLongBallExpertCheckBox.Text = "P03 - Speeding Bullet";
-            this.comLongBallExpertCheckBox.UseVisualStyleBackColor = true;
+            this.SpeedingBulletAICheckBox.AutoSize = true;
+            this.SpeedingBulletAICheckBox.Location = new System.Drawing.Point(17, 54);
+            this.SpeedingBulletAICheckBox.Name = "SpeedingBulletAICheckBox";
+            this.SpeedingBulletAICheckBox.Size = new System.Drawing.Size(128, 17);
+            this.SpeedingBulletAICheckBox.TabIndex = 2;
+            this.SpeedingBulletAICheckBox.Text = "P03 - Speeding Bullet";
+            this.SpeedingBulletAICheckBox.UseVisualStyleBackColor = true;
             // 
-            // comMazingRunCheckBox
+            // MazingRunAICheckBox
             // 
-            this.comMazingRunCheckBox.AutoSize = true;
-            this.comMazingRunCheckBox.Location = new System.Drawing.Point(17, 37);
-            this.comMazingRunCheckBox.Name = "comMazingRunCheckBox";
-            this.comMazingRunCheckBox.Size = new System.Drawing.Size(111, 17);
-            this.comMazingRunCheckBox.TabIndex = 1;
-            this.comMazingRunCheckBox.Text = "P02 - Mazing Run";
-            this.comMazingRunCheckBox.UseVisualStyleBackColor = true;
+            this.MazingRunAICheckBox.AutoSize = true;
+            this.MazingRunAICheckBox.Location = new System.Drawing.Point(17, 37);
+            this.MazingRunAICheckBox.Name = "MazingRunAICheckBox";
+            this.MazingRunAICheckBox.Size = new System.Drawing.Size(111, 17);
+            this.MazingRunAICheckBox.TabIndex = 1;
+            this.MazingRunAICheckBox.Text = "P02 - Mazing Run";
+            this.MazingRunAICheckBox.UseVisualStyleBackColor = true;
             // 
-            // comTricksterCheckBox
+            // TricksterAICheckBox
             // 
-            this.comTricksterCheckBox.AutoSize = true;
-            this.comTricksterCheckBox.Location = new System.Drawing.Point(17, 20);
-            this.comTricksterCheckBox.Name = "comTricksterCheckBox";
-            this.comTricksterCheckBox.Size = new System.Drawing.Size(95, 17);
-            this.comTricksterCheckBox.TabIndex = 0;
-            this.comTricksterCheckBox.Text = "P01 - Trickster";
-            this.comTricksterCheckBox.UseVisualStyleBackColor = true;
+            this.TricksterAICheckBox.AutoSize = true;
+            this.TricksterAICheckBox.Location = new System.Drawing.Point(17, 20);
+            this.TricksterAICheckBox.Name = "TricksterAICheckBox";
+            this.TricksterAICheckBox.Size = new System.Drawing.Size(95, 17);
+            this.TricksterAICheckBox.TabIndex = 0;
+            this.TricksterAICheckBox.Text = "P01 - Trickster";
+            this.TricksterAICheckBox.UseVisualStyleBackColor = true;
             // 
-            // groupBox19
+            // groupBox11
             // 
-            this.groupBox19.Controls.Add(this.driblMotionComboBox);
-            this.groupBox19.Controls.Add(this.driblMotionLabel);
-            this.groupBox19.Controls.Add(this.playAttitudeComboBox);
-            this.groupBox19.Controls.Add(this.playAttitudeLabel);
-            this.groupBox19.Controls.Add(this.goalCelebComboBox);
-            this.groupBox19.Controls.Add(this.pkMotionComboBox);
-            this.groupBox19.Controls.Add(this.pkMotionLabel);
-            this.groupBox19.Controls.Add(this.fkMotionComboBox);
-            this.groupBox19.Controls.Add(this.fkMotionLabel);
-            this.groupBox19.Controls.Add(this.ckMotionComboBox);
-            this.groupBox19.Controls.Add(this.ckMotionLabel);
-            this.groupBox19.Controls.Add(this.runArmMoveComboBox);
-            this.groupBox19.Controls.Add(this.runArmMoveLabel);
-            this.groupBox19.Controls.Add(this.runHunchComboBox);
-            this.groupBox19.Controls.Add(this.runHunchLabel);
-            this.groupBox19.Controls.Add(this.dribArmMoveComboBox);
-            this.groupBox19.Controls.Add(this.dribArmMoveLabel);
-            this.groupBox19.Controls.Add(this.dribHunchComboBox);
-            this.groupBox19.Controls.Add(this.dribHunchLabel);
-            this.groupBox19.Controls.Add(this.goalCelebLabel);
-            this.groupBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.groupBox19.Location = new System.Drawing.Point(686, 270);
-            this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Size = new System.Drawing.Size(180, 272);
-            this.groupBox19.TabIndex = 113;
-            this.groupBox19.TabStop = false;
-            this.groupBox19.Text = "MOTIONS";
+            this.groupBox11.Controls.Add(this.GoalCelebComboBox);
+            this.groupBox11.Controls.Add(this.GoalCelebLabel);
+            this.groupBox11.Controls.Add(this.penalityKickComboBox);
+            this.groupBox11.Controls.Add(this.penalityKickLabel);
+            this.groupBox11.Controls.Add(this.FreeKickComboBox);
+            this.groupBox11.Controls.Add(this.FreeKickLabel);
+            this.groupBox11.Controls.Add(this.CornerKickComboBox);
+            this.groupBox11.Controls.Add(this.CornerKickLabel);
+            this.groupBox11.Controls.Add(this.RunArmMoveComboBox);
+            this.groupBox11.Controls.Add(this.RunArmMoveLabel);
+            this.groupBox11.Controls.Add(this.RunHunchingComboBox);
+            this.groupBox11.Controls.Add(this.RunHunchingLabel);
+            this.groupBox11.Controls.Add(this.DribArmMoveComboBox);
+            this.groupBox11.Controls.Add(this.DribArmMoveLabel);
+            this.groupBox11.Controls.Add(this.DribHunchingComboBox);
+            this.groupBox11.Controls.Add(this.DribHunchingLabel);
+            this.groupBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.groupBox11.Location = new System.Drawing.Point(854, 6);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(190, 217);
+            this.groupBox11.TabIndex = 113;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Motions";
             // 
-            // driblMotionComboBox
+            // GoalCelebComboBox
             // 
-            this.driblMotionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.driblMotionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.driblMotionComboBox.FormattingEnabled = true;
-            this.driblMotionComboBox.Location = new System.Drawing.Point(111, 189);
-            this.driblMotionComboBox.Name = "driblMotionComboBox";
-            this.driblMotionComboBox.Size = new System.Drawing.Size(48, 21);
-            this.driblMotionComboBox.TabIndex = 125;
+            this.GoalCelebComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.GoalCelebComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.GoalCelebComboBox.FormattingEnabled = true;
+            this.GoalCelebComboBox.Location = new System.Drawing.Point(111, 189);
+            this.GoalCelebComboBox.Name = "GoalCelebComboBox";
+            this.GoalCelebComboBox.Size = new System.Drawing.Size(48, 21);
+            this.GoalCelebComboBox.TabIndex = 125;
             // 
-            // driblMotionLabel
+            // GoalCelebLabel
             // 
-            this.driblMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.GoalCelebLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.driblMotionLabel.AutoSize = true;
-            this.driblMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.driblMotionLabel.Location = new System.Drawing.Point(14, 194);
-            this.driblMotionLabel.Name = "driblMotionLabel";
-            this.driblMotionLabel.Size = new System.Drawing.Size(79, 13);
-            this.driblMotionLabel.TabIndex = 124;
-            this.driblMotionLabel.Text = "DRIB MOTION";
+            this.GoalCelebLabel.AutoSize = true;
+            this.GoalCelebLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.GoalCelebLabel.Location = new System.Drawing.Point(14, 194);
+            this.GoalCelebLabel.Name = "GoalCelebLabel";
+            this.GoalCelebLabel.Size = new System.Drawing.Size(88, 13);
+            this.GoalCelebLabel.TabIndex = 124;
+            this.GoalCelebLabel.Text = "Goal Celebretion:";
             // 
-            // playAttitudeComboBox
+            // penalityKickComboBox
             // 
-            this.playAttitudeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.playAttitudeComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.playAttitudeComboBox.FormattingEnabled = true;
-            this.playAttitudeComboBox.Location = new System.Drawing.Point(111, 240);
-            this.playAttitudeComboBox.Name = "playAttitudeComboBox";
-            this.playAttitudeComboBox.Size = new System.Drawing.Size(48, 21);
-            this.playAttitudeComboBox.TabIndex = 123;
+            this.penalityKickComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.penalityKickComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.penalityKickComboBox.FormattingEnabled = true;
+            this.penalityKickComboBox.Location = new System.Drawing.Point(111, 164);
+            this.penalityKickComboBox.Name = "penalityKickComboBox";
+            this.penalityKickComboBox.Size = new System.Drawing.Size(48, 21);
+            this.penalityKickComboBox.TabIndex = 120;
             // 
-            // playAttitudeLabel
+            // penalityKickLabel
             // 
-            this.playAttitudeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.penalityKickLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.playAttitudeLabel.AutoSize = true;
-            this.playAttitudeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.playAttitudeLabel.Location = new System.Drawing.Point(14, 245);
-            this.playAttitudeLabel.Name = "playAttitudeLabel";
-            this.playAttitudeLabel.Size = new System.Drawing.Size(91, 13);
-            this.playAttitudeLabel.TabIndex = 122;
-            this.playAttitudeLabel.Text = "PLAY ATTITUDE";
+            this.penalityKickLabel.AutoSize = true;
+            this.penalityKickLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.penalityKickLabel.Location = new System.Drawing.Point(14, 169);
+            this.penalityKickLabel.Name = "penalityKickLabel";
+            this.penalityKickLabel.Size = new System.Drawing.Size(71, 13);
+            this.penalityKickLabel.TabIndex = 119;
+            this.penalityKickLabel.Text = "Penality Kick:";
             // 
-            // goalCelebComboBox
+            // FreeKickComboBox
             // 
-            this.goalCelebComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.goalCelebComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.goalCelebComboBox.FormattingEnabled = true;
-            this.goalCelebComboBox.Location = new System.Drawing.Point(111, 214);
-            this.goalCelebComboBox.Name = "goalCelebComboBox";
-            this.goalCelebComboBox.Size = new System.Drawing.Size(48, 21);
-            this.goalCelebComboBox.TabIndex = 121;
+            this.FreeKickComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.FreeKickComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.FreeKickComboBox.FormattingEnabled = true;
+            this.FreeKickComboBox.Location = new System.Drawing.Point(111, 139);
+            this.FreeKickComboBox.Name = "FreeKickComboBox";
+            this.FreeKickComboBox.Size = new System.Drawing.Size(48, 21);
+            this.FreeKickComboBox.TabIndex = 118;
             // 
-            // pkMotionComboBox
+            // FreeKickLabel
             // 
-            this.pkMotionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.pkMotionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.pkMotionComboBox.FormattingEnabled = true;
-            this.pkMotionComboBox.Location = new System.Drawing.Point(111, 164);
-            this.pkMotionComboBox.Name = "pkMotionComboBox";
-            this.pkMotionComboBox.Size = new System.Drawing.Size(48, 21);
-            this.pkMotionComboBox.TabIndex = 120;
-            // 
-            // pkMotionLabel
-            // 
-            this.pkMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.FreeKickLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.pkMotionLabel.AutoSize = true;
-            this.pkMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.pkMotionLabel.Location = new System.Drawing.Point(14, 169);
-            this.pkMotionLabel.Name = "pkMotionLabel";
-            this.pkMotionLabel.Size = new System.Drawing.Size(67, 13);
-            this.pkMotionLabel.TabIndex = 119;
-            this.pkMotionLabel.Text = "PK MOTION";
+            this.FreeKickLabel.AutoSize = true;
+            this.FreeKickLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.FreeKickLabel.Location = new System.Drawing.Point(14, 144);
+            this.FreeKickLabel.Name = "FreeKickLabel";
+            this.FreeKickLabel.Size = new System.Drawing.Size(55, 13);
+            this.FreeKickLabel.TabIndex = 117;
+            this.FreeKickLabel.Text = "Free Kick:";
             // 
-            // fkMotionComboBox
+            // CornerKickComboBox
             // 
-            this.fkMotionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.fkMotionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.fkMotionComboBox.FormattingEnabled = true;
-            this.fkMotionComboBox.Location = new System.Drawing.Point(111, 139);
-            this.fkMotionComboBox.Name = "fkMotionComboBox";
-            this.fkMotionComboBox.Size = new System.Drawing.Size(48, 21);
-            this.fkMotionComboBox.TabIndex = 118;
+            this.CornerKickComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CornerKickComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.CornerKickComboBox.FormattingEnabled = true;
+            this.CornerKickComboBox.Location = new System.Drawing.Point(111, 114);
+            this.CornerKickComboBox.Name = "CornerKickComboBox";
+            this.CornerKickComboBox.Size = new System.Drawing.Size(48, 21);
+            this.CornerKickComboBox.TabIndex = 116;
             // 
-            // fkMotionLabel
+            // CornerKickLabel
             // 
-            this.fkMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.CornerKickLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.fkMotionLabel.AutoSize = true;
-            this.fkMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.fkMotionLabel.Location = new System.Drawing.Point(14, 144);
-            this.fkMotionLabel.Name = "fkMotionLabel";
-            this.fkMotionLabel.Size = new System.Drawing.Size(66, 13);
-            this.fkMotionLabel.TabIndex = 117;
-            this.fkMotionLabel.Text = "FK MOTION";
+            this.CornerKickLabel.AutoSize = true;
+            this.CornerKickLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.CornerKickLabel.Location = new System.Drawing.Point(13, 118);
+            this.CornerKickLabel.Name = "CornerKickLabel";
+            this.CornerKickLabel.Size = new System.Drawing.Size(65, 13);
+            this.CornerKickLabel.TabIndex = 115;
+            this.CornerKickLabel.Text = "Corner Kick:";
             // 
-            // ckMotionComboBox
+            // RunArmMoveComboBox
             // 
-            this.ckMotionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ckMotionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.ckMotionComboBox.FormattingEnabled = true;
-            this.ckMotionComboBox.Location = new System.Drawing.Point(111, 114);
-            this.ckMotionComboBox.Name = "ckMotionComboBox";
-            this.ckMotionComboBox.Size = new System.Drawing.Size(48, 21);
-            this.ckMotionComboBox.TabIndex = 116;
+            this.RunArmMoveComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RunArmMoveComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.RunArmMoveComboBox.FormattingEnabled = true;
+            this.RunArmMoveComboBox.Location = new System.Drawing.Point(111, 89);
+            this.RunArmMoveComboBox.Name = "RunArmMoveComboBox";
+            this.RunArmMoveComboBox.Size = new System.Drawing.Size(48, 21);
+            this.RunArmMoveComboBox.TabIndex = 114;
             // 
-            // ckMotionLabel
+            // RunArmMoveLabel
             // 
-            this.ckMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.RunArmMoveLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.ckMotionLabel.AutoSize = true;
-            this.ckMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.ckMotionLabel.Location = new System.Drawing.Point(13, 118);
-            this.ckMotionLabel.Name = "ckMotionLabel";
-            this.ckMotionLabel.Size = new System.Drawing.Size(67, 13);
-            this.ckMotionLabel.TabIndex = 115;
-            this.ckMotionLabel.Text = "CK MOTION";
+            this.RunArmMoveLabel.AutoSize = true;
+            this.RunArmMoveLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.RunArmMoveLabel.Location = new System.Drawing.Point(14, 93);
+            this.RunArmMoveLabel.Name = "RunArmMoveLabel";
+            this.RunArmMoveLabel.Size = new System.Drawing.Size(81, 13);
+            this.RunArmMoveLabel.TabIndex = 113;
+            this.RunArmMoveLabel.Text = "Run Arm Move:";
             // 
-            // runArmMoveComboBox
+            // RunHunchingComboBox
             // 
-            this.runArmMoveComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.runArmMoveComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.runArmMoveComboBox.FormattingEnabled = true;
-            this.runArmMoveComboBox.Location = new System.Drawing.Point(111, 89);
-            this.runArmMoveComboBox.Name = "runArmMoveComboBox";
-            this.runArmMoveComboBox.Size = new System.Drawing.Size(48, 21);
-            this.runArmMoveComboBox.TabIndex = 114;
+            this.RunHunchingComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RunHunchingComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.RunHunchingComboBox.FormattingEnabled = true;
+            this.RunHunchingComboBox.Location = new System.Drawing.Point(111, 64);
+            this.RunHunchingComboBox.Name = "RunHunchingComboBox";
+            this.RunHunchingComboBox.Size = new System.Drawing.Size(48, 21);
+            this.RunHunchingComboBox.TabIndex = 112;
             // 
-            // runArmMoveLabel
+            // RunHunchingLabel
             // 
-            this.runArmMoveLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.RunHunchingLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.runArmMoveLabel.AutoSize = true;
-            this.runArmMoveLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.runArmMoveLabel.Location = new System.Drawing.Point(14, 93);
-            this.runArmMoveLabel.Name = "runArmMoveLabel";
-            this.runArmMoveLabel.Size = new System.Drawing.Size(92, 13);
-            this.runArmMoveLabel.TabIndex = 113;
-            this.runArmMoveLabel.Text = "RUN ARM MOVE";
+            this.RunHunchingLabel.AutoSize = true;
+            this.RunHunchingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.RunHunchingLabel.Location = new System.Drawing.Point(13, 68);
+            this.RunHunchingLabel.Name = "RunHunchingLabel";
+            this.RunHunchingLabel.Size = new System.Drawing.Size(79, 13);
+            this.RunHunchingLabel.TabIndex = 111;
+            this.RunHunchingLabel.Text = "Run Hunching:";
             // 
-            // runHunchComboBox
+            // DribArmMoveComboBox
             // 
-            this.runHunchComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.runHunchComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.runHunchComboBox.FormattingEnabled = true;
-            this.runHunchComboBox.Location = new System.Drawing.Point(111, 64);
-            this.runHunchComboBox.Name = "runHunchComboBox";
-            this.runHunchComboBox.Size = new System.Drawing.Size(48, 21);
-            this.runHunchComboBox.TabIndex = 112;
+            this.DribArmMoveComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DribArmMoveComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.DribArmMoveComboBox.FormattingEnabled = true;
+            this.DribArmMoveComboBox.Location = new System.Drawing.Point(111, 39);
+            this.DribArmMoveComboBox.Name = "DribArmMoveComboBox";
+            this.DribArmMoveComboBox.Size = new System.Drawing.Size(48, 21);
+            this.DribArmMoveComboBox.TabIndex = 110;
             // 
-            // runHunchLabel
+            // DribArmMoveLabel
             // 
-            this.runHunchLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.DribArmMoveLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.runHunchLabel.AutoSize = true;
-            this.runHunchLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.runHunchLabel.Location = new System.Drawing.Point(13, 68);
-            this.runHunchLabel.Name = "runHunchLabel";
-            this.runHunchLabel.Size = new System.Drawing.Size(73, 13);
-            this.runHunchLabel.TabIndex = 111;
-            this.runHunchLabel.Text = "RUN HUNCH";
+            this.DribArmMoveLabel.AutoSize = true;
+            this.DribArmMoveLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.DribArmMoveLabel.Location = new System.Drawing.Point(14, 43);
+            this.DribArmMoveLabel.Name = "DribArmMoveLabel";
+            this.DribArmMoveLabel.Size = new System.Drawing.Size(80, 13);
+            this.DribArmMoveLabel.TabIndex = 109;
+            this.DribArmMoveLabel.Text = "Drib Arm Move:";
             // 
-            // dribArmMoveComboBox
+            // DribHunchingComboBox
             // 
-            this.dribArmMoveComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.dribArmMoveComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.dribArmMoveComboBox.FormattingEnabled = true;
-            this.dribArmMoveComboBox.Location = new System.Drawing.Point(111, 39);
-            this.dribArmMoveComboBox.Name = "dribArmMoveComboBox";
-            this.dribArmMoveComboBox.Size = new System.Drawing.Size(48, 21);
-            this.dribArmMoveComboBox.TabIndex = 110;
+            this.DribHunchingComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DribHunchingComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.DribHunchingComboBox.FormattingEnabled = true;
+            this.DribHunchingComboBox.Location = new System.Drawing.Point(111, 14);
+            this.DribHunchingComboBox.Name = "DribHunchingComboBox";
+            this.DribHunchingComboBox.Size = new System.Drawing.Size(48, 21);
+            this.DribHunchingComboBox.TabIndex = 108;
             // 
-            // dribArmMoveLabel
+            // DribHunchingLabel
             // 
-            this.dribArmMoveLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.DribHunchingLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.dribArmMoveLabel.AutoSize = true;
-            this.dribArmMoveLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.dribArmMoveLabel.Location = new System.Drawing.Point(14, 43);
-            this.dribArmMoveLabel.Name = "dribArmMoveLabel";
-            this.dribArmMoveLabel.Size = new System.Drawing.Size(94, 13);
-            this.dribArmMoveLabel.TabIndex = 109;
-            this.dribArmMoveLabel.Text = "DRIB ARM MOVE";
+            this.DribHunchingLabel.AutoSize = true;
+            this.DribHunchingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.DribHunchingLabel.Location = new System.Drawing.Point(14, 18);
+            this.DribHunchingLabel.Name = "DribHunchingLabel";
+            this.DribHunchingLabel.Size = new System.Drawing.Size(78, 13);
+            this.DribHunchingLabel.TabIndex = 107;
+            this.DribHunchingLabel.Text = "Drib Hunching:";
             // 
-            // dribHunchComboBox
+            // groupBox10
             // 
-            this.dribHunchComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.dribHunchComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.dribHunchComboBox.FormattingEnabled = true;
-            this.dribHunchComboBox.Location = new System.Drawing.Point(111, 14);
-            this.dribHunchComboBox.Name = "dribHunchComboBox";
-            this.dribHunchComboBox.Size = new System.Drawing.Size(48, 21);
-            this.dribHunchComboBox.TabIndex = 108;
+            this.groupBox10.Controls.Add(this.AdjustLessButton);
+            this.groupBox10.Controls.Add(this.AdjustEqualButton);
+            this.groupBox10.Controls.Add(this.AdjustPlusPercButton);
+            this.groupBox10.Controls.Add(this.AdjustTextBox);
+            this.groupBox10.Controls.Add(this.AdjustPlusButton);
+            this.groupBox10.Controls.Add(this.AdjustLessPercButton);
+            this.groupBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.groupBox10.Location = new System.Drawing.Point(668, 380);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(180, 138);
+            this.groupBox10.TabIndex = 118;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Adjust Abilities";
             // 
-            // dribHunchLabel
+            // AdjustLessButton
             // 
-            this.dribHunchLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.dribHunchLabel.AutoSize = true;
-            this.dribHunchLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.dribHunchLabel.Location = new System.Drawing.Point(14, 18);
-            this.dribHunchLabel.Name = "dribHunchLabel";
-            this.dribHunchLabel.Size = new System.Drawing.Size(75, 13);
-            this.dribHunchLabel.TabIndex = 107;
-            this.dribHunchLabel.Text = "DRIB HUNCH";
+            this.AdjustLessButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.AdjustLessButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AdjustLessButton.FlatAppearance.BorderSize = 0;
+            this.AdjustLessButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.AdjustLessButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.AdjustLessButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AdjustLessButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.AdjustLessButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.AdjustLessButton.Location = new System.Drawing.Point(124, 23);
+            this.AdjustLessButton.Name = "AdjustLessButton";
+            this.AdjustLessButton.Size = new System.Drawing.Size(44, 29);
+            this.AdjustLessButton.TabIndex = 113;
+            this.AdjustLessButton.Text = "-";
+            this.AdjustLessButton.UseVisualStyleBackColor = false;
             // 
-            // goalCelebLabel
+            // AdjustEqualButton
             // 
-            this.goalCelebLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.goalCelebLabel.AutoSize = true;
-            this.goalCelebLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.goalCelebLabel.Location = new System.Drawing.Point(14, 219);
-            this.goalCelebLabel.Name = "goalCelebLabel";
-            this.goalCelebLabel.Size = new System.Drawing.Size(73, 13);
-            this.goalCelebLabel.TabIndex = 105;
-            this.goalCelebLabel.Text = "GOAL CELEB";
+            this.AdjustEqualButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.AdjustEqualButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AdjustEqualButton.FlatAppearance.BorderSize = 0;
+            this.AdjustEqualButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.AdjustEqualButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.AdjustEqualButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AdjustEqualButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.AdjustEqualButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.AdjustEqualButton.Location = new System.Drawing.Point(17, 92);
+            this.AdjustEqualButton.Name = "AdjustEqualButton";
+            this.AdjustEqualButton.Size = new System.Drawing.Size(151, 26);
+            this.AdjustEqualButton.TabIndex = 114;
+            this.AdjustEqualButton.Text = "=";
+            this.AdjustEqualButton.UseVisualStyleBackColor = false;
             // 
-            // groupBox23
+            // AdjustPlusPercButton
             // 
-            this.groupBox23.Controls.Add(this.adjustLessButton);
-            this.groupBox23.Controls.Add(this.adjustEqualButton);
-            this.groupBox23.Controls.Add(this.adjustPlusPercButton);
-            this.groupBox23.Controls.Add(this.adjustTextBox);
-            this.groupBox23.Controls.Add(this.adjustPlusButton);
-            this.groupBox23.Controls.Add(this.adjustLessPercButton);
-            this.groupBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.groupBox23.Location = new System.Drawing.Point(895, 6);
-            this.groupBox23.Name = "groupBox23";
-            this.groupBox23.Size = new System.Drawing.Size(110, 162);
-            this.groupBox23.TabIndex = 118;
-            this.groupBox23.TabStop = false;
-            this.groupBox23.Text = "Adjust Abilities";
+            this.AdjustPlusPercButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.AdjustPlusPercButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AdjustPlusPercButton.FlatAppearance.BorderSize = 0;
+            this.AdjustPlusPercButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.AdjustPlusPercButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.AdjustPlusPercButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AdjustPlusPercButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.AdjustPlusPercButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.AdjustPlusPercButton.Location = new System.Drawing.Point(124, 58);
+            this.AdjustPlusPercButton.Name = "AdjustPlusPercButton";
+            this.AdjustPlusPercButton.Size = new System.Drawing.Size(44, 29);
+            this.AdjustPlusPercButton.TabIndex = 115;
+            this.AdjustPlusPercButton.Text = "+%";
+            this.AdjustPlusPercButton.UseVisualStyleBackColor = false;
             // 
-            // adjustLessButton
+            // AdjustTextBox
             // 
-            this.adjustLessButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
-            this.adjustLessButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.adjustLessButton.FlatAppearance.BorderSize = 0;
-            this.adjustLessButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
-            this.adjustLessButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.adjustLessButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.adjustLessButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.adjustLessButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.adjustLessButton.Location = new System.Drawing.Point(60, 88);
-            this.adjustLessButton.Name = "adjustLessButton";
-            this.adjustLessButton.Size = new System.Drawing.Size(44, 29);
-            this.adjustLessButton.TabIndex = 113;
-            this.adjustLessButton.Text = "-";
-            this.adjustLessButton.UseVisualStyleBackColor = false;
+            this.AdjustTextBox.Font = new System.Drawing.Font("Arial", 9F);
+            this.AdjustTextBox.Location = new System.Drawing.Point(17, 45);
+            this.AdjustTextBox.MaxLength = 2;
+            this.AdjustTextBox.Name = "AdjustTextBox";
+            this.AdjustTextBox.Size = new System.Drawing.Size(42, 21);
+            this.AdjustTextBox.TabIndex = 105;
+            this.AdjustTextBox.Text = "1";
+            this.AdjustTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // adjustEqualButton
+            // AdjustPlusButton
             // 
-            this.adjustEqualButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
-            this.adjustEqualButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.adjustEqualButton.FlatAppearance.BorderSize = 0;
-            this.adjustEqualButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
-            this.adjustEqualButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.adjustEqualButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.adjustEqualButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.adjustEqualButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.adjustEqualButton.Location = new System.Drawing.Point(6, 54);
-            this.adjustEqualButton.Name = "adjustEqualButton";
-            this.adjustEqualButton.Size = new System.Drawing.Size(98, 26);
-            this.adjustEqualButton.TabIndex = 114;
-            this.adjustEqualButton.Text = "=";
-            this.adjustEqualButton.UseVisualStyleBackColor = false;
+            this.AdjustPlusButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.AdjustPlusButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AdjustPlusButton.FlatAppearance.BorderSize = 0;
+            this.AdjustPlusButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.AdjustPlusButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.AdjustPlusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AdjustPlusButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.AdjustPlusButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.AdjustPlusButton.Location = new System.Drawing.Point(65, 24);
+            this.AdjustPlusButton.Name = "AdjustPlusButton";
+            this.AdjustPlusButton.Size = new System.Drawing.Size(44, 29);
+            this.AdjustPlusButton.TabIndex = 112;
+            this.AdjustPlusButton.Text = "+";
+            this.AdjustPlusButton.UseVisualStyleBackColor = false;
             // 
-            // adjustPlusPercButton
+            // AdjustLessPercButton
             // 
-            this.adjustPlusPercButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
-            this.adjustPlusPercButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.adjustPlusPercButton.FlatAppearance.BorderSize = 0;
-            this.adjustPlusPercButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
-            this.adjustPlusPercButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.adjustPlusPercButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.adjustPlusPercButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.adjustPlusPercButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.adjustPlusPercButton.Location = new System.Drawing.Point(6, 123);
-            this.adjustPlusPercButton.Name = "adjustPlusPercButton";
-            this.adjustPlusPercButton.Size = new System.Drawing.Size(42, 29);
-            this.adjustPlusPercButton.TabIndex = 115;
-            this.adjustPlusPercButton.Text = "+%";
-            this.adjustPlusPercButton.UseVisualStyleBackColor = false;
+            this.AdjustLessPercButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.AdjustLessPercButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AdjustLessPercButton.FlatAppearance.BorderSize = 0;
+            this.AdjustLessPercButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.AdjustLessPercButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.AdjustLessPercButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AdjustLessPercButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.AdjustLessPercButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.AdjustLessPercButton.Location = new System.Drawing.Point(65, 58);
+            this.AdjustLessPercButton.Name = "AdjustLessPercButton";
+            this.AdjustLessPercButton.Size = new System.Drawing.Size(44, 29);
+            this.AdjustLessPercButton.TabIndex = 116;
+            this.AdjustLessPercButton.Text = "-%";
+            this.AdjustLessPercButton.UseVisualStyleBackColor = false;
             // 
-            // adjustTextBox
+            // ApplyButton
             // 
-            this.adjustTextBox.Font = new System.Drawing.Font("Arial", 9F);
-            this.adjustTextBox.Location = new System.Drawing.Point(6, 27);
-            this.adjustTextBox.MaxLength = 2;
-            this.adjustTextBox.Name = "adjustTextBox";
-            this.adjustTextBox.Size = new System.Drawing.Size(98, 21);
-            this.adjustTextBox.TabIndex = 105;
-            this.adjustTextBox.Text = "1";
-            this.adjustTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ApplyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.ApplyButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ApplyButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.ApplyButton.FlatAppearance.BorderSize = 0;
+            this.ApplyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.ApplyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.ApplyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ApplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.ApplyButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ApplyButton.Location = new System.Drawing.Point(952, 587);
+            this.ApplyButton.Name = "ApplyButton";
+            this.ApplyButton.Size = new System.Drawing.Size(92, 29);
+            this.ApplyButton.TabIndex = 123;
+            this.ApplyButton.Text = "Apply";
+            this.ApplyButton.UseVisualStyleBackColor = false;
             // 
-            // adjustPlusButton
+            // CloseButton
             // 
-            this.adjustPlusButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
-            this.adjustPlusButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.adjustPlusButton.FlatAppearance.BorderSize = 0;
-            this.adjustPlusButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
-            this.adjustPlusButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.adjustPlusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.adjustPlusButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.adjustPlusButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.adjustPlusButton.Location = new System.Drawing.Point(6, 89);
-            this.adjustPlusButton.Name = "adjustPlusButton";
-            this.adjustPlusButton.Size = new System.Drawing.Size(42, 28);
-            this.adjustPlusButton.TabIndex = 112;
-            this.adjustPlusButton.Text = "+";
-            this.adjustPlusButton.UseVisualStyleBackColor = false;
-            // 
-            // adjustLessPercButton
-            // 
-            this.adjustLessPercButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
-            this.adjustLessPercButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.adjustLessPercButton.FlatAppearance.BorderSize = 0;
-            this.adjustLessPercButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
-            this.adjustLessPercButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.adjustLessPercButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.adjustLessPercButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.adjustLessPercButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.adjustLessPercButton.Location = new System.Drawing.Point(60, 123);
-            this.adjustLessPercButton.Name = "adjustLessPercButton";
-            this.adjustLessPercButton.Size = new System.Drawing.Size(44, 29);
-            this.adjustLessPercButton.TabIndex = 116;
-            this.adjustLessPercButton.Text = "-%";
-            this.adjustLessPercButton.UseVisualStyleBackColor = false;
-            // 
-            // acceptButton
-            // 
-            this.acceptButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
-            this.acceptButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.acceptButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.acceptButton.FlatAppearance.BorderSize = 0;
-            this.acceptButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
-            this.acceptButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.acceptButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.acceptButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.acceptButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.acceptButton.Location = new System.Drawing.Point(894, 395);
-            this.acceptButton.Name = "acceptButton";
-            this.acceptButton.Size = new System.Drawing.Size(111, 29);
-            this.acceptButton.TabIndex = 123;
-            this.acceptButton.Text = "Accept";
-            this.acceptButton.UseVisualStyleBackColor = false;
-            // 
-            // cancelButton
-            // 
-            this.cancelButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
-            this.cancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cancelButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.cancelButton.FlatAppearance.BorderSize = 0;
-            this.cancelButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
-            this.cancelButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
-            this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.cancelButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.cancelButton.Location = new System.Drawing.Point(894, 430);
-            this.cancelButton.Name = "cancelButton";
-            this.cancelButton.Size = new System.Drawing.Size(111, 29);
-            this.cancelButton.TabIndex = 124;
-            this.cancelButton.Text = "Cancel";
-            this.cancelButton.UseVisualStyleBackColor = false;
+            this.CloseButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(125)))), ((int)(((byte)(134)))));
+            this.CloseButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CloseButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.CloseButton.FlatAppearance.BorderSize = 0;
+            this.CloseButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(163)))), ((int)(((byte)(163)))));
+            this.CloseButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CloseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.CloseButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.CloseButton.Location = new System.Drawing.Point(854, 587);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(92, 29);
+            this.CloseButton.TabIndex = 124;
+            this.CloseButton.Text = "Close";
+            this.CloseButton.UseVisualStyleBackColor = false;
             // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.addGloveRelinkButton);
-            this.groupBox6.Controls.Add(this.gloveRelinkComboBox);
-            this.groupBox6.Location = new System.Drawing.Point(676, 605);
+            this.groupBox6.Controls.Add(this.AddGloveRelinkButton);
+            this.groupBox6.Controls.Add(this.GloveRelinkComboBox);
+            this.groupBox6.Controls.Add(this.GlovePictureBox);
+            this.groupBox6.Location = new System.Drawing.Point(659, 622);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(329, 56);
+            this.groupBox6.Size = new System.Drawing.Size(385, 66);
             this.groupBox6.TabIndex = 127;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Gloves Relink";
             // 
-            // addGloveRelinkButton
+            // AddGloveRelinkButton
             // 
-            this.addGloveRelinkButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.addGloveRelinkButton.FlatAppearance.BorderSize = 0;
-            this.addGloveRelinkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.addGloveRelinkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
-            this.addGloveRelinkButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addGloveRelinkButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.addGloveRelinkButton.Image = ((System.Drawing.Image)(resources.GetObject("addGloveRelinkButton.Image")));
-            this.addGloveRelinkButton.Location = new System.Drawing.Point(300, 23);
-            this.addGloveRelinkButton.Name = "addGloveRelinkButton";
-            this.addGloveRelinkButton.Size = new System.Drawing.Size(17, 17);
-            this.addGloveRelinkButton.TabIndex = 127;
-            this.addGloveRelinkButton.UseVisualStyleBackColor = true;
+            this.AddGloveRelinkButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddGloveRelinkButton.FlatAppearance.BorderSize = 0;
+            this.AddGloveRelinkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
+            this.AddGloveRelinkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.AddGloveRelinkButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddGloveRelinkButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.AddGloveRelinkButton.Image = ((System.Drawing.Image)(resources.GetObject("AddGloveRelinkButton.Image")));
+            this.AddGloveRelinkButton.Location = new System.Drawing.Point(303, 32);
+            this.AddGloveRelinkButton.Name = "AddGloveRelinkButton";
+            this.AddGloveRelinkButton.Size = new System.Drawing.Size(17, 17);
+            this.AddGloveRelinkButton.TabIndex = 127;
+            this.AddGloveRelinkButton.UseVisualStyleBackColor = true;
             // 
-            // gloveRelinkComboBox
+            // GloveRelinkComboBox
             // 
-            this.gloveRelinkComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gloveRelinkComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.gloveRelinkComboBox.FormattingEnabled = true;
-            this.gloveRelinkComboBox.Location = new System.Drawing.Point(13, 21);
-            this.gloveRelinkComboBox.Name = "gloveRelinkComboBox";
-            this.gloveRelinkComboBox.Size = new System.Drawing.Size(281, 21);
-            this.gloveRelinkComboBox.TabIndex = 117;
+            this.GloveRelinkComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.GloveRelinkComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.GloveRelinkComboBox.FormattingEnabled = true;
+            this.GloveRelinkComboBox.Location = new System.Drawing.Point(13, 30);
+            this.GloveRelinkComboBox.Name = "GloveRelinkComboBox";
+            this.GloveRelinkComboBox.Size = new System.Drawing.Size(287, 21);
+            this.GloveRelinkComboBox.TabIndex = 117;
+            // 
+            // GlovePictureBox
+            // 
+            this.GlovePictureBox.BackColor = System.Drawing.Color.LightGray;
+            this.GlovePictureBox.Location = new System.Drawing.Point(326, 12);
+            this.GlovePictureBox.Name = "GlovePictureBox";
+            this.GlovePictureBox.Size = new System.Drawing.Size(51, 51);
+            this.GlovePictureBox.TabIndex = 131;
+            this.GlovePictureBox.TabStop = false;
             // 
             // groupBox7
             // 
-            this.groupBox7.Controls.Add(this.youthClubComboBox);
-            this.groupBox7.Location = new System.Drawing.Point(272, 640);
+            this.groupBox7.Controls.Add(this.MarketValueTextBox);
+            this.groupBox7.Controls.Add(this.MarketValueLabel);
+            this.groupBox7.Controls.Add(this.ClubIDLabel);
+            this.groupBox7.Controls.Add(this.ClubIDComboBox);
+            this.groupBox7.Controls.Add(this.NationalTeamCapLabel);
+            this.groupBox7.Controls.Add(this.NationalTeamCapComboBox);
+            this.groupBox7.Controls.Add(this.LoanExpiryDateTextBox);
+            this.groupBox7.Controls.Add(this.OwnerClubLabel);
+            this.groupBox7.Controls.Add(this.LoanExpiryDateLabel);
+            this.groupBox7.Controls.Add(this.OwnerClubComboBox);
+            this.groupBox7.Controls.Add(this.ContractExpiryDateTextBox);
+            this.groupBox7.Controls.Add(this.YouthClubLabel);
+            this.groupBox7.Controls.Add(this.ContractExpiryDateLabel);
+            this.groupBox7.Controls.Add(this.YouthClubComboBox);
+            this.groupBox7.Location = new System.Drawing.Point(854, 230);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(190, 54);
+            this.groupBox7.Size = new System.Drawing.Size(190, 351);
             this.groupBox7.TabIndex = 128;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Youth Club";
+            this.groupBox7.Text = "Career";
             // 
-            // youthClubComboBox
+            // MarketValueTextBox
             // 
-            this.youthClubComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.youthClubComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.youthClubComboBox.FormattingEnabled = true;
-            this.youthClubComboBox.Location = new System.Drawing.Point(8, 22);
-            this.youthClubComboBox.Name = "youthClubComboBox";
-            this.youthClubComboBox.Size = new System.Drawing.Size(176, 21);
-            this.youthClubComboBox.TabIndex = 118;
+            this.MarketValueTextBox.Location = new System.Drawing.Point(9, 311);
+            this.MarketValueTextBox.MaxLength = 9;
+            this.MarketValueTextBox.Name = "MarketValueTextBox";
+            this.MarketValueTextBox.Size = new System.Drawing.Size(176, 20);
+            this.MarketValueTextBox.TabIndex = 136;
+            // 
+            // MarketValueLabel
+            // 
+            this.MarketValueLabel.AutoSize = true;
+            this.MarketValueLabel.Location = new System.Drawing.Point(6, 295);
+            this.MarketValueLabel.Name = "MarketValueLabel";
+            this.MarketValueLabel.Size = new System.Drawing.Size(88, 13);
+            this.MarketValueLabel.TabIndex = 142;
+            this.MarketValueLabel.Text = "Market Value (€):";
+            // 
+            // ClubIDLabel
+            // 
+            this.ClubIDLabel.AutoSize = true;
+            this.ClubIDLabel.Location = new System.Drawing.Point(5, 153);
+            this.ClubIDLabel.Name = "ClubIDLabel";
+            this.ClubIDLabel.Size = new System.Drawing.Size(45, 13);
+            this.ClubIDLabel.TabIndex = 141;
+            this.ClubIDLabel.Text = "Club ID:";
+            // 
+            // ClubIDComboBox
+            // 
+            this.ClubIDComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ClubIDComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.ClubIDComboBox.FormattingEnabled = true;
+            this.ClubIDComboBox.Location = new System.Drawing.Point(9, 169);
+            this.ClubIDComboBox.Name = "ClubIDComboBox";
+            this.ClubIDComboBox.Size = new System.Drawing.Size(176, 21);
+            this.ClubIDComboBox.TabIndex = 140;
+            // 
+            // NationalTeamCapLabel
+            // 
+            this.NationalTeamCapLabel.AutoSize = true;
+            this.NationalTeamCapLabel.Location = new System.Drawing.Point(6, 107);
+            this.NationalTeamCapLabel.Name = "NationalTeamCapLabel";
+            this.NationalTeamCapLabel.Size = new System.Drawing.Size(101, 13);
+            this.NationalTeamCapLabel.TabIndex = 139;
+            this.NationalTeamCapLabel.Text = "National Team Cap:";
+            // 
+            // NationalTeamCapComboBox
+            // 
+            this.NationalTeamCapComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.NationalTeamCapComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.NationalTeamCapComboBox.FormattingEnabled = true;
+            this.NationalTeamCapComboBox.Location = new System.Drawing.Point(9, 123);
+            this.NationalTeamCapComboBox.Name = "NationalTeamCapComboBox";
+            this.NationalTeamCapComboBox.Size = new System.Drawing.Size(176, 21);
+            this.NationalTeamCapComboBox.TabIndex = 138;
+            // 
+            // LoanExpiryDateTextBox
+            // 
+            this.LoanExpiryDateTextBox.Location = new System.Drawing.Point(9, 265);
+            this.LoanExpiryDateTextBox.MaxLength = 10;
+            this.LoanExpiryDateTextBox.Name = "LoanExpiryDateTextBox";
+            this.LoanExpiryDateTextBox.Size = new System.Drawing.Size(176, 20);
+            this.LoanExpiryDateTextBox.TabIndex = 137;
+            // 
+            // OwnerClubLabel
+            // 
+            this.OwnerClubLabel.AutoSize = true;
+            this.OwnerClubLabel.Location = new System.Drawing.Point(6, 62);
+            this.OwnerClubLabel.Name = "OwnerClubLabel";
+            this.OwnerClubLabel.Size = new System.Drawing.Size(65, 13);
+            this.OwnerClubLabel.TabIndex = 135;
+            this.OwnerClubLabel.Text = "Owner Club:";
+            // 
+            // LoanExpiryDateLabel
+            // 
+            this.LoanExpiryDateLabel.AutoSize = true;
+            this.LoanExpiryDateLabel.Location = new System.Drawing.Point(6, 249);
+            this.LoanExpiryDateLabel.Name = "LoanExpiryDateLabel";
+            this.LoanExpiryDateLabel.Size = new System.Drawing.Size(91, 13);
+            this.LoanExpiryDateLabel.TabIndex = 136;
+            this.LoanExpiryDateLabel.Text = "Loan Expiry Date:";
+            // 
+            // OwnerClubComboBox
+            // 
+            this.OwnerClubComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.OwnerClubComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.OwnerClubComboBox.FormattingEnabled = true;
+            this.OwnerClubComboBox.Location = new System.Drawing.Point(9, 77);
+            this.OwnerClubComboBox.Name = "OwnerClubComboBox";
+            this.OwnerClubComboBox.Size = new System.Drawing.Size(176, 21);
+            this.OwnerClubComboBox.TabIndex = 134;
+            // 
+            // ContractExpiryDateTextBox
+            // 
+            this.ContractExpiryDateTextBox.Location = new System.Drawing.Point(9, 219);
+            this.ContractExpiryDateTextBox.MaxLength = 10;
+            this.ContractExpiryDateTextBox.Name = "ContractExpiryDateTextBox";
+            this.ContractExpiryDateTextBox.Size = new System.Drawing.Size(176, 20);
+            this.ContractExpiryDateTextBox.TabIndex = 135;
+            // 
+            // YouthClubLabel
+            // 
+            this.YouthClubLabel.AutoSize = true;
+            this.YouthClubLabel.Location = new System.Drawing.Point(6, 18);
+            this.YouthClubLabel.Name = "YouthClubLabel";
+            this.YouthClubLabel.Size = new System.Drawing.Size(62, 13);
+            this.YouthClubLabel.TabIndex = 133;
+            this.YouthClubLabel.Text = "Youth Club:";
+            // 
+            // ContractExpiryDateLabel
+            // 
+            this.ContractExpiryDateLabel.AutoSize = true;
+            this.ContractExpiryDateLabel.Location = new System.Drawing.Point(6, 203);
+            this.ContractExpiryDateLabel.Name = "ContractExpiryDateLabel";
+            this.ContractExpiryDateLabel.Size = new System.Drawing.Size(107, 13);
+            this.ContractExpiryDateLabel.TabIndex = 132;
+            this.ContractExpiryDateLabel.Text = "Contract Expiry Date:";
+            // 
+            // YouthClubComboBox
+            // 
+            this.YouthClubComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.YouthClubComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.YouthClubComboBox.FormattingEnabled = true;
+            this.YouthClubComboBox.Location = new System.Drawing.Point(9, 33);
+            this.YouthClubComboBox.Name = "YouthClubComboBox";
+            this.YouthClubComboBox.Size = new System.Drawing.Size(176, 21);
+            this.YouthClubComboBox.TabIndex = 118;
             // 
             // groupBox8
             // 
-            this.groupBox8.Controls.Add(this.marketValueTextBox);
-            this.groupBox8.Location = new System.Drawing.Point(894, 174);
+            this.groupBox8.Controls.Add(this.GKLowPuntCheckBox);
+            this.groupBox8.Controls.Add(this.LongRangeShootingCheckBox);
+            this.groupBox8.Controls.Add(this.TrackBackCheckBox);
+            this.groupBox8.Controls.Add(this.RabonaCheckBox);
+            this.groupBox8.Controls.Add(this.DippingShotCheckBox);
+            this.groupBox8.Controls.Add(this.KnuckleShootCheckBox);
+            this.groupBox8.Controls.Add(this.NoLookPassCheckBox);
+            this.groupBox8.Controls.Add(this.SuperSubCheckBox);
+            this.groupBox8.Controls.Add(this.FirstTimeShotCheckBox);
+            this.groupBox8.Controls.Add(this.PinpointCrossingCheckBox);
+            this.groupBox8.Controls.Add(this.AerialSuperiorityCheckBox);
+            this.groupBox8.Controls.Add(this.WeightedPassCheckBox);
+            this.groupBox8.Controls.Add(this.FlipFlapCheckBox);
+            this.groupBox8.Controls.Add(this.FightingSpiritCheckBox);
+            this.groupBox8.Controls.Add(this.SombreroCheckBox);
+            this.groupBox8.Controls.Add(this.ChopTurnCheckBox);
+            this.groupBox8.Controls.Add(this.ChipShotControlCheckBox);
+            this.groupBox8.Controls.Add(this.HeadingCheckBox);
+            this.groupBox8.Controls.Add(this.OutsideCurlerCheckBox);
+            this.groupBox8.Controls.Add(this.CaptaincyCheckBox);
+            this.groupBox8.Controls.Add(this.ThroughPassingCheckBox);
+            this.groupBox8.Controls.Add(this.GamesmanshipCheckBox);
+            this.groupBox8.Controls.Add(this.LowLoftedPassCheckBox);
+            this.groupBox8.Controls.Add(this.HeelTrickCheckBox);
+            this.groupBox8.Controls.Add(this.OneTouchPassCheckBox);
+            this.groupBox8.Controls.Add(this.ManMarkingCheckBox);
+            this.groupBox8.Controls.Add(this.InterceptionCheckBox);
+            this.groupBox8.Controls.Add(this.GKHighPuntCheckBox);
+            this.groupBox8.Controls.Add(this.MarseilleTurnCheckBox);
+            this.groupBox8.Controls.Add(this.RisingShotsCheckBox);
+            this.groupBox8.Controls.Add(this.SlidingTackleCheckBox);
+            this.groupBox8.Controls.Add(this.PenaltySpecialistCheckBox);
+            this.groupBox8.Controls.Add(this.GKPenaltySaverCheckBox);
+            this.groupBox8.Controls.Add(this.SoleControlCheckBox);
+            this.groupBox8.Enabled = false;
+            this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.groupBox8.Location = new System.Drawing.Point(467, 6);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(111, 72);
-            this.groupBox8.TabIndex = 129;
+            this.groupBox8.Size = new System.Drawing.Size(195, 614);
+            this.groupBox8.TabIndex = 362;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Market Value (€)";
+            this.groupBox8.Text = "Player Skills";
             // 
-            // marketValueTextBox
+            // GKLowPuntCheckBox
             // 
-            this.marketValueTextBox.Location = new System.Drawing.Point(7, 32);
-            this.marketValueTextBox.MaxLength = 9;
-            this.marketValueTextBox.Name = "marketValueTextBox";
-            this.marketValueTextBox.Size = new System.Drawing.Size(99, 20);
-            this.marketValueTextBox.TabIndex = 136;
+            this.GKLowPuntCheckBox.AutoSize = true;
+            this.GKLowPuntCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.GKLowPuntCheckBox.Location = new System.Drawing.Point(6, 37);
+            this.GKLowPuntCheckBox.Name = "GKLowPuntCheckBox";
+            this.GKLowPuntCheckBox.Size = new System.Drawing.Size(111, 17);
+            this.GKLowPuntCheckBox.TabIndex = 101;
+            this.GKLowPuntCheckBox.Text = "S2 - GK Low Punt";
+            this.GKLowPuntCheckBox.UseVisualStyleBackColor = true;
             // 
-            // bootPictureBox
+            // LongRangeShootingCheckBox
             // 
-            this.bootPictureBox.BackColor = System.Drawing.Color.LightGray;
-            this.bootPictureBox.Location = new System.Drawing.Point(872, 478);
-            this.bootPictureBox.Name = "bootPictureBox";
-            this.bootPictureBox.Size = new System.Drawing.Size(64, 64);
-            this.bootPictureBox.TabIndex = 130;
-            this.bootPictureBox.TabStop = false;
+            this.LongRangeShootingCheckBox.AutoSize = true;
+            this.LongRangeShootingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.LongRangeShootingCheckBox.Location = new System.Drawing.Point(6, 203);
+            this.LongRangeShootingCheckBox.Name = "LongRangeShootingCheckBox";
+            this.LongRangeShootingCheckBox.Size = new System.Drawing.Size(158, 17);
+            this.LongRangeShootingCheckBox.TabIndex = 91;
+            this.LongRangeShootingCheckBox.Text = "S12 - Long Range Shooting";
+            this.LongRangeShootingCheckBox.UseVisualStyleBackColor = true;
             // 
-            // glovePictureBox
+            // TrackBackCheckBox
             // 
-            this.glovePictureBox.BackColor = System.Drawing.Color.LightGray;
-            this.glovePictureBox.Location = new System.Drawing.Point(941, 478);
-            this.glovePictureBox.Name = "glovePictureBox";
-            this.glovePictureBox.Size = new System.Drawing.Size(64, 64);
-            this.glovePictureBox.TabIndex = 131;
-            this.glovePictureBox.TabStop = false;
+            this.TrackBackCheckBox.AutoSize = true;
+            this.TrackBackCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.TrackBackCheckBox.Location = new System.Drawing.Point(6, 221);
+            this.TrackBackCheckBox.Name = "TrackBackCheckBox";
+            this.TrackBackCheckBox.Size = new System.Drawing.Size(110, 17);
+            this.TrackBackCheckBox.TabIndex = 90;
+            this.TrackBackCheckBox.Text = "S13 - Track Back";
+            this.TrackBackCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // RabonaCheckBox
+            // 
+            this.RabonaCheckBox.AutoSize = true;
+            this.RabonaCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.RabonaCheckBox.Location = new System.Drawing.Point(6, 257);
+            this.RabonaCheckBox.Name = "RabonaCheckBox";
+            this.RabonaCheckBox.Size = new System.Drawing.Size(92, 17);
+            this.RabonaCheckBox.TabIndex = 89;
+            this.RabonaCheckBox.Text = "S15 - Rabona";
+            this.RabonaCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // DippingShotCheckBox
+            // 
+            this.DippingShotCheckBox.AutoSize = true;
+            this.DippingShotCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.DippingShotCheckBox.Location = new System.Drawing.Point(6, 238);
+            this.DippingShotCheckBox.Name = "DippingShotCheckBox";
+            this.DippingShotCheckBox.Size = new System.Drawing.Size(115, 17);
+            this.DippingShotCheckBox.TabIndex = 88;
+            this.DippingShotCheckBox.Text = "S14 - Dipping Shot";
+            this.DippingShotCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // KnuckleShootCheckBox
+            // 
+            this.KnuckleShootCheckBox.AutoSize = true;
+            this.KnuckleShootCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.KnuckleShootCheckBox.Location = new System.Drawing.Point(6, 275);
+            this.KnuckleShootCheckBox.Name = "KnuckleShootCheckBox";
+            this.KnuckleShootCheckBox.Size = new System.Drawing.Size(124, 17);
+            this.KnuckleShootCheckBox.TabIndex = 87;
+            this.KnuckleShootCheckBox.Text = "S16 - Knuckle Shoot";
+            this.KnuckleShootCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // NoLookPassCheckBox
+            // 
+            this.NoLookPassCheckBox.AutoSize = true;
+            this.NoLookPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.NoLookPassCheckBox.Location = new System.Drawing.Point(6, 292);
+            this.NoLookPassCheckBox.Name = "NoLookPassCheckBox";
+            this.NoLookPassCheckBox.Size = new System.Drawing.Size(121, 17);
+            this.NoLookPassCheckBox.TabIndex = 86;
+            this.NoLookPassCheckBox.Text = "S17 - No Look Pass";
+            this.NoLookPassCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // SuperSubCheckBox
+            // 
+            this.SuperSubCheckBox.AutoSize = true;
+            this.SuperSubCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.SuperSubCheckBox.Location = new System.Drawing.Point(6, 500);
+            this.SuperSubCheckBox.Name = "SuperSubCheckBox";
+            this.SuperSubCheckBox.Size = new System.Drawing.Size(102, 17);
+            this.SuperSubCheckBox.TabIndex = 84;
+            this.SuperSubCheckBox.Text = "S29 - Super-sub";
+            this.SuperSubCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // FirstTimeShotCheckBox
+            // 
+            this.FirstTimeShotCheckBox.AutoSize = true;
+            this.FirstTimeShotCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.FirstTimeShotCheckBox.Location = new System.Drawing.Point(6, 343);
+            this.FirstTimeShotCheckBox.Name = "FirstTimeShotCheckBox";
+            this.FirstTimeShotCheckBox.Size = new System.Drawing.Size(120, 17);
+            this.FirstTimeShotCheckBox.TabIndex = 83;
+            this.FirstTimeShotCheckBox.Text = "S20 - First-time Shot";
+            this.FirstTimeShotCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // PinpointCrossingCheckBox
+            // 
+            this.PinpointCrossingCheckBox.AutoSize = true;
+            this.PinpointCrossingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.PinpointCrossingCheckBox.Location = new System.Drawing.Point(6, 376);
+            this.PinpointCrossingCheckBox.Name = "PinpointCrossingCheckBox";
+            this.PinpointCrossingCheckBox.Size = new System.Drawing.Size(135, 17);
+            this.PinpointCrossingCheckBox.TabIndex = 82;
+            this.PinpointCrossingCheckBox.Text = "S22 - Pinpoint Crossing";
+            this.PinpointCrossingCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // AerialSuperiorityCheckBox
+            // 
+            this.AerialSuperiorityCheckBox.AutoSize = true;
+            this.AerialSuperiorityCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.AerialSuperiorityCheckBox.Location = new System.Drawing.Point(6, 359);
+            this.AerialSuperiorityCheckBox.Name = "AerialSuperiorityCheckBox";
+            this.AerialSuperiorityCheckBox.Size = new System.Drawing.Size(132, 17);
+            this.AerialSuperiorityCheckBox.TabIndex = 81;
+            this.AerialSuperiorityCheckBox.Text = "S21 - Aerial Superiority";
+            this.AerialSuperiorityCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // WeightedPassCheckBox
+            // 
+            this.WeightedPassCheckBox.AutoSize = true;
+            this.WeightedPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.WeightedPassCheckBox.Location = new System.Drawing.Point(6, 308);
+            this.WeightedPassCheckBox.Name = "WeightedPassCheckBox";
+            this.WeightedPassCheckBox.Size = new System.Drawing.Size(126, 17);
+            this.WeightedPassCheckBox.TabIndex = 80;
+            this.WeightedPassCheckBox.Text = "S18 - Weighted Pass";
+            this.WeightedPassCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // FlipFlapCheckBox
+            // 
+            this.FlipFlapCheckBox.AutoSize = true;
+            this.FlipFlapCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.FlipFlapCheckBox.Location = new System.Drawing.Point(6, 186);
+            this.FlipFlapCheckBox.Name = "FlipFlapCheckBox";
+            this.FlipFlapCheckBox.Size = new System.Drawing.Size(93, 17);
+            this.FlipFlapCheckBox.TabIndex = 79;
+            this.FlipFlapCheckBox.Text = "S11 - Flip Flap";
+            this.FlipFlapCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // FightingSpiritCheckBox
+            // 
+            this.FightingSpiritCheckBox.AutoSize = true;
+            this.FightingSpiritCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.FightingSpiritCheckBox.Location = new System.Drawing.Point(7, 412);
+            this.FightingSpiritCheckBox.Name = "FightingSpiritCheckBox";
+            this.FightingSpiritCheckBox.Size = new System.Drawing.Size(117, 17);
+            this.FightingSpiritCheckBox.TabIndex = 78;
+            this.FightingSpiritCheckBox.Text = "S24 - Fighting Spirit";
+            this.FightingSpiritCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // SombreroCheckBox
+            // 
+            this.SombreroCheckBox.AutoSize = true;
+            this.SombreroCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.SombreroCheckBox.Location = new System.Drawing.Point(6, 483);
+            this.SombreroCheckBox.Name = "SombreroCheckBox";
+            this.SombreroCheckBox.Size = new System.Drawing.Size(99, 17);
+            this.SombreroCheckBox.TabIndex = 77;
+            this.SombreroCheckBox.Text = "S28 - Sombrero";
+            this.SombreroCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ChopTurnCheckBox
+            // 
+            this.ChopTurnCheckBox.AutoSize = true;
+            this.ChopTurnCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.ChopTurnCheckBox.Location = new System.Drawing.Point(6, 395);
+            this.ChopTurnCheckBox.Name = "ChopTurnCheckBox";
+            this.ChopTurnCheckBox.Size = new System.Drawing.Size(104, 17);
+            this.ChopTurnCheckBox.TabIndex = 76;
+            this.ChopTurnCheckBox.Text = "S23 - Chop Turn";
+            this.ChopTurnCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ChipShotControlCheckBox
+            // 
+            this.ChipShotControlCheckBox.AutoSize = true;
+            this.ChipShotControlCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.ChipShotControlCheckBox.Location = new System.Drawing.Point(6, 518);
+            this.ChipShotControlCheckBox.Name = "ChipShotControlCheckBox";
+            this.ChipShotControlCheckBox.Size = new System.Drawing.Size(136, 17);
+            this.ChipShotControlCheckBox.TabIndex = 75;
+            this.ChipShotControlCheckBox.Text = "S30 - Chip Shot Control";
+            this.ChipShotControlCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // HeadingCheckBox
+            // 
+            this.HeadingCheckBox.AutoSize = true;
+            this.HeadingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.HeadingCheckBox.Location = new System.Drawing.Point(6, 169);
+            this.HeadingCheckBox.Name = "HeadingCheckBox";
+            this.HeadingCheckBox.Size = new System.Drawing.Size(94, 17);
+            this.HeadingCheckBox.TabIndex = 74;
+            this.HeadingCheckBox.Text = "S10 - Heading";
+            this.HeadingCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // OutsideCurlerCheckBox
+            // 
+            this.OutsideCurlerCheckBox.AutoSize = true;
+            this.OutsideCurlerCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.OutsideCurlerCheckBox.Location = new System.Drawing.Point(6, 586);
+            this.OutsideCurlerCheckBox.Name = "OutsideCurlerCheckBox";
+            this.OutsideCurlerCheckBox.Size = new System.Drawing.Size(120, 17);
+            this.OutsideCurlerCheckBox.TabIndex = 73;
+            this.OutsideCurlerCheckBox.Text = "S34 - Outside Curler";
+            this.OutsideCurlerCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // CaptaincyCheckBox
+            // 
+            this.CaptaincyCheckBox.AutoSize = true;
+            this.CaptaincyCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.CaptaincyCheckBox.Location = new System.Drawing.Point(6, 68);
+            this.CaptaincyCheckBox.Name = "CaptaincyCheckBox";
+            this.CaptaincyCheckBox.Size = new System.Drawing.Size(95, 17);
+            this.CaptaincyCheckBox.TabIndex = 72;
+            this.CaptaincyCheckBox.Text = "S4 - Captaincy";
+            this.CaptaincyCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ThroughPassingCheckBox
+            // 
+            this.ThroughPassingCheckBox.AutoSize = true;
+            this.ThroughPassingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.ThroughPassingCheckBox.Location = new System.Drawing.Point(6, 569);
+            this.ThroughPassingCheckBox.Name = "ThroughPassingCheckBox";
+            this.ThroughPassingCheckBox.Size = new System.Drawing.Size(134, 17);
+            this.ThroughPassingCheckBox.TabIndex = 70;
+            this.ThroughPassingCheckBox.Text = "S33 - Through Passing";
+            this.ThroughPassingCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // GamesmanshipCheckBox
+            // 
+            this.GamesmanshipCheckBox.AutoSize = true;
+            this.GamesmanshipCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.GamesmanshipCheckBox.Location = new System.Drawing.Point(6, 152);
+            this.GamesmanshipCheckBox.Name = "GamesmanshipCheckBox";
+            this.GamesmanshipCheckBox.Size = new System.Drawing.Size(120, 17);
+            this.GamesmanshipCheckBox.TabIndex = 69;
+            this.GamesmanshipCheckBox.Text = "S9 - Gamesmanship";
+            this.GamesmanshipCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // LowLoftedPassCheckBox
+            // 
+            this.LowLoftedPassCheckBox.AutoSize = true;
+            this.LowLoftedPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.LowLoftedPassCheckBox.Location = new System.Drawing.Point(6, 552);
+            this.LowLoftedPassCheckBox.Name = "LowLoftedPassCheckBox";
+            this.LowLoftedPassCheckBox.Size = new System.Drawing.Size(133, 17);
+            this.LowLoftedPassCheckBox.TabIndex = 68;
+            this.LowLoftedPassCheckBox.Text = "S32 - Low Lofted Pass";
+            this.LowLoftedPassCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // HeelTrickCheckBox
+            // 
+            this.HeelTrickCheckBox.AutoSize = true;
+            this.HeelTrickCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.HeelTrickCheckBox.Location = new System.Drawing.Point(6, 535);
+            this.HeelTrickCheckBox.Name = "HeelTrickCheckBox";
+            this.HeelTrickCheckBox.Size = new System.Drawing.Size(103, 17);
+            this.HeelTrickCheckBox.TabIndex = 67;
+            this.HeelTrickCheckBox.Text = "S31 - Heel Trick";
+            this.HeelTrickCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // OneTouchPassCheckBox
+            // 
+            this.OneTouchPassCheckBox.AutoSize = true;
+            this.OneTouchPassCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.OneTouchPassCheckBox.Location = new System.Drawing.Point(6, 325);
+            this.OneTouchPassCheckBox.Name = "OneTouchPassCheckBox";
+            this.OneTouchPassCheckBox.Size = new System.Drawing.Size(130, 17);
+            this.OneTouchPassCheckBox.TabIndex = 66;
+            this.OneTouchPassCheckBox.Text = "S19 - One-touch Pass";
+            this.OneTouchPassCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ManMarkingCheckBox
+            // 
+            this.ManMarkingCheckBox.AutoSize = true;
+            this.ManMarkingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.ManMarkingCheckBox.Location = new System.Drawing.Point(6, 430);
+            this.ManMarkingCheckBox.Name = "ManMarkingCheckBox";
+            this.ManMarkingCheckBox.Size = new System.Drawing.Size(116, 17);
+            this.ManMarkingCheckBox.TabIndex = 65;
+            this.ManMarkingCheckBox.Text = "S25 - Man Marking";
+            this.ManMarkingCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // InterceptionCheckBox
+            // 
+            this.InterceptionCheckBox.AutoSize = true;
+            this.InterceptionCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.InterceptionCheckBox.Location = new System.Drawing.Point(6, 447);
+            this.InterceptionCheckBox.Name = "InterceptionCheckBox";
+            this.InterceptionCheckBox.Size = new System.Drawing.Size(110, 17);
+            this.InterceptionCheckBox.TabIndex = 64;
+            this.InterceptionCheckBox.Text = "S26 - Interception";
+            this.InterceptionCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // GKHighPuntCheckBox
+            // 
+            this.GKHighPuntCheckBox.AutoSize = true;
+            this.GKHighPuntCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.GKHighPuntCheckBox.Location = new System.Drawing.Point(6, 53);
+            this.GKHighPuntCheckBox.Name = "GKHighPuntCheckBox";
+            this.GKHighPuntCheckBox.Size = new System.Drawing.Size(113, 17);
+            this.GKHighPuntCheckBox.TabIndex = 63;
+            this.GKHighPuntCheckBox.Text = "S3 - GK High Punt";
+            this.GKHighPuntCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // MarseilleTurnCheckBox
+            // 
+            this.MarseilleTurnCheckBox.AutoSize = true;
+            this.MarseilleTurnCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.MarseilleTurnCheckBox.Location = new System.Drawing.Point(6, 464);
+            this.MarseilleTurnCheckBox.Name = "MarseilleTurnCheckBox";
+            this.MarseilleTurnCheckBox.Size = new System.Drawing.Size(120, 17);
+            this.MarseilleTurnCheckBox.TabIndex = 62;
+            this.MarseilleTurnCheckBox.Text = "S27 - Marseille Turn";
+            this.MarseilleTurnCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // RisingShotsCheckBox
+            // 
+            this.RisingShotsCheckBox.AutoSize = true;
+            this.RisingShotsCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.RisingShotsCheckBox.Location = new System.Drawing.Point(6, 135);
+            this.RisingShotsCheckBox.Name = "RisingShotsCheckBox";
+            this.RisingShotsCheckBox.Size = new System.Drawing.Size(107, 17);
+            this.RisingShotsCheckBox.TabIndex = 61;
+            this.RisingShotsCheckBox.Text = "S8 - Rising Shots";
+            this.RisingShotsCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // SlidingTackleCheckBox
+            // 
+            this.SlidingTackleCheckBox.AutoSize = true;
+            this.SlidingTackleCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.SlidingTackleCheckBox.Location = new System.Drawing.Point(6, 118);
+            this.SlidingTackleCheckBox.Name = "SlidingTackleCheckBox";
+            this.SlidingTackleCheckBox.Size = new System.Drawing.Size(115, 17);
+            this.SlidingTackleCheckBox.TabIndex = 60;
+            this.SlidingTackleCheckBox.Text = "S7 - Sliding Tackle";
+            this.SlidingTackleCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // PenaltySpecialistCheckBox
+            // 
+            this.PenaltySpecialistCheckBox.AutoSize = true;
+            this.PenaltySpecialistCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.PenaltySpecialistCheckBox.Location = new System.Drawing.Point(6, 101);
+            this.PenaltySpecialistCheckBox.Name = "PenaltySpecialistCheckBox";
+            this.PenaltySpecialistCheckBox.Size = new System.Drawing.Size(131, 17);
+            this.PenaltySpecialistCheckBox.TabIndex = 59;
+            this.PenaltySpecialistCheckBox.Text = "S6 - Penalty Specialist";
+            this.PenaltySpecialistCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // GKPenaltySaverCheckBox
+            // 
+            this.GKPenaltySaverCheckBox.AutoSize = true;
+            this.GKPenaltySaverCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.GKPenaltySaverCheckBox.Location = new System.Drawing.Point(6, 84);
+            this.GKPenaltySaverCheckBox.Name = "GKPenaltySaverCheckBox";
+            this.GKPenaltySaverCheckBox.Size = new System.Drawing.Size(132, 17);
+            this.GKPenaltySaverCheckBox.TabIndex = 57;
+            this.GKPenaltySaverCheckBox.Text = "S5 - GK Penalty Saver";
+            this.GKPenaltySaverCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // SoleControlCheckBox
+            // 
+            this.SoleControlCheckBox.AutoSize = true;
+            this.SoleControlCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.SoleControlCheckBox.Location = new System.Drawing.Point(6, 21);
+            this.SoleControlCheckBox.Name = "SoleControlCheckBox";
+            this.SoleControlCheckBox.Size = new System.Drawing.Size(105, 17);
+            this.SoleControlCheckBox.TabIndex = 58;
+            this.SoleControlCheckBox.Text = "S1 - Sole Control";
+            this.SoleControlCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // AcrobaticClearanceCheckBox
+            // 
+            this.AcrobaticClearanceCheckBox.AutoSize = true;
+            this.AcrobaticClearanceCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.AcrobaticClearanceCheckBox.Location = new System.Drawing.Point(19, 177);
+            this.AcrobaticClearanceCheckBox.Name = "AcrobaticClearanceCheckBox";
+            this.AcrobaticClearanceCheckBox.Size = new System.Drawing.Size(150, 17);
+            this.AcrobaticClearanceCheckBox.TabIndex = 99;
+            this.AcrobaticClearanceCheckBox.Text = "S44 - Acrobatic Clearance";
+            this.AcrobaticClearanceCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // CutBehindTurnCheckBox
+            // 
+            this.CutBehindTurnCheckBox.AutoSize = true;
+            this.CutBehindTurnCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.CutBehindTurnCheckBox.Location = new System.Drawing.Point(19, 159);
+            this.CutBehindTurnCheckBox.Name = "CutBehindTurnCheckBox";
+            this.CutBehindTurnCheckBox.Size = new System.Drawing.Size(153, 17);
+            this.CutBehindTurnCheckBox.TabIndex = 98;
+            this.CutBehindTurnCheckBox.Text = "S43 - Cut Behind And Turn";
+            this.CutBehindTurnCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // BlockerCheckBox
+            // 
+            this.BlockerCheckBox.AutoSize = true;
+            this.BlockerCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.BlockerCheckBox.Location = new System.Drawing.Point(19, 141);
+            this.BlockerCheckBox.Name = "BlockerCheckBox";
+            this.BlockerCheckBox.Size = new System.Drawing.Size(90, 17);
+            this.BlockerCheckBox.TabIndex = 97;
+            this.BlockerCheckBox.Text = "S42 - Blocker";
+            this.BlockerCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ScotchMoveCheckBox
+            // 
+            this.ScotchMoveCheckBox.AutoSize = true;
+            this.ScotchMoveCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.ScotchMoveCheckBox.Location = new System.Drawing.Point(19, 124);
+            this.ScotchMoveCheckBox.Name = "ScotchMoveCheckBox";
+            this.ScotchMoveCheckBox.Size = new System.Drawing.Size(118, 17);
+            this.ScotchMoveCheckBox.TabIndex = 96;
+            this.ScotchMoveCheckBox.Text = "S41 - Scotch Move";
+            this.ScotchMoveCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // AcrobaticFinishingCheckBox
+            // 
+            this.AcrobaticFinishingCheckBox.AutoSize = true;
+            this.AcrobaticFinishingCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.AcrobaticFinishingCheckBox.Location = new System.Drawing.Point(19, 107);
+            this.AcrobaticFinishingCheckBox.Name = "AcrobaticFinishingCheckBox";
+            this.AcrobaticFinishingCheckBox.Size = new System.Drawing.Size(143, 17);
+            this.AcrobaticFinishingCheckBox.TabIndex = 95;
+            this.AcrobaticFinishingCheckBox.Text = "S40 - Acrobatic Finishing";
+            this.AcrobaticFinishingCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // DoubleTouchCheckBox
+            // 
+            this.DoubleTouchCheckBox.AutoSize = true;
+            this.DoubleTouchCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.DoubleTouchCheckBox.Location = new System.Drawing.Point(19, 90);
+            this.DoubleTouchCheckBox.Name = "DoubleTouchCheckBox";
+            this.DoubleTouchCheckBox.Size = new System.Drawing.Size(122, 17);
+            this.DoubleTouchCheckBox.TabIndex = 94;
+            this.DoubleTouchCheckBox.Text = "S39 - Double Touch";
+            this.DoubleTouchCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // LongThrowCheckBox
+            // 
+            this.LongThrowCheckBox.AutoSize = true;
+            this.LongThrowCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.LongThrowCheckBox.Location = new System.Drawing.Point(19, 72);
+            this.LongThrowCheckBox.Name = "LongThrowCheckBox";
+            this.LongThrowCheckBox.Size = new System.Drawing.Size(111, 17);
+            this.LongThrowCheckBox.TabIndex = 93;
+            this.LongThrowCheckBox.Text = "S38 - Long Throw";
+            this.LongThrowCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ScissorsFeintCheckBox
+            // 
+            this.ScissorsFeintCheckBox.AutoSize = true;
+            this.ScissorsFeintCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.ScissorsFeintCheckBox.Location = new System.Drawing.Point(19, 55);
+            this.ScissorsFeintCheckBox.Name = "ScissorsFeintCheckBox";
+            this.ScissorsFeintCheckBox.Size = new System.Drawing.Size(119, 17);
+            this.ScissorsFeintCheckBox.TabIndex = 92;
+            this.ScissorsFeintCheckBox.Text = "S37 - Scissors Feint";
+            this.ScissorsFeintCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // LongRangeCurlerCheckBox
+            // 
+            this.LongRangeCurlerCheckBox.AutoSize = true;
+            this.LongRangeCurlerCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.LongRangeCurlerCheckBox.Location = new System.Drawing.Point(19, 37);
+            this.LongRangeCurlerCheckBox.Name = "LongRangeCurlerCheckBox";
+            this.LongRangeCurlerCheckBox.Size = new System.Drawing.Size(143, 17);
+            this.LongRangeCurlerCheckBox.TabIndex = 85;
+            this.LongRangeCurlerCheckBox.Text = "S36 - Long Range Curler";
+            this.LongRangeCurlerCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // GKLongThrowCheckBox
+            // 
+            this.GKLongThrowCheckBox.AutoSize = true;
+            this.GKLongThrowCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.GKLongThrowCheckBox.Location = new System.Drawing.Point(19, 20);
+            this.GKLongThrowCheckBox.Name = "GKLongThrowCheckBox";
+            this.GKLongThrowCheckBox.Size = new System.Drawing.Size(129, 17);
+            this.GKLongThrowCheckBox.TabIndex = 71;
+            this.GKLongThrowCheckBox.Text = "S35 - GK Long Throw";
+            this.GKLongThrowCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.lbl_Overall);
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.groupBox5.Location = new System.Drawing.Point(668, 524);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(180, 96);
+            this.groupBox5.TabIndex = 366;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Overall Rating";
+            // 
+            // lbl_Overall
+            // 
+            this.lbl_Overall.BackColor = System.Drawing.Color.Yellow;
+            this.lbl_Overall.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_Overall.Location = new System.Drawing.Point(12, 16);
+            this.lbl_Overall.Name = "lbl_Overall";
+            this.lbl_Overall.Size = new System.Drawing.Size(156, 71);
+            this.lbl_Overall.TabIndex = 358;
+            this.lbl_Overall.Text = "40";
+            this.lbl_Overall.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox9
             // 
-            this.groupBox9.Controls.Add(this.contractDateTextBox);
-            this.groupBox9.Controls.Add(this.label4);
-            this.groupBox9.Location = new System.Drawing.Point(894, 250);
+            this.groupBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBox9.Controls.Add(this.GKLongThrowCheckBox);
+            this.groupBox9.Controls.Add(this.AcrobaticClearanceCheckBox);
+            this.groupBox9.Controls.Add(this.LongRangeCurlerCheckBox);
+            this.groupBox9.Controls.Add(this.CutBehindTurnCheckBox);
+            this.groupBox9.Controls.Add(this.ScissorsFeintCheckBox);
+            this.groupBox9.Controls.Add(this.BlockerCheckBox);
+            this.groupBox9.Controls.Add(this.LongThrowCheckBox);
+            this.groupBox9.Controls.Add(this.ScotchMoveCheckBox);
+            this.groupBox9.Controls.Add(this.DoubleTouchCheckBox);
+            this.groupBox9.Controls.Add(this.AcrobaticFinishingCheckBox);
+            this.groupBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.groupBox9.Location = new System.Drawing.Point(668, 6);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(111, 72);
-            this.groupBox9.TabIndex = 132;
+            this.groupBox9.Size = new System.Drawing.Size(180, 217);
+            this.groupBox9.TabIndex = 367;
             this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Career";
-            // 
-            // contractDateTextBox
-            // 
-            this.contractDateTextBox.Location = new System.Drawing.Point(7, 43);
-            this.contractDateTextBox.MaxLength = 10;
-            this.contractDateTextBox.Name = "contractDateTextBox";
-            this.contractDateTextBox.Size = new System.Drawing.Size(99, 20);
-            this.contractDateTextBox.TabIndex = 135;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 21);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 13);
-            this.label4.TabIndex = 132;
-            this.label4.Text = "Contract Expiry Date:";
-            // 
-            // GKReachLabel
-            // 
-            this.GKReachLabel.AutoSize = true;
-            this.GKReachLabel.Location = new System.Drawing.Point(15, 593);
-            this.GKReachLabel.Name = "GKReachLabel";
-            this.GKReachLabel.Size = new System.Drawing.Size(60, 13);
-            this.GKReachLabel.TabIndex = 111;
-            this.GKReachLabel.Text = "GK Reach:";
-            // 
-            // GKReachTextBox
-            // 
-            this.GKReachTextBox.Location = new System.Drawing.Point(142, 590);
-            this.GKReachTextBox.MaxLength = 2;
-            this.GKReachTextBox.Name = "GKReachTextBox";
-            this.GKReachTextBox.Size = new System.Drawing.Size(35, 20);
-            this.GKReachTextBox.TabIndex = 110;
+            this.groupBox9.Text = "AI Playing Styles";
             // 
             // Stats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1012, 698);
+            this.ClientSize = new System.Drawing.Size(1049, 690);
             this.Controls.Add(this.groupBox9);
-            this.Controls.Add(this.glovePictureBox);
-            this.Controls.Add(this.bootPictureBox);
+            this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.cancelButton);
-            this.Controls.Add(this.acceptButton);
-            this.Controls.Add(this.groupBox23);
-            this.Controls.Add(this.groupBox19);
-            this.Controls.Add(this.groupBox22);
+            this.Controls.Add(this.CloseButton);
+            this.Controls.Add(this.groupBox10);
+            this.Controls.Add(this.ApplyButton);
+            this.Controls.Add(this.groupBox11);
+            this.Controls.Add(this.groupBox12);
             this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox21);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -2840,21 +2867,21 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.groupBox21.ResumeLayout(false);
-            this.groupBox21.PerformLayout();
             this.groupBox4.ResumeLayout(false);
-            this.groupBox22.ResumeLayout(false);
-            this.groupBox22.PerformLayout();
-            this.groupBox19.ResumeLayout(false);
-            this.groupBox19.PerformLayout();
-            this.groupBox23.ResumeLayout(false);
-            this.groupBox23.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BootPictureBox)).EndInit();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
             this.groupBox6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.GlovePictureBox)).EndInit();
             this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bootPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.glovePictureBox)).EndInit();
+            this.groupBox5.ResumeLayout(false);
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
             this.ResumeLayout(false);
@@ -2863,29 +2890,29 @@
 
         #endregion
 
-        private System.Windows.Forms.Label weAccUseLabel;
-        private System.Windows.Forms.Label formLabel;
-        private System.Windows.Forms.Label typeLabel;
-        private System.Windows.Forms.TextBox weightTextBox;
-        private System.Windows.Forms.Label weightLabel;
-        private System.Windows.Forms.Label heightLabel;
-        private System.Windows.Forms.TextBox ageTextBox;
-        private System.Windows.Forms.Label ageLabel;
-        private System.Windows.Forms.Label strongFootLabel;
-        private System.Windows.Forms.Label nationalityLabel;
-        private System.Windows.Forms.TextBox shirtNameTextBox;
-        private System.Windows.Forms.Label shirtNameLabel;
-        private System.Windows.Forms.Label nameLabel;
-        private System.Windows.Forms.TextBox idTextBox;
-        private System.Windows.Forms.Label idLabel;
+        private System.Windows.Forms.Label WeAccUseLabel;
+        private System.Windows.Forms.Label FormLabel;
+        private System.Windows.Forms.Label TypeLabel;
+        private System.Windows.Forms.TextBox WeightTextBox;
+        private System.Windows.Forms.Label WeightLabel;
+        private System.Windows.Forms.Label HeightLabel;
+        private System.Windows.Forms.TextBox AgeTextBox;
+        private System.Windows.Forms.Label AgeLabel;
+        private System.Windows.Forms.Label StrongFootLabel;
+        private System.Windows.Forms.Label NationalityLabel;
+        private System.Windows.Forms.TextBox ChineseNameTextBox;
+        private System.Windows.Forms.Label ChineseLabel;
+        private System.Windows.Forms.Label NameLabel;
+        private System.Windows.Forms.TextBox IDTextBox;
+        private System.Windows.Forms.Label IDLabel;
         private System.Windows.Forms.ComboBox InjuryComboBox;
-        private System.Windows.Forms.Label injuryLabel;
-        private System.Windows.Forms.ComboBox strongFootComboBox;
-        private System.Windows.Forms.Label sndNationalityLabel;
-        private System.Windows.Forms.ComboBox playingStyleComboBox;
-        private System.Windows.Forms.Label playingStyleLabel;
-        private System.Windows.Forms.ComboBox weAccComboBox;
-        private System.Windows.Forms.ComboBox formComboBox;
+        private System.Windows.Forms.Label InjuryLabel;
+        private System.Windows.Forms.ComboBox StrongFootComboBox;
+        private System.Windows.Forms.Label SecondNationalityLabel;
+        private System.Windows.Forms.ComboBox PlayingStyleComboBox;
+        private System.Windows.Forms.Label PlayingStyleLabel;
+        private System.Windows.Forms.ComboBox WeAccComboBox;
+        private System.Windows.Forms.ComboBox FormComboBox;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox PhysicalContactTextBox;
         private System.Windows.Forms.Label PhysicalContactLabel;
@@ -2934,153 +2961,163 @@
         private System.Windows.Forms.Label BallControlLabel;
         private System.Windows.Forms.Label OffensiveProwessLabel;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.ComboBox positionComboBox;
-        private System.Windows.Forms.Label positionLabel;
-        private System.Windows.Forms.GroupBox groupBox21;
-        private System.Windows.Forms.CheckBox hellTrickCheckBox;
-        private System.Windows.Forms.CheckBox trackBackCheckBox;
-        private System.Windows.Forms.CheckBox flipFlapCheckBox;
-        private System.Windows.Forms.CheckBox rabonaCheckBox;
-        private System.Windows.Forms.CheckBox longRangeDriveCheckBox;
-        private System.Windows.Forms.CheckBox headingCheckBox;
-        private System.Windows.Forms.CheckBox gkLowPuntCheckBox;
-        private System.Windows.Forms.CheckBox pinpointCrossingCheckBox;
-        private System.Windows.Forms.CheckBox sombreroCheckBox;
-        private System.Windows.Forms.CheckBox acrobaticFinishingCheckBox;
-        private System.Windows.Forms.CheckBox weightedPassCheckBox;
-        private System.Windows.Forms.CheckBox longRangeShootingCheckBox;
-        private System.Windows.Forms.CheckBox oneTouchPassCheckBox;
-        private System.Windows.Forms.CheckBox lowLoftedPassCheckBox;
-        private System.Windows.Forms.CheckBox scissorsFeintCheckBox;
-        private System.Windows.Forms.CheckBox cutBehindTurnCheckBox;
-        private System.Windows.Forms.CheckBox gkLongThrowCheckBox;
-        private System.Windows.Forms.CheckBox scothMoveCheckBox;
-        private System.Windows.Forms.CheckBox marseilleTurnCheckBox;
-        private System.Windows.Forms.CheckBox outsideCurlerCheckBox;
-        private System.Windows.Forms.CheckBox manMarkingCheckBox;
-        private System.Windows.Forms.CheckBox longThrowCheckBox;
-        private System.Windows.Forms.CheckBox firstTimeShotCheckBox;
-        private System.Windows.Forms.CheckBox knucleShotCheckBox;
-        private System.Windows.Forms.CheckBox acrobaticClearCheckBox;
-        private System.Windows.Forms.CheckBox fightingSpiritCheckBox;
-        private System.Windows.Forms.CheckBox superSubCheckBox;
-        private System.Windows.Forms.CheckBox captaincyCheckBox;
+        private System.Windows.Forms.ComboBox PositionComboBox;
+        private System.Windows.Forms.Label PositionLabel;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.GroupBox groupBox22;
-        private System.Windows.Forms.CheckBox comEarlyCrossCheckBox;
-        private System.Windows.Forms.CheckBox comSpeedingBulletCheckBox;
-        private System.Windows.Forms.CheckBox comIncisiveRunCheckBox;
-        private System.Windows.Forms.CheckBox comLongRangerCheckBox;
-        private System.Windows.Forms.CheckBox comLongBallExpertCheckBox;
-        private System.Windows.Forms.CheckBox comMazingRunCheckBox;
-        private System.Windows.Forms.CheckBox comTricksterCheckBox;
-        private System.Windows.Forms.ComboBox bootRelinkComboBox;
-        private System.Windows.Forms.GroupBox groupBox19;
-        private System.Windows.Forms.ComboBox goalCelebComboBox;
-        private System.Windows.Forms.ComboBox pkMotionComboBox;
-        private System.Windows.Forms.Label pkMotionLabel;
-        private System.Windows.Forms.ComboBox fkMotionComboBox;
-        private System.Windows.Forms.Label fkMotionLabel;
-        private System.Windows.Forms.ComboBox ckMotionComboBox;
-        private System.Windows.Forms.Label ckMotionLabel;
-        private System.Windows.Forms.ComboBox runArmMoveComboBox;
-        private System.Windows.Forms.Label runArmMoveLabel;
-        private System.Windows.Forms.ComboBox runHunchComboBox;
-        private System.Windows.Forms.Label runHunchLabel;
-        private System.Windows.Forms.ComboBox dribArmMoveComboBox;
-        private System.Windows.Forms.Label dribArmMoveLabel;
-        private System.Windows.Forms.ComboBox dribHunchComboBox;
-        private System.Windows.Forms.Label dribHunchLabel;
-        private System.Windows.Forms.Label goalCelebLabel;
-        private System.Windows.Forms.GroupBox groupBox23;
-        private System.Windows.Forms.Button adjustLessButton;
-        private System.Windows.Forms.Button adjustPlusButton;
-        private System.Windows.Forms.Button adjustPlusPercButton;
-        private System.Windows.Forms.TextBox adjustTextBox;
-        private System.Windows.Forms.Button adjustLessPercButton;
-        private System.Windows.Forms.Button adjustEqualButton;
-        private System.Windows.Forms.Label cfLabel;
-        private System.Windows.Forms.ComboBox cfComboBox;
-        private System.Windows.Forms.Label ssLabel;
-        private System.Windows.Forms.ComboBox ssComboBox;
-        private System.Windows.Forms.Label rwfLabel;
-        private System.Windows.Forms.ComboBox rwfComboBox;
-        private System.Windows.Forms.Label lwfLabel;
-        private System.Windows.Forms.ComboBox lwfComboBox;
-        private System.Windows.Forms.Label rmfLabel;
-        private System.Windows.Forms.ComboBox rmfComboBox;
-        private System.Windows.Forms.Label amfLabel;
-        private System.Windows.Forms.ComboBox amfComboBox;
-        private System.Windows.Forms.Label lmfLabel;
-        private System.Windows.Forms.ComboBox lmfComboBox;
-        private System.Windows.Forms.Label cmfLabel;
-        private System.Windows.Forms.ComboBox cmfComboBox;
-        private System.Windows.Forms.Label dmfLabel;
-        private System.Windows.Forms.ComboBox dmfComboBox;
-        private System.Windows.Forms.Label rbLabel;
-        private System.Windows.Forms.ComboBox rbComboBox;
-        private System.Windows.Forms.Label lbLabel;
-        private System.Windows.Forms.ComboBox lbComboBox;
-        private System.Windows.Forms.Label cbLabel;
-        private System.Windows.Forms.ComboBox cbComboBox;
-        private System.Windows.Forms.Label gkLabel;
-        private System.Windows.Forms.ComboBox gkComboBox;
-        private System.Windows.Forms.ComboBox weUsageComboBox;
-        private System.Windows.Forms.ComboBox sndNationalityComboBox;
-        private System.Windows.Forms.ComboBox nationalityComboBox;
-        private System.Windows.Forms.TextBox nameTextBox;
-        private System.Windows.Forms.Button acceptButton;
-        private System.Windows.Forms.Button cancelButton;
-        private System.Windows.Forms.Button fakeButton;
-        private System.Windows.Forms.Button charButton;
-        private System.Windows.Forms.CheckBox hiddenPlayerCheckBox;
-        private System.Windows.Forms.TextBox heightTextBox;
-        private System.Windows.Forms.TextBox japaneseTextBox;
-        private System.Windows.Forms.Label japaneseLabel;
-        private System.Windows.Forms.CheckBox goldenBallCheckBox;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.CheckBox LongRangerAICheckBox;
+        private System.Windows.Forms.CheckBox EarlyCrossAICheckBox;
+        private System.Windows.Forms.CheckBox LongBallExpertAICheckBox;
+        private System.Windows.Forms.CheckBox IncisiveRunAICheckBox;
+        private System.Windows.Forms.CheckBox SpeedingBulletAICheckBox;
+        private System.Windows.Forms.CheckBox MazingRunAICheckBox;
+        private System.Windows.Forms.CheckBox TricksterAICheckBox;
+        private System.Windows.Forms.ComboBox BootRelinkComboBox;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.ComboBox penalityKickComboBox;
+        private System.Windows.Forms.Label penalityKickLabel;
+        private System.Windows.Forms.ComboBox FreeKickComboBox;
+        private System.Windows.Forms.Label FreeKickLabel;
+        private System.Windows.Forms.ComboBox CornerKickComboBox;
+        private System.Windows.Forms.Label CornerKickLabel;
+        private System.Windows.Forms.ComboBox RunArmMoveComboBox;
+        private System.Windows.Forms.Label RunArmMoveLabel;
+        private System.Windows.Forms.ComboBox RunHunchingComboBox;
+        private System.Windows.Forms.Label RunHunchingLabel;
+        private System.Windows.Forms.ComboBox DribArmMoveComboBox;
+        private System.Windows.Forms.Label DribArmMoveLabel;
+        private System.Windows.Forms.ComboBox DribHunchingComboBox;
+        private System.Windows.Forms.Label DribHunchingLabel;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.Button AdjustLessButton;
+        private System.Windows.Forms.Button AdjustPlusButton;
+        private System.Windows.Forms.Button AdjustPlusPercButton;
+        private System.Windows.Forms.TextBox AdjustTextBox;
+        private System.Windows.Forms.Button AdjustLessPercButton;
+        private System.Windows.Forms.Button AdjustEqualButton;
+        private System.Windows.Forms.Label CFLabel;
+        private System.Windows.Forms.ComboBox CFComboBox;
+        private System.Windows.Forms.Label SSLabel;
+        private System.Windows.Forms.ComboBox SSComboBox;
+        private System.Windows.Forms.Label RWFLabel;
+        private System.Windows.Forms.ComboBox RWFComboBox;
+        private System.Windows.Forms.Label LWFLabel;
+        private System.Windows.Forms.ComboBox LWFComboBox;
+        private System.Windows.Forms.Label RMFLabel;
+        private System.Windows.Forms.ComboBox RMFComboBox;
+        private System.Windows.Forms.Label AMFLabel;
+        private System.Windows.Forms.ComboBox AMFComboBox;
+        private System.Windows.Forms.Label LMFLabel;
+        private System.Windows.Forms.ComboBox LMFComboBox;
+        private System.Windows.Forms.Label CMFLabel;
+        private System.Windows.Forms.ComboBox CMFComboBox;
+        private System.Windows.Forms.Label DMFLabel;
+        private System.Windows.Forms.ComboBox DMFComboBox;
+        private System.Windows.Forms.Label RBLabel;
+        private System.Windows.Forms.ComboBox RBComboBox;
+        private System.Windows.Forms.Label LBLabel;
+        private System.Windows.Forms.ComboBox LBComboBox;
+        private System.Windows.Forms.Label CBLabel;
+        private System.Windows.Forms.ComboBox CBComboBox;
+        private System.Windows.Forms.Label GKLabel;
+        private System.Windows.Forms.ComboBox GKComboBox;
+        private System.Windows.Forms.ComboBox WeUsageComboBox;
+        private System.Windows.Forms.ComboBox SecondNationalityComboBox;
+        private System.Windows.Forms.ComboBox NationalityComboBox;
+        private System.Windows.Forms.TextBox NameTextBox;
+        private System.Windows.Forms.Button ApplyButton;
+        private System.Windows.Forms.Button CloseButton;
+        private System.Windows.Forms.Button FakeButton;
+        private System.Windows.Forms.Button CharButton;
+        private System.Windows.Forms.CheckBox WinnerGoldenBallCheckBox;
+        private System.Windows.Forms.TextBox HeightTextBox;
+        private System.Windows.Forms.TextBox JapaneseTextBox;
+        private System.Windows.Forms.Label JapaneseLabel;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.ComboBox gloveRelinkComboBox;
+        private System.Windows.Forms.ComboBox GloveRelinkComboBox;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.ComboBox youthClubComboBox;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.Label popularityLabel;
-        private System.Windows.Forms.Button addBootRelinkButton;
-        private System.Windows.Forms.Button addGloveRelinkButton;
-        private System.Windows.Forms.ComboBox strongHandComboBox;
-        private System.Windows.Forms.Label strongHandLabel;
-        private System.Windows.Forms.CheckBox stepSkillControlCheckBox;
-        private System.Windows.Forms.CheckBox risingShotsCheckBox;
-        private System.Windows.Forms.CheckBox penalitySpecialistCheckBox;
-        private System.Windows.Forms.CheckBox noLookPassCheckBox;
-        private System.Windows.Forms.CheckBox gkPenaltySaverCheckBox;
-        private System.Windows.Forms.CheckBox gkHighPuntCheckBox;
-        private System.Windows.Forms.CheckBox doubleTouchCheckBox;
-        private System.Windows.Forms.CheckBox dippingShotsCheckBox;
-        private System.Windows.Forms.CheckBox crossOverTurnCheckBox;
-        private System.Windows.Forms.CheckBox chipShotControlCheckBox;
-        private System.Windows.Forms.ComboBox playAttitudeComboBox;
-        private System.Windows.Forms.Label playAttitudeLabel;
-        private System.Windows.Forms.PictureBox bootPictureBox;
-        private System.Windows.Forms.PictureBox glovePictureBox;
+        private System.Windows.Forms.ComboBox YouthClubComboBox;
+        private System.Windows.Forms.Button AddBootRelinkButton;
+        private System.Windows.Forms.Button AddGloveRelinkButton;
+        private System.Windows.Forms.ComboBox StrongHandComboBox;
+        private System.Windows.Forms.Label StrongHandLabel;
+        private System.Windows.Forms.PictureBox BootPictureBox;
+        private System.Windows.Forms.PictureBox GlovePictureBox;
         public System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox typeTextBox;
-        private System.Windows.Forms.CheckBox interceptionCheckBox;
-        private System.Windows.Forms.ComboBox driblMotionComboBox;
-        private System.Windows.Forms.Label driblMotionLabel;
-        private System.Windows.Forms.TextBox shirtNameClubTextBox;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox TypeTextBox;
+        private System.Windows.Forms.ComboBox GoalCelebComboBox;
+        private System.Windows.Forms.Label GoalCelebLabel;
+        private System.Windows.Forms.TextBox ShirtNameClubTextBox;
+        private System.Windows.Forms.Label ShirtNameClubLabel;
         private System.Windows.Forms.TextBox DefensiveEngangementTextBox;
         private System.Windows.Forms.Label DefensiveEngangementLabel;
         private System.Windows.Forms.TextBox TightPossessionTextBox;
         private System.Windows.Forms.Label TightPossessionLabel;
-        private System.Windows.Forms.CheckBox throughPassingCheckBox;
-        private System.Windows.Forms.CheckBox gamesmanchipCheckBox;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.TextBox contractDateTextBox;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox popularityComboBox;
-        private System.Windows.Forms.TextBox marketValueTextBox;
+        private System.Windows.Forms.TextBox ContractExpiryDateTextBox;
+        private System.Windows.Forms.Label ContractExpiryDateLabel;
+        private System.Windows.Forms.TextBox MarketValueTextBox;
         private System.Windows.Forms.Label GKReachLabel;
         private System.Windows.Forms.TextBox GKReachTextBox;
+        private System.Windows.Forms.TextBox ShirtNameNationalTextBox;
+        private System.Windows.Forms.Label ShirtNameNationalLabel;
+        private System.Windows.Forms.Label WeUsageLabel;
+        private System.Windows.Forms.TextBox LoanExpiryDateTextBox;
+        private System.Windows.Forms.Label LoanExpiryDateLabel;
+        private System.Windows.Forms.GroupBox groupBox8;
+        public System.Windows.Forms.CheckBox GKLowPuntCheckBox;
+        public System.Windows.Forms.CheckBox AcrobaticClearanceCheckBox;
+        public System.Windows.Forms.CheckBox CutBehindTurnCheckBox;
+        public System.Windows.Forms.CheckBox BlockerCheckBox;
+        public System.Windows.Forms.CheckBox ScotchMoveCheckBox;
+        public System.Windows.Forms.CheckBox AcrobaticFinishingCheckBox;
+        public System.Windows.Forms.CheckBox DoubleTouchCheckBox;
+        public System.Windows.Forms.CheckBox LongThrowCheckBox;
+        public System.Windows.Forms.CheckBox ScissorsFeintCheckBox;
+        public System.Windows.Forms.CheckBox LongRangeShootingCheckBox;
+        public System.Windows.Forms.CheckBox TrackBackCheckBox;
+        public System.Windows.Forms.CheckBox RabonaCheckBox;
+        public System.Windows.Forms.CheckBox DippingShotCheckBox;
+        public System.Windows.Forms.CheckBox KnuckleShootCheckBox;
+        public System.Windows.Forms.CheckBox NoLookPassCheckBox;
+        public System.Windows.Forms.CheckBox LongRangeCurlerCheckBox;
+        public System.Windows.Forms.CheckBox SuperSubCheckBox;
+        public System.Windows.Forms.CheckBox FirstTimeShotCheckBox;
+        public System.Windows.Forms.CheckBox PinpointCrossingCheckBox;
+        public System.Windows.Forms.CheckBox AerialSuperiorityCheckBox;
+        public System.Windows.Forms.CheckBox WeightedPassCheckBox;
+        public System.Windows.Forms.CheckBox FlipFlapCheckBox;
+        public System.Windows.Forms.CheckBox FightingSpiritCheckBox;
+        public System.Windows.Forms.CheckBox SombreroCheckBox;
+        public System.Windows.Forms.CheckBox ChopTurnCheckBox;
+        public System.Windows.Forms.CheckBox ChipShotControlCheckBox;
+        public System.Windows.Forms.CheckBox HeadingCheckBox;
+        public System.Windows.Forms.CheckBox OutsideCurlerCheckBox;
+        public System.Windows.Forms.CheckBox CaptaincyCheckBox;
+        public System.Windows.Forms.CheckBox GKLongThrowCheckBox;
+        public System.Windows.Forms.CheckBox ThroughPassingCheckBox;
+        public System.Windows.Forms.CheckBox GamesmanshipCheckBox;
+        public System.Windows.Forms.CheckBox LowLoftedPassCheckBox;
+        public System.Windows.Forms.CheckBox HeelTrickCheckBox;
+        public System.Windows.Forms.CheckBox OneTouchPassCheckBox;
+        public System.Windows.Forms.CheckBox ManMarkingCheckBox;
+        public System.Windows.Forms.CheckBox InterceptionCheckBox;
+        public System.Windows.Forms.CheckBox GKHighPuntCheckBox;
+        public System.Windows.Forms.CheckBox MarseilleTurnCheckBox;
+        public System.Windows.Forms.CheckBox RisingShotsCheckBox;
+        public System.Windows.Forms.CheckBox SlidingTackleCheckBox;
+        public System.Windows.Forms.CheckBox PenaltySpecialistCheckBox;
+        public System.Windows.Forms.CheckBox GKPenaltySaverCheckBox;
+        public System.Windows.Forms.CheckBox SoleControlCheckBox;
+        public System.Windows.Forms.GroupBox groupBox5;
+        public System.Windows.Forms.Label lbl_Overall;
+        private System.Windows.Forms.Label ClubIDLabel;
+        private System.Windows.Forms.ComboBox ClubIDComboBox;
+        private System.Windows.Forms.Label NationalTeamCapLabel;
+        private System.Windows.Forms.ComboBox NationalTeamCapComboBox;
+        private System.Windows.Forms.Label OwnerClubLabel;
+        private System.Windows.Forms.ComboBox OwnerClubComboBox;
+        private System.Windows.Forms.Label YouthClubLabel;
+        private System.Windows.Forms.Label MarketValueLabel;
+        private System.Windows.Forms.GroupBox groupBox9;
     }
 }
