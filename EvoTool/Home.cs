@@ -1028,5 +1028,19 @@ namespace EvoTool
             player.NationalityID1 = countryController.LoadCountry(PlayerNationalityComboBox.SelectedIndex).ID;
             playerController.ApplyPlayer(index, player);
         }
+
+        private void PlayerListBox_MouseDown(object sender, MouseEventArgs e)
+        {
+            //Doppio clicco
+            if (e.Button == MouseButtons.Left)
+            {
+                if (e.Clicks >= 2)
+                {
+                    int index = playerController.LoadPlayerByID(uint.Parse(PlayerIDLabel.Text));
+                    Stats s = new Stats(playerController.LoadPlayer(index), playerController);
+                    s.ShowDialog();
+                }
+            }
+        }
     }
 }

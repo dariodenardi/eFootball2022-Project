@@ -10,7 +10,7 @@ using System.Data;
 
 namespace EvoTool.Controllers
 {
-    class CountryController
+    public class CountryController
     {
         private static readonly string FILE_NAME = "/Country.bin";
         private static readonly int BLOCK = 1420;

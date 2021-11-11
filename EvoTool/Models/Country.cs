@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EvoTool.Models
 {
-    class Country
+    public class Country
     {
         public Country(ushort ID)
         {

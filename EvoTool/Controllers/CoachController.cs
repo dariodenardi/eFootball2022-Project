@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace EvoTool.Controllers
 {
-    class CoachController
+    public class CoachController
     {
         private static readonly string FILE_NAME = "/Coach.bin";
         private static readonly int BLOCK = 0xA0; //160

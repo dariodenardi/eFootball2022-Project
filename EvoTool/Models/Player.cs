@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace EvoTool.Models
 {
-    class Player
+    public class Player
     {
+        public enum PlayStyle { None = 0, Goal_Poacher = 1, Dummy_Runner = 2, Fox_in_the_Box = 3, Prolific_Winger = 4, Classic_No___10 = 5, Hole_Player = 6, Box__To__Box = 7, Anchor_Man = 8, The_Destroyer = 9, Extra_Frontman = 10, Offensive_Full__Back = 11, Defensive_Full__Back = 12, Deep__Lying_Forward = 13, Creative_Playmaker = 14, Build_Up = 15, Offensive_Goalkeeper = 16, Defensive_Goalkeeper = 17, Roaming_Flank = 18, Cross_Specialist = 19, Orchestrator = 20, Full__back_Finisher = 21, Target_Man = 22 }
         public enum PlayerForm { Inconsistent = 0, Standard = 1, Unwavering = 2 }
         public enum WeakFoot { Slightly_Low = 0, Medium = 1, High = 2, Very_High = 3 }
         public enum InjuryRes { Low = 0, Medium = 1, High = 2 }

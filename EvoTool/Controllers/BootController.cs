@@ -10,7 +10,7 @@ using System.Data;
 
 namespace EvoTool.Controllers
 {
-    class BootController
+    public class BootController
     {
         private static readonly string FILE_NAME = "/Boots.bin";
         private static readonly int BLOCK = 304;

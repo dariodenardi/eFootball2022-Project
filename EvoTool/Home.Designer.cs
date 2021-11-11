@@ -1630,6 +1630,7 @@
             this.PlayerListBox.Size = new System.Drawing.Size(195, 550);
             this.PlayerListBox.TabIndex = 131;
             this.PlayerListBox.SelectedIndexChanged += new System.EventHandler(this.PlayerListBox_SelectedIndexChanged);
+            this.PlayerListBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PlayerListBox_MouseDown);
             // 
             // searchTeamAB
             // 

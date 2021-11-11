@@ -10,7 +10,7 @@ using System.Data;
 
 namespace EvoTool.Controllers
 {
-    class GloveController
+    public class GloveController
     {
         private static readonly string FILE_NAME = "/Glove.bin";
         private static readonly int BLOCK = 204;

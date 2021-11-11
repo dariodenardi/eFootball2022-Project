@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace EvoTool.Models
 {
-
     public class Boot
     {
         public Boot(ushort ID)
