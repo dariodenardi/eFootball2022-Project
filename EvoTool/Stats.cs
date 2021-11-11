@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using EvoTool.Controllers;
 using EvoTool.Models;
+using EvoTool.Utils;
 
 namespace EvoTool
 {
@@ -133,7 +134,7 @@ namespace EvoTool
             AdjustTextBox.Text = "1";
 
             for (int i = 1; i <= 20; i++)
-                FreeKickComboBox.Items.Add(i.ToString());
+                FreeKickMotionComboBox.Items.Add(i.ToString());
 
             for (int i = 1; i <= 5; i++)
                 DribHunchingComboBox.Items.Add(i.ToString());
@@ -148,12 +149,15 @@ namespace EvoTool
                 RunArmMoveComboBox.Items.Add(i.ToString());
 
             for (int i = 1; i <= 7; i++)
-                PenaltyKickComboBox.Items.Add(i.ToString());
+                PenaltyKickMotionComboBox.Items.Add(i.ToString());
 
             for (int i = 1; i <= 10; i++)
-                CornerKickComboBox.Items.Add(i.ToString());
+                CornerKickMotionComboBox.Items.Add(i.ToString());
 
-            for (int i = 1; i <= 176; i++)
+            for (int i = 1; i <= 4; i++)
+                DribblingMotionComboBox.Items.Add(i.ToString());
+
+            for (int i = 0; i <= 176; i++)
                 GoalCelebComboBox.Items.Add(i.ToString());
 
             this.Text = "Player: " + player.Name;
@@ -208,31 +212,32 @@ namespace EvoTool
             GKReflexesTextBox.Text = player.GKReflexes.ToString();
             GKReachTextBox.Text = player.GKReach.ToString();
 
-            /*dribHunchComboBox.Text = temp.getDriblingH().ToString();
-            dribArmMoveComboBox.Text = temp.getDriblingArm().ToString();
-            runHunchComboBox.Text = temp.getRunningH().ToString();
-            runArmMoveComboBox.Text = temp.getRunningArm().ToString();
-            ckMotionComboBox.Text = temp.getCornerKick().ToString();
-            fkMotionComboBox.Text = temp.getFreeKick().ToString();
-            pkMotionComboBox.Text = temp.getPenaltyKick().ToString();
-            driblMotionComboBox.Text = temp.getDriblingMotion().ToString();
-            goalCelebComboBox.Text = temp.getGoalCelebrate().ToString();
-            playAttitudeComboBox.Text = temp.getPlayingAttitude().ToString();
+            RunArmMoveComboBox.Text = player.RunningArmMovement.ToString();
+            RunHunchingComboBox.Text = player.RunningHunching.ToString();
+            CornerKickMotionComboBox.Text = player.CornerKickMotion.ToString();
+            PenaltyKickMotionComboBox.Text = player.PenaltyKickMotion.ToString();
+            FreeKickMotionComboBox.Text = player.FreeKickMotion.ToString();
+            DribArmMoveComboBox.Text = player.DribblingArmMovement.ToString();
+            DribHunchingComboBox.Text = player.DribblingHunching.ToString();
+            GoalCelebComboBox.Text = player.GoalCelebration.ToString();
+            DribblingMotionComboBox.Text = player.DribblingMotion.ToString();
 
-            positionComboBox.Text = player.getStringPosition();
-            gkComboBox.Text = player.getStringGK();
-            cbComboBox.Text = player.getStringGB();
-            lbComboBox.Text = player.getStringLB();
-            rbComboBox.Text = player.getStringRB();
-            dmfComboBox.Text = player.getStringDMF();
-            cmfComboBox.Text = temp.getStringCMF();
-            lmfComboBox.Text = temp.getStringLMF();
-            amfComboBox.Text = temp.getStringAMF();
-            rmfComboBox.Text = temp.getStringRMF();
-            lwfComboBox.Text = temp.getStringLWF();
-            rwfComboBox.Text = temp.getStringRWF();
-            ssComboBox.Text = temp.getStringSS();
-            cfComboBox.Text = temp.getStringCF();*/
+            PositionComboBox.Text = ((Player.PlayerRegisteredPosition)(player.RegisteredPosition)).ToString();
+            GKComboBox.Text = ((Player.PlayerPosition)(player.PlayableGK)).ToString();
+            CBComboBox.Text = ((Player.PlayerPosition)(player.PlayableCB)).ToString();
+            LBComboBox.Text = ((Player.PlayerPosition)(player.PlayableLB)).ToString();
+            RBComboBox.Text = ((Player.PlayerPosition)(player.PlayableRB)).ToString();
+            DMFComboBox.Text = ((Player.PlayerPosition)(player.PlayableDMF)).ToString();
+            CMFComboBox.Text = ((Player.PlayerPosition)(player.PlayableCMF)).ToString();
+            LMFComboBox.Text = ((Player.PlayerPosition)(player.PlayableLMF)).ToString();
+            AMFComboBox.Text = ((Player.PlayerPosition)(player.PlayableAMF)).ToString();
+            RMFComboBox.Text = ((Player.PlayerPosition)(player.PlayableRMF)).ToString();
+            LWFComboBox.Text = ((Player.PlayerPosition)(player.PlayableLWF)).ToString();
+            RWFComboBox.Text = ((Player.PlayerPosition)(player.PlayableRWF)).ToString();
+            SSComboBox.Text = ((Player.PlayerPosition)(player.PlayableSS)).ToString();
+            CFComboBox.Text = ((Player.PlayerPosition)(player.PlayableCF)).ToString();
+
+            //PlayerHandLabel.Text = player.StrongerHand ? "Left" : "Right";
         }
 
         // don't enter a letters
@@ -240,6 +245,137 @@ namespace EvoTool
         {
             if ((e.KeyChar != (char)Keys.Back) & (!char.IsNumber(e.KeyChar.ToString(), 0)))
                 e.Handled = true;
+        }
+
+        // Change color textBox
+        private void OffensiveProwessTextBox_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeBackColorTextBox(OffensiveProwessTextBox);
+        }
+
+        private void BallControlTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DribblingTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TightPossessionTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LowPassTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoftedPassTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FinishingTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void HeadingTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SetPieceTakingTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CurlTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SpeedTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AccelerationTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void KickingPowerTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void JumpTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PhysicalContactTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BalanceTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StaminaTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DefensiveAwarenessTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TacklingTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DefensiveEngangementTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AggressionTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GKAwarenessTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GKCatchingTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GKParryingTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GKReflexesTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GKReachTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

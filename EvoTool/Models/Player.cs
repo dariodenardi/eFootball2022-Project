@@ -12,6 +12,8 @@ namespace EvoTool.Models
         public enum PlayerForm { Inconsistent = 0, Standard = 1, Unwavering = 2 }
         public enum WeakFoot { Slightly_Low = 0, Medium = 1, High = 2, Very_High = 3 }
         public enum InjuryRes { Low = 0, Medium = 1, High = 2 }
+        public enum PlayerPosition { C = 0, B = 1, A = 2 }
+        public enum PlayerRegisteredPosition { GK = 0, CB = 1, LB = 2, RB = 3, DMF = 4, CMF = 5, LMF = 6, AMF = 7, RMF = 8, LWF = 9, RWF = 10, SS = 11, CF = 12 }
         public Player(uint ID)
         {
             this.ID = ID;
@@ -33,7 +35,7 @@ namespace EvoTool.Models
         public uint GoalCelebration { get; set; }
         public ushort NationalityID1 { get; set; }
         public ushort NationalityID2 { get; set; }
-        public uint CornerKick { get; set; }
+        public uint CornerKickMotion { get; set; }
         public uint Weight { get; set; }
         public uint UnknownBits2 { get; set; }
         public uint UnknownBits3 { get; set; }

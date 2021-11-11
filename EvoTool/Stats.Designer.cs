@@ -168,12 +168,12 @@
             this.GroupBox11 = new System.Windows.Forms.GroupBox();
             this.GoalCelebComboBox = new System.Windows.Forms.ComboBox();
             this.GoalCelebLabel = new System.Windows.Forms.Label();
-            this.PenaltyKickComboBox = new System.Windows.Forms.ComboBox();
+            this.PenaltyKickMotionComboBox = new System.Windows.Forms.ComboBox();
             this.PenaltyKickLabel = new System.Windows.Forms.Label();
-            this.FreeKickComboBox = new System.Windows.Forms.ComboBox();
-            this.FreeKickLabel = new System.Windows.Forms.Label();
-            this.CornerKickComboBox = new System.Windows.Forms.ComboBox();
-            this.CornerKickLabel = new System.Windows.Forms.Label();
+            this.FreeKickMotionComboBox = new System.Windows.Forms.ComboBox();
+            this.FreeKickMotionLabel = new System.Windows.Forms.Label();
+            this.CornerKickMotionComboBox = new System.Windows.Forms.ComboBox();
+            this.CornerKickMotionLabel = new System.Windows.Forms.Label();
             this.RunArmMoveComboBox = new System.Windows.Forms.ComboBox();
             this.RunArmMoveLabel = new System.Windows.Forms.Label();
             this.RunHunchingComboBox = new System.Windows.Forms.ComboBox();
@@ -258,6 +258,8 @@
             this.GroupBox5 = new System.Windows.Forms.GroupBox();
             this.lbl_Overall = new System.Windows.Forms.Label();
             this.GroupBox9 = new System.Windows.Forms.GroupBox();
+            this.DribblingMotionComboBox = new System.Windows.Forms.ComboBox();
+            this.DribblingMotionLabel = new System.Windows.Forms.Label();
             this.GroupBox1.SuspendLayout();
             this.GroupBox2.SuspendLayout();
             this.GroupBox3.SuspendLayout();
@@ -790,6 +792,7 @@
             this.GKReachTextBox.Name = "GKReachTextBox";
             this.GKReachTextBox.Size = new System.Drawing.Size(35, 20);
             this.GKReachTextBox.TabIndex = 110;
+            this.GKReachTextBox.TextChanged += new System.EventHandler(this.GKReachTextBox_TextChanged);
             this.GKReachTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // DefensiveEngangementTextBox
@@ -799,6 +802,7 @@
             this.DefensiveEngangementTextBox.Name = "DefensiveEngangementTextBox";
             this.DefensiveEngangementTextBox.Size = new System.Drawing.Size(35, 20);
             this.DefensiveEngangementTextBox.TabIndex = 109;
+            this.DefensiveEngangementTextBox.TextChanged += new System.EventHandler(this.DefensiveEngangementTextBox_TextChanged);
             this.DefensiveEngangementTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // DefensiveEngangementLabel
@@ -817,6 +821,7 @@
             this.TightPossessionTextBox.Name = "TightPossessionTextBox";
             this.TightPossessionTextBox.Size = new System.Drawing.Size(35, 20);
             this.TightPossessionTextBox.TabIndex = 107;
+            this.TightPossessionTextBox.TextChanged += new System.EventHandler(this.TightPossessionTextBox_TextChanged);
             this.TightPossessionTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // TightPossessionLabel
@@ -835,6 +840,7 @@
             this.PhysicalContactTextBox.Name = "PhysicalContactTextBox";
             this.PhysicalContactTextBox.Size = new System.Drawing.Size(35, 20);
             this.PhysicalContactTextBox.TabIndex = 105;
+            this.PhysicalContactTextBox.TextChanged += new System.EventHandler(this.PhysicalContactTextBox_TextChanged);
             this.PhysicalContactTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // PhysicalContactLabel
@@ -880,6 +886,7 @@
             this.GKParryingTextBox.Name = "GKParryingTextBox";
             this.GKParryingTextBox.Size = new System.Drawing.Size(35, 20);
             this.GKParryingTextBox.TabIndex = 100;
+            this.GKParryingTextBox.TextChanged += new System.EventHandler(this.GKParryingTextBox_TextChanged);
             this.GKParryingTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // GKCatchingTextBox
@@ -889,6 +896,7 @@
             this.GKCatchingTextBox.Name = "GKCatchingTextBox";
             this.GKCatchingTextBox.Size = new System.Drawing.Size(35, 20);
             this.GKCatchingTextBox.TabIndex = 99;
+            this.GKCatchingTextBox.TextChanged += new System.EventHandler(this.GKCatchingTextBox_TextChanged);
             this.GKCatchingTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // GKAwarenessTextBox
@@ -898,6 +906,7 @@
             this.GKAwarenessTextBox.Name = "GKAwarenessTextBox";
             this.GKAwarenessTextBox.Size = new System.Drawing.Size(35, 20);
             this.GKAwarenessTextBox.TabIndex = 98;
+            this.GKAwarenessTextBox.TextChanged += new System.EventHandler(this.GKAwarenessTextBox_TextChanged);
             this.GKAwarenessTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // GKReflexesTextBox
@@ -907,6 +916,7 @@
             this.GKReflexesTextBox.Name = "GKReflexesTextBox";
             this.GKReflexesTextBox.Size = new System.Drawing.Size(35, 20);
             this.GKReflexesTextBox.TabIndex = 97;
+            this.GKReflexesTextBox.TextChanged += new System.EventHandler(this.GKReflexesTextBox_TextChanged);
             this.GKReflexesTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // GKAwarenessLabel
@@ -925,6 +935,7 @@
             this.AggressionTextBox.Name = "AggressionTextBox";
             this.AggressionTextBox.Size = new System.Drawing.Size(35, 20);
             this.AggressionTextBox.TabIndex = 95;
+            this.AggressionTextBox.TextChanged += new System.EventHandler(this.AggressionTextBox_TextChanged);
             this.AggressionTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // StaminaTextBox
@@ -934,6 +945,7 @@
             this.StaminaTextBox.Name = "StaminaTextBox";
             this.StaminaTextBox.Size = new System.Drawing.Size(35, 20);
             this.StaminaTextBox.TabIndex = 94;
+            this.StaminaTextBox.TextChanged += new System.EventHandler(this.StaminaTextBox_TextChanged);
             this.StaminaTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // JumpTextBox
@@ -943,6 +955,7 @@
             this.JumpTextBox.Name = "JumpTextBox";
             this.JumpTextBox.Size = new System.Drawing.Size(35, 20);
             this.JumpTextBox.TabIndex = 93;
+            this.JumpTextBox.TextChanged += new System.EventHandler(this.JumpTextBox_TextChanged);
             this.JumpTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // BalanceTextBox
@@ -952,6 +965,7 @@
             this.BalanceTextBox.Name = "BalanceTextBox";
             this.BalanceTextBox.Size = new System.Drawing.Size(35, 20);
             this.BalanceTextBox.TabIndex = 92;
+            this.BalanceTextBox.TextChanged += new System.EventHandler(this.BalanceTextBox_TextChanged);
             this.BalanceTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // AccelerationTextBox
@@ -961,6 +975,7 @@
             this.AccelerationTextBox.Name = "AccelerationTextBox";
             this.AccelerationTextBox.Size = new System.Drawing.Size(35, 20);
             this.AccelerationTextBox.TabIndex = 91;
+            this.AccelerationTextBox.TextChanged += new System.EventHandler(this.AccelerationTextBox_TextChanged);
             this.AccelerationTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // SpeedTextBox
@@ -970,6 +985,7 @@
             this.SpeedTextBox.Name = "SpeedTextBox";
             this.SpeedTextBox.Size = new System.Drawing.Size(35, 20);
             this.SpeedTextBox.TabIndex = 90;
+            this.SpeedTextBox.TextChanged += new System.EventHandler(this.SpeedTextBox_TextChanged);
             this.SpeedTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // KickingPowerTextBox
@@ -979,6 +995,7 @@
             this.KickingPowerTextBox.Name = "KickingPowerTextBox";
             this.KickingPowerTextBox.Size = new System.Drawing.Size(35, 20);
             this.KickingPowerTextBox.TabIndex = 89;
+            this.KickingPowerTextBox.TextChanged += new System.EventHandler(this.KickingPowerTextBox_TextChanged);
             this.KickingPowerTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // TacklingTextBox
@@ -988,6 +1005,7 @@
             this.TacklingTextBox.Name = "TacklingTextBox";
             this.TacklingTextBox.Size = new System.Drawing.Size(35, 20);
             this.TacklingTextBox.TabIndex = 88;
+            this.TacklingTextBox.TextChanged += new System.EventHandler(this.TacklingTextBox_TextChanged);
             this.TacklingTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // DefensiveAwarenessTextBox
@@ -997,6 +1015,7 @@
             this.DefensiveAwarenessTextBox.Name = "DefensiveAwarenessTextBox";
             this.DefensiveAwarenessTextBox.Size = new System.Drawing.Size(35, 20);
             this.DefensiveAwarenessTextBox.TabIndex = 87;
+            this.DefensiveAwarenessTextBox.TextChanged += new System.EventHandler(this.DefensiveAwarenessTextBox_TextChanged);
             this.DefensiveAwarenessTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // HeadingTextBox
@@ -1006,6 +1025,7 @@
             this.HeadingTextBox.Name = "HeadingTextBox";
             this.HeadingTextBox.Size = new System.Drawing.Size(35, 20);
             this.HeadingTextBox.TabIndex = 86;
+            this.HeadingTextBox.TextChanged += new System.EventHandler(this.HeadingTextBox_TextChanged);
             this.HeadingTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // CurlTextBox
@@ -1015,6 +1035,7 @@
             this.CurlTextBox.Name = "CurlTextBox";
             this.CurlTextBox.Size = new System.Drawing.Size(35, 20);
             this.CurlTextBox.TabIndex = 85;
+            this.CurlTextBox.TextChanged += new System.EventHandler(this.CurlTextBox_TextChanged);
             this.CurlTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // SetPieceTakingTextBox
@@ -1024,6 +1045,7 @@
             this.SetPieceTakingTextBox.Name = "SetPieceTakingTextBox";
             this.SetPieceTakingTextBox.Size = new System.Drawing.Size(35, 20);
             this.SetPieceTakingTextBox.TabIndex = 84;
+            this.SetPieceTakingTextBox.TextChanged += new System.EventHandler(this.SetPieceTakingTextBox_TextChanged);
             this.SetPieceTakingTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // FinishingTextBox
@@ -1033,6 +1055,7 @@
             this.FinishingTextBox.Name = "FinishingTextBox";
             this.FinishingTextBox.Size = new System.Drawing.Size(35, 20);
             this.FinishingTextBox.TabIndex = 83;
+            this.FinishingTextBox.TextChanged += new System.EventHandler(this.FinishingTextBox_TextChanged);
             this.FinishingTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // LoftedPassTextBox
@@ -1042,6 +1065,7 @@
             this.LoftedPassTextBox.Name = "LoftedPassTextBox";
             this.LoftedPassTextBox.Size = new System.Drawing.Size(35, 20);
             this.LoftedPassTextBox.TabIndex = 82;
+            this.LoftedPassTextBox.TextChanged += new System.EventHandler(this.LoftedPassTextBox_TextChanged);
             this.LoftedPassTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // LowPassTextBox
@@ -1051,6 +1075,7 @@
             this.LowPassTextBox.Name = "LowPassTextBox";
             this.LowPassTextBox.Size = new System.Drawing.Size(35, 20);
             this.LowPassTextBox.TabIndex = 81;
+            this.LowPassTextBox.TextChanged += new System.EventHandler(this.LowPassTextBox_TextChanged);
             this.LowPassTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // DribblingTextBox
@@ -1060,6 +1085,7 @@
             this.DribblingTextBox.Name = "DribblingTextBox";
             this.DribblingTextBox.Size = new System.Drawing.Size(35, 20);
             this.DribblingTextBox.TabIndex = 80;
+            this.DribblingTextBox.TextChanged += new System.EventHandler(this.DribblingTextBox_TextChanged);
             this.DribblingTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // BallControlTextBox
@@ -1069,6 +1095,7 @@
             this.BallControlTextBox.Name = "BallControlTextBox";
             this.BallControlTextBox.Size = new System.Drawing.Size(35, 20);
             this.BallControlTextBox.TabIndex = 79;
+            this.BallControlTextBox.TextChanged += new System.EventHandler(this.BallControlTextBox_TextChanged);
             this.BallControlTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // OffensiveProwessTextBox
@@ -1078,6 +1105,7 @@
             this.OffensiveProwessTextBox.Name = "OffensiveProwessTextBox";
             this.OffensiveProwessTextBox.Size = new System.Drawing.Size(35, 20);
             this.OffensiveProwessTextBox.TabIndex = 78;
+            this.OffensiveProwessTextBox.TextChanged += new System.EventHandler(this.OffensiveProwessTextBox_TextChanged);
             this.OffensiveProwessTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.NoLetterTextBox_KeyPress);
             // 
             // AggressionLabel
@@ -1616,6 +1644,7 @@
             this.GroupBox4.Controls.Add(this.AddBootRelinkButton);
             this.GroupBox4.Controls.Add(this.BootRelinkComboBox);
             this.GroupBox4.Controls.Add(this.BootPictureBox);
+            this.GroupBox4.Enabled = false;
             this.GroupBox4.Location = new System.Drawing.Point(270, 622);
             this.GroupBox4.Name = "GroupBox4";
             this.GroupBox4.Size = new System.Drawing.Size(385, 66);
@@ -1748,14 +1777,16 @@
             // 
             // GroupBox11
             // 
+            this.GroupBox11.Controls.Add(this.DribblingMotionComboBox);
+            this.GroupBox11.Controls.Add(this.DribblingMotionLabel);
             this.GroupBox11.Controls.Add(this.GoalCelebComboBox);
             this.GroupBox11.Controls.Add(this.GoalCelebLabel);
-            this.GroupBox11.Controls.Add(this.PenaltyKickComboBox);
+            this.GroupBox11.Controls.Add(this.PenaltyKickMotionComboBox);
             this.GroupBox11.Controls.Add(this.PenaltyKickLabel);
-            this.GroupBox11.Controls.Add(this.FreeKickComboBox);
-            this.GroupBox11.Controls.Add(this.FreeKickLabel);
-            this.GroupBox11.Controls.Add(this.CornerKickComboBox);
-            this.GroupBox11.Controls.Add(this.CornerKickLabel);
+            this.GroupBox11.Controls.Add(this.FreeKickMotionComboBox);
+            this.GroupBox11.Controls.Add(this.FreeKickMotionLabel);
+            this.GroupBox11.Controls.Add(this.CornerKickMotionComboBox);
+            this.GroupBox11.Controls.Add(this.CornerKickMotionLabel);
             this.GroupBox11.Controls.Add(this.RunArmMoveComboBox);
             this.GroupBox11.Controls.Add(this.RunArmMoveLabel);
             this.GroupBox11.Controls.Add(this.RunHunchingComboBox);
@@ -1767,7 +1798,7 @@
             this.GroupBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.GroupBox11.Location = new System.Drawing.Point(854, 6);
             this.GroupBox11.Name = "GroupBox11";
-            this.GroupBox11.Size = new System.Drawing.Size(190, 217);
+            this.GroupBox11.Size = new System.Drawing.Size(190, 242);
             this.GroupBox11.TabIndex = 113;
             this.GroupBox11.TabStop = false;
             this.GroupBox11.Text = "Motions";
@@ -1777,7 +1808,7 @@
             this.GoalCelebComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.GoalCelebComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.GoalCelebComboBox.FormattingEnabled = true;
-            this.GoalCelebComboBox.Location = new System.Drawing.Point(111, 189);
+            this.GoalCelebComboBox.Location = new System.Drawing.Point(123, 189);
             this.GoalCelebComboBox.Name = "GoalCelebComboBox";
             this.GoalCelebComboBox.Size = new System.Drawing.Size(48, 21);
             this.GoalCelebComboBox.TabIndex = 125;
@@ -1794,15 +1825,15 @@
             this.GoalCelebLabel.TabIndex = 124;
             this.GoalCelebLabel.Text = "Goal Celebretion:";
             // 
-            // PenaltyKickComboBox
+            // PenaltyKickMotionComboBox
             // 
-            this.PenaltyKickComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.PenaltyKickComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.PenaltyKickComboBox.FormattingEnabled = true;
-            this.PenaltyKickComboBox.Location = new System.Drawing.Point(111, 164);
-            this.PenaltyKickComboBox.Name = "PenaltyKickComboBox";
-            this.PenaltyKickComboBox.Size = new System.Drawing.Size(48, 21);
-            this.PenaltyKickComboBox.TabIndex = 120;
+            this.PenaltyKickMotionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.PenaltyKickMotionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.PenaltyKickMotionComboBox.FormattingEnabled = true;
+            this.PenaltyKickMotionComboBox.Location = new System.Drawing.Point(123, 164);
+            this.PenaltyKickMotionComboBox.Name = "PenaltyKickMotionComboBox";
+            this.PenaltyKickMotionComboBox.Size = new System.Drawing.Size(48, 21);
+            this.PenaltyKickMotionComboBox.TabIndex = 120;
             // 
             // PenaltyKickLabel
             // 
@@ -1812,60 +1843,60 @@
             this.PenaltyKickLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.PenaltyKickLabel.Location = new System.Drawing.Point(14, 169);
             this.PenaltyKickLabel.Name = "PenaltyKickLabel";
-            this.PenaltyKickLabel.Size = new System.Drawing.Size(69, 13);
+            this.PenaltyKickLabel.Size = new System.Drawing.Size(104, 13);
             this.PenaltyKickLabel.TabIndex = 119;
-            this.PenaltyKickLabel.Text = "Penalty Kick:";
+            this.PenaltyKickLabel.Text = "Penalty Kick Motion:";
             // 
-            // FreeKickComboBox
+            // FreeKickMotionComboBox
             // 
-            this.FreeKickComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.FreeKickComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.FreeKickComboBox.FormattingEnabled = true;
-            this.FreeKickComboBox.Location = new System.Drawing.Point(111, 139);
-            this.FreeKickComboBox.Name = "FreeKickComboBox";
-            this.FreeKickComboBox.Size = new System.Drawing.Size(48, 21);
-            this.FreeKickComboBox.TabIndex = 118;
+            this.FreeKickMotionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.FreeKickMotionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.FreeKickMotionComboBox.FormattingEnabled = true;
+            this.FreeKickMotionComboBox.Location = new System.Drawing.Point(123, 139);
+            this.FreeKickMotionComboBox.Name = "FreeKickMotionComboBox";
+            this.FreeKickMotionComboBox.Size = new System.Drawing.Size(48, 21);
+            this.FreeKickMotionComboBox.TabIndex = 118;
             // 
-            // FreeKickLabel
+            // FreeKickMotionLabel
             // 
-            this.FreeKickLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.FreeKickMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.FreeKickLabel.AutoSize = true;
-            this.FreeKickLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.FreeKickLabel.Location = new System.Drawing.Point(14, 144);
-            this.FreeKickLabel.Name = "FreeKickLabel";
-            this.FreeKickLabel.Size = new System.Drawing.Size(55, 13);
-            this.FreeKickLabel.TabIndex = 117;
-            this.FreeKickLabel.Text = "Free Kick:";
+            this.FreeKickMotionLabel.AutoSize = true;
+            this.FreeKickMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.FreeKickMotionLabel.Location = new System.Drawing.Point(14, 144);
+            this.FreeKickMotionLabel.Name = "FreeKickMotionLabel";
+            this.FreeKickMotionLabel.Size = new System.Drawing.Size(90, 13);
+            this.FreeKickMotionLabel.TabIndex = 117;
+            this.FreeKickMotionLabel.Text = "Free Kick Motion:";
             // 
-            // CornerKickComboBox
+            // CornerKickMotionComboBox
             // 
-            this.CornerKickComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CornerKickComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.CornerKickComboBox.FormattingEnabled = true;
-            this.CornerKickComboBox.Location = new System.Drawing.Point(111, 114);
-            this.CornerKickComboBox.Name = "CornerKickComboBox";
-            this.CornerKickComboBox.Size = new System.Drawing.Size(48, 21);
-            this.CornerKickComboBox.TabIndex = 116;
+            this.CornerKickMotionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CornerKickMotionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.CornerKickMotionComboBox.FormattingEnabled = true;
+            this.CornerKickMotionComboBox.Location = new System.Drawing.Point(123, 114);
+            this.CornerKickMotionComboBox.Name = "CornerKickMotionComboBox";
+            this.CornerKickMotionComboBox.Size = new System.Drawing.Size(48, 21);
+            this.CornerKickMotionComboBox.TabIndex = 116;
             // 
-            // CornerKickLabel
+            // CornerKickMotionLabel
             // 
-            this.CornerKickLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.CornerKickMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.CornerKickLabel.AutoSize = true;
-            this.CornerKickLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.CornerKickLabel.Location = new System.Drawing.Point(13, 118);
-            this.CornerKickLabel.Name = "CornerKickLabel";
-            this.CornerKickLabel.Size = new System.Drawing.Size(65, 13);
-            this.CornerKickLabel.TabIndex = 115;
-            this.CornerKickLabel.Text = "Corner Kick:";
+            this.CornerKickMotionLabel.AutoSize = true;
+            this.CornerKickMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.CornerKickMotionLabel.Location = new System.Drawing.Point(13, 118);
+            this.CornerKickMotionLabel.Name = "CornerKickMotionLabel";
+            this.CornerKickMotionLabel.Size = new System.Drawing.Size(100, 13);
+            this.CornerKickMotionLabel.TabIndex = 115;
+            this.CornerKickMotionLabel.Text = "Corner Kick Motion:";
             // 
             // RunArmMoveComboBox
             // 
             this.RunArmMoveComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RunArmMoveComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.RunArmMoveComboBox.FormattingEnabled = true;
-            this.RunArmMoveComboBox.Location = new System.Drawing.Point(111, 89);
+            this.RunArmMoveComboBox.Location = new System.Drawing.Point(123, 89);
             this.RunArmMoveComboBox.Name = "RunArmMoveComboBox";
             this.RunArmMoveComboBox.Size = new System.Drawing.Size(48, 21);
             this.RunArmMoveComboBox.TabIndex = 114;
@@ -1887,7 +1918,7 @@
             this.RunHunchingComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RunHunchingComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.RunHunchingComboBox.FormattingEnabled = true;
-            this.RunHunchingComboBox.Location = new System.Drawing.Point(111, 64);
+            this.RunHunchingComboBox.Location = new System.Drawing.Point(123, 64);
             this.RunHunchingComboBox.Name = "RunHunchingComboBox";
             this.RunHunchingComboBox.Size = new System.Drawing.Size(48, 21);
             this.RunHunchingComboBox.TabIndex = 112;
@@ -1909,7 +1940,7 @@
             this.DribArmMoveComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.DribArmMoveComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.DribArmMoveComboBox.FormattingEnabled = true;
-            this.DribArmMoveComboBox.Location = new System.Drawing.Point(111, 39);
+            this.DribArmMoveComboBox.Location = new System.Drawing.Point(123, 39);
             this.DribArmMoveComboBox.Name = "DribArmMoveComboBox";
             this.DribArmMoveComboBox.Size = new System.Drawing.Size(48, 21);
             this.DribArmMoveComboBox.TabIndex = 110;
@@ -1931,7 +1962,7 @@
             this.DribHunchingComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.DribHunchingComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.DribHunchingComboBox.FormattingEnabled = true;
-            this.DribHunchingComboBox.Location = new System.Drawing.Point(111, 14);
+            this.DribHunchingComboBox.Location = new System.Drawing.Point(123, 14);
             this.DribHunchingComboBox.Name = "DribHunchingComboBox";
             this.DribHunchingComboBox.Size = new System.Drawing.Size(48, 21);
             this.DribHunchingComboBox.TabIndex = 108;
@@ -2101,6 +2132,7 @@
             this.GroupBox6.Controls.Add(this.AddGloveRelinkButton);
             this.GroupBox6.Controls.Add(this.GloveRelinkComboBox);
             this.GroupBox6.Controls.Add(this.GlovePictureBox);
+            this.GroupBox6.Enabled = false;
             this.GroupBox6.Location = new System.Drawing.Point(659, 622);
             this.GroupBox6.Name = "GroupBox6";
             this.GroupBox6.Size = new System.Drawing.Size(385, 66);
@@ -2158,16 +2190,16 @@
             this.GroupBox7.Controls.Add(this.YouthClubLabel);
             this.GroupBox7.Controls.Add(this.ContractExpiryDateLabel);
             this.GroupBox7.Controls.Add(this.YouthClubComboBox);
-            this.GroupBox7.Location = new System.Drawing.Point(854, 230);
+            this.GroupBox7.Location = new System.Drawing.Point(854, 250);
             this.GroupBox7.Name = "GroupBox7";
-            this.GroupBox7.Size = new System.Drawing.Size(190, 351);
+            this.GroupBox7.Size = new System.Drawing.Size(190, 331);
             this.GroupBox7.TabIndex = 128;
             this.GroupBox7.TabStop = false;
             this.GroupBox7.Text = "Career";
             // 
             // MarketValueTextBox
             // 
-            this.MarketValueTextBox.Location = new System.Drawing.Point(9, 311);
+            this.MarketValueTextBox.Location = new System.Drawing.Point(9, 298);
             this.MarketValueTextBox.MaxLength = 9;
             this.MarketValueTextBox.Name = "MarketValueTextBox";
             this.MarketValueTextBox.Size = new System.Drawing.Size(176, 20);
@@ -2176,7 +2208,7 @@
             // MarketValueLabel
             // 
             this.MarketValueLabel.AutoSize = true;
-            this.MarketValueLabel.Location = new System.Drawing.Point(6, 295);
+            this.MarketValueLabel.Location = new System.Drawing.Point(6, 282);
             this.MarketValueLabel.Name = "MarketValueLabel";
             this.MarketValueLabel.Size = new System.Drawing.Size(88, 13);
             this.MarketValueLabel.TabIndex = 142;
@@ -2185,7 +2217,7 @@
             // ClubIDLabel
             // 
             this.ClubIDLabel.AutoSize = true;
-            this.ClubIDLabel.Location = new System.Drawing.Point(5, 153);
+            this.ClubIDLabel.Location = new System.Drawing.Point(5, 142);
             this.ClubIDLabel.Name = "ClubIDLabel";
             this.ClubIDLabel.Size = new System.Drawing.Size(45, 13);
             this.ClubIDLabel.TabIndex = 141;
@@ -2196,7 +2228,7 @@
             this.ClubIDComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ClubIDComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.ClubIDComboBox.FormattingEnabled = true;
-            this.ClubIDComboBox.Location = new System.Drawing.Point(9, 169);
+            this.ClubIDComboBox.Location = new System.Drawing.Point(9, 158);
             this.ClubIDComboBox.Name = "ClubIDComboBox";
             this.ClubIDComboBox.Size = new System.Drawing.Size(176, 21);
             this.ClubIDComboBox.TabIndex = 140;
@@ -2204,7 +2236,7 @@
             // NationalTeamCapLabel
             // 
             this.NationalTeamCapLabel.AutoSize = true;
-            this.NationalTeamCapLabel.Location = new System.Drawing.Point(6, 107);
+            this.NationalTeamCapLabel.Location = new System.Drawing.Point(6, 101);
             this.NationalTeamCapLabel.Name = "NationalTeamCapLabel";
             this.NationalTeamCapLabel.Size = new System.Drawing.Size(101, 13);
             this.NationalTeamCapLabel.TabIndex = 139;
@@ -2215,14 +2247,14 @@
             this.NationalTeamCapComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.NationalTeamCapComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.NationalTeamCapComboBox.FormattingEnabled = true;
-            this.NationalTeamCapComboBox.Location = new System.Drawing.Point(9, 123);
+            this.NationalTeamCapComboBox.Location = new System.Drawing.Point(9, 117);
             this.NationalTeamCapComboBox.Name = "NationalTeamCapComboBox";
             this.NationalTeamCapComboBox.Size = new System.Drawing.Size(176, 21);
             this.NationalTeamCapComboBox.TabIndex = 138;
             // 
             // LoanExpiryDateTextBox
             // 
-            this.LoanExpiryDateTextBox.Location = new System.Drawing.Point(9, 265);
+            this.LoanExpiryDateTextBox.Location = new System.Drawing.Point(9, 252);
             this.LoanExpiryDateTextBox.MaxLength = 10;
             this.LoanExpiryDateTextBox.Name = "LoanExpiryDateTextBox";
             this.LoanExpiryDateTextBox.Size = new System.Drawing.Size(176, 20);
@@ -2231,7 +2263,7 @@
             // OwnerClubLabel
             // 
             this.OwnerClubLabel.AutoSize = true;
-            this.OwnerClubLabel.Location = new System.Drawing.Point(6, 62);
+            this.OwnerClubLabel.Location = new System.Drawing.Point(6, 61);
             this.OwnerClubLabel.Name = "OwnerClubLabel";
             this.OwnerClubLabel.Size = new System.Drawing.Size(65, 13);
             this.OwnerClubLabel.TabIndex = 135;
@@ -2240,7 +2272,7 @@
             // LoanExpiryDateLabel
             // 
             this.LoanExpiryDateLabel.AutoSize = true;
-            this.LoanExpiryDateLabel.Location = new System.Drawing.Point(6, 249);
+            this.LoanExpiryDateLabel.Location = new System.Drawing.Point(6, 236);
             this.LoanExpiryDateLabel.Name = "LoanExpiryDateLabel";
             this.LoanExpiryDateLabel.Size = new System.Drawing.Size(91, 13);
             this.LoanExpiryDateLabel.TabIndex = 136;
@@ -2251,14 +2283,14 @@
             this.OwnerClubComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.OwnerClubComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.OwnerClubComboBox.FormattingEnabled = true;
-            this.OwnerClubComboBox.Location = new System.Drawing.Point(9, 77);
+            this.OwnerClubComboBox.Location = new System.Drawing.Point(9, 76);
             this.OwnerClubComboBox.Name = "OwnerClubComboBox";
             this.OwnerClubComboBox.Size = new System.Drawing.Size(176, 21);
             this.OwnerClubComboBox.TabIndex = 134;
             // 
             // ContractExpiryDateTextBox
             // 
-            this.ContractExpiryDateTextBox.Location = new System.Drawing.Point(9, 219);
+            this.ContractExpiryDateTextBox.Location = new System.Drawing.Point(9, 206);
             this.ContractExpiryDateTextBox.MaxLength = 10;
             this.ContractExpiryDateTextBox.Name = "ContractExpiryDateTextBox";
             this.ContractExpiryDateTextBox.Size = new System.Drawing.Size(176, 20);
@@ -2267,7 +2299,7 @@
             // YouthClubLabel
             // 
             this.YouthClubLabel.AutoSize = true;
-            this.YouthClubLabel.Location = new System.Drawing.Point(6, 18);
+            this.YouthClubLabel.Location = new System.Drawing.Point(6, 22);
             this.YouthClubLabel.Name = "YouthClubLabel";
             this.YouthClubLabel.Size = new System.Drawing.Size(62, 13);
             this.YouthClubLabel.TabIndex = 133;
@@ -2276,7 +2308,7 @@
             // ContractExpiryDateLabel
             // 
             this.ContractExpiryDateLabel.AutoSize = true;
-            this.ContractExpiryDateLabel.Location = new System.Drawing.Point(6, 203);
+            this.ContractExpiryDateLabel.Location = new System.Drawing.Point(6, 190);
             this.ContractExpiryDateLabel.Name = "ContractExpiryDateLabel";
             this.ContractExpiryDateLabel.Size = new System.Drawing.Size(107, 13);
             this.ContractExpiryDateLabel.TabIndex = 132;
@@ -2287,7 +2319,7 @@
             this.YouthClubComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.YouthClubComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.YouthClubComboBox.FormattingEnabled = true;
-            this.YouthClubComboBox.Location = new System.Drawing.Point(9, 33);
+            this.YouthClubComboBox.Location = new System.Drawing.Point(9, 37);
             this.YouthClubComboBox.Name = "YouthClubComboBox";
             this.YouthClubComboBox.Size = new System.Drawing.Size(176, 21);
             this.YouthClubComboBox.TabIndex = 118;
@@ -2328,7 +2360,6 @@
             this.GroupBox8.Controls.Add(this.PenaltySpecialistCheckBox);
             this.GroupBox8.Controls.Add(this.GKPenaltySaverCheckBox);
             this.GroupBox8.Controls.Add(this.SoleControlCheckBox);
-            this.GroupBox8.Enabled = false;
             this.GroupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.GroupBox8.Location = new System.Drawing.Point(467, 6);
             this.GroupBox8.Name = "GroupBox8";
@@ -2865,6 +2896,28 @@
             this.GroupBox9.TabStop = false;
             this.GroupBox9.Text = "AI Playing Styles";
             // 
+            // DribblingMotionComboBox
+            // 
+            this.DribblingMotionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DribblingMotionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.DribblingMotionComboBox.FormattingEnabled = true;
+            this.DribblingMotionComboBox.Location = new System.Drawing.Point(123, 214);
+            this.DribblingMotionComboBox.Name = "DribblingMotionComboBox";
+            this.DribblingMotionComboBox.Size = new System.Drawing.Size(48, 21);
+            this.DribblingMotionComboBox.TabIndex = 127;
+            // 
+            // DribblingMotionLabel
+            // 
+            this.DribblingMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.DribblingMotionLabel.AutoSize = true;
+            this.DribblingMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.DribblingMotionLabel.Location = new System.Drawing.Point(14, 219);
+            this.DribblingMotionLabel.Name = "DribblingMotionLabel";
+            this.DribblingMotionLabel.Size = new System.Drawing.Size(86, 13);
+            this.DribblingMotionLabel.TabIndex = 126;
+            this.DribblingMotionLabel.Text = "Dribbling Motion:";
+            // 
             // Stats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3004,12 +3057,12 @@
         private System.Windows.Forms.CheckBox TricksterAICheckBox;
         private System.Windows.Forms.ComboBox BootRelinkComboBox;
         private System.Windows.Forms.GroupBox GroupBox11;
-        private System.Windows.Forms.ComboBox PenaltyKickComboBox;
+        private System.Windows.Forms.ComboBox PenaltyKickMotionComboBox;
         private System.Windows.Forms.Label PenaltyKickLabel;
-        private System.Windows.Forms.ComboBox FreeKickComboBox;
-        private System.Windows.Forms.Label FreeKickLabel;
-        private System.Windows.Forms.ComboBox CornerKickComboBox;
-        private System.Windows.Forms.Label CornerKickLabel;
+        private System.Windows.Forms.ComboBox FreeKickMotionComboBox;
+        private System.Windows.Forms.Label FreeKickMotionLabel;
+        private System.Windows.Forms.ComboBox CornerKickMotionComboBox;
+        private System.Windows.Forms.Label CornerKickMotionLabel;
         private System.Windows.Forms.ComboBox RunArmMoveComboBox;
         private System.Windows.Forms.Label RunArmMoveLabel;
         private System.Windows.Forms.ComboBox RunHunchingComboBox;
@@ -3149,5 +3202,7 @@
         private System.Windows.Forms.Label YouthClubLabel;
         private System.Windows.Forms.Label MarketValueLabel;
         private System.Windows.Forms.GroupBox GroupBox9;
+        private System.Windows.Forms.ComboBox DribblingMotionComboBox;
+        private System.Windows.Forms.Label DribblingMotionLabel;
     }
 }

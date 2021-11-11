@@ -92,7 +92,7 @@ namespace EvoTool.Controllers
             uint goalCelebration;
             ushort nationalID1;
             ushort nationalID2;
-            uint cornerKick;
+            uint CornerKickMotion;
             uint weight;
             uint unknownBits2;
             uint unknownBits3;
@@ -247,7 +247,7 @@ namespace EvoTool.Controllers
                 nationalID2 = (ushort) (aux5 << 23 >> 23);
 
                 uint aux6 = ReadPlayer.ReadUInt32();
-                cornerKick = ((aux6 << 0) >> 28) + 1;
+                CornerKickMotion = ((aux6 << 0) >> 28) + 1;
                 weight = (aux6 << 4 >> 25) + 30;
                 unknownBits2 = aux6 << 11 >> 25;
                 unknownBits3 = aux6 << 18 >> 25;
@@ -410,7 +410,7 @@ namespace EvoTool.Controllers
                 player.GoalCelebration = goalCelebration;
                 player.NationalityID1 = nationalID1;
                 player.NationalityID2 = nationalID2;
-                player.CornerKick = cornerKick;
+                player.CornerKickMotion = CornerKickMotion;
                 player.Weight = weight;
                 player.UnknownBits2 = unknownBits2;
                 player.UnknownBits3 = unknownBits3;
@@ -605,7 +605,7 @@ namespace EvoTool.Controllers
                 value6 = Convert.ToString(player.UnknownBits3, 2).PadLeft(7, '0') + value6;
                 value6 = Convert.ToString(player.UnknownBits2, 2).PadLeft(7, '0') + value6;
                 value6 = Convert.ToString(player.Weight - 30, 2).PadLeft(7, '0') + value6;
-                value6 = Convert.ToString(player.CornerKick - 1, 2).PadLeft(4, '0') + value6;
+                value6 = Convert.ToString(player.CornerKickMotion - 1, 2).PadLeft(4, '0') + value6;
                 WritePlayer.Write(Convert.ToUInt32(value6, 2));
 
                 string value7 = "";
