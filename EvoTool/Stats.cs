@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -255,127 +256,168 @@ namespace EvoTool
 
         private void BallControlTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(BallControlTextBox);
         }
 
         private void DribblingTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(DribblingTextBox);
         }
 
         private void TightPossessionTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(TightPossessionTextBox);
         }
 
         private void LowPassTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(LowPassTextBox);
         }
 
         private void LoftedPassTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(LoftedPassTextBox);
         }
 
         private void FinishingTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(FinishingTextBox);
         }
 
         private void HeadingTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(HeadingTextBox);
         }
 
         private void SetPieceTakingTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(SetPieceTakingTextBox);
         }
 
         private void CurlTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(CurlTextBox);
         }
 
         private void SpeedTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(SpeedTextBox);
         }
 
         private void AccelerationTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(AccelerationTextBox);
         }
 
         private void KickingPowerTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(KickingPowerTextBox);
         }
 
         private void JumpTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(JumpTextBox);
         }
 
         private void PhysicalContactTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(PhysicalContactTextBox);
         }
 
         private void BalanceTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(BalanceTextBox);
         }
 
         private void StaminaTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(StaminaTextBox);
         }
 
         private void DefensiveAwarenessTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(DefensiveAwarenessTextBox);
         }
 
         private void TacklingTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(TacklingTextBox);
         }
 
         private void DefensiveEngangementTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(DefensiveEngangementTextBox);
         }
 
         private void AggressionTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(AggressionTextBox);
         }
 
         private void GKAwarenessTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(GKAwarenessTextBox);
         }
 
         private void GKCatchingTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(GKCatchingTextBox);
         }
 
         private void GKParryingTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(GKParryingTextBox);
         }
 
         private void GKReflexesTextBox_TextChanged(object sender, EventArgs e)
         {
-
+            UtilGUI.ChangeBackColorTextBox(GKReflexesTextBox);
         }
 
         private void GKReachTextBox_TextChanged(object sender, EventArgs e)
         {
+            UtilGUI.ChangeBackColorTextBox(GKReachTextBox);
+        }
 
+        private void CharButton_Click(object sender, EventArgs e)
+        {
+            Process.Start("charmap.exe");
+        }
+
+        // adjust stats
+        private void AdjustTextBox_TextChanged(object sender, EventArgs e)
+        {
+            UtilGUI.ChangeBackColorTextBox(AdjustTextBox);
+        }
+
+        private void AdjustEqualButton_Click(object sender, EventArgs e)
+        {
+            OffensiveProwessTextBox.Text = "40";
+            BallControlTextBox.Text = "40";
+            DribblingTextBox.Text = "40";
+            TightPossessionTextBox.Text = "40";
+            LowPassTextBox.Text = "40";
+            LoftedPassTextBox.Text = "40";
+            FinishingTextBox.Text = "40";
+            HeadingTextBox.Text = "40";
+            SetPieceTakingTextBox.Text = "40";
+            CurlTextBox.Text = "40";
+            SpeedTextBox.Text = "40";
+            AccelerationTextBox.Text = "40";
+            KickingPowerTextBox.Text = "40";
+            JumpTextBox.Text = "40";
+            PhysicalContactTextBox.Text = "40";
+            BalanceTextBox.Text = "40";
+            StaminaTextBox.Text = "40";
+            DefensiveAwarenessTextBox.Text = "40";
+            TacklingTextBox.Text = "40";
+            DefensiveAwarenessTextBox.Text = "40";
+            AggressionTextBox.Text = "40";
+            GKAwarenessTextBox.Text = "40";
+            GKCatchingTextBox.Text = "40";
+            GKParryingTextBox.Text = "40";
+            GKReflexesTextBox.Text = "40";
+            GKReachTextBox.Text = "40";
         }
     }
 }

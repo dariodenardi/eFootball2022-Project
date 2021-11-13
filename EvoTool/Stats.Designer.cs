@@ -166,6 +166,8 @@
             this.MazingRunAICheckBox = new System.Windows.Forms.CheckBox();
             this.TricksterAICheckBox = new System.Windows.Forms.CheckBox();
             this.GroupBox11 = new System.Windows.Forms.GroupBox();
+            this.DribblingMotionComboBox = new System.Windows.Forms.ComboBox();
+            this.DribblingMotionLabel = new System.Windows.Forms.Label();
             this.GoalCelebComboBox = new System.Windows.Forms.ComboBox();
             this.GoalCelebLabel = new System.Windows.Forms.Label();
             this.PenaltyKickMotionComboBox = new System.Windows.Forms.ComboBox();
@@ -258,8 +260,6 @@
             this.GroupBox5 = new System.Windows.Forms.GroupBox();
             this.lbl_Overall = new System.Windows.Forms.Label();
             this.GroupBox9 = new System.Windows.Forms.GroupBox();
-            this.DribblingMotionComboBox = new System.Windows.Forms.ComboBox();
-            this.DribblingMotionLabel = new System.Windows.Forms.Label();
             this.GroupBox1.SuspendLayout();
             this.GroupBox2.SuspendLayout();
             this.GroupBox3.SuspendLayout();
@@ -441,6 +441,7 @@
             this.CharButton.Size = new System.Drawing.Size(17, 17);
             this.CharButton.TabIndex = 126;
             this.CharButton.UseVisualStyleBackColor = true;
+            this.CharButton.Click += new System.EventHandler(this.CharButton_Click);
             // 
             // FakeButton
             // 
@@ -1268,7 +1269,7 @@
             this.OffensiveProwessLabel.Name = "OffensiveProwessLabel";
             this.OffensiveProwessLabel.Size = new System.Drawing.Size(98, 13);
             this.OffensiveProwessLabel.TabIndex = 60;
-            this.OffensiveProwessLabel.Text = "Attacking Prowess:";
+            this.OffensiveProwessLabel.Text = "Offensive Prowess:";
             // 
             // GroupBox3
             // 
@@ -1803,6 +1804,28 @@
             this.GroupBox11.TabStop = false;
             this.GroupBox11.Text = "Motions";
             // 
+            // DribblingMotionComboBox
+            // 
+            this.DribblingMotionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DribblingMotionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.DribblingMotionComboBox.FormattingEnabled = true;
+            this.DribblingMotionComboBox.Location = new System.Drawing.Point(123, 214);
+            this.DribblingMotionComboBox.Name = "DribblingMotionComboBox";
+            this.DribblingMotionComboBox.Size = new System.Drawing.Size(48, 21);
+            this.DribblingMotionComboBox.TabIndex = 127;
+            // 
+            // DribblingMotionLabel
+            // 
+            this.DribblingMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.DribblingMotionLabel.AutoSize = true;
+            this.DribblingMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.DribblingMotionLabel.Location = new System.Drawing.Point(14, 219);
+            this.DribblingMotionLabel.Name = "DribblingMotionLabel";
+            this.DribblingMotionLabel.Size = new System.Drawing.Size(86, 13);
+            this.DribblingMotionLabel.TabIndex = 126;
+            this.DribblingMotionLabel.Text = "Dribbling Motion:";
+            // 
             // GoalCelebComboBox
             // 
             this.GoalCelebComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -2028,6 +2051,7 @@
             this.AdjustEqualButton.TabIndex = 114;
             this.AdjustEqualButton.Text = "=";
             this.AdjustEqualButton.UseVisualStyleBackColor = false;
+            this.AdjustEqualButton.Click += new System.EventHandler(this.AdjustEqualButton_Click);
             // 
             // AdjustPlusPercButton
             // 
@@ -2056,6 +2080,7 @@
             this.AdjustTextBox.TabIndex = 105;
             this.AdjustTextBox.Text = "1";
             this.AdjustTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.AdjustTextBox.TextChanged += new System.EventHandler(this.AdjustTextBox_TextChanged);
             // 
             // AdjustPlusButton
             // 
@@ -2895,28 +2920,6 @@
             this.GroupBox9.TabIndex = 367;
             this.GroupBox9.TabStop = false;
             this.GroupBox9.Text = "AI Playing Styles";
-            // 
-            // DribblingMotionComboBox
-            // 
-            this.DribblingMotionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.DribblingMotionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.DribblingMotionComboBox.FormattingEnabled = true;
-            this.DribblingMotionComboBox.Location = new System.Drawing.Point(123, 214);
-            this.DribblingMotionComboBox.Name = "DribblingMotionComboBox";
-            this.DribblingMotionComboBox.Size = new System.Drawing.Size(48, 21);
-            this.DribblingMotionComboBox.TabIndex = 127;
-            // 
-            // DribblingMotionLabel
-            // 
-            this.DribblingMotionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.DribblingMotionLabel.AutoSize = true;
-            this.DribblingMotionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.DribblingMotionLabel.Location = new System.Drawing.Point(14, 219);
-            this.DribblingMotionLabel.Name = "DribblingMotionLabel";
-            this.DribblingMotionLabel.Size = new System.Drawing.Size(86, 13);
-            this.DribblingMotionLabel.TabIndex = 126;
-            this.DribblingMotionLabel.Text = "Dribbling Motion:";
             // 
             // Stats
             // 
