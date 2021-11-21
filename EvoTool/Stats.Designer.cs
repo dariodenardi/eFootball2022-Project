@@ -2034,6 +2034,7 @@
             this.AdjustLessButton.TabIndex = 113;
             this.AdjustLessButton.Text = "-";
             this.AdjustLessButton.UseVisualStyleBackColor = false;
+            this.AdjustLessButton.Click += new System.EventHandler(this.AdjustLessButton_Click);
             // 
             // AdjustEqualButton
             // 
@@ -2069,6 +2070,7 @@
             this.AdjustPlusPercButton.TabIndex = 115;
             this.AdjustPlusPercButton.Text = "+%";
             this.AdjustPlusPercButton.UseVisualStyleBackColor = false;
+            this.AdjustPlusPercButton.Click += new System.EventHandler(this.AdjustPlusPercButton_Click);
             // 
             // AdjustTextBox
             // 
@@ -2098,6 +2100,7 @@
             this.AdjustPlusButton.TabIndex = 112;
             this.AdjustPlusButton.Text = "+";
             this.AdjustPlusButton.UseVisualStyleBackColor = false;
+            this.AdjustPlusButton.Click += new System.EventHandler(this.AdjustPlusButton_Click);
             // 
             // AdjustLessPercButton
             // 
@@ -2115,6 +2118,7 @@
             this.AdjustLessPercButton.TabIndex = 116;
             this.AdjustLessPercButton.Text = "-%";
             this.AdjustLessPercButton.UseVisualStyleBackColor = false;
+            this.AdjustLessPercButton.Click += new System.EventHandler(this.AdjustLessPercButton_Click);
             // 
             // ApplyButton
             // 

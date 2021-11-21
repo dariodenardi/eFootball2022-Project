@@ -411,13 +411,389 @@ namespace EvoTool
             StaminaTextBox.Text = "40";
             DefensiveAwarenessTextBox.Text = "40";
             TacklingTextBox.Text = "40";
-            DefensiveAwarenessTextBox.Text = "40";
             AggressionTextBox.Text = "40";
             GKAwarenessTextBox.Text = "40";
             GKCatchingTextBox.Text = "40";
             GKParryingTextBox.Text = "40";
             GKReflexesTextBox.Text = "40";
             GKReachTextBox.Text = "40";
+        }
+
+        private void CheckField()
+        {
+            if (int.Parse(OffensiveProwessTextBox.Text) < 40)
+                OffensiveProwessTextBox.Text = "40";
+            if (int.Parse(BallControlTextBox.Text) < 40)
+                BallControlTextBox.Text = "40";
+            if (int.Parse(DribblingTextBox.Text) < 40)
+                DribblingTextBox.Text = "40";
+            if (int.Parse(TightPossessionTextBox.Text) < 40)
+                TightPossessionTextBox.Text = "40";
+            if (int.Parse(LowPassTextBox.Text) < 40)
+                LowPassTextBox.Text = "40";
+            if (int.Parse(LoftedPassTextBox.Text) < 40)
+                LoftedPassTextBox.Text = "40";
+            if (int.Parse(FinishingTextBox.Text) < 40)
+                FinishingTextBox.Text = "40";
+            if (int.Parse(HeadingTextBox.Text) < 40)
+                HeadingTextBox.Text = "40";
+            if (int.Parse(SetPieceTakingTextBox.Text) < 40)
+                SetPieceTakingTextBox.Text = "40";
+            if (int.Parse(CurlTextBox.Text) < 40)
+                CurlTextBox.Text = "40";
+            if (int.Parse(SpeedTextBox.Text) < 40)
+                SpeedTextBox.Text = "40";
+            if (int.Parse(AccelerationTextBox.Text) < 40)
+                AccelerationTextBox.Text = "40";
+            if (int.Parse(KickingPowerTextBox.Text) < 40)
+                KickingPowerTextBox.Text = "40";
+            if (int.Parse(JumpTextBox.Text) < 40)
+                JumpTextBox.Text = "40";
+            if (int.Parse(PhysicalContactTextBox.Text) < 40)
+                PhysicalContactTextBox.Text = "40";
+            if (int.Parse(BalanceTextBox.Text) < 40)
+                BalanceTextBox.Text = "40";
+            if (int.Parse(StaminaTextBox.Text) < 40)
+                StaminaTextBox.Text = "40";
+            if (int.Parse(DefensiveAwarenessTextBox.Text) < 40)
+                DefensiveAwarenessTextBox.Text = "40";
+            if (int.Parse(TacklingTextBox.Text) < 40)
+                TacklingTextBox.Text = "40";
+            if (int.Parse(AggressionTextBox.Text) < 40)
+                AggressionTextBox.Text = "40";
+            if (int.Parse(GKAwarenessTextBox.Text) < 40)
+                GKAwarenessTextBox.Text = "40";
+            if (int.Parse(GKCatchingTextBox.Text) < 40)
+                GKCatchingTextBox.Text = "40";
+            if (int.Parse(GKParryingTextBox.Text) < 40)
+                GKParryingTextBox.Text = "40";
+            if (int.Parse(GKReflexesTextBox.Text) < 40)
+                GKReflexesTextBox.Text = "40";
+            if (int.Parse(GKReachTextBox.Text) < 40)
+                GKReachTextBox.Text = "40";
+
+            if (int.Parse(OffensiveProwessTextBox.Text) > 99)
+                OffensiveProwessTextBox.Text = "99";
+            if (int.Parse(BallControlTextBox.Text) > 99)
+                BallControlTextBox.Text = "99";
+            if (int.Parse(DribblingTextBox.Text) > 99)
+                DribblingTextBox.Text = "99";
+            if (int.Parse(TightPossessionTextBox.Text) > 99)
+                TightPossessionTextBox.Text = "99";
+            if (int.Parse(LowPassTextBox.Text) > 99)
+                LowPassTextBox.Text = "99";
+            if (int.Parse(LoftedPassTextBox.Text) > 99)
+                LoftedPassTextBox.Text = "99";
+            if (int.Parse(FinishingTextBox.Text) > 99)
+                FinishingTextBox.Text = "99";
+            if (int.Parse(HeadingTextBox.Text) > 99)
+                HeadingTextBox.Text = "99";
+            if (int.Parse(SetPieceTakingTextBox.Text) > 99)
+                SetPieceTakingTextBox.Text = "99";
+            if (int.Parse(CurlTextBox.Text) > 99)
+                CurlTextBox.Text = "99";
+            if (int.Parse(SpeedTextBox.Text) > 99)
+                SpeedTextBox.Text = "99";
+            if (int.Parse(AccelerationTextBox.Text) > 99)
+                AccelerationTextBox.Text = "99";
+            if (int.Parse(KickingPowerTextBox.Text) > 99)
+                KickingPowerTextBox.Text = "99";
+            if (int.Parse(JumpTextBox.Text) > 99)
+                JumpTextBox.Text = "99";
+            if (int.Parse(PhysicalContactTextBox.Text) > 99)
+                PhysicalContactTextBox.Text = "99";
+            if (int.Parse(BalanceTextBox.Text) > 99)
+                BalanceTextBox.Text = "99";
+            if (int.Parse(StaminaTextBox.Text) > 99)
+                StaminaTextBox.Text = "99";
+            if (int.Parse(DefensiveAwarenessTextBox.Text) > 99)
+                DefensiveAwarenessTextBox.Text = "99";
+            if (int.Parse(TacklingTextBox.Text) > 99)
+                TacklingTextBox.Text = "99";
+            if (int.Parse(AggressionTextBox.Text) > 99)
+                AggressionTextBox.Text = "99";
+            if (int.Parse(GKAwarenessTextBox.Text) > 99)
+                GKAwarenessTextBox.Text = "99";
+            if (int.Parse(GKCatchingTextBox.Text) > 99)
+                GKCatchingTextBox.Text = "99";
+            if (int.Parse(GKParryingTextBox.Text) > 99)
+                GKParryingTextBox.Text = "99";
+            if (int.Parse(GKReflexesTextBox.Text) > 99)
+                GKReflexesTextBox.Text = "99";
+            if (int.Parse(GKReachTextBox.Text) > 99)
+                GKReachTextBox.Text = "99";
+        }
+
+        private void AdjustPlusButton_Click(object sender, EventArgs e)
+        {
+            OffensiveProwessTextBox.Text = (int.Parse(OffensiveProwessTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            BallControlTextBox.Text = (int.Parse(BallControlTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            DribblingTextBox.Text = (int.Parse(DribblingTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            TightPossessionTextBox.Text = (int.Parse(TightPossessionTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            LowPassTextBox.Text = (int.Parse(LowPassTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            LoftedPassTextBox.Text = (int.Parse(LoftedPassTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            FinishingTextBox.Text = (int.Parse(FinishingTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            HeadingTextBox.Text = (int.Parse(HeadingTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            SetPieceTakingTextBox.Text = (int.Parse(SetPieceTakingTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            CurlTextBox.Text = (int.Parse(CurlTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            SpeedTextBox.Text = (int.Parse(SpeedTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            AccelerationTextBox.Text = (int.Parse(AccelerationTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            KickingPowerTextBox.Text = (int.Parse(KickingPowerTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            JumpTextBox.Text = (int.Parse(JumpTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            PhysicalContactTextBox.Text = (int.Parse(PhysicalContactTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            BalanceTextBox.Text = (int.Parse(BalanceTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            StaminaTextBox.Text = (int.Parse(StaminaTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            DefensiveAwarenessTextBox.Text = (int.Parse(DefensiveAwarenessTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            TacklingTextBox.Text = (int.Parse(TacklingTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            AggressionTextBox.Text = (int.Parse(AggressionTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            GKAwarenessTextBox.Text = (int.Parse(GKAwarenessTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            GKCatchingTextBox.Text = (int.Parse(GKCatchingTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            GKParryingTextBox.Text = (int.Parse(GKParryingTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            GKReflexesTextBox.Text = (int.Parse(GKReflexesTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            GKReachTextBox.Text = (int.Parse(GKReachTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+
+            CheckField();
+        }
+
+        private void AdjustLessButton_Click(object sender, EventArgs e)
+        {
+            OffensiveProwessTextBox.Text = (int.Parse(OffensiveProwessTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            BallControlTextBox.Text = (int.Parse(BallControlTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            DribblingTextBox.Text = (int.Parse(DribblingTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            TightPossessionTextBox.Text = (int.Parse(TightPossessionTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            LowPassTextBox.Text = (int.Parse(LowPassTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            LoftedPassTextBox.Text = (int.Parse(LoftedPassTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            FinishingTextBox.Text = (int.Parse(FinishingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            HeadingTextBox.Text = (int.Parse(HeadingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            SetPieceTakingTextBox.Text = (int.Parse(SetPieceTakingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            CurlTextBox.Text = (int.Parse(CurlTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            SpeedTextBox.Text = (int.Parse(SpeedTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            AccelerationTextBox.Text = (int.Parse(AccelerationTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            KickingPowerTextBox.Text = (int.Parse(KickingPowerTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            JumpTextBox.Text = (int.Parse(JumpTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            PhysicalContactTextBox.Text = (int.Parse(PhysicalContactTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            BalanceTextBox.Text = (int.Parse(BalanceTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            StaminaTextBox.Text = (int.Parse(StaminaTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            DefensiveAwarenessTextBox.Text = (int.Parse(DefensiveAwarenessTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            TacklingTextBox.Text = (int.Parse(TacklingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            AggressionTextBox.Text = (int.Parse(AggressionTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            GKAwarenessTextBox.Text = (int.Parse(GKAwarenessTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            GKCatchingTextBox.Text = (int.Parse(GKCatchingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            GKParryingTextBox.Text = (int.Parse(GKParryingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            GKReflexesTextBox.Text = (int.Parse(GKReflexesTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            GKReachTextBox.Text = (int.Parse(GKReachTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+
+            CheckField();
+        }
+
+        private void AdjustLessPercButton_Click(object sender, EventArgs e)
+        {
+            decimal primo = Math.Round((decimal)((int.Parse(OffensiveProwessTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo1 = (decimal)int.Parse(OffensiveProwessTextBox.Text) - primo;
+            OffensiveProwessTextBox.Text = primo1.ToString();
+            
+            decimal primo2 = Math.Round((decimal)((int.Parse(BallControlTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo3 = (decimal)int.Parse(BallControlTextBox.Text) - primo2;
+            BallControlTextBox.Text = primo3.ToString();
+            
+            decimal primo4 = Math.Round((decimal)((int.Parse(DribblingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo5 = (decimal)int.Parse(DribblingTextBox.Text) - primo4;
+            DribblingTextBox.Text = primo5.ToString();
+            
+            decimal primo6 = Math.Round((decimal)((int.Parse(TightPossessionTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo7 = (decimal)int.Parse(TightPossessionTextBox.Text) - primo6;
+            TightPossessionTextBox.Text = primo7.ToString();
+            
+            decimal primo8 = Math.Round((decimal)((int.Parse(LowPassTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo9 = (decimal)int.Parse(LowPassTextBox.Text) - primo8;
+            LowPassTextBox.Text = primo9.ToString();
+            
+            decimal primo10 = Math.Round((decimal)((int.Parse(LoftedPassTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo11 = (decimal)int.Parse(LoftedPassTextBox.Text) - primo10;
+            LoftedPassTextBox.Text = primo11.ToString();
+            
+            decimal primo12 = Math.Round((decimal)((int.Parse(FinishingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo13 = (decimal)int.Parse(FinishingTextBox.Text) - primo12;
+            FinishingTextBox.Text = primo13.ToString();
+            
+            decimal primo14 = Math.Round((decimal)((int.Parse(HeadingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo15 = (decimal)int.Parse(HeadingTextBox.Text) - primo14;
+            HeadingTextBox.Text = primo15.ToString();
+            
+            decimal primo16 = Math.Round((decimal)((int.Parse(SetPieceTakingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo17 = (decimal)int.Parse(SetPieceTakingTextBox.Text) - primo16;
+            SetPieceTakingTextBox.Text = primo17.ToString();
+            
+            decimal primo18 = Math.Round((decimal)((int.Parse(CurlTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo19 = (decimal)int.Parse(CurlTextBox.Text) - primo18;
+            CurlTextBox.Text = primo19.ToString();
+            
+            decimal primo20 = Math.Round((decimal)((int.Parse(SpeedTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo21 = (decimal)int.Parse(SpeedTextBox.Text) - primo20;
+            SpeedTextBox.Text = primo21.ToString();
+            
+            decimal primo22 = Math.Round((decimal)((int.Parse(AccelerationTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo23 = (decimal)int.Parse(AccelerationTextBox.Text) - primo22;
+            AccelerationTextBox.Text = primo23.ToString();
+            
+            decimal primo24 = Math.Round((decimal)((int.Parse(KickingPowerTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo25 = (decimal)int.Parse(KickingPowerTextBox.Text) - primo24;
+            KickingPowerTextBox.Text = primo25.ToString();
+            
+            decimal primo26 = Math.Round((decimal)((int.Parse(JumpTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo27 = (decimal)int.Parse(JumpTextBox.Text) - primo26;
+            JumpTextBox.Text = primo27.ToString();
+            
+            decimal primo28 = Math.Round((decimal)((int.Parse(PhysicalContactTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo29 = (decimal)int.Parse(PhysicalContactTextBox.Text) - primo28;
+            PhysicalContactTextBox.Text = primo29.ToString();
+            
+            decimal primo44 = Math.Round((decimal)((int.Parse(BalanceTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo45 = (decimal)int.Parse(BalanceTextBox.Text) - primo44;
+            BalanceTextBox.Text = primo45.ToString();
+            
+            decimal primo30 = Math.Round((decimal)((int.Parse(StaminaTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo31 = (decimal)int.Parse(StaminaTextBox.Text) - primo30;
+            StaminaTextBox.Text = primo31.ToString();
+            
+            decimal primo32 = Math.Round((decimal)((int.Parse(DefensiveAwarenessTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo33 = (decimal)int.Parse(DefensiveAwarenessTextBox.Text) - primo32;
+            DefensiveAwarenessTextBox.Text = primo33.ToString();
+            
+            decimal primo34 = Math.Round((decimal)((int.Parse(TacklingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo35 = (decimal)int.Parse(TacklingTextBox.Text) - primo34;
+            TacklingTextBox.Text = primo35.ToString();
+            
+            decimal primo36 = Math.Round((decimal)((int.Parse(AggressionTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo37 = (decimal)int.Parse(AggressionTextBox.Text) - primo36;
+            AggressionTextBox.Text = primo37.ToString();
+            
+            decimal primo38 = Math.Round((decimal)((int.Parse(GKAwarenessTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo39 = (decimal)int.Parse(GKAwarenessTextBox.Text) - primo38;
+            GKAwarenessTextBox.Text = primo39.ToString();
+            
+            decimal primo40 = Math.Round((decimal)((int.Parse(GKCatchingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo41 = (decimal)int.Parse(GKCatchingTextBox.Text) - primo40;
+            GKCatchingTextBox.Text = primo41.ToString();
+            
+            decimal primo42 = Math.Round((decimal)((int.Parse(GKParryingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo43 = (decimal)int.Parse(GKParryingTextBox.Text) - primo42;
+            GKParryingTextBox.Text = primo43.ToString();
+
+            decimal primo46 = Math.Round((decimal)((int.Parse(GKReflexesTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo47 = (decimal)int.Parse(GKReflexesTextBox.Text) - primo42;
+            GKReflexesTextBox.Text = primo43.ToString();
+
+            decimal primo48 = Math.Round((decimal)((int.Parse(GKReachTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo49 = (decimal)int.Parse(GKReachTextBox.Text) - primo42;
+            GKReachTextBox.Text = primo43.ToString();
+
+            CheckField();
+        }
+
+        private void AdjustPlusPercButton_Click(object sender, EventArgs e)
+        {
+            decimal primo = Math.Round((decimal)((int.Parse(OffensiveProwessTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo1 = (decimal)int.Parse(OffensiveProwessTextBox.Text) + primo;
+            OffensiveProwessTextBox.Text = primo1.ToString();
+
+            decimal primo2 = Math.Round((decimal)((int.Parse(BallControlTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo3 = (decimal)int.Parse(BallControlTextBox.Text) + primo2;
+            BallControlTextBox.Text = primo3.ToString();
+
+            decimal primo4 = Math.Round((decimal)((int.Parse(DribblingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo5 = (decimal)int.Parse(DribblingTextBox.Text) + primo4;
+            DribblingTextBox.Text = primo5.ToString();
+
+            decimal primo6 = Math.Round((decimal)((int.Parse(TightPossessionTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo7 = (decimal)int.Parse(TightPossessionTextBox.Text) + primo6;
+            TightPossessionTextBox.Text = primo7.ToString();
+
+            decimal primo8 = Math.Round((decimal)((int.Parse(LowPassTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo9 = (decimal)int.Parse(LowPassTextBox.Text) + primo8;
+            LowPassTextBox.Text = primo9.ToString();
+
+            decimal primo10 = Math.Round((decimal)((int.Parse(LoftedPassTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo11 = (decimal)int.Parse(LoftedPassTextBox.Text) + primo10;
+            LoftedPassTextBox.Text = primo11.ToString();
+
+            decimal primo12 = Math.Round((decimal)((int.Parse(FinishingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo13 = (decimal)int.Parse(FinishingTextBox.Text) + primo12;
+            FinishingTextBox.Text = primo13.ToString();
+
+            decimal primo14 = Math.Round((decimal)((int.Parse(HeadingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo15 = (decimal)int.Parse(HeadingTextBox.Text) + primo14;
+            HeadingTextBox.Text = primo15.ToString();
+
+            decimal primo16 = Math.Round((decimal)((int.Parse(SetPieceTakingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo17 = (decimal)int.Parse(SetPieceTakingTextBox.Text) + primo16;
+            SetPieceTakingTextBox.Text = primo17.ToString();
+
+            decimal primo18 = Math.Round((decimal)((int.Parse(CurlTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo19 = (decimal)int.Parse(CurlTextBox.Text) + primo18;
+            CurlTextBox.Text = primo19.ToString();
+
+            decimal primo20 = Math.Round((decimal)((int.Parse(SpeedTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo21 = (decimal)int.Parse(SpeedTextBox.Text) + primo20;
+            SpeedTextBox.Text = primo21.ToString();
+
+            decimal primo22 = Math.Round((decimal)((int.Parse(AccelerationTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo23 = (decimal)int.Parse(AccelerationTextBox.Text) + primo22;
+            AccelerationTextBox.Text = primo23.ToString();
+
+            decimal primo24 = Math.Round((decimal)((int.Parse(KickingPowerTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo25 = (decimal)int.Parse(KickingPowerTextBox.Text) + primo24;
+            KickingPowerTextBox.Text = primo25.ToString();
+
+            decimal primo26 = Math.Round((decimal)((int.Parse(JumpTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo27 = (decimal)int.Parse(JumpTextBox.Text) + primo26;
+            JumpTextBox.Text = primo27.ToString();
+
+            decimal primo28 = Math.Round((decimal)((int.Parse(PhysicalContactTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo29 = (decimal)int.Parse(PhysicalContactTextBox.Text) + primo28;
+            PhysicalContactTextBox.Text = primo29.ToString();
+
+            decimal primo44 = Math.Round((decimal)((int.Parse(BalanceTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo45 = (decimal)int.Parse(BalanceTextBox.Text) + primo44;
+            BalanceTextBox.Text = primo45.ToString();
+
+            decimal primo30 = Math.Round((decimal)((int.Parse(StaminaTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo31 = (decimal)int.Parse(StaminaTextBox.Text) + primo30;
+            StaminaTextBox.Text = primo31.ToString();
+
+            decimal primo32 = Math.Round((decimal)((int.Parse(DefensiveAwarenessTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo33 = (decimal)int.Parse(DefensiveAwarenessTextBox.Text) + primo32;
+            DefensiveAwarenessTextBox.Text = primo33.ToString();
+
+            decimal primo34 = Math.Round((decimal)((int.Parse(TacklingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo35 = (decimal)int.Parse(TacklingTextBox.Text) + primo34;
+            TacklingTextBox.Text = primo35.ToString();
+
+            decimal primo36 = Math.Round((decimal)((int.Parse(AggressionTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo37 = (decimal)int.Parse(AggressionTextBox.Text) + primo36;
+            AggressionTextBox.Text = primo37.ToString();
+
+            decimal primo38 = Math.Round((decimal)((int.Parse(GKAwarenessTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo39 = (decimal)int.Parse(GKAwarenessTextBox.Text) + primo38;
+            GKAwarenessTextBox.Text = primo39.ToString();
+
+            decimal primo40 = Math.Round((decimal)((int.Parse(GKCatchingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo41 = (decimal)int.Parse(GKCatchingTextBox.Text) + primo40;
+            GKCatchingTextBox.Text = primo41.ToString();
+
+            decimal primo42 = Math.Round((decimal)((int.Parse(GKParryingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo43 = (decimal)int.Parse(GKParryingTextBox.Text) + primo42;
+            GKParryingTextBox.Text = primo43.ToString();
+
+            decimal primo46 = Math.Round((decimal)((int.Parse(GKReflexesTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo47 = (decimal)int.Parse(GKReflexesTextBox.Text) + primo46;
+            GKReflexesTextBox.Text = primo47.ToString();
+
+            decimal primo48 = Math.Round((decimal)((int.Parse(GKReachTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo49 = (decimal)int.Parse(GKReachTextBox.Text) + primo48;
+            GKReachTextBox.Text = primo49.ToString();
+
+            CheckField();
         }
     }
 }
