@@ -260,6 +260,8 @@
             this.GroupBox5 = new System.Windows.Forms.GroupBox();
             this.lbl_Overall = new System.Windows.Forms.Label();
             this.GroupBox9 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.GroupBox1.SuspendLayout();
             this.GroupBox2.SuspendLayout();
             this.GroupBox3.SuspendLayout();
@@ -278,6 +280,7 @@
             // 
             // GroupBox1
             // 
+            this.GroupBox1.Controls.Add(this.button2);
             this.GroupBox1.Controls.Add(this.WeUsageLabel);
             this.GroupBox1.Controls.Add(this.ShirtNameNationalTextBox);
             this.GroupBox1.Controls.Add(this.ShirtNameNationalLabel);
@@ -375,7 +378,7 @@
             this.TypeTextBox.MaxLength = 44;
             this.TypeTextBox.Name = "TypeTextBox";
             this.TypeTextBox.ReadOnly = true;
-            this.TypeTextBox.Size = new System.Drawing.Size(136, 20);
+            this.TypeTextBox.Size = new System.Drawing.Size(137, 20);
             this.TypeTextBox.TabIndex = 132;
             // 
             // StrongHandComboBox
@@ -436,7 +439,7 @@
             this.CharButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CharButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.CharButton.Image = ((System.Drawing.Image)(resources.GetObject("CharButton.Image")));
-            this.CharButton.Location = new System.Drawing.Point(224, 66);
+            this.CharButton.Location = new System.Drawing.Point(225, 66);
             this.CharButton.Name = "CharButton";
             this.CharButton.Size = new System.Drawing.Size(17, 17);
             this.CharButton.TabIndex = 126;
@@ -493,7 +496,7 @@
             this.SecondNationalityComboBox.FormattingEnabled = true;
             this.SecondNationalityComboBox.Location = new System.Drawing.Point(105, 228);
             this.SecondNationalityComboBox.Name = "SecondNationalityComboBox";
-            this.SecondNationalityComboBox.Size = new System.Drawing.Size(137, 21);
+            this.SecondNationalityComboBox.Size = new System.Drawing.Size(114, 21);
             this.SecondNationalityComboBox.TabIndex = 36;
             this.SecondNationalityComboBox.TabStop = false;
             // 
@@ -1657,8 +1660,8 @@
             // 
             this.AddBootRelinkButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AddBootRelinkButton.FlatAppearance.BorderSize = 0;
-            this.AddBootRelinkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.AddBootRelinkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.AddBootRelinkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.AddBootRelinkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.AddBootRelinkButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AddBootRelinkButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.AddBootRelinkButton.Image = ((System.Drawing.Image)(resources.GetObject("AddBootRelinkButton.Image")));
@@ -2137,6 +2140,7 @@
             this.ApplyButton.TabIndex = 123;
             this.ApplyButton.Text = "Apply";
             this.ApplyButton.UseVisualStyleBackColor = false;
+            this.ApplyButton.Click += new System.EventHandler(this.ApplyButton_Click);
             // 
             // CloseButton
             // 
@@ -2155,6 +2159,7 @@
             this.CloseButton.TabIndex = 124;
             this.CloseButton.Text = "Close";
             this.CloseButton.UseVisualStyleBackColor = false;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // GroupBox6
             // 
@@ -2173,8 +2178,8 @@
             // 
             this.AddGloveRelinkButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AddGloveRelinkButton.FlatAppearance.BorderSize = 0;
-            this.AddGloveRelinkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(177)))), ((int)(((byte)(68)))));
-            this.AddGloveRelinkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(147)))), ((int)(((byte)(68)))));
+            this.AddGloveRelinkButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.AddGloveRelinkButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.AddGloveRelinkButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AddGloveRelinkButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.AddGloveRelinkButton.Image = ((System.Drawing.Image)(resources.GetObject("AddGloveRelinkButton.Image")));
@@ -2205,6 +2210,7 @@
             // 
             // GroupBox7
             // 
+            this.GroupBox7.Controls.Add(this.button1);
             this.GroupBox7.Controls.Add(this.MarketValueTextBox);
             this.GroupBox7.Controls.Add(this.MarketValueLabel);
             this.GroupBox7.Controls.Add(this.ClubIDLabel);
@@ -2350,7 +2356,7 @@
             this.YouthClubComboBox.FormattingEnabled = true;
             this.YouthClubComboBox.Location = new System.Drawing.Point(9, 37);
             this.YouthClubComboBox.Name = "YouthClubComboBox";
-            this.YouthClubComboBox.Size = new System.Drawing.Size(176, 21);
+            this.YouthClubComboBox.Size = new System.Drawing.Size(152, 21);
             this.YouthClubComboBox.TabIndex = 118;
             // 
             // GroupBox8
@@ -2925,6 +2931,36 @@
             this.GroupBox9.TabStop = false;
             this.GroupBox9.Text = "AI Playing Styles";
             // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(168, 38);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(17, 17);
+            this.button1.TabIndex = 143;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(225, 230);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(17, 17);
+            this.button2.TabIndex = 144;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Stats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3211,5 +3247,7 @@
         private System.Windows.Forms.GroupBox GroupBox9;
         private System.Windows.Forms.ComboBox DribblingMotionComboBox;
         private System.Windows.Forms.Label DribblingMotionLabel;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

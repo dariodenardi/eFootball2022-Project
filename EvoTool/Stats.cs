@@ -18,17 +18,34 @@ namespace EvoTool
     {
         private Player player;
         private PlayerController playerController;
+        private TeamController teamController;
+        private CountryController countryController;
 
-        public Stats(Player player, PlayerController playerController)
+        public Stats(Player player, PlayerController playerController, TeamController teamController, CountryController countryController)
         {
             InitializeComponent();
             this.player = player;
             this.playerController = playerController;
+            this.teamController = teamController;
+            this.countryController = countryController;
         }
 
         private void Giocatore_Load(object sender, EventArgs e)
         {
             FormBorderStyle = FormBorderStyle.FixedSingle;
+
+            NationalityComboBox.DataSource = countryController.CountryTable;
+            NationalityComboBox.DisplayMember = "Name";
+            NationalityComboBox.ValueMember = "Index";
+
+            SecondNationalityComboBox.BindingContext = new BindingContext();
+            SecondNationalityComboBox.DataSource = countryController.CountryTable;
+            SecondNationalityComboBox.DisplayMember = "Name";
+            SecondNationalityComboBox.ValueMember = "Index";
+
+            YouthClubComboBox.DataSource = teamController.TeamTable;
+            YouthClubComboBox.DisplayMember = "Name";
+            YouthClubComboBox.ValueMember = "Index";
 
             PlayingStyleComboBox.Items.Add("None");
             PlayingStyleComboBox.Items.Add("Goal Poacher");
@@ -54,6 +71,30 @@ namespace EvoTool
             PlayingStyleComboBox.Items.Add("Full-back Finisher");
             PlayingStyleComboBox.Items.Add("Target Man");
 
+            StrongFootComboBox.Items.Add("Right");
+            StrongFootComboBox.Items.Add("Left");
+
+            StrongHandComboBox.Items.Add("Right");
+            StrongHandComboBox.Items.Add("Left");
+
+            FormComboBox.Items.Add("Inconsistent");
+            FormComboBox.Items.Add("Standard");
+            FormComboBox.Items.Add("Unwavering");
+
+            WeAccComboBox.Items.Add("Slightly Low");
+            WeAccComboBox.Items.Add("Medium");
+            WeAccComboBox.Items.Add("High");
+            WeAccComboBox.Items.Add("Very High");
+
+            WeUsageComboBox.Items.Add("Slightly Low");
+            WeUsageComboBox.Items.Add("Medium");
+            WeUsageComboBox.Items.Add("High");
+            WeUsageComboBox.Items.Add("Very High");
+
+            InjuryComboBox.Items.Add("Low");
+            InjuryComboBox.Items.Add("Medium");
+            InjuryComboBox.Items.Add("High");
+
             PositionComboBox.Items.Add("GK");
             PositionComboBox.Items.Add("CB");
             PositionComboBox.Items.Add("LB");
@@ -67,30 +108,6 @@ namespace EvoTool
             PositionComboBox.Items.Add("RWF");
             PositionComboBox.Items.Add("SS");
             PositionComboBox.Items.Add("CF");
-
-            StrongFootComboBox.Items.Add("Right");
-            StrongFootComboBox.Items.Add("Left");
-
-            StrongHandComboBox.Items.Add("Right");
-            StrongHandComboBox.Items.Add("Left");
-
-            FormComboBox.Items.Add("Inconsistent");
-            FormComboBox.Items.Add("Standard");
-            FormComboBox.Items.Add("Unwavering");
-
-            InjuryComboBox.Items.Add("Low");
-            InjuryComboBox.Items.Add("Medium");
-            InjuryComboBox.Items.Add("High");
-
-            WeAccComboBox.Items.Add("Slightly Low");
-            WeAccComboBox.Items.Add("Medium");
-            WeAccComboBox.Items.Add("High");
-            WeAccComboBox.Items.Add("Very High");
-
-            WeUsageComboBox.Items.Add("Slightly Low");
-            WeUsageComboBox.Items.Add("Medium");
-            WeUsageComboBox.Items.Add("High");
-            WeUsageComboBox.Items.Add("Very High");
 
             GKComboBox.Items.Add("C");
             GKComboBox.Items.Add("B");
@@ -174,16 +191,18 @@ namespace EvoTool
             ShirtNameClubTextBox.Text = player.ClubShirtName;
             ShirtNameNationalTextBox.Text = player.ShirtName;
             
-            PlayingStyleComboBox.Text = ((Player.PlayStyle)(player.PlayingStyle)).ToString().Replace("___", ". ").Replace("__", "-").Replace('_', ' ');
+            PlayingStyleComboBox.Text = ((Player.PlayStyle)player.PlayingStyle).ToString().Replace("___", ". ").Replace("__", "-").Replace('_', ' ');
+            NationalityComboBox.SelectedIndex = countryController.LoadCountryByID(player.NationalityID1);
+            SecondNationalityComboBox.SelectedIndex = countryController.LoadCountryByID(player.NationalityID2);
             AgeTextBox.Text = player.Age.ToString();
             HeightTextBox.Text = player.Height.ToString();
             WeightTextBox.Text = player.Weight.ToString();
             StrongFootComboBox.Text = player.StroongerFoot ? "Left" : "Right";
             StrongHandComboBox.Text = player.StrongerHand ? "Left" : "Right";
-            FormComboBox.Text = ((Player.PlayerForm)(player.Form)).ToString();
-            WeAccComboBox.Text = ((Player.WeakFoot)(player.WeakFootAccuracy)).ToString().Replace('_', ' ');
-            WeUsageComboBox.Text = ((Player.WeakFoot)(player.WeakFootUsage)).ToString().Replace('_', ' ');
-            InjuryComboBox.Text = ((Player.InjuryRes)(player.InjuryResistance)).ToString();
+            FormComboBox.Text = ((Player.PlayerForm)player.Form).ToString();
+            WeAccComboBox.Text = ((Player.WeakFoot)player.WeakFootAccuracy).ToString().Replace('_', ' ');
+            WeUsageComboBox.Text = ((Player.WeakFoot)player.WeakFootUsage).ToString().Replace('_', ' ');
+            InjuryComboBox.Text = ((Player.InjuryRes)player.InjuryResistance).ToString();
             WinnerGoldenBallCheckBox.Checked = player.BallonDorWinner;
 
             OffensiveProwessTextBox.Text = player.OffensiveAwareness.ToString();
@@ -224,21 +243,21 @@ namespace EvoTool
             DribblingMotionComboBox.Text = player.DribblingMotion.ToString();
 
             PositionComboBox.Text = ((Player.PlayerRegisteredPosition)(player.RegisteredPosition)).ToString();
-            GKComboBox.Text = ((Player.PlayerPosition)(player.PlayableGK)).ToString();
-            CBComboBox.Text = ((Player.PlayerPosition)(player.PlayableCB)).ToString();
-            LBComboBox.Text = ((Player.PlayerPosition)(player.PlayableLB)).ToString();
-            RBComboBox.Text = ((Player.PlayerPosition)(player.PlayableRB)).ToString();
-            DMFComboBox.Text = ((Player.PlayerPosition)(player.PlayableDMF)).ToString();
-            CMFComboBox.Text = ((Player.PlayerPosition)(player.PlayableCMF)).ToString();
-            LMFComboBox.Text = ((Player.PlayerPosition)(player.PlayableLMF)).ToString();
-            AMFComboBox.Text = ((Player.PlayerPosition)(player.PlayableAMF)).ToString();
-            RMFComboBox.Text = ((Player.PlayerPosition)(player.PlayableRMF)).ToString();
-            LWFComboBox.Text = ((Player.PlayerPosition)(player.PlayableLWF)).ToString();
-            RWFComboBox.Text = ((Player.PlayerPosition)(player.PlayableRWF)).ToString();
-            SSComboBox.Text = ((Player.PlayerPosition)(player.PlayableSS)).ToString();
-            CFComboBox.Text = ((Player.PlayerPosition)(player.PlayableCF)).ToString();
+            GKComboBox.Text = ((Player.PlayerPosition)player.PlayableGK).ToString();
+            CBComboBox.Text = ((Player.PlayerPosition)player.PlayableCB).ToString();
+            LBComboBox.Text = ((Player.PlayerPosition)player.PlayableLB).ToString();
+            RBComboBox.Text = ((Player.PlayerPosition)player.PlayableRB).ToString();
+            DMFComboBox.Text = ((Player.PlayerPosition)player.PlayableDMF).ToString();
+            CMFComboBox.Text = ((Player.PlayerPosition)player.PlayableCMF).ToString();
+            LMFComboBox.Text = ((Player.PlayerPosition)player.PlayableLMF).ToString();
+            AMFComboBox.Text = ((Player.PlayerPosition)player.PlayableAMF).ToString();
+            RMFComboBox.Text = ((Player.PlayerPosition)player.PlayableRMF).ToString();
+            LWFComboBox.Text = ((Player.PlayerPosition)player.PlayableLWF).ToString();
+            RWFComboBox.Text = ((Player.PlayerPosition)player.PlayableRWF).ToString();
+            SSComboBox.Text = ((Player.PlayerPosition)player.PlayableSS).ToString();
+            CFComboBox.Text = ((Player.PlayerPosition)player.PlayableCF).ToString();
 
-            //PlayerHandLabel.Text = player.StrongerHand ? "Left" : "Right";
+            SoleControlCheckBox.Checked = player.SoleControl ? true : false;
         }
 
         // don't enter a letters
@@ -411,6 +430,7 @@ namespace EvoTool
             StaminaTextBox.Text = "40";
             DefensiveAwarenessTextBox.Text = "40";
             TacklingTextBox.Text = "40";
+            DefensiveEngangementTextBox.Text = "40";
             AggressionTextBox.Text = "40";
             GKAwarenessTextBox.Text = "40";
             GKCatchingTextBox.Text = "40";
@@ -459,6 +479,8 @@ namespace EvoTool
                 DefensiveAwarenessTextBox.Text = "40";
             if (int.Parse(TacklingTextBox.Text) < 40)
                 TacklingTextBox.Text = "40";
+            if (int.Parse(DefensiveEngangementTextBox.Text) < 40)
+                DefensiveEngangementTextBox.Text = "40";
             if (int.Parse(AggressionTextBox.Text) < 40)
                 AggressionTextBox.Text = "40";
             if (int.Parse(GKAwarenessTextBox.Text) < 40)
@@ -510,6 +532,8 @@ namespace EvoTool
                 DefensiveAwarenessTextBox.Text = "99";
             if (int.Parse(TacklingTextBox.Text) > 99)
                 TacklingTextBox.Text = "99";
+            if (int.Parse(DefensiveEngangementTextBox.Text) > 99)
+                DefensiveEngangementTextBox.Text = "99";
             if (int.Parse(AggressionTextBox.Text) > 99)
                 AggressionTextBox.Text = "99";
             if (int.Parse(GKAwarenessTextBox.Text) > 99)
@@ -545,6 +569,7 @@ namespace EvoTool
             StaminaTextBox.Text = (int.Parse(StaminaTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
             DefensiveAwarenessTextBox.Text = (int.Parse(DefensiveAwarenessTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
             TacklingTextBox.Text = (int.Parse(TacklingTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            DefensiveEngangementTextBox.Text = (int.Parse(DefensiveEngangementTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
             AggressionTextBox.Text = (int.Parse(AggressionTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
             GKAwarenessTextBox.Text = (int.Parse(GKAwarenessTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
             GKCatchingTextBox.Text = (int.Parse(GKCatchingTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
@@ -559,23 +584,24 @@ namespace EvoTool
         {
             OffensiveProwessTextBox.Text = (int.Parse(OffensiveProwessTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             BallControlTextBox.Text = (int.Parse(BallControlTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
-            DribblingTextBox.Text = (int.Parse(DribblingTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            DribblingTextBox.Text = (int.Parse(DribblingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             TightPossessionTextBox.Text = (int.Parse(TightPossessionTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
-            LowPassTextBox.Text = (int.Parse(LowPassTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            LowPassTextBox.Text = (int.Parse(LowPassTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             LoftedPassTextBox.Text = (int.Parse(LoftedPassTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             FinishingTextBox.Text = (int.Parse(FinishingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             HeadingTextBox.Text = (int.Parse(HeadingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             SetPieceTakingTextBox.Text = (int.Parse(SetPieceTakingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
-            CurlTextBox.Text = (int.Parse(CurlTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
-            SpeedTextBox.Text = (int.Parse(SpeedTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            CurlTextBox.Text = (int.Parse(CurlTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            SpeedTextBox.Text = (int.Parse(SpeedTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             AccelerationTextBox.Text = (int.Parse(AccelerationTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             KickingPowerTextBox.Text = (int.Parse(KickingPowerTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             JumpTextBox.Text = (int.Parse(JumpTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
-            PhysicalContactTextBox.Text = (int.Parse(PhysicalContactTextBox.Text) + int.Parse(AdjustTextBox.Text)).ToString();
+            PhysicalContactTextBox.Text = (int.Parse(PhysicalContactTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             BalanceTextBox.Text = (int.Parse(BalanceTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             StaminaTextBox.Text = (int.Parse(StaminaTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             DefensiveAwarenessTextBox.Text = (int.Parse(DefensiveAwarenessTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             TacklingTextBox.Text = (int.Parse(TacklingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
+            DefensiveEngangementTextBox.Text = (int.Parse(DefensiveEngangementTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             AggressionTextBox.Text = (int.Parse(AggressionTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             GKAwarenessTextBox.Text = (int.Parse(GKAwarenessTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
             GKCatchingTextBox.Text = (int.Parse(GKCatchingTextBox.Text) - int.Parse(AdjustTextBox.Text)).ToString();
@@ -663,7 +689,11 @@ namespace EvoTool
             decimal primo34 = Math.Round((decimal)((int.Parse(TacklingTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
             decimal primo35 = (decimal)int.Parse(TacklingTextBox.Text) - primo34;
             TacklingTextBox.Text = primo35.ToString();
-            
+
+            decimal primo50 = Math.Round((decimal)((int.Parse(DefensiveEngangementTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo51 = (decimal)int.Parse(DefensiveEngangementTextBox.Text) - primo34;
+            DefensiveEngangementTextBox.Text = primo51.ToString();
+
             decimal primo36 = Math.Round((decimal)((int.Parse(AggressionTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
             decimal primo37 = (decimal)int.Parse(AggressionTextBox.Text) - primo36;
             AggressionTextBox.Text = primo37.ToString();
@@ -769,6 +799,10 @@ namespace EvoTool
             decimal primo35 = (decimal)int.Parse(TacklingTextBox.Text) + primo34;
             TacklingTextBox.Text = primo35.ToString();
 
+            decimal primo50 = Math.Round((decimal)((int.Parse(DefensiveEngangementTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
+            decimal primo51 = (decimal)int.Parse(DefensiveEngangementTextBox.Text) + primo34;
+            DefensiveEngangementTextBox.Text = primo51.ToString();
+
             decimal primo36 = Math.Round((decimal)((int.Parse(AggressionTextBox.Text) * int.Parse(AdjustTextBox.Text)) / 100));
             decimal primo37 = (decimal)int.Parse(AggressionTextBox.Text) + primo36;
             AggressionTextBox.Text = primo37.ToString();
@@ -794,6 +828,16 @@ namespace EvoTool
             GKReachTextBox.Text = primo49.ToString();
 
             CheckField();
+        }
+
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void ApplyButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

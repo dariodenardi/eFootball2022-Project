@@ -1037,7 +1037,7 @@ namespace EvoTool
                 if (e.Clicks >= 2)
                 {
                     int index = playerController.LoadPlayerByID(uint.Parse(PlayerIDLabel.Text));
-                    Stats s = new Stats(playerController.LoadPlayer(index), playerController);
+                    Stats s = new Stats(playerController.LoadPlayer(index), playerController, teamController, countryController);
                     s.ShowDialog();
                 }
             }
